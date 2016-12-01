@@ -1,0 +1,53 @@
+<text>
+   <body>
+      <head>
+         <persName>
+            <forename>Caleb</forename>
+            <surname>Brewster</surname>
+         </persName>
+         <!-- RP:2016-12-01: need to find TEI tag for squiggle - handnote -->
+      </head>
+      <div type="entry">
+         <head>
+            <date when="1801-05-02">May <unclear reason="illegible"><supplied resp="#RF"
+                     >2</supplied></unclear> 1801</date>
+         </head>
+         <div type="line"
+            ><!-- RP:2016-12-01: find a way to indicate distinct mark that looks like comes at start of most items when in a list -->
+            one bushel flaxseed
+            <!-- RP:2016-12-01: find a way to indicate distinct mark that come at end of items - hyphen like -->
+            0 10 0</div>
+         <div type="line">80 pounds Hay
+            <!-- RP:2016-12-01: find a way to indicate distinct mark that come at end of items - hyphen like -->
+            0 3
+            3<!--RF: When listing out the price for an item make sure you use this setup ## ## ## --></div>
+         <div type="line">70 <!-- RP:2016-12-01: find a way to indicate distinct mark thats means "ditto"--> <add resp="#RF">pound Hay</add></div>
+      </div>
+      <!-- RJP:2016-12-01 The entry above is incomplete! -->
+      <div type="entry">
+         <head>
+            <date when="1801-05">Sept 1801</date>
+         </head>
+         <div type="line">One <choice><sic>quintle</sic><reg resp="#RF"
+               >quintal</reg><!--trans. initials:date: quintal - 100 pounds --></choice> Codfish
+            <!-- RP:2016-12-01: find a way to indicate distinct mark that come at end of items - hyphen like -->
+            1 13 0 </div>
+         <div type="line">Carting one load <choice><sic>cyder</sic><reg resp="#RF"
+               >cider</reg></choice> from <placeName>Eben Hall</placeName>
+            <add>0</add><!-- When the text of the item runs into the price and the first column is omitted use the <add> element to indicate the value is 0 RJP: We need to investigate in the TEI what is best practice for this kind of instance where the value is likely zero, but its not written out due to text running over the column-->
+            7 6</div>
+      </div>
+      <!-- RJP:2016-12-01 The entry above is incomplete! -->
+      <div type="entry">
+         <div type="line">loop on bucket <!-- RP:2016-12-01: find a way to indicate distinct mark that come at end of items - hyphen like -->
+            <add>0</add> 0 6</div>
+         <div type="line">Freight on 300 hundred apple trees <add>0</add> 15 0</div>
+      </div>
+      <div type="entry">
+         <div type="line"
+            ><!-- RP:2016-12-01: find a way to indicate distinct mark that come at end of items - hyphen like -->
+            paid <persName>Capt Walter Thorp</persName>
+            <!-- RF:2016-12-01: Possible that this line is in relation to the previous line in the previous entry--></div>
+      </div>
+   </body>
+</text>
