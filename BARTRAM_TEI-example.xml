@@ -8,12 +8,12 @@
          <titleStmt>
             <title><date from-iso="1801" to-iso="1819">1801 - 1819</date> Merchant and Shipping Account Log Book from Fairfield, Connecticut</title>
             <author ref="#BartramT">Thomas Bartram</author>
-            <sponsor><orgName><!-- Name of Historical Society in Development --></orgName></sponsor>
-            <principal>Robert Foley</principal>
+            <sponsor><orgName>Black Rock Historical Society</orgName></sponsor> <!--http://www.blackrockhistory.org/-->
+            <principal ref="#RF">Robert Foley</principal>
             <respStmt>
                <resp>Transcription of <!-- list either #of pages transcribed or book vol. -->
                   by</resp>
-               <persName xml:id="SG"><!-- Transcribors Name here  --></persName>
+               <persName xml:id="SG">Susan Graham</persName>
             </respStmt>
             <!-- Add a respStmt for each transcriber -->
             <respStmt>
@@ -21,7 +21,7 @@
                <persName xml:id="RP">Rebecca Parker</persName>
             </respStmt>
             <respStmt>
-               <resp>XML encoding by</resp>
+               <resp>XML encoding, transcriptions, and proof-reading by</resp>
                <persName xml:id="RF">Robert Foley</persName>
             </respStmt>
          </titleStmt>
@@ -29,22 +29,22 @@
             <edition>First digital edition in TEI, date: 1 December 2016. P5.</edition>
          </editionStmt>
          <publicationStmt>
-            <authority><!-- Archive Name ie. Bartram Archive --></authority>
-            <pubPlace><!-- City, State Country --></pubPlace>
+            <authority>Black Rock Historical Society</authority>
+            <pubPlace>Bridgeport, CT USA</pubPlace>
             <date>2016</date>
             <availability>
                <p>Reproduced by courtesy of the
-                  <placeName><!-- Historical Society --></placeName>.</p>
-               <licence>Distributed under a Creative Commons
-                  <!--choose kind of creative commons license--></licence>
+                  <placeName>Connecticut Historical Society</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <repository xml:id="repoID">
-                     <!-- where the source are located: be sure to change xml:id to relate -->in
-                     Fairfield County</repository>
+                      Connecticut Historical Society in
+                     Hartford, CT</repository>
                   <collection>Thomas Bartram Acct. Book, Vol. 1, 1801-1819</collection>
                   <idno>Ms 76486</idno>
                </msIdentifier>
@@ -56,7 +56,7 @@
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="blackX" medium="black_ink"> Black ink. Probably a different hand from
+            <handNote xml:id="blackX" medium="black_ink">Black ink. Probably a different hand from
                Bartram's drawing an X on pages
                <!-- give list of pages that have black X -->.</handNote>
             <!-- Add more handNote elements if see other instances where another person or different ink is being used. -->
@@ -96,6 +96,13 @@
                   <graphic url="specialCharacters/ditto.png"/>
                </figure>
             </char>
+            <char xml:id="afterName">
+               <charName>CURSIVE SIGNATURE POSSIBLE</charName>
+               <desc>Frequently comes after name of person log entry is under.</desc>
+               <figure>
+                  <graphic url="specialCharacters/afterName.png"/>
+               </figure>
+            </char>
          </charDecl>
       </encodingDesc>
    </teiHeader>
@@ -104,8 +111,8 @@
          <div type="page">
             <!--<graphic url="Bartram-Thomas_Vol-001_1801-1819_066.jpg"/> *IMAGE FILE CHANGES FOR EACH PAGE* -->
             <!--need to include <graphic> inside of body and div in the ODD; until then causes error hence why it is commented out -->
-            <head><persName>Caleb
-               Brewster</persName><!-- Add to <back> <listPerson> give unique id then add an @ref here on persName --></head>
+            <head><persName ref="#BrewsterCaleb">Caleb
+               Brewster</persName> <g ref="#afterName"/><!-- Add to <back> <listPerson> give unique id then add an @ref here on persName --></head>
             <list type="entry">
                <head>
                   <date when="1801-05-02">May <unclear reason="illegible">
@@ -117,20 +124,20 @@
                   <measure commodity="flaxseed" quantity="1" unit="bushel">one bushel
                      flaxseed</measure>
                   <g ref="#longHyphen" n="3"/>
-                  <measure type="currency" unit="£sd">0 10 0</measure>
+                  <measure type="currency" unit="£sd" quantity="001000">0 10 0</measure>
                   <!-- £sd = pounds, shillings, and pence ; for transcription of cost/price each unit must be separated by a single whitespace -->
                </item>
                <item>
                   <g ref="#stItem"/>
                   <measure commodity="hay" quantity="80" unit="lb">80 pounds Hay</measure>
                   <g ref="#longHyphen"/>
-                  <measure type="currency" unit="£sd">0 3 3</measure>
+                  <measure type="currency" unit="£sd" quantity="000303">0 3 3</measure>
                </item>
                <item><g ref="#stItem"/>
                   <measure commodity="hay" quantity="70" unit="lb">70 <g ref="#ditto"/><add
                         resp="#RF">pounds Hay</add></measure>
                   <g ref="#longHyphen" n="3"/>
-                  <measure type="currency" unit="£sd">0 2 9</measure></item>
+                  <measure type="currency" unit="£sd" quantity="000209">0 2 9</measure></item>
             </list>
             <!-- RJP:2016-12-01 The entry above is incomplete! -->
             <list type="entry">
@@ -143,7 +150,7 @@
                         <reg resp="#RF">quintal</reg>
                      </choice> Codfish</measure>
                   <g ref="#longHyphen" n="3"/>
-                  <measure type="currency" unit="£sd">1 13 0</measure></item>
+                  <measure type="currency" unit="£sd" quantity="011300">1 13 0</measure></item>
                <item>
                   <g ref="#stItem"/> Carting <measure commodity="cider" quantity="1" unit="load">one
                      load <choice>
@@ -151,39 +158,53 @@
                         <reg resp="#RF">cider</reg>
                      </choice>
                   </measure> from <placeName>Eben Hall</placeName><!-- Add to <back> <listPlace> give unique id then add an @ref here on placeName -->
-                  <measure type="currency" unit="£sd"><add resp="#RF">0</add> 7 6</measure></item>
+                  <measure type="currency" unit="£sd" quantity="000706">7 6</measure></item>
             </list>
             <!-- RJP:2016-12-01 The entry above is incomplete! -->
          </div>
       </body>
-      <!--<back>
+      <back>
          <listPerson>
-            <!-\- Below is a template. Delete un-used elements for each new person. -\->
+            <person>
+               <persName xml:id="BrewsterCaleb">
+                  <surname>Brewster</surname>
+                  <forename type="first">Caleb</forename>
+               </persName>
+               <note resp="#RF"></note> <!-- brief biographical info. about person -->
+            </person>
+            <!-- Below is a template. Delete un-used elements for each new person. -->
             <person>
                <persName xml:id="UniqueIDforPerson">
                   <surname/>
                   <forename type="first"/>
                   <forename type="middle"/>
-                  <genName/> <!-\-generational name component; ie. Jr or II   -\->
-                  <addName/> <!-\- alias  -\->
+                  <genName/> <!--generational name component; ie. Jr or II   -->
+                  <addName/> <!-- alias  -->
                </persName>
-               <note resp="#EDITORinitials"> <!-\- brief biographical info. about person -\-> </note>
+               <note resp="#EDITORinitials"> <!-- brief biographical info. about person --> </note>
             </person>
+            <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html  -->
          </listPerson>
          <listPlace>
-            <!-\- Below is a template. Delete un-used elements for each new place. -\->
+            <place>
+               <placeName>Eben Hall</placeName>
+               <location>
+                  <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+               </location>
+            </place>
+            <!-- Below is a template. Delete un-used elements for each new place. -->
             <place>
                <placeName/>
                <location>
-                  <geo><!-\- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 -\-></geo>
+                  <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                </location>
-               <!-\-See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -\->
             </place>
+            <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
          </listPlace>
-         <!-\- Might also start a list of commodities! -\->
-         <!-\-<listNym>
+         <!-- Might also start a list of commodities! -->
+         <!--<listNym>
             <nym></nym>
-         </listNym>-\->
-      </back>-->
+         </listNym>-->
+      </back>
    </text>
 </TEI>
