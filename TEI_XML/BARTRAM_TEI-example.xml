@@ -165,16 +165,16 @@
       </body>
       <back>
          <listPerson>
-            <person>
-               <persName xml:id="BrewsterCaleb">
+            <person xml:id="BrewsterCaleb">
+               <persName>
                   <surname>Brewster</surname>
                   <forename type="first">Caleb</forename>
                </persName>
                <note resp="#RF"></note> <!-- brief biographical info. about person -->
             </person>
             <!-- Below is a template. Delete un-used elements for each new person. -->
-            <person>
-               <persName xml:id="UniqueIDforPerson">
+            <person xml:id="UniqueIDforPerson">
+               <persName>
                   <surname/>
                   <forename type="first"/>
                   <forename type="middle"/>
@@ -186,14 +186,14 @@
             <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html  -->
          </listPerson>
          <listPlace>
-            <place>
+            <place xml:id="EbenHall">
                <placeName>Eben Hall</placeName>
                <location>
                   <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                </location>
             </place>
             <!-- Below is a template. Delete un-used elements for each new place. -->
-            <place>
+            <place xml:id="UniqueIDforPlace">
                <placeName/>
                <location>
                   <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>

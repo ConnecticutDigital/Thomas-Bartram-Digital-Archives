@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Bartram's Merchant and Shipping Account Log Book ODD</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Black Rock Historical Society</authority>
+            <pubPlace>Bridgeport, CT USA</pubPlace>
+            <date>2016</date>
+            <availability>
+               <p>Reproduced by courtesy of the Connecticut Historical Society.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born Digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <schemaSpec ident="bartramTEI"> </schemaSpec>
+      </body>
+   </text>
+</TEI>
