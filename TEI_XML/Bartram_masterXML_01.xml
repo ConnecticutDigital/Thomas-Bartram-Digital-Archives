@@ -113,7 +113,7 @@
             <div type="page">
                 <!-- PLACE IMAGE BELOW -->
                 <!--<graphic url="Bartram-Thomas_Vol-001_1801-1819_003.jpg"/>-->
-                <div type="newHead">
+                <div type="group">
                     <head>Account of Materials for Building</head>
                     <!-- LINE_01: 2000 feet boards at 19 Dollars -->
                     <list type="entry">
@@ -387,7 +387,7 @@
                             5011</measure></item>
                     </list>
                 </div>
-                <div type="newHead">
+                <div type="group">
                     <!-- LINE_39: ILLEGIBLE Urier Buckley  -->
                     <head><unclear reason="illegible" unit="chars" quantity="1"/>
                         <persName ref="#UrierBuckley">Urier Buckley</persName>
@@ -412,7 +412,7 @@
             </div>
 
             <div type="page">
-                <!-- PLACE IMAGE BELOW -->
+                <!-- PAGE 004 NEW PAGE -->
                 <!--<graphic url="Bartram-Thomas_Vol-001_1801-1819_004.jpg"/>-->
                 <head>
                     <date when="1801-10-01"><unclear quantity="1" unit="chars" reason="illegible"/>
@@ -434,7 +434,7 @@
                             1809</date></item>
                 </list>
                 <list type="entry">
-                    <!-- LINE_03: T Bartram dash 41 1/4 2/9 Paid  -->
+                    <!-- LINE_02: T Bartram dash 41 1/4 2/9 Paid  -->
                     <item><persName ref="#ThomasBartram">T Bartram</persName>
                         <g ref="#longHyphen" n="1"/>
                         <measure quantity="41.25">41 1/4</measure>
@@ -442,8 +442,74 @@
                         <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF"
                                 >2/9</supplied></unclear> Paid</item>
 
-                    <!-- LINE_04: ILLEGIBLE Squire dash dash 6. dash dash dash 2/9 Paid  -->
-                    <item><persName ref="#ThomasBartram">T Bartram</persName></item>
+                    <!-- LINE_03: ILLEGIBLE Squire dash dash 6. dash dash dash 2/9 Paid  -->
+                    <item><unclear reason="illegible" unit="words" quantity="1"/><persName
+                            ref="#Squire">
+                            <!-- Missing first name -->Squire</persName>
+                        <g ref="#longHyphen" n="3"/>
+                        <measure quantity="41.25">6</measure> 6 <g ref="#longHyphen" n="3"/>
+                        <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF"
+                                >2/9</supplied></unclear> Paid</item>
+
+                    <!-- LINE_04: Hanna Burr 30 2/9 Paid  -->
+                    <item><persName ref="#HannaBurr"> Hanna Burr</persName>
+                        <g ref="#longHyphen" n="3"/>
+                        <measure quantity="30.0">30</measure><g ref="#longHyphen" n="3"/>
+                        <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF"
+                                >2/9</supplied></unclear> Paid</item>
+
+                    <!-- LINE_05: Eben Bartarm 26 ELLIGIBLE fraction No hay  -->
+                    <item><persName ref="#EbenBartram"> Eben Bartram</persName>
+                        <measure quantity="26.0">30</measure>No hay</item>
+
+                    <!-- LINE_06: John Wheeler 10 No hay  -->
+                    <item><persName ref="#JohnWheeler"> John Wheeler</persName>
+                        <g ref="#longHyphen" n="1"/>
+                        <measure quantity="10.0">10</measure>No hay</item>
+
+                    <!-- LINE_07: Job Bartram 8 ELLIGIBLE fraction paid  -->
+                    <item><persName ref="#JobBartram"> Job Bartram </persName>
+                        <measure quantity="8.0">8</measure>paid</item>
+
+                    <!-- LINE_08: Joseph Sturges 4 ELLIGIBLE fraction paid  -->
+                    <item><persName ref="#JobBartram"> Job Bartram </persName>
+                        <measure quantity="8.0">8</measure>paid</item>
+
+                    <!-- LINE_09: Joseph Sturges 4 ELLIGIBLE fraction paid  -->
+                    <item><persName ref="#JobBartram"> Job Bartram </persName>
+                        <measure quantity="8.0">8</measure>paid</item>
+
+                    <!-- LINE_10: Andrew Wakemen 3 paid  -->
+                    <item><persName ref="#AndrewWakemen"> Andrew Wakemen </persName>
+                        <measure quantity="3.0">3</measure>
+                        <g ref="#longHyphen" n="1"/> paid<g ref="#longHyphen" n="1"/></item>
+
+                    <!-- LINE_11: Andrew MaClery 10 paid  -->
+                    <item><persName ref="#AndrewMaClery"> Andrew MaClery </persName>
+                        <measure quantity="10.0">10</measure>
+                        <g ref="#longHyphen" n="1"/> paid</item>
+
+                    <!-- LINE_12: Andrew MaClery repeat 13 paid-->
+                    <!-- LINE_13: Andrew MaClery repeat 19 paid-->
+
+                    <!-- LINE_14: Eathan Shearwood 6 4 paid  -->
+                    <item><persName ref="#Eathan Shearwood"> Andrew MaClery</persName>
+                        <measure quantity="10.0">10</measure>
+                        <g ref="#longHyphen" n="1"/> paid</item>
+
+                    <!-- LINE_15: David Judson 10 paid  -->
+                    <item><persName ref="#DavidJudson"> David Judson</persName>
+                        <g ref="#longHyphen" n="1"/>
+                        <measure quantity="10.0">10</measure> hay</item>
+                    <!-- The word 'no' crossed out  -->
+
+                    <!-- LINE_16: Illegible first and last name  -->
+                    <item><persName ref="#____">
+                            <unclear reason="illegible"/>
+                        </persName>
+                        <measure quantity="10.0">10</measure>
+                        <g ref="#longHyphen" n="1"/> paid</item>
+
 
                 </list>
                 <!-- STOPPED HERE -->
