@@ -26,7 +26,56 @@
    </teiHeader>
    <text>
       <body>
-         <schemaSpec ident="bartramTEI"> </schemaSpec>
+         <schemaSpec ident="bartramODD" start="TEI teiCorpus" prefix="tei">
+            <!-- Required Modules -->
+            <moduleRef key="tei"/>
+            <moduleRef key="core" include="author date desc graphic p pubPlace resp respStmt title head list item note measure choice sic reg unclear add"/>
+            <moduleRef key="header" include="authority availability handNote idno license principal profileDesc publicationStmt sourceDesc sponsor titleStmt edition editionStmt editorialDecl encodingDesc fileDesc"/>
+            <moduleRef key="textstructure" include="back div"/>
+            <!-- Optional Modules -->
+            <moduleRef key="namesdates" include="addName forename genName geo listPerson listPlace location persName person place surname"/>
+            <moduleRef key="gaiji" include="g char charDecl charName"/>
+            <moduleRef key="figures" include="figure"/>
+            <moduleRef key="msdescription" include="collection msDesc msIdentifier physDesc repository"/>
+            <moduleRef key="transcr" include="handNotes supplied"/>
+            
+            <!-- graphic needs to be able to be inside div ??? -->
+            <!--<elementSpec ident="graphic" module="core" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.personPart" mode="add"/>
+               </classes>
+            </elementSpec>-->
+            
+            <!--Sample attribute declaration :
+               <elementSpec ident="person" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="sex" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="f"/>
+                        <valItem ident="m"/>
+                        <valItem ident="o"/><!-\-other-\->
+                        <valItem ident="na"/><!-\-not applicable-\->
+                        <valItem ident="u"/><!-\-unknown-\->
+                     </valList>
+                  </attDef> 
+               </attList>
+            </elementSpec>-->
+            
+            <!-- Sample schematron rule for ODD:
+          <constraintSpec scheme="isoschematron" ident="pair_geos">
+             <constraint>
+                <sch:rule context="tei:location">
+                   <sch:assert test="count(tei:geo) = 2 and count(tei:geo[@type='lat']) = 1 and count(tei:geo[@type='long']) = 1">
+                      The location element must have two geo element children. 
+                      Of these, there must be one geo[@type='lat'] and one geo[@type='long'].
+                   </sch:assert>
+                </sch:rule>
+             </constraint>
+          </constraintSpec>-->
+         </schemaSpec>
       </body>
    </text>
 </TEI>

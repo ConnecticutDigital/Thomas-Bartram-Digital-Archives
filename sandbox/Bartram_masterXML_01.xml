@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><date from-iso="1801" to-iso="1819">1801 - 1819</date> Merchant and Shipping
+                    Account Log Book from Fairfield, Connecticut</title>
+                <author ref="#BartramT">Thomas Bartram</author>
+                <sponsor><orgName>Black Rock Historical Society</orgName></sponsor>
+                <!--http://www.blackrockhistory.org/-->
+                <principal ref="#RF">Robert Foley</principal>
+                <respStmt>
+                    <resp>Transcription of <!-- list either #of pages transcribed or book vol. -->
+                        by</resp>
+                    <persName xml:id="SG">Susan Graham</persName>
+                </respStmt>
+                <!-- Add a respStmt for each transcriber -->
+                <respStmt>
+                    <resp>XML mentorship provided by </resp>
+                    <persName xml:id="RP">Rebecca Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML encoding, transcriptions, and proof-reading by</resp>
+                    <persName xml:id="RF">Robert Foley</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: 1 December 2016. P5.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Black Rock Historical Society</authority>
+                <pubPlace>Bridgeport, CT USA</pubPlace>
+                <date>2016</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <placeName>Connecticut Historical
+                            Society</placeName>.</p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:id="repoID"> Connecticut Historical Society in Hartford,
+                            CT</repository>
+                        <collection>Thomas Bartram Acct. Book, Vol. 1, 1801-1819</collection>
+                        <idno>Ms 76486</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <!-- Physical Description of the Source Document (this is specifically our file for Vol. 1) See http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-physDesc.html for details.-->
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="blackX" medium="black_ink">Black ink. Probably a different hand
+                    from Bartram's drawing an X on pages
+                    <!-- give list of pages that have black X -->.</handNote>
+                <!-- Add more handNote elements if see other instances where another person or different ink is being used. -->
+            </handNotes>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Bartram's spelling and punctuation are retained, except where a word is split at
+                    the end of a line and the beginning of the next in the manuscript. Where
+                    Bartram's spelling and hyphenation of words deviates from the standard, in order
+                    to facilitate searching we are using the TEI elements "choice," "sic," and "reg"
+                    to encode both Bartram's spelling and the regular international standard of
+                    Oxford English spelling, following the first listed spelling in the Oxford
+                    English Dictionary.</p>
+            </editorialDecl>
+            <charDecl>
+                <!--See for more details: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html-->
+                <char xml:id="stItem">
+                    <charName>LATIN UPPER T AND LATIN LOWER O</charName>
+                    <desc>Seen frequently at the start of a list item (looks similar to a cursive
+                        "To" or "%" symbol).</desc>
+                    <figure>
+                        <graphic url="specialCharacters/startItem.png"/>
+                    </figure>
+                </char>
+                <char xml:id="longHyphen">
+                    <charName>SEVERAL INCONSISTENT HYPEN-LIKE LIGATURE</charName>
+                    <desc>Seen frequently at the end of a list item (series of hyphens) used in
+                        manuscript to indicate connection between list item and price/cost.</desc>
+                    <figure>
+                        <graphic url="specialCharacters/longHyphen.png"/>
+                    </figure>
+                </char>
+                <char xml:id="ditto">
+                    <charName>LATIN UPPER D AND LATIN LOWER O</charName>
+                    <desc>Used to indicate "same as above" (ditto).</desc>
+                    <figure>
+                        <graphic url="specialCharacters/ditto.png"/>
+                    </figure>
+                </char>
+                <char xml:id="afterName">
+                    <charName>CURSIVE SIGNATURE POSSIBLE</charName>
+                    <desc>Frequently comes after name of person log entry is under.</desc>
+                    <figure>
+                        <graphic url="specialCharacters/afterName.png"/>
+                    </figure>
+                </char>
+            </charDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page">
+                <!-- PLACE IMAGE BELOW -->
+                <!--<graphic url="Bartram-Thomas_Vol-001_1801-1819_003.jpg"/>-->
+                <head>Account of Materials for Building</head>
+                <!-- LINE_01: 2000 feet boards at 19 Dollars -->
+                <list type="entry">
+                    <item>
+                        <measure commodity="board" quantity="2000" unit="ft">2000 feet
+                            boards</measure> at <measure type="currency" unit="dollars"
+                            quantity="19.00">19 Dollars </measure>
+                        <measure type="currency" unit="£sd" quantity="110800">11 8
+                        0</measure></item>
+
+                    <!-- LINE_02: 900 feet do at 15 do -->
+                    <item>
+                        <measure commodity="board" quantity="900" unit="ft">900 feet <g ref="#ditto"
+                                /><add resp="#RF">boards</add></measure> at <measure type="currency"
+                            unit="dollars" quantity="15">15 <g ref="#ditto"/><add resp="#RF"
+                                >dollars</add></measure>
+                        <g ref="#longHyphen" n="3"/>
+                        <measure type="currency" unit="£sd" quantity="0400">4 0 0</measure>
+                    </item>
+
+                    <!-- LINE_03: Joiners Bill Fraiming &amb; covering Barn -->
+
+                    <item> Joiners Bill <choice>
+                            <sic>Fraiming</sic>
+                            <reg resp="#RF">Framing</reg>
+                        </choice> &amp; Covering Barn <measure type="currency" unit="£sd"
+                            quantity="091800">9 18 0</measure>
+                    </item>
+
+                    <!-- LINE_04: Frame for Barn -->
+                    <item>
+                        <choice>
+                            <sic>Fraime</sic>
+                            <reg resp="#RF">Frame</reg>
+                        </choice> for Barn <measure type="currency" unit="£sd" quantity="150000">15
+                            0 0</measure>
+                        <g ref="#longHyphen" n="4"/></item>
+
+                    <!-- LINE_05: Cake for Raising -->
+                    <item><measure commodity="cake" quantity="1">Cake</measure> for Raising <measure
+                            type="currency" unit="£sd" quantity="001300">0 13 0</measure>
+                        <g ref="#longHyphen" n="3"/></item>
+
+                    <!-- LINE_06: 8 Pound fourpenny Nails for Shop -->
+                    <item><measure type="currency" unit="£sd" quantity="080004">8 Pound
+                            fourpenny</measure>
+                        <measure commodity="nails">Nails</measure> for Shop <measure type="currency"
+                            unit="£sd" quantity="000808">0 8 8</measure>
+                        <g ref="#longHyphen" n="1"/></item>
+
+                    <!-- LINE_07: 6 Do (ditto) Hes for Do (ditto)-->
+                    <item>
+                        <measure commodity="hens" quantity="6" unit="lb">6 <g ref="#ditto"/><add
+                                resp="#RF">Pound fourpenny</add> Hens for <g ref="#ditto"/><add
+                                resp="#RF">Shop</add></measure>
+                        <g ref="#longHyphen" n="4"/>
+                        <measure type="currency" unit="£sd" quantity="000808">0 6 0</measure>
+                    </item>
+
+                    <!-- LINE_08: 2 Hundred oak Boards for Shop -->
+                    <item>
+                        <measure commodity="board" quantity="200" unit="ft">2 Hundred oak Boards for
+                            Shop</measure>
+                        <g ref="#longHyphen" n="2"/>
+                        <measure type="currency" unit="£sd" quantity="000400">0 4 0</measure>
+                    </item>
+
+                    <!-- LINE_09: 2 Thousand Shingles -->
+                    <item>
+                        <measure commodity="shingles" quantity="2000">2 Thousand Shingles</measure>
+                        <g ref="#longHyphen" n="5"/>
+                        <measure type="currency" unit="£sd" quantity="020000">2 0 0</measure></item>
+
+                    <!-- LINE_10: Frame for House -->
+                    <item> Frame for House <g ref="#longHyphen" n="5"/>
+                        <measure type="currency" unit="£sd" quantity="000400">0 4 0</measure>
+                    </item>
+
+                    <!-- LINE_11: Frame for Shop-->
+                    <item> Frame for Shop <g ref="#longHyphen" n="6"/>
+                        <measure type="currency" unit="£sd" quantity="030600">3 6 0</measure></item>
+
+
+                    <!-- LINE_12: Bought of Daniel Gregory &amp; Shouland Brick at 5 Dollars Thousand &amp; paid him-->
+                    <item>
+                        <measure commodity="brick"/>Bought of Daniel Gregory &amp; Shouland Brick at
+                            <measure type="currency" unit="dollars" quantity="5000.00">5 Dollars
+                            Thousand</measure> &amp; paid him <measure type="currency"
+                            quantity="40.00" unit="dollars">Forty Dollars</measure>
+                        <date when="1802-02-10">February 10 1802</date>
+                        <measure type="currency" unit="£sd" quantity="120000">12 0
+                        0</measure></item>
+
+                    <!-- LINE_13: 6 pound Hens -->
+                    <item>
+                        <measure commodity="hens" quantity="6" unit="lb">6 pound Hens</measure>
+                        <g ref="#longHyphen" n="5"/>
+                        <measure type="currency" unit="£sd" quantity="000600">0 6 0</measure></item>
+
+                    <!-- LINE_14: one Thousand  Shingles for Shop -->
+                    <item>
+                        <measure commodity="shingles" quantity="1000">one Thousand Shingles for
+                            Shop</measure>
+                        <measure type="currency" unit="£sd" quantity="001800">0 18
+                        0</measure></item>
+
+                    <!-- LINE_15: half Thousand Shingles for Do -->
+                    <item>
+                        <measure commodity="shingles" quantity="500">half Thousand Shingles for <g
+                                ref="#ditto"/><add resp="#RF">Shop</add>
+                            <g ref="#longHyphen" n="2"/></measure>
+                        <measure type="currency" unit="£sd" quantity="000900">0 9 0
+                        </measure></item>
+
+                    <!-- LINE_16: one &amb; half pound Hens -->
+                    <item>
+                        <measure>one &amp; half pound <unclear reason="illegible"/>
+                            <g ref="#longHyphen" n="2"/>
+                        </measure>
+                        <measure type="currency" unit="£sd" quantity="000103">0 1 3
+                        </measure></item>
+
+                    <!-- LINE_17: Five hundred unclear feet Boards -->
+                    <item>
+                        <measure commodity="board" quantity="500" unit="ft">Five hundred <unclear
+                                reason="illegible"><supplied resp="#RF">9</supplied></unclear> feet
+                            Boards</measure>
+                        <g ref="#longHyphen" n="1"/>
+                        <measure type="currency" unit="£sd" quantity="020500">2 5 0</measure></item>
+
+                    <!-- LINE_18: 5 (?) Thousand 3 feet Shingles-->
+                    <item>
+                        <measure commodity="shingles" quantity="5000">5 Thousand <unclear
+                                reason="illegible"/> feet Shingles</measure>
+                        <g ref="#longHyphen" n="2"/>
+                        <measure type="currency" unit="£sd" quantity="270000">27 0
+                        0</measure></item>
+
+                    <!-- ENED HER WITH BECCA -->
+                    <!-- LINE_19: 6 do 2 feet at - 3 Dollars -->
+                    <item>
+                        <measure commodity="shingles" quantity="6000">6 <g ref="#ditto"/><add
+                                resp="#RF">thousand</add> 2 feet at</measure>
+                        <g ref="#longHyphen" n="2"/>
+                        <measure type="currency" unit="dollars" quantity="3.00">3 Dollars</measure>
+                        <measure type="currency" unit="£sd" quantity="140800">14 8
+                        0</measure></item>
+
+                    <!-- LINE_20: Nailes - -->
+                    <item>
+                        <measure commodity="nails"><choice>
+                                <sic>Nailes</sic>
+                                <reg resp="#RF">Nails</reg>
+                            </choice></measure>
+                        <g ref="#longHyphen" n="1"/>
+                        <measure type="currency" unit="£sd" quantity="071000">7 10
+                        0</measure></item>
+
+                    <!-- LINE_21: glass - 25 (illegible) -->
+                    <item> glass - 25 <unclear reason="illegible"/>
+                        <measure type="currency" unit="£sd" quantity="071000">7 10
+                        0</measure></item>
+
+                    <!-- LINE_22: Carting brick -->
+                    <item> Carting brick <measure type="currency" unit="£sd" quantity="040000">4 0 0 </measure>
+                        <g ref="#longHyphen" n="4"/></item>
+
+                    <!-- LINE_22: Joiners &amp; Mason bills -->
+                    <item>Joiners &amp; Mason bills <measure type="currency" unit="£sd"
+                            quantity="480000">48 0 0 </measure></item>
+                    <!-- HELP UNDERLINE UNDER CURRENCY -->
+
+
+                    <!-- LINE_23: paid ILLEGIBLE nails & ILLEGIBLE -->
+                    <item> paid <unclear reason="illegible"/> Nailes &amp; <unclear
+                            reason="illegible"/>
+                        <measure type="currency" unit="£sd" quantity="0010100">1 1 0/</measure>
+                    </item>
+
+                    <!-- LINE_24: ILLEGIBLE Nailes Bill & ILLEGIBLE-->
+                    <item>
+                        <measure type="currency" unit="£sd" quantity="120000">12 0 0</measure>
+                        <g ref="#longHyphen" n="4"/>
+                    </item>
+
+                    <!-- LINE_25: Stone -->
+                    <item> Stone <g ref="#longHyphen" n="4"/>
+                        <measure type="currency" unit="£sd" quantity="120000">12 0
+                        0</measure></item>
+
+                    <!-- LINE_26: inelliglbe Stone -->
+                    <item>
+                        <unclear reason="illegible"/>Stone <g ref="#longHyphen" n="2"/>
+                        <measure type="currency" unit="£sd" quantity="080000">8 0 0</measure></item>
+
+                    <!-- LINE_27: 15 Hundred illegible Boards -->
+                    <item> 15 Hundred <unclear reason="illegible"/>Boards <measure type="currency"
+                            unit="£sd" quantity="070000">7 0 0</measure></item>
+
+                    <!-- LINE_28: text -->
+                    <item> Making Fence &amp; Nailes <measure type="currency" unit="£sd"
+                            quantity="040000">4 0 0</measure></item>
+
+                    <!-- LINE_29: paints illegible  -->
+                    <item> paints &amp;<unclear reason="illegible"/><unclear reason="illegible"/>
+                        <measure type="currency" unit="£sd" quantity="150000">15 0
+                        0</measure></item>
+
+                    <!-- LINE_30: parts Stones &amb; illegible illegibl -->
+                    <item> parts Stones &amp;<unclear reason="illegible"/>
+                        <unclear reason="illegible"/>
+                        <measure type="currency" unit="£sd" quantity="021000">2 10
+                        0</measure></item>
+
+                    <!-- LINE_31: Drying illegible &amp; illegible -->
+                    <item> Drying <unclear reason="illegible" unit="words" quantity="3"/>
+                        <measure type="currency" unit="£sd" quantity="050000">5 0 0</measure></item>
+
+                    <!-- LINE_31: floor Boards -->
+                    <item> floor Boards <measure type="currency" unit="£sd" quantity="060000">6 0
+                            0</measure></item>
+
+                    <!-- LINE_32: Nailes for ILLEGIBLE & ILLEGIBLE ILLEGIBLE -->
+                    <item>
+                        <choice>
+                            <sic>Nailes</sic>
+                            <reg resp="#RF">Nails</reg>
+                        </choice> for floor &amp; <unclear reason="illegible"><supplied resp="#RF"
+                                >inside work</supplied></unclear>
+                        <measure type="currency" unit="£sd" quantity="030000">3 0 0</measure></item>
+
+                    <!-- LINE_33: ILLEGIBLE for ILLEGIBLE -->
+                    <item>hinges for Doors <g ref="#longHyphen" n="3"/>
+                        <measure type="currency" unit="£sd" quantity="011000">1 10
+                        0</measure></item>
+
+                    <!-- LINE_34: ILLEGIBLE BOARDS OF SHORT SHINGLES ILLEGIBLE  -->
+                    <item>
+                        <unclear reason="illegible" unit="words" quantity="1"/> Boards of Short
+                        Shingles <unclear reason="illegible" unit="words" quantity="1"/>
+                        <measure type="currency" unit="£sd" quantity="000000">0 0 0</measure></item>
+
+                    <!-- LINE_35: 2 thousand Brick  -->
+                    <item>Two thousand <measure commodity="bricks" quantity="6" unit="lb"
+                            >Brick</measure>
+                        <g ref="#longHyphen" n="3"/>
+                        <measure type="currency" unit="£sd" quantity="101000">10 10
+                        0</measure></item>
+
+                    <!-- LINE_36: Boarding ILLEGIBLE & ILLEGIBLE bill  -->
+                    <item> Boarding <unclear reason="illegible"/> &amp; <unclear reason="illegible"
+                        />bill <measure type="currency" unit="£sd" quantity="300000">30 0
+                            0</measure></item>
+                </list>
+                <list type="entry" subtype="total">
+                    <!-- LINE_37: 315011 underlined  -->
+                    <item><persName ref="#ThomasBartram">Thomas Bartram</persName>
+                        <measure type="currency" unit="£sd" quantity="3150011">30
+                        5011</measure></item>
+                </list>
+                <!-- LINE_39: ILLEGIBLE Urier Buckley  -->
+                <head><unclear reason="illegible" unit="chars" quantity="1"/> <persName ref="#UrierBuckley">Urier Buckley</persName> <g ref="#afterName"/></head>
+                <list type="entry">
+                    <!-- LINE_40: To dash dash 6 1/2 of ILLEGIBLE 4 dashes at ILLEGIBLE  -->
+                    <item><g ref="#stItem"/>
+                        <g ref="#longHyphen" n="2"/><measure commodity="flaxseed" quantity="6.5">6
+                            1/2 of flax</measure>
+                        <g ref="#longHyphen" n="4"/> at <measure type="currency">1</measure></item>
+                    <!-- LINE_41: To 6 3/4  -->
+                    <item><g ref="#stItem"/>
+                        <unclear reason="illegible" unit="chars" quantity="2"/>
+                        <measure quantity="6.75">6 3/4</measure></item>
+                    <!-- LINE_42: To 9   -->
+                    <item><g ref="#stItem"/>
+                        <unclear reason="illegible" unit="chars" quantity="2"/>
+                        <measure quantity="9">9</measure></item>
+                </list>
+            </div>
+
+            <div type="page">
+                <!-- PAGE 004 NEW PAGE -->
+                <!--<graphic url="Bartram-Thomas_Vol-001_1801-1819_004.jpg"/>-->
+                <head>
+                    <date when="1801-10-01"><unclear quantity="1" unit="chars" reason="illegible"/> October 1801</date>
+                    <persName ref="#NathanielBurr">Nathaniel Burr</persName> <g ref="#afterName"/>
+                    <!--RJP:2016-12-16:There looks like addition or subtraction of numbers in margin and for three lines that we need to figure out how to code still-->
+                </head>
+                <list type="entry">
+                    <head><unclear quantity="1" unit="words" reason="illegible">1802</unclear></head>
+                    <!-- LINE_01: Mary Squire 5 wool to hay of Bartrams  -->
+                    <item>
+                        <persName ref="#MarySquire">Mary Squire</persName> 5 wool to hay of Bartram</item>
+                    
+                    <item><unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">wool</supplied></unclear>sold <date when="1809-07-18">July 18
+                            1809</date></item>
+                </list>
+                <list type="entry">
+                    <!-- LINE_02: T Bartram dash 41 1/4 2/9 Paid  -->
+                    <item><persName ref="#ThomasBartram">T Bartram</persName>
+                        <g ref="#longHyphen" n="1"/> <measure quantity="41.25">41 1/4</measure> <g ref="#longHyphen" n="1"/> <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">2/9</supplied></unclear>
+                        Paid</item>
+
+                    <!-- LINE_03: ILLEGIBLE Squire dash dash 6. dash dash dash 2/9 Paid  -->
+                    <item><unclear reason="illegible" unit="words" quantity="1"></unclear><persName ref="#Squire"> <!-- Missing first name -->Squire</persName>
+                        <g ref="#longHyphen" n="3"/> <measure quantity="41.25">6</measure> 6 <g ref="#longHyphen" n="3"/> <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">2/9</supplied></unclear>
+                        Paid</item>
+                    
+                    <!-- LINE_04: Hanna Burr 30 2/9 Paid  -->
+                    <item><persName ref="#HannaBurr"> Hanna Burr</persName>
+                        <g ref="#longHyphen" n="3"/> <measure quantity="30.0">30</measure><g ref="#longHyphen" n="3"/> <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">2/9</supplied></unclear>
+                        Paid</item>
+                    
+                    <!-- LINE_05: Eben Bartarm 26 ELLIGIBLE fraction No hay  -->
+                    <item><persName ref="#EbenBartram"> Eben Bartram</persName>
+            <measure quantity="26.0">30</measure>No hay</item>
+                    
+                    <!-- LINE_06: John Wheeler 10 No hay  -->
+                    <item><persName ref="#JohnWheeler"> John Wheeler</persName>
+                        <g ref="#longHyphen" n="1"/> <measure quantity="10.0">10</measure>No hay</item>
+                   
+                    <!-- LINE_07: Job Bartram 8 ELLIGIBLE fraction paid  -->
+                    <item><persName ref="#JobBartram"> Job Bartram </persName>
+          <measure quantity="8.0">8</measure>paid</item>
+                    
+                    <!-- LINE_08: Joseph Sturges 4 ELLIGIBLE fraction paid  -->
+                    <item><persName ref="#JobBartram"> Job Bartram </persName>
+                        <measure quantity="8.0">8</measure>paid</item>
+                    
+                    <!-- LINE_09: Joseph Sturges 4 ELLIGIBLE fraction paid  -->
+                    <item><persName ref="#JobBartram"> Job Bartram </persName>
+                        <measure quantity="8.0">8</measure>paid</item>
+                    
+                    <!-- LINE_10: Andrew Wakemen 3 paid  -->
+                    <item><persName ref="#AndrewWakemen"> Andrew Wakemen </persName>
+                        <measure quantity="3.0">3</measure>    <g ref="#longHyphen" n="1"/> paid<g ref="#longHyphen" n="1"/></item>
+                    
+                    <!-- LINE_11: Andrew MaClery 10 paid  -->
+                    <item><persName ref="#AndrewMaClery"> Andrew MaClery </persName>
+                        <measure quantity="10.0">10</measure>    <g ref="#longHyphen" n="1"/> paid</item>
+                    
+                    <!-- LINE_12: Andrew MaClery repeat 13 paid-->
+                    <!-- LINE_13: Andrew MaClery repeat 19 paid-->
+                    
+                    <!-- LINE_14: Eathan Shearwood 6 4 paid  -->
+                    <item><persName ref="#Eathan Shearwood"> Andrew MaClery</persName>
+                        <measure quantity="10.0">10</measure>    <g ref="#longHyphen" n="1"/> paid</item>
+                    
+                    <!-- LINE_15: David Judson 10 paid  -->
+                    <item><persName ref="#DavidJudson"> David Judson</persName>
+                        <g ref="#longHyphen" n="1"/>
+                        <measure quantity="10.0">10</measure> hay</item>
+                    <!-- The word 'no' crossed out  -->
+                    
+                    <!-- LINE_16: Illegible first and last name  -->
+                    <item><persName ref="#____"> <unclear reason="illegible"/> </persName>
+                        <measure quantity="10.0">10</measure>    <g ref="#longHyphen" n="1"/> paid</item>
+                    
+                    <!-- LINE_17: Joseph Sturges and others 65 1/4 paid  -->
+                    <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others <measure quantity="65.25">65 1/4</measure> paid</item>
+                    
+                    <!-- LINE_18: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
+                    <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others <measure quantity="65.25">65 1/4</measure> paid</item>
+                    
+                    <!-- LINE_19: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
+                    <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others <measure quantity="65.25">65 1/4</measure> paid</item>
+                    
+                    <!-- LINE_20: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
+                    <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others <measure quantity="65.25">65 1/4</measure> paid</item>
+                    
+                    <!-- LINE_21: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
+                    <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others <measure quantity="65.25">65 1/4</measure> paid</item>
+                    
+                    <!-- LINE_22: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
+                    <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others <measure quantity="65.25">65 1/4</measure> paid</item>
+                    
+                    <!-- LINE_23: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
+                    <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others <measure quantity="65.25">65 1/4</measure> paid</item>
+ </list>
+                <!-- PAGE 5-->
+                <div type="page">
+                    <!-- PLACE IMAGE BELOW -->
+                    <!--<graphic url="Bartram-Thomas_Vol-001_1801-1819_005.jpg"/>-->
+                    <div type="group">
+                        <!-- LINE_01: October 1801 Credit -->
+                        <head>  <date when="1802-02-10">October 1801</date> Credit</head>
+ <list type="entry">
+     <!-- LINE_02: By __ Cart with my help -->
+     <item>By <unclear reason="illegible" unit="words" quantity="1"/> Cart with my help</item>
+ </list>
+                        <list type="entry">
+     <!-- LINE_03: By __  -->
+                            <head>  <date when="1802-10">October 1801</date></head>
+                            <item>By<unclear reason="illegible"/> one yoak oxen by iron &amp;help </item></list>
+     <!-- LINE_04: By __  -->
+                        <list type="entry">
+                            <head>  <date when="1802-12">December 1801</date></head>
+                            <item>By<unclear reason="illegible"/> ox<unclear reason="illegible"/> my help</item></list>
+                        
+                        <list type="entry">
+                            <!--crossed out" -->
+                            <!--crossed out" -->
+                            <head>  <date when="1802-7">July 1809</date>1685 <unclear reason="illegible"/></head>
+                            <item>By<unclear reason="illegible"/> ox<unclear reason="illegible"/> my help</item>
+                            <item>By<unclear reason="illegible"/> <measure type="currency" unit="dollars" quantity="222.00">222Dollars</measure> <unclear reason="illegible"/><unclear reason="illegible"/></item>
+
+            </div>
+        </body>
+    </text>
+</TEI>
