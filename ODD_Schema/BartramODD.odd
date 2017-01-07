@@ -29,40 +29,283 @@
          <schemaSpec ident="bartramODD" start="TEI teiCorpus" prefix="tei">
             <!-- Required Modules -->
             <moduleRef key="tei"/>
-            <moduleRef key="core" include="author date desc graphic p pubPlace resp respStmt title head list item note measure choice sic reg unclear add"/>
-            <moduleRef key="header" include="authority availability handNote idno license principal profileDesc publicationStmt sourceDesc sponsor titleStmt edition editionStmt editorialDecl encodingDesc fileDesc"/>
+            <moduleRef key="core"
+               include="author date desc graphic p pubPlace resp respStmt title head list item note measure choice sic reg unclear add"/>
+            <moduleRef key="header"
+               include="authority availability handNote idno license principal profileDesc publicationStmt sourceDesc sponsor titleStmt edition editionStmt editorialDecl encodingDesc fileDesc"/>
             <moduleRef key="textstructure" include="back div"/>
             <!-- Optional Modules -->
-            <moduleRef key="namesdates" include="addName forename genName geo listPerson listPlace location persName person place surname"/>
+            <moduleRef key="namesdates"
+               include="addName forename genName geo listPerson listPlace location persName person place surname"/>
             <moduleRef key="gaiji" include="g char charDecl charName"/>
             <moduleRef key="figures" include="figure"/>
-            <moduleRef key="msdescription" include="collection msDesc msIdentifier physDesc repository"/>
-            <moduleRef key="transcr" include="handNotes supplied"/>
-            
+            <moduleRef key="msdescription"
+               include="collection msDesc msIdentifier physDesc repository"/>
+            <moduleRef key="transcr" include="handNotes supplied facimile"/>
+
             <!-- graphic needs to be able to be inside div ??? -->
-            <!--<elementSpec ident="graphic" module="core" mode="change">
+            <elementSpec ident="graphic" module="core" mode="change">
                <classes mode="change">
-                  <memberOf key="model.personPart" mode="add"/>
+                  <memberOf key="model.divPart" mode="add"/>
                </classes>
-            </elementSpec>-->
-            
-            <!--Sample attribute declaration :
-               <elementSpec ident="person" module="namesdates" mode="change">
                <attList>
-                  <attDef ident="sex" mode="replace" usage="req">
+                  <attDef ident="url" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.pointer"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+
+            <elementSpec ident="add" module="core" mode="change">
+               <attList>
+                  <attDef ident="resp" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.pointer"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#RF"/>
+                        <valItem ident="#RP"/>
+                        <valItem ident="#SG"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="date" module="core" mode="change">
+               <attList>
+                  <attDef ident="when" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.temporal.iso"/>
+                     </datatype>
+                  </attDef>
+                  <attDef ident="from-iso" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.temporal.iso"/>
+                     </datatype>
+                  </attDef>
+                  <attDef ident="to-iso" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.temporal.iso"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="div" module="textstructure" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
                      <datatype>
                         <dataRef key="teidata.word"/>
                      </datatype>
                      <valList type="closed">
-                        <valItem ident="f"/>
-                        <valItem ident="m"/>
-                        <valItem ident="o"/><!-\-other-\->
-                        <valItem ident="na"/><!-\-not applicable-\->
-                        <valItem ident="u"/><!-\-unknown-\->
+                        <valItem ident="page"/>
+                        <valItem ident="group"/>
+                     </valList>
+                  </attDef> 
+                  <attDef ident="subtype" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="credit"/>
+                        <valItem ident="debit"/>
                      </valList>
                   </attDef> 
                </attList>
-            </elementSpec>-->
+            </elementSpec>
+            <elementSpec ident="forename" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="first"/>
+                        <valItem ident="middle"/>
+                        <valItem ident="maiden"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="g" module="gaiji" mode="change">
+               <attList>
+                  <attDef ident="ref" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.pointer"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#longHyphen"/>
+                        <valItem ident="#ditto"/>
+                        <valItem ident="#afterName"/>
+                        <valItem ident="#stItem"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="n" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/>
+                     </datatype>
+                     </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="list" module="core" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="entry"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="subtype" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="total"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="measure" module="core" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="currency"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="commodity" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     </attDef>
+                  <attDef ident="quantity" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/><!-- If flagged: because of numbers starting with 0 -->
+                     </datatype>
+                  </attDef>
+                  <attDef ident="unit" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="£sd"/>
+                        <valItem ident="dollars"/>
+                        <valItem ident="ft"/>
+                        <valItem ident="lb"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="note" module="core" mode="change">
+               <attList>
+                  <attDef ident="resp" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.pointer"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#RF"/>
+                        <valItem ident="#RP"/>
+                        <valItem ident="#SG"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="person" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="place" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="resp" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="reg" module="core" mode="change">
+               <attList>
+                  <attDef ident="resp" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.pointer"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#RF"/>
+                        <valItem ident="#RP"/>
+                        <valItem ident="#SG"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="supplied" module="transcr" mode="change">
+               <attList>
+                  <attDef ident="resp" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.pointer"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#RF"/>
+                        <valItem ident="#RP"/>
+                        <valItem ident="#SG"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="unclear" module="core" mode="change">
+               <attList>
+                  <attDef ident="reason" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="strikethrough"/>
+                        <valItem ident="illegible"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="unit" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="chars"/>
+                        <valItem ident="words"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="quantity" mode="replace" usage="req">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/>
+                     </datatype>
+                     </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="choice" module="core" mode="change">
+               <constraintSpec scheme="isoschematron" ident="oddSpellingReg">
+                  <constraint>
+                     <sch:rule context="tei:choice">
+                        <sch:assert test="child::reg">
+                           The choice element must contain a reg element.
+                        </sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <constraintSpec scheme="isoschematron" ident="oddSpellingSic">
+                  <constraint>
+                     <sch:rule context="tei:choice">
+                        <sch:assert test="child::sic">
+                           The choice element must contain a sic element.
+                        </sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
             
             <!-- Sample schematron rule for ODD:
           <constraintSpec scheme="isoschematron" ident="pair_geos">
