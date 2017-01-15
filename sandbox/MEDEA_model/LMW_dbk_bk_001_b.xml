@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Laban Morey Wheaton Day Book p. 001 with References to Bookkeeping Ontology</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Test file for bookkeeping ontology, examples for MEDEA White Papers</p>
+   </publicationStmt>
+   <sourceDesc>
+    <biblFull>
+     <titleStmt>
+      <title>Laban Morey Wheaton Day Book</title>
+      <author>Laban Morey Wheaton</author>
+      <respStmt>
+       <name type="person">Bill Funk</name>
+       <resp> Transcription and TEI-compatible XML markup <date when="2016"/></resp>
+      </respStmt>
+      <respStmt>
+       <name type="person">Kathryn Tomasek</name>
+       <resp> Corrections <date when="2016"/></resp>
+      </respStmt>
+      <respStmt>
+       <name type="person">Kathryn Tomasek</name>
+       <resp> References to Bookkeeping Ontology <date when="2016"/></resp>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <p>Test file, Wheaton College</p>
+     </publicationStmt>
+     <sourceDesc>
+      <p>The <title>Day Book of Laban Morey Wheaton</title>
+       <date from="1828-09-15" to="1859"/> is part of the Wheaton Family Papers, MS001, Marion B.
+       Gebbie Archives and Special Collections at the Madeleine Clark Wallace Library, Wheaton
+       College, Norton, Massachusetts.</p>
+     </sourceDesc>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <front facs="https://digitalrepository.wheatoncollege.edu/bitstream/handle/11040/17982/001_lmwdbk_inside_cover.jpg">
+   <p>
+    <name type="person" ref="#pers_WCDH002" ana="#bk_from">Laban M. Wheaton Day Book</name>
+    <choice>
+     <abbr>C.</abbr>
+     <expan>Creditor</expan>
+    </choice></p>
+   <p rend="align(right)">cheese 24 lbs <lb/>9 <lb/>$2.16</p>
+   <p> Multiply by the number of days and divide by 6 - to find the Interest for any sum for days
+   </p>
+  </front>
+  <body>
+   <pb n="001" facs="xyz"/>
+   <fw type="pageNum">001</fw>
+   <table xml:id="p001" cols="6">
+    <head>
+     <span ana="#bk_date" from="#p001_01" to="#p001_03"> Monday<date when="1828-09-15"
+       >September-15th-1828</date>
+     </span>
+     <!-- Documentation: Use <span> to indicate that dates cover multiple transactions.) The following markup is preferred here: <span ana="#bk_date" from="#..." to="#..."><date>....</date></span> -->
+     <table>
+      <row>
+       <cell/>
+       <cell/>
+       <cell>$</cell>
+       <cell>cts.</cell>
+       <cell/>
+       <cell/>
+      </row>
+     </table>
+    </head>
+    <row xml:id="p001_01" ana="#bk_entry">
+     <!-- Documentation: In Laban M. Wheaton's accounts, strike through means that the debt has been settled. In this case, the entry indicates a full transaction involving debit and credit (i.e. money and commodity/service exchanged). Thus, coding only #bk_entry is preferred.-->
+     <cell>Settled</cell>
+     <cell>
+      <p><name type="person" ref="#pers_WCDH276" ana="#bk_to #bk_debit">Derius Drake </name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice></p>
+      <p> To <measure commodity="ax" quantity="1">ax</measure>
+       <choice>
+        <abbr>dlvd</abbr>
+        <expan>delivered</expan>
+       </choice> By <name type="person" ref="#pers_WCDH524"/>Puffer 9/ <!-- how to mark this kind of notation? --><!-- GV: What does the notation mean? KT: Working on this. (Ask Sally)-->
+       <!-- This part of the entry demonstrates that transfers can involve more than one person.  -->
+      </p>
+      <p><name type="person" ref="#pers_WCDH276" ana="#bk_to #bk_credit"/> By cutting two sticks <!-- work of cutting with an ax is being credited here; use #bk_what? --><!-- GV: yes. You could additionally add a taxonomy of types of work and reference this in a span/@type markup for "cutting two sticks" or and index/term entry. An different approach would be to organise the booking of debit/credit into accounts, if Wheatons used an account system (which in this ledger is not the case, am I right? KT: This transaction is settled, so we wouldn't expect to find a reference in the ledger. In other cases, we would.-->
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="1" unit="dollars" ana="#bk_amount">1</measure>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="50" unit="cents" ana="#bk_amount">50</measure>
+     </cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_02" ana="#bk_entry #bk_transfer">
+     <!-- KT to GV: This is the third party's portion of the previous transaction. Note that this carries entry refers to a ledger page. So we should probably be using our friend @ana in the next cell.... -->
+     <cell ana="#bk_reference? #bk_ledger?">109</cell>
+     <!-- The ledger for the early pages of this day book is lost. If we had the ledger and had transcribed it, we would also encode an @ref here. -->
+     <cell>
+      <p><name type="person" ref="#pers_WCDH524" ana="#bk_to #bk_credit">Pliny Puffer</name>
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+      <p> By <measure commodity="axe" quantity="1"/>1 ax <choice>
+        <abbr>dlvd.</abbr>
+        <expan>delivered to</expan>
+       </choice>
+       <name type="person" ref="#pers_WCDH276">Drake</name> 9/ </p>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="1" unit="dollars" ana="bk_amount">1</measure>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="50" unit="cents" ana="#bk_amount">50</measure>
+     </cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_03" ana="#bk_entry #bk_transfer">
+     <cell>342 </cell>
+     <cell>
+      <p><name type="person" ref="#pers_WCDH255" ana="#bk_to #bk_credit">Asa Danforth</name>
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+      <p> By drawing two logs
+       <!-- how to mark up this service/work; use #bk_what? 
+       note difference between sticks and logs indicated on this page --><!-- GV: yes, see my note above -->
+       from <name type="person" ref="#pers_WCDH540">Rogers<!-- Rodgers? --></name>
+      </p>
+     </cell>
+     <cell/>
+     <cell/>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_04" ana="#bk_entry #bk_transfer">
+     <cell>342</cell>
+     <cell><p><date when="1828-09-22">Monday Sept. 22d 1828 <span from="#p001_04" to="#p001_06"/>
+       </date></p>
+      <p><name type="person" ref="#pers_WCDH255" ana="#bk_to #bk_credit">Asa Danforth</name>
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+      <p> By <measure quantity="1" unit="days" commodity="work">1 Days work with oxen, wheels,
+        &amp;c</measure>
+       <!-- how to mark up work with oxen, etc. occupation would be teamster; how to express the labor--><!-- GV: yes, see my note above. -->
+      </p>
+      <p>
+       <measure quantity=".5" unit="days" commodity="work">" 1/2 do. do.</measure>
+       <!-- unicode one half -->
+      </p>
+     </cell>
+     <cell/>
+     <cell/>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_05" ana="#bk_entry #bk_transfer">
+     <cell>Settled</cell>
+     <cell>
+      <p><name type="person" ref="#pers_WCDH276" ana="#bk_to #bk_debit">Derius Drake</name>
+       <!-- struck through -->
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p> To
+       order<!-- what is bookkeeping markup here? --><!-- GV: What does it mean in terms of economic activities? -->
+       upon <name type="person" ref="#pers_WCDH574">T. Smith</name> for 3/ </p>
+     </cell>
+     <cell/>
+     <cell>
+      <measure commodity="currency" quantity="50" unit="cents" ana="#bk_amount">50</measure></cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_06" ana="#bk_entry #bk_transfer">
+     <cell>Settled</cell>
+     <cell>
+      <p>
+       <name type="person" ref="#pers_WCDH276" ana="#bk_to #bk_credit">"</name>
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+      <p> By<measure quantity="1" unit="Days" commodity="work">1 Days work</measure>
+      </p>
+      <p> " <measure quantity=".5" unit="days" commodity="work">" 1/2 do.</measure>
+       <!-- one-half unicode? -->
+      </p>
+     </cell>
+     <cell/>
+     <cell/>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_07" ana="#bk_entry #bk_transfer">
+     <cell>25</cell>
+     <cell><date when="1828-10-03">October 3d 1828 <span from="#p001_07" to="#p001_09"
+      /></date></cell>
+     <cell>
+      <p>
+       <name type="person" ref="#pers_WCDH260" ana="#bk_to #bk_debit">Thomas Danforth 2d</name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p>To<measure quantity="1" unit="pound" commodity="nails">1 lb. 4d Cut Nails </measure>
+       <!-- four-penny nails --><!-- GV: should come into the commodity, doesn't it? KT: Yes, but. We ran into this in an earlier iteration of the project when we were overly specific with commodity references and then unable to compare similar things that we had marked too differently. I would want to be able to have a reference system in which we could include both the general "nails" and the more specific "four-penny nails" (and whatever the more general reference a la Danish Sound Toll would be appropriate). This is probably a place where the Schuredo model of building the commodity reference is a good one. I suppose one question is how to make new ways of referencing commodities compatible/interoperable with Schuredo model.... -->
+      </p>
+      <p> " <measure quantity="1" unit="bushel" commodity="rye">1 Buss. Rye </measure>
+      </p>
+     </cell>
+     <cell/>
+     <cell>
+      <p><measure unit="cents" quantity="8" commodity="currency">.8</measure></p>
+      <p>
+       <measure unit="cents" quantity="90" commodity="currency">90
+        <!-- unicode symbol for cents 00A2 throws error--><!-- GV: use &#x00A2; instead? KT: Duh. Thanks. But still not quite right--></measure>
+      </p>
+     </cell>
+     <cell/>
+     <cell><measure unit="cents" quantity="98" commodity="currency" ana="#bk_amount"/>
+     </cell>
+    </row>
+    <row xml:id="p001_08" ana="#bk_entry #bk_transfer">
+     <cell>Settled </cell>
+     <cell>
+      <p><name type="person" ref="#pers_WCDH713" ana="#bk_to #bk_debit">Nathaniel Lincoln</name>
+      </p>
+      <p> To <name type="person" ref="#pers_WCDH002" ana="#bk_credit">cash</name> 8/ </p>
+     </cell>
+     <cell/>
+     <cell>
+      <measure commodity="currency" quantity="50" unit="cents" ana="#bk_amount">50</measure></cell>
+     <cell> </cell>
+     <cell> </cell>
+    </row>
+    <row xml:id="p001_09" ana="#bk_entry #bk_transfer">
+     <cell> 342</cell>
+     <cell>
+      <p><name type="person" ref="#pers_WCDH255" ana="#bk_to #bk_credit">Asa Danforth</name>
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+      <p> By drawing two sticks from <name type="person" ref="#pers_WCDH714">Miss Bowen</name>
+      </p>
+     </cell>
+     <cell/>
+     <cell/>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_10" ana="#bk_entry #bk_transfer">
+     <cell>139</cell>
+     <cell><p><date when="1828-10-04">4.</date>
+      </p>
+      <p>
+       <name type="person" ref="#pers_WCDH264" ana="#bk_to #bk_debit">John Deane</name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p>To <name type="person" ref="#pers_WCDH002" ana="#bk_credit"> cash</name> 6/</p>
+     </cell>
+     <cell><measure commodity="currency" quantity="1" unit="dollars" ana="#bk_amount"
+      >1</measure></cell>
+     <cell><measure commodity="currency" quantity="00" unit="cents" ana="#bk_amount"
+      >00</measure></cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_11" ana="#bk_entry #bk_transfer">
+     <cell>126</cell>
+     <cell><p><date when="1828-10-07">7</date></p>
+      <p>
+       <name type="person" ref="#pers_WCDH509" ana="#bk_to #bk_debit">Mrs. Fanny Perry</name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p> To<measure quantity="1" unit="count" commodity="Crane">1 Crane</measure>
+      </p>
+      <p>
+       <measure quantity="1" unit="count" commodity="Stove">" 1 Stove 12.50</measure>
+      </p>
+     </cell>
+     <cell><measure quantity="12" unit="dollars" commodity="currency" ana="#bk_amount"/>
+     </cell>
+     <cell>
+      <measure quantity="50" unit="cents" commodity="currency" ana="#bk_amount"/>
+     </cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_12" ana="#bk_entry #bk_transfer">
+     <cell>Settled</cell>
+     <cell>
+      <p>
+       <date when="1828-10-21">21</date>
+      </p>
+      <p>
+       <name type="person" ref="#pers_WCDH717" ana="#bk_to #bk_credit">Amos Wilbur</name>
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+      <p> By <measure commodity="work" unit="day">work <date notBefore="1828-10-21">from this
+         day</date></measure>
+      </p>
+     </cell>
+     <cell/>
+     <cell/>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_13" ana="#bk_entry #bk_transfer">
+     <cell>Settled </cell>
+     <cell>
+      <p><name type="person" ref="#pers_WCDH717" ana="#bk_to #bk_debit"/>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p> To an order upon <name type="person" ref="#pers_WCDH167">D. Bates</name> for 3/ </p>
+      <p> " upon <name type="person" ref="#pers_WCDH574">T. Smith</name> 8/ </p>
+      <p> "<measure quantity="1/2" unit="bushel" commodity="rye">½ Buss. Rye </measure>
+      </p>
+     </cell>
+     <cell>
+      <p/>
+      <p><measure quantity="1" unit="dollar" commodity="currency" ana="#bk_amount">1</measure></p>
+      <p/>
+     </cell>
+     <cell>
+      <p>
+       <measure quantity="50" unit="cents" commodity="currency" ana="#bk_amount">.50</measure>
+      </p>
+      <p>
+       <measure quantity="34" unit="cents" commodity="currency" ana="#bk_amount">34</measure>
+      </p>
+      <p>
+       <measure quantity="50" unit="cents" commodity="currency" ana="#bk_amount">.50</measure>
+      </p>
+     </cell>
+     <cell> </cell>
+     <cell> </cell>
+    </row>
+    <row xml:id="p001_14" ana="#bk_entry #bk_transfer">
+     <cell>Settled </cell>
+     <cell>
+      <p>
+       <name type="person" ref="#pers_WCDH230" ana="#bk_to #bk_credit">Oliver Clapp</name>
+       <choice rend="align (right)">
+        <abbr>Cr</abbr>
+        <expan>Credit</expan>
+       </choice>
+      </p>
+      <p> By <measure commodity="work" unit="day" quantity="16"/>work <date notBefore="1828-10-14"
+        >from Oct. 14th 1828</date> 16 Days <!-- work-->
+      </p>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="16" unit="dollars" ana="#bk_amount"
+      >16</measure></cell>
+     <cell>
+      <measure commodity="currency" quantity="00" unit="cents" ana="#bk_amount">00</measure></cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_15" ana="#bk_entry #bk_transfer">
+     <cell> 367</cell>
+     <cell>
+      <p>
+       <name type="person" ref="#pers_WCDH540" ana="#bk_to #bk_debit">Holmes Richmond</name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p> To<measure quantity="1" unit="count" commodity="heiffer">a Heiffer</measure> &amp;
+        <measure quantity="1" unit="count" commodity="calf">Calf</measure>
+      </p>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="20" unit="dollars" ana="#bk_amount"
+      >20</measure></cell>
+     <cell>
+      <measure commodity="currency" quantity="00" unit="cents" ana="#bk_amount">00</measure></cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_16" ana="#bk_entry #bk_transfer">
+     <cell>100 </cell>
+     <cell>
+      <p>
+       <name type="person" ref="#pers_WCDH656" ana="#bk_to #bk_debit">Earl O White</name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p> To <name type="person" ref="#pers_WCDH002" ana="#bk_credit">Cash</name> lent 6/ </p>
+      <!-- loan -->
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="1" unit="dollars" ana="#bk_amount">1</measure></cell>
+     <cell>
+      <measure commodity="currency" quantity="00" unit="cents" ana="#bk_amount">00</measure></cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_17" ana="#bk_entry #bk_transfer">
+     <cell>139 </cell>
+     <cell><p>
+       <date when="1828-10-27">27</date>
+      </p>
+      <p>
+       <name type="person" ref="#pers_WCDH264" ana="#bk_to #bk_debit">John Deane</name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p> To <name type="person" ref="#pers_WCDH002" ana="#bk_credit">cash</name> 6/ </p>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="1" unit="dollars" ana="#bk_amount"> 1</measure>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="00" unit="cents" ana="#bk_amount">00</measure></cell>
+     <cell/>
+     <cell/>
+    </row>
+    <row xml:id="p001_18" ana="#bk_entry #bk_transfer">
+     <cell>367</cell>
+     <cell>
+      <p>
+       <name type="person" ref="#pers_WCDH540" ana="#bk_to #bk_debit">Holmes Richmond</name>
+       <choice rend="align(right)">
+        <abbr>D</abbr>
+        <expan>debtor</expan>
+       </choice>
+      </p>
+      <p>To <name type="person" ref="#pers_WCDH002" ana="#bk_credit">Cash</name> 30/</p>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="5" unit="dollars" ana="#bk_amount">5</measure>
+     </cell>
+     <cell>
+      <measure commodity="currency" quantity="00" unit="cents" ana="#bk_amount">00</measure>
+     </cell>
+     <cell/>
+     <cell/>
+    </row>
+   </table>
+  </body>
+ </text>
+</TEI>

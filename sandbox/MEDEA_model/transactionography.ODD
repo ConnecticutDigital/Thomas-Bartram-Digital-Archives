@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:rng="http://relaxng.org/ns/structure/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI transanctionography</title>
+            <author>
+	      <name type="person" xml:id="sbauman.emt">Syd Bauman</name>
+	    </author>
+	    <respStmt>
+	      <resp>contributor</resp>
+	      <name type="person">Kathryn Tomasek</name>
+	      <name type="person">Mary Beth Sievens</name>
+	      <name type="person">Lauren Pfender</name>
+	      <name type="person">Kurt Fendt</name>
+	    </respStmt>
+         </titleStmt>
+         <publicationStmt>
+           <availability status="restricted">
+	     <p>Copyleft 2011 Syd Bauman. Available under the terms of
+	     the <ref
+	     target="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+	     Commons Attribution-ShareAlike 3.0 Unported
+	     License</ref>.</p>
+	   </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written pretty much from scratch.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+	<change when="2013-01-26" who="#sbauman.emt">
+	  moved <name>att.transferable</name> out of
+	  <name>att.editLike</name> and into the new
+	  <name>att.source</name>, as it has no need for
+	  <att>instant</att> at all, and <att>evidence</att> is a bit
+	  problematic.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+     <body>
+       <schemaSpec ident="transactionography" prefix="transactionography_" start="TEI listTransaction listAccount">
+	 <!-- required -->
+	 <moduleRef key="tei"/>
+         <moduleRef key="core" except="add binaryObject cb cit corr del distinct divGen gap gb graphic imprint index l lb lg milestone orig pb reg sic sp speaker stage teiCorpus unclear"/>
+         <moduleRef key="header"/>
+         <moduleRef key="textstructure" include="TEI back body div front text"/>
+	 <!-- for interpretations, but not linguistic segmentation -->
+         <moduleRef key="analysis" except="c cl m pc phr s w"/>
+         <moduleRef key="certainty"/>
+         <moduleRef key="linking" except="join joinGrp"/>
+	 <!-- so that an <msDesc> may be used instead of <bibl> to cite-->
+	 <!-- source documents -->
+         <moduleRef key="msdescription"/>
+         <moduleRef key="namesdates" include="persName placeName"/>
+	 <!-- modifications -->
+	 <classSpec ident="att.global" mode="change" type="atts">
+	   <attList>
+	     <attDef mode="delete" ident="xml:space"/>
+	     <attDef mode="delete" ident="rend"/>
+	     <attDef mode="delete" ident="rendition"/>
+	   </attList>
+	 </classSpec>
+	 <classSpec ident="att.transferable" type="atts" mode="add">
+	   <classes mode="replace">
+	     <memberOf key="att.source"/>
+	   </classes>
+	   <attList>
+	     <attDef ident="fra" usage="opt">
+	       <gloss>from</gloss>
+	       <datatype minOccurs="1" maxOccurs="1">
+		 <rng:ref name="data.pointer"/>
+	       </datatype>
+	       <remarks>
+		 <p>A pointer to a <gi>person</gi>, <gi>org</gi>, an
+		 <gi>account</gi>, or a non-TEI XML element defining a
+		 person, group of people, coorporation, goverment
+		 body, or transaction account, whether real or
+		 fictional.</p>
+	       </remarks>
+	     </attDef>
+	     <attDef ident="til" usage="opt">
+	       <gloss>to</gloss>
+	       <datatype minOccurs="1" maxOccurs="1">
+		 <rng:ref name="data.pointer"/>
+	       </datatype>
+	       <remarks>
+		 <p>A pointer to a <gi>person</gi>, <gi>org</gi>, an
+		 <gi>account</gi>, or a non-TEI XML element defining a
+		 person, group of people, coorporation, goverment
+		 body, or transaction account, whether real or
+		 fictional.</p>
+	       </remarks>
+	     </attDef>
+	     <attDef ident="placeRef" usage="opt">
+	       <gloss>ptr to place where transfer occured</gloss>
+	       <datatype minOccurs="1" maxOccurs="1">
+		 <rng:ref name="data.pointer"/>
+	       </datatype>
+	       <remarks>
+		 <p>A pointer to a <gi>place</gi> or a non-TEI XML
+		 element defining a place.</p>
+		 <p>In the case of ambiguity or when several alternate
+		 possibilities can be identified, but the encoder
+		 cannot say which of these possibilities is the actual
+		 one of interest, this attribute can point to an
+		 <gi>alt</gi> element, which in turn points to the
+		 possible places.</p>
+	       </remarks>
+	     </attDef>
+	   </attList>
+	 </classSpec>
+ 	 <elementSpec ident="listTransaction" ns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	   <classes mode="replace">
+	     <memberOf key="att.global"/>
+	     <memberOf key="model.listLike"/>
+	   </classes>
+	   <content>
+	     <!-- no attempt to make this deterministic; DTDs be damned -->
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="model.headLike"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	     <rng:oneOrMore>
+	       <rng:choice>
+		 <rng:ref name="transaction"/>
+		 <rng:ref name="listTransaction"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:oneOrMore>
+	   </content>
+	 </elementSpec>
+	 <elementSpec ident="transaction" ns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	   <classes mode="replace">
+	     <memberOf key="att.global"/>
+	     <memberOf key="att.datable"/>
+	     <memberOf key="att.transferable"/>
+	   </classes>
+	   <content>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="model.labelLike"/>
+		 <rng:ref name="idno"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="attested"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="transfer"/>
+		 <rng:ref name="transferGrp"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	   </content>
+	   <remarks>
+	     <p>The <gi>attested</gi> child element and the
+	     <att>source</att> attribute are mutually exclusive.</p>
+	     <p>The transaction may be identified with respect to some
+	     external scheme using <gi>idno</gi>. Examples include,
+	     but are not limited to, account numbers, ledger numbers,
+	     or invoice numbers. These identifiers need not be
+	     numeric, and encoders should use the <att>type</att>
+	     attribute to indicate what system of reference is being
+	     used. Alternatively, if the <att>xml:id</att> is
+	     sufficient, no <gi>idno</gi> need be specified at
+	     all.</p>
+	   </remarks>
+	 </elementSpec>
+	 <elementSpec ident="transferGrp" ns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	   <classes mode="replace">
+	     <memberOf key="att.global"/>
+	     <memberOf key="att.datable"/>
+	     <memberOf key="att.transferable"/>
+	   </classes>
+	   <content>
+	     <rng:oneOrMore>
+	       <rng:choice>
+		 <rng:ref name="transfer"/>
+		 <rng:ref name="transferGrp"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:oneOrMore>
+	   </content>
+	   <attList>
+	     <attDef ident="org" usage="opt">
+	       <valList type="semi">
+		 <valItem ident="group">
+		   <gloss>grouped</gloss>
+		   <desc>i.e., unordered set &#x2014; the assertion is
+		   that all the child transfers occured, but the
+		   sequence in which they occured is either <list>
+		   <item>simultaneous,</item>
+		   <item>unknown,</item>
+		   <item>unimportant, or</item>
+		   <item>not being asserted.</item>
+		   </list></desc>
+		 </valItem>
+		 <valItem ident="sequence">
+		   <gloss>sequenced</gloss>
+		   <desc>i.e., chronologically ordered set &#x2014; the
+		   assertion is that all the child transfers occured,
+		   in the order specified.</desc>
+		 </valItem>
+		 <valItem ident="choice">
+		   <gloss>alternates</gloss>
+		   <desc>I.e., the assertion is that only one child
+		   transfer occured.</desc>
+		 </valItem>
+	       </valList>
+	     </attDef>
+	   </attList>
+	 </elementSpec>	       
+	 <elementSpec ident="transfer" ns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	   <desc>A transfer of something of value from one entity
+	   (typically a person, but possibly a group of people,
+	   corporation, government body, fictional character, etc.) to
+	   another.</desc>
+	   <classes>
+	     <memberOf key="att.global"/>
+	     <memberOf key="att.datable"/>
+	     <memberOf key="att.transferable"/>
+	   </classes>
+	   <content>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="model.glossLike"/>
+		 <rng:ref name="model.measureLike"/>
+		 <rng:ref name="model.global"/>
+		 <rng:ref name="attested"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	   </content>
+	   <exemplum>
+	     <p>A simple purchase:</p>
+	     <egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:fr="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	       <fr:transaction when="2011-07-14">
+		 <fr:transfer fra="organizations.xml#sothebys"
+			      til="persons.xml#qmagoo">
+		   <desc>Lot 51, an autographed draft of Jane Austin's
+		   unfinished novel <title>The
+		   Watson's</title>.</desc>
+		 </fr:transfer>
+		 <fr:transfer fra="persons.xml#qmagoo"
+			      til="organizations.xml#sothebys">
+		   <measure unit="USD" quantity="1601283.84">993,250 GBP</measure>
+		 </fr:transfer>
+	       </fr:transaction>
+	     </egXML>
+	   </exemplum>
+	   <exemplum>
+	     <p>A gift:</p>
+	     <egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:fr="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	       <fr:transaction when="1991-12-25">
+		 <fr:transfer fra="chars.xml#molllyw"
+			      til="chars.xml#harryp">
+		   <desc>Mauroon sweater</desc>
+		 </fr:transfer>
+	       </fr:transaction>
+	     </egXML>
+	   </exemplum>
+	 </elementSpec>
+	 <elementSpec ident="attested" ns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	   <desc>Groups together pointers (using <att>target</att> of
+	   <gi>ptr</gi> or <gi>ref</gi>) to the constructs that
+	   support the existence of the transaction.</desc>
+	   <classes mode="replace">
+	     <memberOf key="att.global"/>
+	   </classes>
+	   <content>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="ptr"/>
+		 <rng:ref name="ref"/>
+		 <rng:ref name="model.glossLike"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	   </content>
+	   <constraintSpec scheme="isoschematron" ident="sourceORattested">
+	     <constraint>
+	       <sch:rule context="tei:account|tei:transaction|tei:transfer">
+		 <sch:report test="@source and child::fr:attested">
+		   Either the 'source' attribute or the 'fr:attested'
+		   element may be used to point to the encodings of the
+		   documents that attest to the current account, but not
+		   both.
+		 </sch:report>
+	       </sch:rule>
+	     </constraint>
+	   </constraintSpec>
+	   <exemplum>
+	     <p>Multiple attestations:</p>
+	     <egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:fr="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	       <fr:attested>
+		 <desc>In addition to the usual day book and ledger,
+		 this transaction is attested in Mr. Blue's
+		 diary.</desc>
+		 <ptr type="dayBook" target="dayBook.xml#tr1833-03-04.3"/>
+		 <ptr type="ledger" target="ledger.xml#entry1833-03-04.5"/>
+		 <ptr type="diary" target="http://otherProject.example.edu/diaries/blue.xml#e1833-03-04"/>
+	       </fr:attested>
+	     </egXML>
+	   </exemplum>
+	 </elementSpec>
+	 <!-- ========= -->
+	 <classSpec ident="att.iou" type="atts" mode="add">
+	   <gloss>I owe you</gloss>
+	   <desc>provides attributes for describing an organized
+	   wealth that is owed another</desc>
+	   <attList>
+	     <attDef ident="heldBy" usage="rec">
+	       <desc>indicates the entity (typically a bank or person,
+	       but possibly a group of people, corporation, government
+	       body, fictional character, etc.) that holds or held the
+	       account</desc>
+	       <datatype minOccurs="1" maxOccurs="1">
+		 <rng:ref name="data.pointer"/>
+	       </datatype>
+	       <remarks>
+		 <p>Typically points to an <gi>org</gi> or
+		 <gi>person</gi>.</p>
+	       </remarks>
+	     </attDef>
+	     <attDef ident="owedTo" usage="rec">
+	       <desc>indicates the entity (typically a person, but may
+	       also be a bank, group of people, corporation,
+	       government body, fictional character, etc.) that owns
+	       or owned the account</desc>
+	       <datatype minOccurs="1" maxOccurs="1">
+		 <rng:ref name="data.pointer"/>
+	       </datatype>
+	       <remarks>
+		 <p>Typically points to an <gi>org</gi> or
+		 <gi>person</gi>.</p>
+	       </remarks>
+	     </attDef>	       
+	   </attList>
+	   <remarks>
+	     <p>The current balance in the account indicates how
+	     much the holder would owe the owner were the owner to
+	     close the account.</p>
+	   </remarks>
+	 </classSpec>
+ 	 <elementSpec ident="listAccount" ns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	   <classes mode="replace">
+	     <memberOf key="att.global"/>
+	     <memberOf key="att.typed"/>
+	     <memberOf key="att.iou"/>
+	     <memberOf key="model.listLike"/>
+	   </classes>
+	   <content>
+	     <!-- no attempt to make this deterministic; DTDs be damned -->
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="model.headLike"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	     <rng:oneOrMore>
+	       <rng:choice>
+		 <rng:ref name="account"/>
+		 <rng:ref name="listAccount"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:oneOrMore>
+	   </content>
+	 </elementSpec>
+	 <elementSpec ident="account" ns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+	   <classes mode="replace">
+	     <memberOf key="att.global"/>
+	     <memberOf key="att.typed"/>
+	     <memberOf key="att.datable"/>
+	     <memberOf key="att.source"/>
+	     <memberOf key="att.iou"/>
+	   </classes>
+	   <content>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="model.labelLike"/>
+		 <rng:ref name="idno"/>
+		 <rng:ref name="model.glossLike"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="attested"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	     <rng:zeroOrMore>
+	       <rng:choice>
+		 <rng:ref name="account"/>
+		 <rng:ref name="model.global"/>
+	       </rng:choice>
+	     </rng:zeroOrMore>
+	   </content>
+	   <exemplum>
+	     <p>A record for a modern account.</p>
+	     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	     </egXML>
+	   </exemplum>
+	   <remarks>
+	     <p>The <gi>attested</gi> child element and the
+	     <att>source</att> attribute are mutually exclusive.</p>
+	     <p>The account may be identified with respect to some
+	     external scheme using <gi>idno</gi>. Examples include,
+	     but are not limited to, account numbers, ledger numbers,
+	     or invoice numbers. These identifiers need not be
+	     numeric, and encoders should use the <att>type</att>
+	     attribute to indicate what system of reference is being
+	     used. Alternatively, if the <att>xml:id</att> is
+	     sufficient, no <gi>idno</gi> need be specified at
+	     all.</p>
+	   </remarks>
+	 </elementSpec>
+	 <!-- ========= -->
+	 <constraintSpec scheme="isoschematron" ident="housekeeping">
+	   <constraint>
+	     <sch:ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+	     <sch:ns prefix="fr"  uri="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0"/>
+	   </constraint>
+	 </constraintSpec>
+       </schemaSpec>
+     </body>
+   </text>
+</TEI>

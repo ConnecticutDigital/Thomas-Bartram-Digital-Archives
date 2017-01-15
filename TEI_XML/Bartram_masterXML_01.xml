@@ -110,12 +110,12 @@
     </teiHeader>
     <text>
         <body>
-            <div type="page">
-                <!-- PLACE IMAGE BELOW -->
-                <!--<facimile><graphic url="Bartram-Thomas_Vol-001_1801-1819_003.jpg"/></facimile>-->
+            <div type="page" subtype="credit">
+                <!-- PLACE Associated Image in <graphic> BELOW -->
+                <facimile><graphic url="Bartram-Thomas_Vol-001_1801-1819_003.jpg"/></facimile>
                 <div type="group">
                     <head>Account of Materials for Building</head>
-                    <!-- LINE_01: 2000 feet boards at 19 Dollars -->
+                    
                     <list type="entry">
                         <item>
                             <measure commodity="board" quantity="2000" unit="ft">2000 feet
@@ -123,8 +123,6 @@
                                 quantity="19.00">19 Dollars </measure>
                             <measure type="currency" unit="£sd" quantity="110800">11 8
                             0</measure></item>
-
-                        <!-- LINE_02: 900 feet do at 15 do -->
                         <item>
                             <measure commodity="board" quantity="900" unit="ft">900 feet <g
                                     ref="#ditto"/><add resp="#RF">boards</add></measure> at <measure
@@ -133,17 +131,12 @@
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" quantity="0400">4 0 0</measure>
                         </item>
-
-                        <!-- LINE_03: Joiners Bill Fraiming &amb; covering Barn -->
-
                         <item> Joiners Bill <choice>
                                 <sic>Fraiming</sic>
                                 <reg resp="#RF">Framing</reg>
                             </choice> &amp; Covering Barn <measure type="currency" unit="£sd"
                                 quantity="091800">9 18 0</measure>
                         </item>
-
-                        <!-- LINE_04: Frame for Barn -->
                         <item>
                             <choice>
                                 <sic>Fraime</sic>
