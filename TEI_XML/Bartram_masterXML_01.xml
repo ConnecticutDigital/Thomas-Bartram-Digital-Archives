@@ -111,9 +111,11 @@
     <text>
         <body>
             <div type="page">
-                <!-- RF RP:2017-01-15: Most frequently pages on the right-side of the account book are credit and pages on the left-side are debits. Only use the subtype attribute if the page has been verified as either a "credit" or "debit". We might add attribute values is we determine there are pages that are neither credit or debit pages.-->
-                <facimile><graphic url="Bartram-Thomas_Vol-001_1801-1819_003.jpg"/></facimile>
-                <!-- RF RP:2017-01-15: Here we provide the image file name and file extension in form of a relative file path for the specific page being transcribed and encoded. -->
+                <!-- RF RP:2017-01-15: Most frequently pages on the right-side of the account book are credit and pages on the left-side are debits. Only use the subtype attribute if the page has been verified as either a "credit" or "debit". We might add attribute values if we determine there are pages that are neither credit or debit pages.-->
+                <facimile>
+                    <graphic url="Bartram-Thomas_Vol-001_1801-1819_003.jpg"/>
+                </facimile>
+                <!-- RF RP:2017-01-15: Here we provide the image file name and file extension for the specific page being transcribed and encoded. This format will be useful when processing this XML into presentational markup (HTML). -->
                 <div type="group">
                     <!-- RF RP:2017-01-15: The group element is used to group everything under a single main heading; main headings span across pages (generally at the top) to indicate the person/place/reason for the group of logged items. -->
                     <head>Account of Materials for Building</head>
@@ -124,22 +126,22 @@
                                 boards</measure> at <measure type="currency" unit="dollars"
                                 quantity="19.00">19 Dollars</measure>
                             <measure type="currency" unit="£sd" quantity="110800">11 8
-                            0</measure><!-- RF RP:2017-01-15: We have developed a notation system for the Bartram account book that lists the pound-shilling-pence value in a two digit sequence; this method makes for easy retrieval of the values when we process this info later. -->
+                            0</measure><!-- RF RP:2017-01-15: We have developed a notation system for the Bartram account book that lists the pound-shilling-pence value in a six digit sequence; this method makes for easy retrieval of the values when we process this info later. -->
                         </item>
                         <item>
                             <measure commodity="board" quantity="900" unit="ft">900 feet <g
                                     ref="#ditto"
-                                    /><!-- RF RP:2017-01-15: Here we are referencing one of our character declarations made in the teiHeader. We have decided to represent the original manascript to the best of our ability by indicating instances when unrecognized characters are present. For this character in particular (ref="#ditto") we have the follow add element to indicate the text from the previous line that is meant to be repeated by the "ditto" symbol. --><add
+                                    /><!-- RF RP:2017-01-15: Here we are referencing one of our character declarations made in the teiHeader. We have decided to represent the original manascript to the best of our ability by indicating instances when unrecognized characters are present. For this character in particular (ref="#ditto") we have the following add element to indicate the text from the previous line that is meant to be repeated by the "ditto" symbol. --><add
                                     resp="#RF">boards</add></measure> at <measure type="currency"
                                 unit="dollars" quantity="15">15 <g ref="#ditto"/><add resp="#RF"
                                     >dollars</add></measure>
-                            <g ref="#longHyphen" n="3"/><!-- RF RP:2017-01-15: Here we are referencing another one of our character declarations made in the teiHeader. We have decided to include the number hyphens so when we process this document into a presentation markup (HTML) we can replicate the manuscript to the best of our ability. -->
+                            <g ref="#longHyphen" n="3"/><!-- RF RP:2017-01-15: Here we are referencing another one of our character declarations made in the teiHeader. We have decided to include the number of hyphens in the n attribute so when we process this document into a presentation markup (HTML) we can replicate the manuscript to the best of our ability. -->
                             <measure type="currency" unit="£sd" quantity="040000">4 0 0</measure>
                         </item>
                         <item>Joiners Bill <choice>
                                 <sic>Fraiming</sic>
                                 <reg resp="#RF">Framing</reg>
-                            </choice><!-- RF RP:2017-01-15: We have decided to indicate, with the choice-sic-reg markup,to correct idiosyncratic spelling  -->
+                            </choice><!-- RF RP:2017-01-15: We have decided to indicate and normalize, with the choice-sic-reg markup, idiosyncratic spelling. -->
                             &amp; Covering Barn <measure type="currency" unit="£sd"
                                 quantity="091800">9 18 0</measure>
                         </item>
@@ -147,7 +149,7 @@
                             <measure commodity="frame" unit="whole" quantity="1"><choice>
                                     <sic>Fraime</sic>
                                     <reg resp="#RF">Frame</reg>
-                                </choice> for Barn</measure><!-- RF RP:2017-01-15: We use the measure element and commodity attribute to indicate specific items, but not labor. So in this item we have marked for the barn frame, but in the previous item framing and covering are forms of labor that we have not decided on a means to markup (as of now). When a commodity's unit is not a typical measurable unit we use the value "whole". -->
+                                </choice> for Barn</measure><!-- RF RP:2017-01-15: We use the measure element and commodity attribute to indicate specific items, but not labor. So in this item we have marked for the barn frame, but in the previous item framing and covering are forms of labor that we have not decided on a means to markup (as of now). When a commodity's unit is not a defined measurable unit we use the value "whole" to indicate a whole "whatever the commodity attribute indicates. -->
                             <measure type="currency" unit="£sd" quantity="150000">15 0 0</measure>
                             <g ref="#longHyphen" n="4"/>
                         </item>
@@ -192,11 +194,11 @@
                             <measure type="currency" unit="£sd" quantity="030600">3 6 0</measure>
                         </item>
                         <item>
-                            <measure commodity="brick" unit="bought" quantity="1"/>Bought of <orgName ref="#DanGreShou_Brick"
-                                >Daniel Gregory &amp; Shouland</orgName> Brick at <measure
-                                type="currency" unit="dollars" quantity="5000">5 Dollars
-                                Thousand</measure> &amp; paid him <measure type="currency"
-                                quantity="40" unit="dollars">Forty Dollars</measure>
+                            <measure commodity="brick" unit="bought" quantity="1"/>Bought of
+                                <orgName ref="#DanGreShou_Brick">Daniel Gregory &amp;
+                                Shouland</orgName> Brick at <measure type="currency" unit="dollars"
+                                quantity="5000">5 Dollars Thousand</measure> &amp; paid him <measure
+                                type="currency" quantity="40" unit="dollars">Forty Dollars</measure>
                             <date when="1802-02-10">February 10 1802</date>
                             <measure type="currency" unit="£sd" quantity="120000">12 0
                             0</measure><!-- RP:2017-01-15: This entry in particular makes me wonder if we are absolutely positive that the three column setup on the right side of the page indicates pound-shillings-pence value. -->
@@ -394,7 +396,9 @@
             </div>
             <!-- PAGE 4-->
             <div type="page">
-                <facimile><graphic url="Bartram-Thomas_Vol-001_1801-1819_004.jpg"/></facimile>
+                <facimile>
+                    <graphic url="Bartram-Thomas_Vol-001_1801-1819_004.jpg"/>
+                </facimile>
                 <div type="group">
                     <head>
                         <date when="1801-10-01"><unclear quantity="1" unit="chars"
@@ -408,8 +412,9 @@
                             >1802</unclear></head>
                         <!-- LINE_01: Mary Squire 5 wool to hay of Bartrams  -->
                         <item>
-                            <persName ref="#MarySquire">Mary Squire</persName><!-- RP:2017-01-15: Check this is person's name and not organization. --> 5 wool to hay of
-                            Bartram</item>
+                            <persName ref="#MarySquire">Mary
+                            Squire</persName><!-- RP:2017-01-15: Check this is person's name and not organization. -->
+                            5 wool to hay of Bartram</item>
 
                         <item><unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#RF">wool</supplied></unclear>sold <date when="1809-07-18"
@@ -427,14 +432,16 @@
                         <!-- LINE_03: ILLEGIBLE Squire dash dash 6. dash dash dash 2/9 Paid  -->
                         <item><unclear reason="illegible" unit="words" quantity="1"/><persName
                                 ref="#Squire">
-                            <!-- Missing first name -->Squire</persName> <!-- RP:2017-01-15: Check this is person's name and not organization. -->
+                                <!-- Missing first name -->Squire</persName>
+                            <!-- RP:2017-01-15: Check this is person's name and not organization. -->
                             <g ref="#longHyphen" n="3"/>
                             <measure quantity="41.25">6</measure> 6 <g ref="#longHyphen" n="3"/>
                             <unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#RF">2/9</supplied></unclear> Paid</item>
 
                         <!-- LINE_04: Hanna Burr 30 2/9 Paid  -->
-                        <item><persName ref="#HannaBurr"> Hanna Burr</persName> <!-- RP:2017-01-15: Check this is person's name and not organization. -->
+                        <item><persName ref="#HannaBurr"> Hanna Burr</persName>
+                            <!-- RP:2017-01-15: Check this is person's name and not organization. -->
                             <g ref="#longHyphen" n="3"/>
                             <measure quantity="30.0">30</measure><g ref="#longHyphen" n="3"/>
                             <unclear reason="illegible" unit="words" quantity="1"><supplied
@@ -524,7 +531,9 @@
             </div>
             <!-- PAGE 5-->
             <div type="page">
-                <facimile><graphic url="Bartram-Thomas_Vol-001_1801-1819_005.jpg"/></facimile>
+                <facimile>
+                    <graphic url="Bartram-Thomas_Vol-001_1801-1819_005.jpg"/>
+                </facimile>
                 <div type="group">
                     <!-- LINE_01: October 1801 Credit -->
                     <head>
@@ -567,11 +576,15 @@
             </div>
             <!--RF RP:2017-01-14: The above section is unfinshed  (pages 3-5). Moving forward to page 6 to begin expected account log markup.-->
             <!-- PAGE 6-->
+            <!-- RP:2017-01-17: The encoding of the section below this point has been proof-read. -->
             <div type="page">
-                <facimile><graphic url="Bartram-Thomas_Vol-001_1801-1819_006.jpg"/></facimile>
+                <facimile>
+                    <graphic url="Bartram-Thomas_Vol-001_1801-1819_006.jpg"/>
+                </facimile>
                 <div type="group">
                     <head>
-                        <persName ref="#JohnWheeler">John Wheeler</persName> <g ref="#afterName"/>
+                        <persName ref="#JohnWheeler">John Wheeler</persName>
+                        <g ref="#afterName"/>
                     </head>
                     <list type="entry">
                         <head><date when="1801-04-10">April 10 1801</date></head>
@@ -582,17 +595,19 @@
                         </item>
                         <item><g ref="#stItem"/>
                             <measure commodity="butter" quantity="6" unit="lb">Six pound Butter at
-                                1/1</measure> <g ref="#longHyphen" n="2"/>
+                                1/1</measure>
+                            <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" quantity="000601">0 6 1</measure>
                         </item>
                         <item><g ref="#stItem"/>
                             <measure commodity="butter" quantity="4">Four <unclear
                                     reason="illegible" unit="chars" quantity="4"/>
-                                <g ref="#ditto"/><add resp="#RF">Butter</add> at 1/1</measure> 
-                                <g ref="#longHyphen" n="3"/>
+                                <g ref="#ditto"/><add resp="#RF">Butter</add> at 1/1</measure>
+                            <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" quantity="000601">0 4 3</measure>
                         </item>
                     </list>
+                    <!-- RP:2017-01-17: The encoding of the section above this point has been proof-read. -->
                     <list type="entry">
                         <head>
                             <date when="1801-11">November 1801</date>
