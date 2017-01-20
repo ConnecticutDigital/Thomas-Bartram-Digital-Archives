@@ -2,8 +2,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-   xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0"
+   version="2.9.1"
+   xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -26,6 +29,7 @@
    </teiHeader>
    <text>
       <body>
+         <!--<schemaSpec ident="bartramODD" start="TEI teiCorpus" prefix="tei">-->
          <schemaSpec ident="bartramODD" start="TEI teiCorpus" prefix="tei">
             <!-- Required Modules -->
             <moduleRef key="tei"/>
@@ -33,7 +37,7 @@
                include="author date desc graphic p pubPlace resp respStmt title head list item note measure choice sic reg unclear add"/>
             <moduleRef key="header"
                include="authority availability handNote idno license principal profileDesc publicationStmt sourceDesc sponsor titleStmt edition editionStmt editorialDecl encodingDesc fileDesc"/>
-            <moduleRef key="textstructure" include="back div"/>
+            <moduleRef key="textstructure" include="TEI back div"/>
             <!-- Optional Modules -->
             <moduleRef key="namesdates"
                include="addName forename genName geo listPerson listPlace location persName person place surname"/>
@@ -171,6 +175,8 @@
                   <attDef ident="quantity" mode="replace" usage="req">
                      <datatype>
                         <dataRef key="teidata.numeric"/><!-- If flagged: because of numbers starting with 0 -->
+                        <!--2017-01-20 ebb: The teidata.numeric type has been deprecated, so you want to find an alternate w3c datatype.
+                           We talked about this in Council and the idea is we want to not be duplicating existing datatypes in the w3c.-->
                      </datatype>
                   </attDef>
                   <attDef ident="unit" mode="replace" usage="req">
@@ -273,26 +279,17 @@
                      </attDef>
                </attList>
             </elementSpec>
-            <elementSpec ident="choice" module="core" mode="change">
-               <constraintSpec scheme="isoschematron" ident="oddSpellingReg">
+           
+          <constraintSpec scheme="isoschematron" ident="unusualSpelling">
                   <constraint>
                      <sch:rule context="tei:choice">
-                        <sch:assert test="child::reg">
-                           The choice element must contain a reg element.
+                        <sch:assert test="count(child::tei:reg) = 1 and count(child::tei:sic) = 1">
+                           The choice element must contain both a reg and a sic element.
                         </sch:assert>
                      </sch:rule>
                   </constraint>
                </constraintSpec>
-               <constraintSpec scheme="isoschematron" ident="oddSpellingSic">
-                  <constraint>
-                     <sch:rule context="tei:choice">
-                        <sch:assert test="child::sic">
-                           The choice element must contain a sic element.
-                        </sch:assert>
-                     </sch:rule>
-                  </constraint>
-               </constraintSpec>
-            </elementSpec>
+              
             
             <!-- Sample schematron rule for ODD:
           <constraintSpec scheme="isoschematron" ident="pair_geos">
