@@ -2,11 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-   version="2.9.1"
-   xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,7 +26,6 @@
    </teiHeader>
    <text>
       <body>
-         <!--<schemaSpec ident="bartramODD" start="TEI teiCorpus" prefix="tei">-->
          <schemaSpec ident="bartramODD" start="TEI teiCorpus" prefix="tei">
             <!-- Required Modules -->
             <moduleRef key="tei"/>
@@ -91,7 +87,7 @@
                         <valItem ident="page"/>
                         <valItem ident="group"/>
                      </valList>
-                  </attDef> 
+                  </attDef>
                   <attDef ident="subtype" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.word"/>
@@ -100,7 +96,7 @@
                         <valItem ident="credit"/>
                         <valItem ident="debit"/>
                      </valList>
-                  </attDef> 
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="forename" module="namesdates" mode="change">
@@ -128,13 +124,14 @@
                         <valItem ident="#ditto"/>
                         <valItem ident="#afterName"/>
                         <valItem ident="#stItem"/>
+                        <valItem ident="#currency"/>
                      </valList>
                   </attDef>
                   <attDef ident="n" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.numeric"/>
                      </datatype>
-                     </attDef>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="list" module="core" mode="change">
@@ -171,7 +168,7 @@
                      <datatype>
                         <dataRef key="teidata.word"/>
                      </datatype>
-                     </attDef>
+                  </attDef>
                   <attDef ident="quantity" mode="replace" usage="req">
                      <datatype>
                         <dataRef key="teidata.numeric"/><!-- If flagged: because of numbers starting with 0 -->
@@ -212,7 +209,7 @@
                      <datatype>
                         <dataRef key="teidata.word"/>
                      </datatype>
-                     </attDef>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="place" module="namesdates" mode="change">
@@ -274,23 +271,48 @@
                   </attDef>
                   <attDef ident="quantity" mode="replace" usage="req">
                      <datatype>
-                        <dataRef key="teidata.numeric"/>
+                        <dataRef key="teidata.numeric"/><!-- If flagged: because of numbers starting with 0 -->
+                        <!--2017-01-20 ebb: The teidata.numeric type has been deprecated, so you want to find an alternate w3c datatype.
+                           We talked about this in Council and the idea is we want to not be duplicating existing datatypes in the w3c.-->
                      </datatype>
-                     </attDef>
+                  </attDef>
                </attList>
             </elementSpec>
-           
-          <constraintSpec scheme="isoschematron" ident="unusualSpelling">
-                  <constraint>
-                     <sch:rule context="tei:choice">
-                        <sch:assert test="count(child::tei:reg) = 1 and count(child::tei:sic) = 1">
-                           The choice element must contain both a reg and a sic element.
-                        </sch:assert>
-                     </sch:rule>
-                  </constraint>
-               </constraintSpec>
-              
-            
+
+            <constraintSpec scheme="isoschematron" ident="unusualSpelling">
+               <constraint>
+                  <sch:rule context="tei:choice">
+                     <sch:assert test="count(child::tei:reg) = 1 and count(child::tei:sic) = 1"> The
+                        choice element must contain both a reg and a sic element. </sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="isoschematron" ident="unclearText">
+               <constraint>
+                  <sch:rule context="tei:unclear">
+                     <sch:assert test="current()[@reason][@unit][@quantity]"> The
+                        unclear element must have a reason, unit, and quantity attribute.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="isoschematron" ident="suppliedResp">
+               <constraint>
+                  <sch:rule context="tei:supplied">
+                     <sch:assert test="current()[@resp]"> The
+                        supplied element must have a resp attribute.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="isoschematron" ident="addResp">
+               <constraint>
+                  <sch:rule context="tei:add">
+                     <sch:assert test="current()[@resp]"> The
+                        supplied element must have a resp attribute.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+<!-- RP RF:2017-01-21: Continue writing schematron constraints: date or persName inside head, etc.... -->
+
             <!-- Sample schematron rule for ODD:
           <constraintSpec scheme="isoschematron" ident="pair_geos">
              <constraint>
