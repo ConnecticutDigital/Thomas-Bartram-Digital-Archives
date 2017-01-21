@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+templates
+
+<!--FOR NEW ENTRY-->
+<list type="entry">
+    <head when="1802-04">April 1802</head>
+    <item>
+        <g ref="#st_item"/> Fix Plow Plates <g ref="#longHyphen" n="3"/>
+        <measure type="currency" unit="£sd" quantity="000006">0 0 6</measure>
+    </item>
+    
+<!-- Unclear-->
+    <unclear reason="illegible" unit="words" quantity="2"/>
+ 
+    <!-- Unclear with GUESS text-->
+    <unclear reason="illegible" unit="words" quantity="2"><supplied resp="#RF">Bulk hair</supplied>
+    
+<!-- Unclear with MISPELLED text-->
+        <choice><sic>Ballance</sic><reg resp="#RF">Balance</reg></choice>
+      
+<!-- Unclear with STRIKETHROUGH text-->
+        <unclear reason="strikethrough" unit="words" quanity="5">
+        
+<!-- MARKS BEFORE TEXT 
+                To which appears at start of every entry-->
+    <g ref="#st_item"/>
+
+<!-- MARKS AFTER TEXT-->
+            <g ref="#afterName"/>
+    
+<!-- Hyphens or dashes-->
+    <g ref="#longHyphen" n="5"/>
+        
+<!-- Commodity: pig, board, butter-->
+ <measure commodity="pig" quantity="2" unit="whole">2 Pigs</measure>
+    
+<!-- Ditto-->
+            <g ref="#ditto"/><add resp="#RF">Butter</add>
+    
+<!-- Person's Name-->
+            <persName ref="#JobBartram"> Job Bartram </persName>
+            
+<!-- Currency-->
+            
+<!-- Currency-->
+            
+<!-- Currency-->
+            
+<!--Currency-->
+
+<!--Currency-->
+
+<!--Currency-->
+            
+            
+
+
+
+     <measure type="currency" unit="£sd" quantity="030600"> 3 6 4</measure>
+    
+    
+    - If there is a date or a person Bartram traded with, then: <head>.
+        - The name on top of page who traded with Bartram: <persName ref="#BrewsterCaleb">Caleb Brewster</persName>
+        - Every new line item starts with: <item>
+            - If there is another date or name, then need another: <head>
+                -character after the name seems like "Do": <char xml:id="afterName">
+                    - Currency usually on every page 3 pounds, 6 shilling, 4 pence: <measure type="currency" unit="£sd" quantity="030600"> 3 6 4</measure>
+                    - Dollars: <measure type="currency" unit="dollars" quantity="19.00">19 Dollars
+                        - Every commodity gets coded: <measure commodity="hens" quantity="6" unit="lb">6 pound Hens</measure>
+                        - Illegible script, you guess a word and want your name there? <choice><sic>Fraiming</sic><reg resp="#RF">Framing</reg></choice>
+                        - The merchant got lazy and wrote 'ditto' so you add word: <g ref="#ditto"/><add resp="#RF">boards</add>
+                        - You can't read the text at all and can't guess: <unclear reason="illegible"/>
+                        
+                        Hyphens: <g ref="#longHyphen" n="4"/>
+                        
+                        <g ref="#st_item">
+                            
+                            unclear reason="strikethrough" unit="words" quanity="5"><supplied resp="#RF"                             >
+                                <unclear reason="strikethrough"><supplied resp="#RF"                             >9</supplied></unclear>
+                                    
+                                    More than one unclear word:  <unclear reason="illegible" unit="words" quantity="3"/>
+                                    - There are 3 dashes after text <g ref="#longHyphen" n="3"/>
+                                    
+    
+    
