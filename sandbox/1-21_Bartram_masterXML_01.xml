@@ -671,8 +671,7 @@
                         <head>
                             <date when="1802-11">Nov 1802</date>
                         </head>
-                        <item><g ref="#st_item"/> Mend <unclear reason="illegible" unit="words"
-                                quantity="2"/>
+                        <item><g ref="#st_item"/> Mend <unclear reason="illegible" unit="words" quantity="2"/>
                             <g ref="#longHyphen" n="1"/>
                             <measure type="currency" unit="£sd" quantity="000106">0 1
                             6</measure></item>
@@ -705,8 +704,7 @@
                             <date when="1803-08">August 1803</date></head>
                         <item>
                             <g ref="#st_item"/>
-                            2 <unclear reason="illegible" unit="words" quantity="2">
-                                <supplied resp="#RF">Bulk hair</supplied>
+                            2 <unclear reason="illegible" unit="words" quantity="2"><supplied resp="#RF">Bulk hair</supplied>
                             </unclear>
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" quantity="000306">  3 6</measure>
@@ -738,12 +736,122 @@
                             <g ref="#st_item"/>
                             <measure commodity="pig" quantity="2" unit="whole">2 Pigs</measure>
                             <g ref="#longHyphen" n="5"/>
-                            <measure type="currency" unit="£sd" quantity="001200">0 12 0</measure>
-                            
-                            
+                            <measure type="currency" unit="£sd" quantity="001200">0 12 0</measure></item>
+                        <item>
+                            <g ref="#st_item"/>
+                            Hay 4 1/4 <unclear reason="illegible"/> Hundred at 4/6
+                            <measure type="currency" unit="£sd" quantity="011902">0 19 2</measure></item></list>
+                    
+                    <list type="entry">
+                        <head when="July">July <unclear reason="illegible"/></head>
+                        <item>
+                            <g ref="#st_item"/> 12 Pounds &amp; <unclear reason="illegible"/> Veal
+                            <measure type="currency" unit="£sd" quantity="000406">0 4 6</measure>
                         </item>
-                    </list>
+                        <item>
+                            <g ref="#st_item"/>
+                            6 4 poind pork at <unclear reason="illegible"/>
+                            <g ref="#longHyphen" n="5"/>
+                            <measure type="currency" unit="£sd" quantity="000505">0 5 5</measure></item>
                         
+                        <list type="entry">
+                            <head when="1806-01">January 1806</head>
+                            <item>
+                            <g ref="#st_item"/> Make <choice><sic>Nife</sic><reg resp="#RF">Knife</reg></choice>Cut Straw
+                                <measure type="currency" unit="£sd" quantity="000505">0 1 0</measure> </item>
+                            
+                            <item>
+                                <g ref="#st_item"/> Set 2 Shews by <persName ref="#IsiahJennings">Isiah Jennings</persName>
+                                <measure type="currency" unit="£sd" quantity="000105">  1 0</measure></item>
+                            
+                            <list type="entry">
+                                <head when="1806-02-06">February 6 1806</head>
+                                <item>
+                                <g ref="#st_item"/> Mend Slay irons &amp; fix hook
+                                    <g ref="#longHyphen" n="2"/>
+                                    <measure type="currency" unit="£sd" quantity="000009">0 0 9</measure>
+                                </item>
+                        
+                                <list type="entry">
+                                    <head when="1806">1806</head> <!-- Unclear month and day-->
+                                    <item>
+                                        <g ref="#st_item"/> Strap &amp;
+                                        <unclear reason="illegible" unit="words" quantity="4"/>
+                                        <g ref="#longHyphen" n="2"/>
+                                        <measure type="currency" unit="£sd" quantity="000200">0 2 0</measure>
+                                    </item>
+                                    
+                                    <list type="entry">
+                                        <head when="1806-07-28">July 28 1806</head> <!-- Unclear month and day-->
+                                        <item>
+                                            <g ref="#st_item"/> Set one Shew
+                                            <unclear reason="illegible" unit="words" quantity="4"/>
+                                            <g ref="#longHyphen" n="4"/>
+                                            <measure type="currency" unit="£sd" quantity="000006">0 0 6</measure>
+                                        </item>
+                                        
+                                        <list type="entry">
+                                            <head when="1806-12">Dec 1806</head>  
+                                            <item>
+                                                <g ref="#st_item"/> Shewing one yoak oxen
+                                                <unclear reason="illegible" unit="words" quantity="4"/>
+                                                <g ref="#longHyphen" n="2"/>
+                                                <measure type="currency" unit="£sd" quantity="001000">0 10 0</measure>
+                                            </item>
+                                            <item>
+                                                <g ref="#st_item"/> one pair hinges
+                                                <g ref="#longHyphen" n="2"/>
+                                                <measure type="currency" unit="£sd" quantity="000106">0 1 6</measure>
+                                            </item>
+                                            <item>
+                                                <g ref="#st_item"/> 
+                                                Mind <unclear reason="illegible" unit="words" quantity="2"/>
+                                                
+                                            </item>
+                                            <item>
+                                            <head when="1806-12">Dec 1806</head>
+                                                <g ref="#st_item"/> Shewing horse all round Steel Toes &amp; New Shews my Steel
+                                                <measure type="currency" unit="£sd" quantity="000006">0 0 6</measure>
+                                            </item>
+                                            <item>
+                                                <g ref="#st_item"/> 
+                                                3<unclear reason="illegible" unit="words" quantity="1"/> Dutch oven
+                                                <g ref="#longHyphen" n="2"/>
+                                                <measure type="currency" unit="£sd" quantity="000009">0 0 9</measure></item>
+                                            
+                                            <list type="entry">
+                                                <head when="1807-01-15">Dec 1806</head>  
+                                                <item>
+                                                    <g ref="#st_item"/> 
+                                                    <unclear reason="illegible" unit="words" quantity="3"/> iron on
+                                                    <unclear reason="illegible" unit="words" quantity="2"/>
+                                                    <measure type="currency" unit="£sd" quantity="000300">0 3 0</measure></item>
+                                                <item>
+                                                    <g ref="#st_item"/> 
+                                                    <unclear reason="illegible" unit="words" quantity="2"/>
+                                                    <measure type="currency" unit="£sd" quantity="000106">0 1 6</measure>
+                                                </item>
+                                                
+                                                <list type="entry">
+                                                    <head when="1807-12-08">Dec 1806</head>
+                                                    <item>Showing one yoak oxen 
+                                                        <g ref="#longHyphen" n="1"/></item>
+                                                    <item>4 Shews           <unclear reason="illegible" unit="words" quantity="1"/></item>
+                                                    <item>
+                                                        <g ref="#st_item"/> mend 
+                                                        <unclear reason="illegible" unit="words" quantity="5"/>
+                                                        <measure type="currency" unit="£sd" quantity="000300">0 3 0</measure>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </item>
+                                                    
+                                                    
+                             
+                                          
+                                                    <measure type="currency" unit="£sd" quantity="001000">0 10 0</measure>
+                                            
                     
                 </div>
             </div>
