@@ -32,11 +32,11 @@
             <moduleRef key="core"
                include="author date desc graphic p pubPlace resp respStmt title head list item note measure choice sic reg unclear add"/>
             <moduleRef key="header"
-               include="authority availability handNote idno license principal profileDesc publicationStmt sourceDesc sponsor titleStmt edition editionStmt editorialDecl encodingDesc fileDesc"/>
-            <moduleRef key="textstructure" include="TEI back div"/>
+               include="teiHeader authority availability handNote idno licence principal profileDesc publicationStmt sourceDesc sponsor titleStmt edition editionStmt editorialDecl encodingDesc fileDesc"/>
+            <moduleRef key="textstructure"/><!-- include="TEI back div" -->
             <!-- Optional Modules -->
             <moduleRef key="namesdates"
-               include="addName forename genName geo listPerson listPlace location persName person place surname"/>
+               include="orgName placeName addName forename genName geo listPerson listPlace listOrg location persName person place surname"/>
             <moduleRef key="gaiji" include="g char charDecl charName"/>
             <moduleRef key="figures" include="figure"/>
             <moduleRef key="msdescription"
@@ -54,23 +54,24 @@
                         <valItem ident="#RF"/>
                         <valItem ident="#RP"/>
                         <valItem ident="#SG"/>
+                        <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="date" module="core" mode="change">
                <attList>
-                  <attDef ident="when" mode="replace" usage="req">
+                  <attDef ident="when" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.temporal.iso"/>
                      </datatype>
                   </attDef>
-                  <attDef ident="from-iso" mode="replace" usage="req">
+                  <attDef ident="from-iso" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.temporal.iso"/>
                      </datatype>
                   </attDef>
-                  <attDef ident="to-iso" mode="replace" usage="req">
+                  <attDef ident="to-iso" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.temporal.iso"/>
                      </datatype>
@@ -185,6 +186,8 @@
                         <valItem ident="dollars"/>
                         <valItem ident="ft"/>
                         <valItem ident="lb"/>
+                        <valItem ident="whole"/>
+                        <valItem ident="bought"/>
                      </valList>
                   </attDef>
                </attList>
@@ -214,7 +217,7 @@
             </elementSpec>
             <elementSpec ident="place" module="namesdates" mode="change">
                <attList>
-                  <attDef ident="resp" mode="replace" usage="req">
+                  <attDef ident="xml:id" mode="replace" usage="req">
                      <datatype>
                         <dataRef key="teidata.word"/>
                      </datatype>
