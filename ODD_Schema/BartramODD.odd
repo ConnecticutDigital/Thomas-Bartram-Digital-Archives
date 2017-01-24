@@ -282,7 +282,8 @@
                </attList>
             </elementSpec>
 
-            <constraintSpec scheme="isoschematron" ident="unusualSpelling">
+            <!--2017-01-24:RJP: NOT FIRING!
+               <constraintSpec scheme="isoschematron" ident="unusualSpelling">
                <constraint>
                   <sch:rule context="tei:choice">
                      <sch:assert test="count(child::tei:reg) = 1 and count(child::tei:sic) = 1"> The
@@ -290,6 +291,43 @@
                   </sch:rule>
                </constraint>
             </constraintSpec>
+            -->
+            <constraintSpec scheme="isoschematron" ident="divPage">
+               <constraint>
+                  <sch:rule context="tei:div[@type='page']">
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="current()[@facs]"> The
+                        div element indicating a transcribed/encoded page must have a facs attribute pointing to the manuscript image.</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="count(child::tei:div[@type='group']) ge 1"> The
+                        div element indicating a transcribed/encoded page must have at least one child div @type="group", which contains the group of entries for any single account.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="isoschematron" ident="divGroup">
+               <constraint>
+                  <sch:rule context="tei:div[@type='group']">
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="count(child::tei:head) eq 1"> Every div @type="group" must have a child head element.</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="count(child::tei:list[@type='entry']) ge 1"> Every div @type="group" must have at least one child list @type="entry".</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            
+            <constraintSpec scheme="isoschematron" ident="lists">
+               <constraint>
+                  <sch:rule context="tei:list">
+                     <sch:report test="current()[not(child::tei:head)][parent::div[@type='group'][not(child::tei:head)]]"> This list element must have a child head element because the parent div @type="group" does not have a head element.</sch:report>
+                     <sch:assert test="count(child::tei:item) ge 1"> Every list must have at least one child item element.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            
+            <constraintSpec scheme="isoschematron" ident="date">
+               <constraint>
+                  <!-- RJP:2017-01-24:Rule not firing! --><sch:rule context="tei:date[descendant::tei:div]">
+                     <sch:assert test="current()[@when]"> Every date element inside of page transcription must get a when attribute with a iso standard value.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            
             <constraintSpec scheme="isoschematron" ident="unclearText">
                <constraint>
                   <sch:rule context="tei:unclear">

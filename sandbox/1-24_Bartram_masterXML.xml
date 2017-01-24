@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><!--RP:2017-01-21: Why is our ODD not allowing us to have the TEI element or the teiHeader element-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
