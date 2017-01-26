@@ -241,10 +241,9 @@
                             <measure type="currency" unit="£sd" quantity="020500">2 5 0</measure>
                         </item>
                    <!--     RF:2017-1-25 PROOF-READING I STOPPED HERE TO FIX BAD CODING POST ODD COMPLETION-->
-                        <item>
-                        <measure commodity="shingles" quantity="5000" unit="whole">5 
-                            <unclear reason="illegible" unit="chars" quantity="3"><supplied resp="#RF">2/1</supplied></unclear> Thousand
-                         3 feet Shingles</measure>
+                        
+                            <measure commodity="shingles" quantity="5000" unit="whole">5 Thousand</measure>
+                        <unclear reason="illegible" unit="char" quantity="1"><supplied resp="#RF"> feet Shingles</measure>
                             <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" quantity="270000">27 0 0</measure>
                         </item>
@@ -253,7 +252,7 @@
 
                         <!-- LINE_19: 6 do 2 feet at - 3 Dollars -->
                         <item>
-                            <measure commodity="shingles" quantity="6000" unit="ft">6 <g ref="#ditto"/><add
+                            <measure commodity="shingles" quantity="6000">6 <g ref="#ditto"/><add
                                     resp="#RF">thousand</add> 2 feet at</measure>
                             <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="dollars" quantity="3.00">3
@@ -263,7 +262,7 @@
 
                         <!-- LINE_20: Nailes - -->
                         <item>
-                            <measure commodity="nails" quantity="0" unit="whole">
+                            <measure commodity="nails">
                                 <choice>
                                     <sic>Nailes</sic>
                                     <reg resp="#RF">Nails</reg>
@@ -273,18 +272,15 @@
                             <measure type="currency" unit="£sd" quantity="071000">7 10 0</measure>
                         </item>
 
-                        <!-- LINE_21: glass - 25  -->
-                        <item> glass - 25 dollars
-                            <g ref="#longHyphen" n="2"/>
+                        <!-- LINE_21: glass - 25 (illegible) -->
+                        <item> glass - 25 <unclear reason="illegible"/>
                             <measure type="currency" unit="£sd" quantity="071000">7 10
                             0</measure></item>
 
                         <!-- LINE_22: Carting brick -->
-                        <item> Carting brick  <g ref="#longHyphen" n="4"/>
-                            <measure type="currency" unit="£sd" quantity="040000">4
+                        <item> Carting brick <measure type="currency" unit="£sd" quantity="040000">4
                                 0 0 </measure>
-                           </item>
-                        
+                            <g ref="#longHyphen" n="4"/></item>
 
                         <!-- LINE_22: Joiners &amp; Mason bills -->
                         <item>Joiners &amp; Mason bills <measure type="currency" unit="£sd"
@@ -293,20 +289,15 @@
 
 
                         <!-- LINE_23: paid ILLEGIBLE nails & ILLEGIBLE -->
-                        <item> Paid <unclear reason="illegible" quantity="8" unit="chars"/> <choice><sic>Nailes</sic>
-                            <reg resp="#RF">Nails</reg>
-                        </choice> &amp;<unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">Glass</supplied></unclear>
-                            <g ref="#longHyphen" n="2"/>
+                        <item> paid <unclear reason="illegible"/> Nailes &amp; <unclear
+                                reason="illegible"/>
                             <measure type="currency" unit="£sd" quantity="0010100">1 1 0/</measure>
                         </item>
 
                         <!-- LINE_24: ILLEGIBLE Nailes Bill & ILLEGIBLE-->
                         <item>
-                            <unclear reason="illegible" unit="words" quantity="1"/>
-                          <choice><sic>Nailes</sic><reg resp="#RF">Nails</reg></choice> 
-                            <unclear reason="illegible" unit="words" quantity="3"/>
-                            <measure type="currency" unit="£sd" quantity="060000">6 0 0</measure>
-                            
+                            <measure type="currency" unit="£sd" quantity="120000">12 0 0</measure>
+                            <g ref="#longHyphen" n="4"/>
                         </item>
 
                         <!-- LINE_25: Stone -->
@@ -316,84 +307,80 @@
 
                         <!-- LINE_26: inelliglbe Stone -->
                         <item>
-                            <unclear reason="illegible" unit="words" quantity="1"/> Stone
-                            <g ref="#longHyphen" n="2"/>
+                            <unclear reason="illegible"/>Stone <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" quantity="080000">8 0
                             0</measure></item>
 
                         <!-- LINE_27: 15 Hundred illegible Boards -->
-                        <item> 15 Hundred feed Boards 
-                            <g ref="#longHyphen" n="1"/>
-                            <measure type="currency" unit="£sd" quantity="070000">7 0 0</measure></item>
+                        <item> 15 Hundred <unclear reason="illegible"/>Boards <measure
+                                type="currency" unit="£sd" quantity="070000">7 0 0</measure></item>
 
                         <!-- LINE_28: text -->
                         <item> Making Fence &amp; Nailes <measure type="currency" unit="£sd"
                                 quantity="040000">4 0 0</measure></item>
 
                         <!-- LINE_29: paints illegible  -->
-                        <item> paints &amp; <unclear reason="illegible" unit="words" quantity="2"/>
+                        <item> paints &amp;<unclear reason="illegible"/><unclear reason="illegible"/>
                             <measure type="currency" unit="£sd" quantity="150000">15 0
                             0</measure></item>
 
                         <!-- LINE_30: parts Stones &amb; illegible illegibl -->
-                        <item> 
-                            <unclear reason="illegible" unit="words" quantity="1"/> Stones &amp;
-                            <unclear reason="illegible" unit="words" quantity="2"/>
+                        <item> parts Stones &amp;<unclear reason="illegible"/>
+                            <unclear reason="illegible"/>
                             <measure type="currency" unit="£sd" quantity="021000">2 10
                             0</measure></item>
 
                         <!-- LINE_31: Drying illegible &amp; illegible -->
                         <item> Drying <unclear reason="illegible" unit="words" quantity="3"/>
-                            <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" quantity="050000">5 0
                             0</measure></item>
 
                         <!-- LINE_31: floor Boards -->
                         <item> floor Boards <measure type="currency" unit="£sd" quantity="060000">6
-                                </measure></item>
+                                0 0</measure></item>
 
                         <!-- LINE_32: Nailes for ILLEGIBLE & ILLEGIBLE ILLEGIBLE -->
                         <item>
                             <choice>
                                 <sic>Nailes</sic>
                                 <reg resp="#RF">Nails</reg>
-                            </choice> for floor &amp; <unclear reason="illegible" quantity="2" unit="words"><supplied
+                            </choice> for floor &amp; <unclear reason="illegible"><supplied
                                     resp="#RF">inside work</supplied></unclear>
                             <measure type="currency" unit="£sd" quantity="030000">3 0
                             0</measure></item>
 
                         <!-- LINE_33: ILLEGIBLE for ILLEGIBLE -->
                         <item>hinges for Doors <g ref="#longHyphen" n="3"/>
-                            <measure type="currency" unit="£sd" quantity="011000">1 10 --
-                            </measure></item>
+                            <measure type="currency" unit="£sd" quantity="011000">1 10
+                            0</measure></item>
 
                         <!-- LINE_34: ILLEGIBLE BOARDS OF SHORT SHINGLES ILLEGIBLE  -->
                         <item>
                             <unclear reason="illegible" unit="words" quantity="1"/> Boards of Short
                             Shingles <unclear reason="illegible" unit="words" quantity="1"/>
-                           </item>
+                            <measure type="currency" unit="£sd" quantity="000000">0 0
+                            0</measure></item>
 
                         <!-- LINE_35: 2 thousand Brick  -->
-                        <item><measure commodity="bricks" quantity="2000" unit="whole">2 thousand Brick</measure>
+                        <item>Two thousand <measure commodity="bricks" quantity="6" unit="lb"
+                                >Brick</measure>
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" quantity="101000">10 10
-                            </measure></item>
+                            0</measure></item>
 
                         <!-- LINE_36: Boarding ILLEGIBLE & ILLEGIBLE bill  -->
-                        <item> Boarding <unclear reason="illegible" unit="words" quantity="1"/> &amp; 
-                            <unclear reason="illegible" unit="words" quantity="2"/>bill <measure type="currency" unit="£sd"
+                        <item> Boarding <unclear reason="illegible"/> &amp; <unclear
+                                reason="illegible"/>bill <measure type="currency" unit="£sd"
                                 quantity="300000">30 0 0</measure></item>
                     </list>
                     <list type="entry" subtype="total">
                         <!-- LINE_37: 315011 underlined  -->
                         <item>
                             <persName ref="#ThomasBartram">Thomas Bartram</persName>
-                            <!-- RF 2017-01-26 investigate character after name -->
-                            <measure type="currency" unit="£sd" quantity="3150011">3150 11</measure>
+                            <measure type="currency" unit="£sd" quantity="3150011">30 5011</measure>
                         </item>
                     </list>
                 </div>
-                <!-- Proof-read stopped here on 2017-01-26 with Becca  -->
                 <div type="group">
                     <!-- LINE_39: ILLEGIBLE Urier Buckley  -->
                     <head>
@@ -404,19 +391,21 @@
                     <list type="entry">
                         <!-- LINE_40: To dash dash 6 1/2 of ILLEGIBLE 4 dashes at ILLEGIBLE  -->
                         <item><g ref="#stItem"/>
-                            <g ref="#longHyphen" n="2"/><measure commodity="flaxseed" quantity="6.5" unit="whole">6 1/2 of flax</measure>
-                            <g ref="#longHyphen" n="4"/> at <measure type="currency" unit="£sd" quantity="010000">1</measure></item>
+                            <g ref="#longHyphen" n="2"/><measure commodity="flaxseed" quantity="6.5"
+                                >6 1/2 of flax</measure>
+                            <g ref="#longHyphen" n="4"/> at <measure type="currency"
+                            >1</measure></item>
                         <!-- LINE_41: To 6 3/4  -->
                         <item>
-                            <g ref="#stItem"/> <g ref="#ditto"/><add resp="#RF"><measure commodity="flaxseed" quantity="6.75" unit="whole">6 3/4 of flax</measure></add>
-                            
+                            <g ref="#stItem"/>
+                            <unclear reason="illegible" unit="chars" quantity="2"/>
+                            <measure quantity="6.75">6 3/4</measure>
                         </item>
                         <!-- LINE_42: To 9   -->
-                        
                         <item>
-                            <g ref="#stItem"/> <g ref="#ditto"/><add resp="#RF"><measure commodity="flaxseed" quantity="9" unit="whole">9 of flax</measure></add>
-                            
-                            
+                            <g ref="#stItem"/>
+                            <unclear reason="illegible" unit="chars" quantity="2"/>
+                            <measure quantity="9">9</measure>
                         </item>
                     </list>
                 </div>
@@ -449,9 +438,9 @@
                         <!-- LINE_02: T Bartram dash 41 1/4 2/9 Paid  -->
                         <item><persName ref="#ThomasBartram">T Bartram</persName>
                             <g ref="#longHyphen" n="1"/>
-                            41 1/4
+                            <measure quantity="41.25">41 1/4</measure>
                             <g ref="#longHyphen" n="1"/>
-                            <unclear reason="illegible" unit="chars" quantity="3"><supplied
+                            <unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#RF">2/9</supplied></unclear> Paid</item>
 
                         <!-- LINE_03: ILLEGIBLE Squire dash dash 6. dash dash dash 2/9 Paid  -->
@@ -460,58 +449,61 @@
                                 <!-- Missing first name -->Squire</persName>
                             <!-- RP:2017-01-15: Check this is person's name and not organization. -->
                             <g ref="#longHyphen" n="3"/>
-                            6 6 <g ref="#longHyphen" n="3"/>
-                            <unclear reason="illegible" unit="chars" quantity="3"><supplied
-                                    resp="#RF">2/9</supplied></unclear></item>
+                            <measure quantity="41.25">6</measure> 6 <g ref="#longHyphen" n="3"/>
+                            <unclear reason="illegible" unit="words" quantity="1"><supplied
+                                    resp="#RF">2/9</supplied></unclear> Paid</item>
 
                         <!-- LINE_04: Hanna Burr 30 2/9 Paid  -->
                         <item><persName ref="#HannaBurr"> Hanna Burr</persName>
                             <!-- RP:2017-01-15: Check this is person's name and not organization. -->
                             <g ref="#longHyphen" n="3"/>
-                         30<g ref="#longHyphen" n="3"/>
-                            <unclear reason="illegible" unit="chars" quantity="3"><supplied
+                            <measure quantity="30.0">30</measure><g ref="#longHyphen" n="3"/>
+                            <unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#RF">2/9</supplied></unclear> Paid</item>
 
                         <!-- LINE_05: Eben Bartarm 26 ELLIGIBLE fraction No hay  -->
                         <item><persName ref="#EbenBartram"> Eben Bartram</persName>
-                            26 <unclear reason="illegible" unit="chars" quantity="3"><supplied
-                                resp="#RF">3/4</supplied></unclear>
-                          No hay 600
-                        </item>
+                            <measure quantity="26.0">30</measure>No hay</item>
 
                         <!-- LINE_06: John Wheeler 10 No hay  -->
-                        <item><persName ref="#JohnWheeler">John Wheeler</persName>
+                        <item><persName ref="#JohnWheeler"> John Wheeler</persName>
                             <g ref="#longHyphen" n="1"/>
-                            10 <g ref="#longHyphen" n="1"/>No hay 120</item>
+                            <measure quantity="10.0">10</measure>No hay</item>
 
                         <!-- LINE_07: Job Bartram 8 ELLIGIBLE fraction paid  -->
-                        <item><persName ref="#JobBartram">Job Bartram</persName>
-                        8 2/1 paid 420</item>
+                        <item><persName ref="#JobBartram"> Job Bartram </persName>
+                            <measure quantity="8.0">8</measure>paid</item>
 
                         <!-- LINE_08: Joseph Sturges 4 ELLIGIBLE fraction paid  -->
-                        <item><persName ref="#JobBartram">Joseph Sturges</persName>
-                            <g ref="#longHyphen" n="1"/> 4 2/ paid 818</item>
+                        <item><persName ref="#JobBartram"> Job Bartram </persName>
+                            <measure quantity="8.0">8</measure>paid</item>
 
-                        <!-- LINE_09: Andrew Wakemen 3 paid  -->
-                        <item><persName ref="#AndrewWakemen">Andrew Wakemen</persName>
-                          3 <g ref="#longHyphen" n="1"/> paid <g ref="#longHyphen" n="1"/> 30</item>
+                        <!-- LINE_09: Joseph Sturges 4 ELLIGIBLE fraction paid  -->
+                        <item><persName ref="#JobBartram"> Job Bartram </persName>
+                            <measure quantity="8.0">8</measure>paid</item>
+
+                        <!-- LINE_10: Andrew Wakemen 3 paid  -->
+                        <item><persName ref="#AndrewWakemen"> Andrew Wakemen </persName>
+                            <measure quantity="3.0">3</measure>
+                            <g ref="#longHyphen" n="1"/> paid<g ref="#longHyphen" n="1"/></item>
 
                         <!-- LINE_11: Andrew MaClery 10 paid  -->
-                        <item><persName ref="#AndrewMaClery">Andrew MaClery</persName>
-                            10 <g ref="#longHyphen" n="1"/> paid 700</item>
+                        <item><persName ref="#AndrewMaClery"> Andrew MaClery </persName>
+                            <measure quantity="10.0">10</measure>
+                            <g ref="#longHyphen" n="1"/> paid</item>
 
                         <!-- LINE_12: Andrew MaClery repeat 13 paid-->
                         <!-- LINE_13: Andrew MaClery repeat 19 paid-->
 
                         <!-- LINE_14: Eathan Shearwood 6 4 paid  -->
-                        <item><persName ref="#EathanShearwood">Eathan Shearwood</persName>
-                           6 2/<g ref="#longHyphen" n="1"/> paid</item>
+                        <item><persName ref="#Eathan Shearwood"> Andrew MaClery</persName>
+                            <measure quantity="10.0">10</measure>
+                            <g ref="#longHyphen" n="1"/> paid</item>
 
                         <!-- LINE_15: David Judson 10 paid  -->
                         <item><persName ref="#DavidJudson"> David Judson</persName>
-                            <g ref="#longHyphen" n="1"/> 18 /<g ref="#longHyphen" n="1"/>
-                            <unclear reason="strikethrough" unit="words" quantity="1"><supplied resp="#RF">No></supplied></unclear> hay
-                        </item>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure quantity="10.0">10</measure> hay</item>
                         <!-- The word 'no' crossed out  -->
 
                         <!-- LINE_16: Illegible first and last name  -->
