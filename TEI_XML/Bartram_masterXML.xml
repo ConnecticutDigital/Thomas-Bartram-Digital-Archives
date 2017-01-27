@@ -512,42 +512,34 @@
                             <g ref="#longHyphen" n="1"/> 18 /<g ref="#longHyphen" n="1"/>
                             <unclear reason="strikethrough" unit="words" quantity="1"><supplied resp="#RF">No></supplied></unclear> hay
                         </item>
-                        <!-- The word 'no' crossed out  -->
-
-                        <!-- LINE_16: Illegible first and last name  -->
-                        <item><persName ref="#____">
-                                <unclear reason="illegible"/>
-                            </persName>
-                            <measure quantity="10.0">10</measure>
-                            <g ref="#longHyphen" n="1"/> paid</item>
+ <!-- LINE_16: Illegible first and last name  -->
+                        <item>
+                            3 No hay
+                        </item>
 
                         <!-- LINE_17: Joseph Sturges and others 65 1/4 paid  -->
-                        <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others
-                                <measure quantity="65.25">65 1/4</measure> paid</item>
+                        <item><persName ref="#JosephSturges">Joseph Sturges</persName> and others
+                              65 1/4 paid</item>
 
-                        <!-- LINE_18: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
-                        <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others
-                                <measure quantity="65.25">65 1/4</measure> paid</item>
-
-                        <!-- LINE_19: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
-                        <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others
-                                <measure quantity="65.25">65 1/4</measure> paid</item>
-
-                        <!-- LINE_20: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
-                        <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others
-                                <measure quantity="65.25">65 1/4</measure> paid</item>
-
-                        <!-- LINE_21: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
-                        <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others
-                                <measure quantity="65.25">65 1/4</measure> paid</item>
-
-                        <!-- LINE_22: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
-                        <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others
-                                <measure quantity="65.25">65 1/4</measure> paid</item>
-
-                        <!-- LINE_23: NEED TO FINISH 12 MORE NAMES ON THIS PAG  -->
-                        <item><persName ref="#JosephSturges"> Joseph Sturges</persName> and others
-                                <measure quantity="65.25">65 1/4</measure> paid</item>
+                        <!-- LINE_18: -->
+                        <item><persName ref="#JosephPerry">Joseph Perry</persName>
+                                20 2/4 paid</item>
+                        
+                        <!-- RF 2017-01-26: Add unclear to persoName for first name -->
+                        <item><persName ref="MRisley">M Risley</persName>
+                            <g ref="#longHyphen" n="3"/> 4 
+                            <unclear reason="strikethrough" unit="words" quantity="1"><supplied resp="#RF">No></supplied></unclear> hay paid</item>
+                        <item><persName ref="WillThorp"></persName>Will Thorp <g ref="#longHyphen" n="3"/> 6 No hay</item> 
+                        <!-- RF 2017-01-26: Add unclear name  Canah Bult by Others?-->                   
+                        <item><persName ref="DavidHubble">David Hubble</persName> <g ref="#longHyphen" n="1"> 7 1/4 paid</g></item>                      
+                        <!-- RF 2017-01-26: Add unclear name  Calam Capt? 31 1/4 paid-->              
+                        <item><persName ref="WillThorp"></persName>Will Thorp <g ref="#longHyphen" n="3"/> 2 <g ref="#longHyphen" n="1"/></item>
+                        <!-- RF 2017-01-26: Add unclear name  Jeb Burr - 2 paid-->
+                        <!-- RF 2017-01-26: Add unclear name  Lewis? Osborn - 22 paid-->
+                        <item><persName ref="CaptAllen">Capt allen</persName> <g ref="#longHyphen" n="3"/> 5 1/4 paid</item>
+                        <item><persName ref="DavidBradley">David Bradley</persName><g ref="#longHyphen" n="2"/>19 paid</item>
+                        <item><persName ref="BradleyBulkley">Bradley Bulkley</persName><g ref="#longHyphen" n="1"/>18 paid</item>
+                        
                     </list>
                 </div>
             </div>
@@ -574,31 +566,33 @@
                         <head>
                             <date when="1802-12">December 1801</date>
                         </head>
-                        <item>By<unclear reason="illegible"/> ox<unclear reason="illegible"/> my
-                            help</item>
+                        <item>By <choice><sic>Seting</sic><reg resp="#RF">Setting</reg></choice> ox my help</item>
                     </list>
-
                     <list type="entry">
-                        <!--LINE 05 crossed out -->
-                        <!--LINE 06 long line -->
-                        <!--crossed out" -->
+                        <item><!-- RF 2017-01-26: Feb 12 1802 By Making b Flows pipe Band 023?-->
+                        <unclear reason="strikethrough" unit="words" quantity="10"/>
+                        </item></list>
+                        
+                        <list type="entry">
+                            <item><!-- RF 2017-01-26: Calf 14?-->
+                                <unclear reason="strikethrough" unit="words" quantity="3"/>
+                            </item></list>
 
-                        <head>
-                            <date when="1809-07">July 1809</date>1685 <unclear reason="illegible"
-                            /></head>
-                        <item><unclear reason="illegible"/> 222<unclear reason="illegible"/> my
-                            help</item>
-                        <item>By<unclear reason="illegible"/>
-                            <measure type="currency" unit="dollars" quantity="222.00">222
-                                Dollars</measure>
-                            <unclear reason="illegible"/><unclear reason="illegible"/></item>
-                    </list>
+<list type="entry">
+   
+        <head>
+            <date when="1809-07">July 1809</date></head>
+    <item>
+        1685 Cash<g ref="#longHyphen" n="1"/>
+            <unclear reason="illegible" unit="words" quantity="1"/>
+            <measure type="currency" unit="dollars" quantity="222.00">222 Dollars cash</measure>
+            <unclear reason="illegible" unit="words" quantity="1"/>
+            gave Seth Perry 1907 to go to N york to <choice><sic>by</sic><reg resp="#RF">buy</reg></choice> cargo</item>
+</list>
+                      
                 </div>
             </div>
-            <!--RF RP:2017-01-14: The above section is unfinshed  (pages 3-5). Moving forward to page 6 to begin expected account log markup.-->
-            
             <!-- PAGE 6-->
-            
             <!-- RP:2017-01-17: The encoding of the section below this point has been proof-read. -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_006.jpg">
                 <div type="group">
