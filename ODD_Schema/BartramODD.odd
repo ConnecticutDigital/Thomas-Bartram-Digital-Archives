@@ -188,6 +188,9 @@
                         <valItem ident="lb"/>
                         <valItem ident="whole"/>
                         <valItem ident="bought"/>
+                        <valItem ident="bushels"/>
+                        <valItem ident="bundles"/>
+                        
                      </valList>
                   </attDef>
                </attList>
@@ -202,6 +205,7 @@
                         <valItem ident="#RF"/>
                         <valItem ident="#RP"/>
                         <valItem ident="#SG"/>
+                        <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
                </attList>

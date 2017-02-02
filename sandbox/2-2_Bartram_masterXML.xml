@@ -874,8 +874,6 @@
                         </item>
                         <item>this account is passed further over</item>
                     </list>
-                </div>
-</div>
                     
 <!-- RP:2017-01-21: PAGE 7  -->
 <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_007.jpg">
@@ -959,11 +957,11 @@
                                 <measure type="currency" unit="£sd" quantity="002300">0 2 3</measure>
                             </item>
                             <item>
-                                By<measure commodity="corn" quantity=".5" unit="bushels"> Half Bushel Corn</measure>
+                                By<measure commodity="corn" quantity=".5" unit="bushel"> Half Bushel Corn</measure>
                                 <measure type="currency" unit="£sd" quantity="000300">0 3 0</measure>
                             </item>
                             <item>
-                                By <measure commodity="straw" quantity="24" unit="bundles">Straw 24 bundles</measure>
+                                By<measure commodity="straw" quantity="24" unit="bundles"> Straw 24 bundles</measure>
                                 <measure type="currency" unit="£sd" quantity="000300">0 3 0</measure>
                                 <g ref="#longHyphen" n="4"/>
                             </item>
@@ -977,7 +975,7 @@
                                     <g ref="#longHyphen" n="1"/>
                             </item>
                             <item>
-                                By <measure commodity="corn" quantity="2" unit="bushels">2 Bushel Corn</measure>
+                                By<measure commodity="corn" quantity="2" unit="bushel"> 2 Bushel Corn</measure>
                                 <g ref="#longHyphen" n="2"/>
                                 <measure type="currency" unit="£sd" quantity="000900">0 9 0</measure>
                             </item>
@@ -1006,8 +1004,6 @@
                                 <measure type="currency" unit="£sd" quantity="000406">0 4 6</measure>
                             </item>
                             </list>
-                        </div>
-</div>
                        
 
 <!-- RP:2017-01-22: PAGE 8  -->
@@ -1113,18 +1109,8 @@
             </item>
         </list>
     </div>
-    <div type="group">
-        <head>Credit</head>
         <list type="entry">
             <head>
-                <date when="1795-02">Feb 1795</date>
-            </head>
-            <item>by one Saddle &amp; Bridle my Sturrups>
-                <measure type="currency" unit="£sd" quantity="030600">3 6 0 </measure>
-            </item>
-        </list>
-    </div>
-</div>
                 
        
                             
@@ -1180,20 +1166,17 @@
                 </place>
                 <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
             </listPlace>
-            
-            
-            <!-- RJP:2017-02-02: Unsure of why listOrg is firing an error and requiring an interior listOrg. Will check with TEI. -->
-            <!--<listOrg>
+            <listOrg>
                 <org xml:id="DanGreShou_Brick">
                     <orgName>Daniel Gregory &amp; Shouland</orgName>
                     <desc resp="#RP">brick sale</desc>
                 </org>
-                <!-\- Below is a template. Delete un-used elements for each new organizations. -\->
+                <!-- Below is a template. Delete un-used elements for each new organizations. -->
                 <org xml:id="UniqueIDforOrganization">
                     <orgName/>
                     <desc resp="#EDITORinitials"/>
                 </org>
-            </listOrg>-->
+            </listOrg>
         </back>
     </text>
 </TEI>
