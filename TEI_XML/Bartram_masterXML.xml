@@ -1058,12 +1058,14 @@
                 <measure type="currency" unit="£sd" quantity="000406">0 4 6</measure></item>
         </list>
         <!-- RP:2017-01-23: PAGE 8 Bottom put in balance amount of 300 sum total-->
-        
+    </div>
+    <div type="group">
+        <head><orgName ref="SloopRisingSun">Sloop Rising Sun</orgName></head>
         
         <!-- RP:2017-01-23: PAGE 8 Bottom after 2nd underline-->
         <list type="entry">
             <head>
-                <persName ref="SleepRisingSun"></persName>
+                
                 <date when="1808-10-14">Oct 14 1808</date>
             </head>
             <item>
@@ -1131,6 +1133,7 @@
         </body>
         <back>
             <!-- RF RP:2017-01-15: This is where we will create prosopography entries for people, places, and organizations mentioned in the document. -->
+            <!-- RF:2017-02-02: Add slaves and to ODD too. -->
             <listPerson>
                 <person xml:id="Bartram">
                     <persName>
