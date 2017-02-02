@@ -957,11 +957,11 @@
                                 <measure type="currency" unit="£sd" quantity="002300">0 2 3</measure>
                             </item>
                             <item>
-                                By<measure commodity="corn" quantity=".5" unit="bushels"> Half Bushel Corn</measure>
+                                By<measure commodity="corn" quantity=".5" unit="bushel"> Half Bushel Corn</measure>
                                 <measure type="currency" unit="£sd" quantity="000300">0 3 0</measure>
                             </item>
                             <item>
-                                By <measure commodity="straw" quantity="24" unit="bundles">Straw 24 bundles</measure>
+                                By<measure commodity="straw" quantity="24" unit="bundles"> Straw 24 bundles</measure>
                                 <measure type="currency" unit="£sd" quantity="000300">0 3 0</measure>
                                 <g ref="#longHyphen" n="4"/>
                             </item>
@@ -975,7 +975,7 @@
                                     <g ref="#longHyphen" n="1"/>
                             </item>
                             <item>
-                                By <measure commodity="corn" quantity="2" unit="bushels">2 Bushel Corn</measure>
+                                By<measure commodity="corn" quantity="2" unit="bushel"> 2 Bushel Corn</measure>
                                 <g ref="#longHyphen" n="2"/>
                                 <measure type="currency" unit="£sd" quantity="000900">0 9 0</measure>
                             </item>
