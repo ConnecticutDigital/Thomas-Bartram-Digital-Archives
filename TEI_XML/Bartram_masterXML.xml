@@ -874,6 +874,8 @@
                         </item>
                         <item>this account is passed further over</item>
                     </list>
+                </div>
+</div>
                     
 <!-- RP:2017-01-21: PAGE 7  -->
 <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_007.jpg">
@@ -1004,6 +1006,8 @@
                                 <measure type="currency" unit="£sd" quantity="000406">0 4 6</measure>
                             </item>
                             </list>
+                        </div>
+</div>
                        
 
 <!-- RP:2017-01-22: PAGE 8  -->
@@ -1109,8 +1113,18 @@
             </item>
         </list>
     </div>
+    <div type="group">
+        <head>Credit</head>
         <list type="entry">
             <head>
+                <date when="1795-02">Feb 1795</date>
+            </head>
+            <item>by one Saddle &amp; Bridle my Sturrups>
+                <measure type="currency" unit="£sd" quantity="030600">3 6 0 </measure>
+            </item>
+        </list>
+    </div>
+</div>
                 
        
                             
@@ -1166,17 +1180,20 @@
                 </place>
                 <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
             </listPlace>
-            <listOrg>
+            
+            
+            <!-- RJP:2017-02-02: Unsure of why listOrg is firing an error and requiring an interior listOrg. Will check with TEI. -->
+            <!--<listOrg>
                 <org xml:id="DanGreShou_Brick">
                     <orgName>Daniel Gregory &amp; Shouland</orgName>
                     <desc resp="#RP">brick sale</desc>
                 </org>
-                <!-- Below is a template. Delete un-used elements for each new organizations. -->
+                <!-\- Below is a template. Delete un-used elements for each new organizations. -\->
                 <org xml:id="UniqueIDforOrganization">
                     <orgName/>
                     <desc resp="#EDITORinitials"/>
                 </org>
-            </listOrg>
+            </listOrg>-->
         </back>
     </text>
 </TEI>

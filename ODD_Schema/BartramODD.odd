@@ -205,6 +205,7 @@
                         <valItem ident="#RF"/>
                         <valItem ident="#RP"/>
                         <valItem ident="#SG"/>
+                        <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
                </attList>
