@@ -1059,6 +1059,7 @@
         </list>
         <!-- RP:2017-01-23: PAGE 8 Bottom put in balance amount of 300 sum total-->
     </div>
+
     <div type="group">
         <head><orgName ref="SloopRisingSun">Sloop Rising Sun</orgName></head>
         
@@ -1093,9 +1094,10 @@
             <measure type="currency" unit="£sd" quantity="000100">0 1 0</measure></item>
         </list>
                 </div>
-            </div>
-                            
-<div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_008.jpg">
+        
+ 
+<!-- Page 9-->
+<div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_009.jpg">
     <div type="group">
         <head>Credit</head>
         <list type="entry">
@@ -1126,7 +1128,122 @@
             </item>
         </list>
     </div>
-</div>
+            
+<!-- Page 10-->
+<div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_010.jpg">
+    <div type="group">
+        <list type="entry">
+            <head>Barlow Sturges<g ref="#afterName"/>
+            <date when="1801-04">April 1801</date></head>
+            <item>To 6 <unclear reason="illegible" unit="words" quantity="1"/> at /7
+                <measure type="currency" unit="£sd" quantity="000306">0 3 6</measure>
+            </item>
+            <item>To half <choice><sic>Bush</sic><reg resp="#RF">Bushel</reg></choice> Potatoes</item>
+            <item>To 3 Load Timber
+                <measure type="currency" unit="£sd" quantity="001302">0 13 2</measure>
+            </item>
+            <item>To 37 Nailes
+                <measure type="currency" unit="£sd" quantity="001108">0 11 8</measure></item>
+            <item>To 20 <!--unclear one word-->
+                <measure type="currency" unit="£sd" quantity="000600">0 6 0</measure></item>
+            <item>To use of Saw</item>
+           <!-- Summary 10 0 1-->
+        </list>
+    </div>
+    <div type="group">
+        <list type="entry">
+            <head>
+                <date when="1803-05-01">May 1 1803</date>
+            </head>
+            <item>To 4 <unclear reason="illegible" unit="words" quantity="3"/>the Summer
+                <measure type="currency" unit="£sd" quantity="030000">3 0 0</measure>
+            </item>
+        </list>
+            <!--13 0 1 Summary-->
+    </div>
+    <!--2017-02-07 Bottom of page 10-->
+    <div type="group">
+        <list type="entry">
+            <head>
+                <date when="1801-11">Novemver 1801</date>
+                <persName ref="#OnifiemanHubble">Onifieman Hubble</persName><g ref='#afterName/>
+            </head>
+        </list>
+        <list type="entry">
+            <head>
+                <date when="1802-01"></date>
+            </head>
+            <item>To Cash<
+                <measure type="currency" unit="£sd" quantity="030000">0 3 0 </measure>
+                /item>
+        </list>
+   <list type="entry">
+       <head><date when="1802-01-04">Janu 4</date></head>
+       <item>To Cash</item>
+       <measure type="currency" unit="£sd" quantity="000900">0 9 0 </measure>
+</list>
+ <list type="entry">
+     <head>
+         <date when="1803-01-05">January 5 1803</date>
+     </head>
+     <item>To <unclear reason="strikethrough" unit="words" quantity="2">
+         <measure type="currency" unit="£sd" quantity="000700">0 7 0 </measure></item>
+ </list>
+        <list type="entry">
+            <head><date when="1803-01-25">January 25 1803</date></head>
+            <item>To Lay broad ax iron &amp; Steel
+                <measure type="currency" unit="£sd" quantity="000600">0 6 0 </measure></item>
+        </list>
+       <!-- Total sum 19 6-->
+    </div>
+ 
+<!-- Page 11-->
+    <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_011.jpg">
+        <div type="group">
+            <head>Credit</head>
+            <list type="entry">
+                <head>
+                    <date when="1802-03-19">March 19 1802</date>
+                </head>
+                <item>By Cash</item>
+                <measure type="currency" unit="£sd" quantity="020000">2 0 0 </measure>
+                </list>
+            <list type="entry">
+                <head><date when="1802-04-21">april 21 1802</date></head>
+                    <item>By Cash
+                    <measure type="currency" unit="£sd" quantity="010000">1 0 0 </measure>
+                </item>
+                <item>by Cash
+                    <item>By Cash</item>
+                    <measure type="currency" unit="£sd" quantity="100001">10 0 1 </measure></item>
+            </list>
+          <!--  13 0 10 sum-->
+        </div>
+        <div type="group">
+            <list type="entry">
+            <head>Credit</head>
+            </list>
+        <!--    RF: 2017-02-08 stopeed at the bottom of page 11 Credit first line not done November 1801-->
+            
+        </div>
+        
+    
+            
+            
+       
+            
+                
+                
+        
+
+        
+        
+
+            
+            
+
+        
+
                 
        
                             
