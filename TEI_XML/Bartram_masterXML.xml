@@ -1266,6 +1266,7 @@
                 <item>This Day Settled all accounts to this Date Onifimius hubbell</item>
             </list>
            </div>
+    </div>
  
 <!--Page 12-->
         <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_012.jpg">
@@ -1323,15 +1324,21 @@
                     <item>To one <unclear quantity="1" unit="words" reason="illegible"/>the Codfish
                         <measure type="currency" unit="£sd" quantity="0113">1 13 </measure>
                     </item>
-                    <item>to Cart one Load wood from your woods
+                    <item><g ref="#stItem"/> Cart one Load wood from your woods
                         <measure type="currency" unit="£sd" quantity="0009">0 9 </measure></item>
-                   <!-- STOPPED HERE BEFORE BECCA CLASS FOR MARCH 10, NEXT IS DEC 26 1801-->
+                </list>
+                <list type="entry">
+                    <head>
+                        <date when="1801-12-26">Decem 26 1801</date>
+                    </head>
+                    <item><g ref="#stItem"/> Carting Dung one Day
+                        <measure type="currency" unit="£sd" quantity="0010">0 10 </measure></item>
                 </list>
             </div>
             
                         
              
-                </list>
+        
                   
                   
         
