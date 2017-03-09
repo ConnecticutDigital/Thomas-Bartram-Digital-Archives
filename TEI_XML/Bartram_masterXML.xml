@@ -1225,14 +1225,120 @@
         </div>
         <div type="group">
             <head>Credit</head>
-           <!-- <list type="entry">
-                <head><date when=""></date></head>
-         
-            </list>-->
-        <!--    RF: 2017-02-08 stopeed at the bottom of page 11 Credit first line not done November 1801-->
+           <list type="entry">
+               <head>
+                   <date when="1801-11">Novemb 1801</date>
+               </head>
+               <item>by one half day make cart<unclear quantity="1" unit="words" reason="illegible"/>
+                   <measure type="currency" unit="£sd" quantity="000400">0 4 0</measure>
+               </item>
+               <item>by Making narrow &amp; <unclear quantity="1" unit="words" reason="illegible"/> cart 
+                   <measure type="currency" unit="£sd" quantity="000600">0 6 0</measure>
+               </item>
+               <item>by 2 Days <unclear quantity="2" unit="words" reason="illegible"/> 
+                   <measure type="currency" unit="£sd" quantity="000800">0 8 0</measure>
+               </item>
+           </list>
+            <list type="entry">
+                <head>
+                    <date when="1802-02">January 1802</date>
+                </head>
+               <item>by one Day Covering Ship
+                   <measure type="currency" unit="£sd" quantity="000800">0 4 0</measure>
+               </item>
+            </list>
+            <list type="entry">
+                <head>
+                    <date when="1803-01">January 1803</date>
+                </head>
+               <item>by Carting Load wood
+                   <measure type="currency" unit="£sd" quantity="000706">0 7 6</measure>
+               </item>
+           </list>
+        </div>
+        
+        <div type="group">
+            <!--January faintly written-->
+            <list type="entry">
+                <head>
+                <date when="1806-02-31">February 31 1806</date>
+                </head>
+                <item>This Day Settled all accounts to this Date Onifimius hubbell</item>
+            </list>
+           </div>
+ 
+<!--Page 12-->
+        <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_012.jpg">
+         <!--   Can't see measure numbers in third column on top of this page-->
+            <div type="group">
+                <head>Daniel Osborn <g ref="#afterName"/></head>
+                <list type="entry">
+            <head>
+                <date when="1800-06">June 1800</date>
+            </head>
+             <item>To iron <choice><sic>Compleat</sic><reg resp="#RF">Complete</reg></choice>
+               <measure type="currency" unit="£sd" quantity="0101">1 1 </measure>
+           </item>
+                 
+                    <item>To 4 Bush Seed wheat at 12/
+                        <measure type="currency" unit="£sd" quantity="0203">2 3 </measure></item>
+                    <item>To 20 of Flax at /8
+                        <measure type="currency" unit="£sd" quantity="0113">0 13 </measure></item>
+                    <item>To Set a <choice><sic>Shew</sic><reg resp="#RF">Shoe</reg></choice>
+                        <measure type="currency" unit="£sd" quantity="0002">0 2 </measure></item>
+                </list>
+                <list type="entry">
+                    <head>
+                        <date when="1802-02">February 1802</date>
+                    </head>
+                    <item>To 10 3/4 of Flax at 1/ Per <choice><sic>Pou</sic><reg resp="#RF">Pound</reg></choice>
+                        <measure type="currency" unit="£sd" quantity="0010">0 10 </measure></item>
+                    <item>To 9 of Flax at 1/
+                        <measure type="currency" unit="£sd" quantity="0009">0 9 </measure></item>
+                    <item>To 5 Dollars Paid Smith Stone Cutter
+                        <measure type="currency" unit="£sd" quantity="0110">1 10 </measure>
+                        <!--  6 15 sum-->
+                    </item>
+                </list>
+            </div>
+            <div type="group">
+                <head>Caleb Brewster <g ref="#afterName"/></head>
+                <list type="entry">
+                    <head>
+                        <date when="1801-05-01">May 2 1801</date>
+                    </head>
+                    <item>To one Bush Flax Seed
+                        <measure type="currency" unit="£sd" quantity="0110">1 10 </measure></item>
+                    <item>To <g ref="#ditto"/> of Hay
+                        <measure type="currency" unit="£sd" quantity="0003">0 3 </measure></item>
+                <item>To 10 of <g ref="#ditto"/>
+                    <measure type="currency" unit="£sd" quantity="0002">0 2 </measure></item>
+                    <item>To <unclear quantity="1" unit="words" reason="illegible"/>Lot
+                        <measure type="currency" unit="£sd" quantity="0300">3 0 </measure></item>
+                    </list>
+                <list type="entry">
+                    <head>
+                        <date when="1801-09">Sept 1801</date>
+                    </head>
+                    <item>To one <unclear quantity="1" unit="words" reason="illegible"/>the Codfish
+                        <measure type="currency" unit="£sd" quantity="0113">1 13 </measure>
+                    </item>
+                    <item>to Cart one Load wood from your woods
+                        <measure type="currency" unit="£sd" quantity="0009">0 9 </measure></item>
+                   <!-- STOPPED HERE BEFORE BECCA CLASS FOR MARCH 10, NEXT IS DEC 26 1801-->
+                </list>
+            </div>
+            
+                        
+             
+                </list>
+                  
+                  
+        
+            
             
         </div>
-    </div>
+
         
     
             
