@@ -1317,7 +1317,7 @@
                 </div>
             </div>
 
-            <!--Page 12-->
+<!--Page 12-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_012.jpg">
                 <!--   Can't see measure numbers in third column on top of this page-->
                 <div type="group">
@@ -1393,11 +1393,112 @@
                         <head>
                             <date when="1801-12-26">Decem 26 1801</date>
                         </head>
-                        <item><g ref="#stItem"/> Carting Dung one Day <measure type="currency"
-                                unit="£sd" quantity="0010">0 10 </measure></item>
+                        <item><g ref="#stItem"/> Carting Dung one Day 
+                            <measure type="currency" unit="£sd" quantity="0010">0 10 </measure></item>
+                        <item><g ref="#stItem"/><unclear quantity="1" unit="words" reason="illegible"/> on Bucket
+                            <measure type="currency" unit="£sd" quantity="0000">0 0 </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1802-04-08"></date>
+                        </head>
+                        <item><g ref="#stItem"/> freight on appletrees Paid Capt Thorp
+                            <measure type="currency" unit="£sd" quantity="0015">0 15 </measure></item>
+                    </list>
+               <list type="entry">
+                   <head>
+                       <date when="1806-01-15"></date>
+                   </head>
+                   <item><g ref="#stItem"/> 2 Shews New St Toes &amp; Corks my Steel
+                       <measure type="currency" unit="£sd" quantity="0306">3 06 </measure>
+                   </item>
+                   <item><g ref="#stItem"/> Mend buckle <g ref="#longHyphen" n="3"/>
+                       <measure type="currency" unit="£sd" quantity="0000">0 0 </measure></item>
+               </list>
+                <list type="entry">
+                <head>
+                    <date when="1806-02-18"></date>
+                </head>
+                    <item><g ref="#stItem"/> fix needle rings bolt for Slay
+                        <measure type="currency" unit="£sd" quantity="0001">0 1 </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-09"></date>
+                        </head>
+                        <item><g ref="#stItem"/> Pig weighing 19 1/2 poinds at /6
+                            <measure type="currency" unit="£sd" quantity="0006">0 6 </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-12-15"></date>
+                        </head>
+                        <item><g ref="#stItem"/> Shewed new Steel Toes Corks
+                            <measure type="currency" unit="£sd" quantity="000300">0 3 0</measure></item>
+                        <item><g ref="#stItem"/> toe <unclear quantity="1" unit="chars" reason="illegible"/> old ones Set them <g ref="#longHyphen" n="1"/> 
+                            <measure type="currency" unit="£sd" quantity="000200">0 2 0</measure></item>
+                    </list>
+                    <list type="entry">
+                       <head>
+                           <date when="1807-01-14"></date>
+                       </head>
+                        <item><g ref="#stItem"/> 2 irons To hand flax Mill on</item>
+                        <item><g ref="#stItem"/> Mend Carriage <g ref="#longHyphen" n="5"/> </item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-02-015"></date>
+                        </head>
+                        <item><g ref="#stItem"/> New hook &amp; <unclear quantity="2" unit="chars" reason="illegible"/> Links Charge my iron
+                            <measure type="currency" unit="£sd" quantity="0002">0 2 </measure>
+                        </item>
+                        <item><g ref="#stItem"/> Shewing horse my Steel
+                            <measure type="currency" unit="£sd" quantity="0002">0 2 </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-03-02"></date>
+                        </head>
+                        <item><g ref="#stItem"/> one old <unclear quantity="1" unit="words" reason="illegible"/> my <unclear quantity="1" unit="words" reason="illegible"/>
+                            <measure type="currency" unit="£sd" quantity="0001">0 1 </measure></item>
+                        <item><g ref="#stItem"/> Mend <unclear quantity="1" unit="words" reason="illegible"/> To Carriage my iron
+                            <measure type="currency" unit="£sd" quantity="004">0 4 </measure></item>
+                        <item>This account <unclear quantity="2" unit="words" reason="illegible"/> her oven</item>
                     </list>
                 </div>
             </div>
+<!-- Page 13-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_012.jpg">
+            <div type="group">
+                <head>Credit</head>
+                <list type="entry">
+                    <head>
+                        <date when="1801-11"></date>
+                    </head>
+                    <item>by 900 feet Boards at 91
+                        <measure type="currency" unit="£sd" quantity="040000">4 0 0 </measure></item>
+                    <item>by 580 feet Boarts at <g ref="#ditto"/><add resp="#RF">91</add>
+                        <measure type="currency" unit="£sd" quantity="021109">2 11 9</measure></item>
+                    <item>by one old <unclear quantity="1" unit="words" reason="illegible"/>
+                    &amp;
+                        <unclear quantity="1" unit="words" reason="illegible"/>
+                        &amp;
+                        <unclear quantity="1" unit="words" reason="illegible"/>
+                        <measure type="currency" unit="£sd" quantity="000306">0 30 6</measure>
+                    </item>
+                    <item>by horse to Plow &amp; hay
+                        <g ref="#longHyphen" n="4"/>
+                        <measure type="currency" unit="£sd" quantity="061503">0 30 6</measure></item>
+                    <item>By Cash</item>
+              <!--      Done with top of page 13 but need summary numbers-->
+                </list>
+            </div>
+            </div>
+   
+              
+                 
+         
+   
         </body>
         <back>
             <!-- RF RP:2017-01-15: This is where we will create prosopography entries for people, places, and organizations mentioned in the document. -->
