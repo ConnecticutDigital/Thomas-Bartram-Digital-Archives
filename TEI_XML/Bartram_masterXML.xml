@@ -559,29 +559,24 @@
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_005.jpg">
                 <div type="group">
                     <!-- LINE_01: October 1801 Credit -->
-                    <head>
-                        <date when="1802-02-10">October 1801</date> Credit</head>
+                    <head>Credit</head>
                     <list type="entry">
-                        <!-- LINE_02: By __ Cart with my help -->
-                        <item>By <unclear reason="illegible" unit="words" quantity="1"/> Cart with
-                            my help</item>
+                        <head>
+                            <date when="1801-10"></date>
+                        </head>
+                        <item>By <unclear reason="illegible" unit="words" quantity="1"/> Cart with my help</item>
                     </list>
                     <list type="entry">
-                        <!-- LINE_03: By October 1 By Shewing one yoak oxen with iron & help_  -->
                         <head>
                             <date when="1802-10">October 1801</date>
                         </head>
                         <item>By Shewing one yoak oxen by iron &amp; help </item>
                     </list>
-                    <!-- LINE_04: By Seting ox Shews my help  -->
                     <list type="entry">
                         <head>
-                            <date when="1802-12">December 1801</date>
+                            <date when="1801-12">December 1801</date>
                         </head>
-                        <item>By <choice>
-                                <sic>Seting</sic>
-                                <reg resp="#RF">Setting</reg>
-                            </choice> ox my help</item>
+                        <item>By <choice><sic>Seting</sic><reg resp="#RF">Setting</reg></choice> ox my help</item>
                     </list>
                     <list type="entry">
                         <item><!-- RF 2017-01-26: Feb 12 1802 By Making b Flows pipe Band 023?-->
@@ -604,12 +599,21 @@
                             <measure type="currency" unit="dollars" quantity="222.00">222 Dollars
                                 cash</measure>
                             <unclear reason="illegible" unit="words" quantity="1"/> gave Seth Perry
-                            1907 to go to N york to <choice>
-                                <sic>by</sic>
-                                <reg resp="#RF">buy</reg>
-                            </choice> cargo</item>
+                            1907 to go to N york to <choice><sic>by</sic><reg resp="#RF">buy</reg></choice> cargo</item></list>
+                    <list type="entry">
+                        <item>Stock belonging to sloop Fame <date when="1809-11-12">Nov 12 1809</date></item>
+                        <item>Two drafts Drawn by John wait briant boston for <!--dollar sign--> 1840</item>
+                        <item>For <!--dollar sign--> 1840 freight to <unclear unit="words" quantity="1" reason="illegible"></unclear></item>
+                        <item>Due from Lynde Walter boston 45.00 </item>
+                        <item>Due from Amos Lock 66.00</item>
+                        <item>wool sold for <g ref="#longHyphen" n="1"/>1955.00</item>
+                        <item>Left at Home Cash <g ref="#longHyphen" n="1"/></item>
+                        <item>gave Seth Perry <g ref="#longHyphen" n="1"/> 550</item>
+                        <item><unclear reason="illegible" unit="words" quantity="1"/> Novemeber 13 <g ref="#longHyphen" n="1"/> 2237.00 </item>
+                   <!--    RF 2017-03-14: still need to transcribe bottom of this page starting with Nov 10 1812, by cash paid will Hayt...-->
+                       
+                   
                     </list>
-
                 </div>
             </div>
             <!-- PAGE 6-->
@@ -1175,23 +1179,23 @@
                     <head>Barlow Sturges <g ref="#afterName"/>
                         <date when="1801-04">April 1801</date></head>
                     <list type="entry">                        
-                        <item>To 6 <unclear reason="illegible" unit="words" quantity="1"/> at /7
+                        <item><g ref="#stItem"/> 6 <unclear reason="illegible" unit="words" quantity="1"/> at /7
                                 <measure type="currency" unit="£sd" quantity="000306">0 3
                                 6</measure>
                         </item>
-                        <item>To half <choice>
+                        <item><g ref="#stItem"/> half <choice>
                                 <sic>Bush</sic>
                                 <reg resp="#RF">Bushel</reg>
                             </choice> Potatoes</item>
-                        <item>To 3 Load Timber <measure type="currency" unit="£sd" quantity="001302"
+                        <item><g ref="#stItem"/> 3 Load Timber <measure type="currency" unit="£sd" quantity="001302"
                                 >0 13 2</measure>
                         </item>
-                        <item>To 37 Nailes <measure type="currency" unit="£sd" quantity="001108">0
+                        <item><g ref="#stItem"/> 37 Nailes <measure type="currency" unit="£sd" quantity="001108">0
                                 11 8</measure></item>
-                        <item>To 20 <!--unclear one word-->
+                        <item><g ref="#stItem"/> 20 <!--unclear one word-->
                             <measure type="currency" unit="£sd" quantity="000600">0 6
                             0</measure></item>
-                        <item>To use of Saw</item>
+                        <item><g ref="#stItem"/> use of Saw</item>
                         <!-- Summary 10 0 1-->
                     </list>
                 </div>
@@ -1200,7 +1204,7 @@
                         <head>
                             <date when="1803-05-01">May 1 1803</date>
                         </head>
-                        <item>To 4 <unclear reason="illegible" unit="words" quantity="3"/>the Summer
+                        <item><g ref="#stItem"/> 4 <unclear reason="illegible" unit="words" quantity="3"/>the Summer
                                 <measure type="currency" unit="£sd" quantity="030000">3 0
                                 0</measure>
                         </item>
@@ -1217,13 +1221,13 @@
                         <head>
                             <date when="1802-01"/>
                         </head>
-                        <item>To Cash <measure type="currency" unit="£sd" quantity="030000">0 3 0
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="£sd" quantity="030000">0 3 0
                             </measure>
                         </item>
                     </list>
                     <list type="entry">
                         <head><date when="1802-01-04">Janu 4</date></head>
-                        <item>To Cash <measure type="currency" unit="£sd" quantity="000900">0 9 0
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="£sd" quantity="000900">0 9 0
                             </measure></item>
                     </list>
                     <list type="entry">
@@ -1231,13 +1235,13 @@
                             <date when="1803-01-05">January 5 1803</date>
                         </head>
                         <item><unclear reason="strikethrough" unit="words" quantity="2"><supplied
-                                    resp="#RF">To board ax</supplied></unclear>
+                            resp="#RF"><g ref="#stItem"/> board ax</supplied></unclear>
                             <measure type="currency" unit="£sd" quantity="000700">0 7
                             0</measure></item>
                     </list>
                     <list type="entry">
                         <head><date when="1803-01-25">January 25 1803</date></head>
-                        <item>To Lay broad ax iron &amp; Steel <measure type="currency" unit="£sd"
+                        <item><g ref="#stItem"/> Lay broad ax iron &amp; Steel <measure type="currency" unit="£sd"
                                 quantity="000600">0 6 0 </measure></item>
                     </list>
                     <!-- Total sum 19 6-->
@@ -1326,21 +1330,16 @@
                         <head>
                             <date when="1800-06">June 1800</date>
                         </head>
-                        <item>To iron <choice>
-                                <sic>Compleat</sic>
-                                <reg resp="#RF">Complete</reg>
-                            </choice>
+                        <item><g ref="#stItem"/> iron Cart <choice><sic>Compleat</sic><reg resp="#RF">Complete</reg></choice>
                             <measure type="currency" unit="£sd" quantity="0101">1 1 </measure>
                         </item>
 
-                        <item>To 4 Bush Seed wheat at 12/ <measure type="currency" unit="£sd"
+                        <item><g ref="#stItem"/> 4 Bush Seed wheat at 12/ <measure type="currency" unit="£sd"
                                 quantity="0203">2 3 </measure></item>
-                        <item>To 20 of Flax at /8 <measure type="currency" unit="£sd"
+                        <item><g ref="#stItem"/> 20 of Flax at /8 <measure type="currency" unit="£sd"
                                 quantity="0113">0 13 </measure></item>
-                        <item>To Set a <choice>
-                                <sic>Shew</sic>
-                                <reg resp="#RF">Shoe</reg>
-                            </choice>
+                        <item><g ref="#stItem"/> Set a <choice>
+                                <sic>Shew</sic><reg resp="#RF">Shoe</reg></choice>
                             <measure type="currency" unit="£sd" quantity="0002">0 2
                             </measure></item>
                     </list>
@@ -1348,17 +1347,15 @@
                         <head>
                             <date when="1802-02">February 1802</date>
                         </head>
-                        <item>To 10 3/4 of Flax at 1/ Per <choice>
-                                <sic>Pou</sic>
-                                <reg resp="#RF">Pound</reg>
-                            </choice>
+                        <item><g ref="#stItem"/> 10 3/4 of Flax at 1/ Per <choice>
+                                <sic>Pou</sic><reg resp="#RF">Pound</reg></choice>
                             <measure type="currency" unit="£sd" quantity="0010">0 10
                             </measure></item>
-                        <item>To 9 of Flax at 1/ <measure type="currency" unit="£sd" quantity="0009"
+                        <item><g ref="#stItem"/> 9 of Flax at 1/ <measure type="currency" unit="£sd" quantity="0009"
                                 >0 9 </measure></item>
-                        <item>To 5 Dollars Paid Smith Stone Cutter <measure type="currency"
+                        <item><g ref="#stItem"/> 5 Dollars Paid Smith Stone Cutter <measure type="currency"
                                 unit="£sd" quantity="0110">1 10 </measure>
-                            <!--  6 15 sum-->
+                            <!--  6 15 sum need to code in bottom of Daniel Osborn-->
                         </item>
                     </list>
                 </div>
@@ -1368,21 +1365,21 @@
                         <head>
                             <date when="1801-05-01">May 2 1801</date>
                         </head>
-                        <item>To one Bush Flax Seed <measure type="currency" unit="£sd"
+                        <item><g ref="#stItem"/> one Bush Flax Seed <measure type="currency" unit="£sd"
                                 quantity="0110">1 10 </measure></item>
-                        <item>To <g ref="#ditto"/> of Hay <measure type="currency" unit="£sd"
+                        <item><g ref="#stItem"/> <g ref="#ditto"/> of Hay <measure type="currency" unit="£sd"
                                 quantity="0003">0 3 </measure></item>
-                        <item>To 10 of <g ref="#ditto"/>
+                        <item><g ref="#stItem"/> 10 of <g ref="#ditto"/>
                             <measure type="currency" unit="£sd" quantity="0002">0 2
                             </measure></item>
-                        <item>To <unclear quantity="1" unit="words" reason="illegible"/>Lot <measure
+                        <item><g ref="#stItem"/> <unclear quantity="1" unit="words" reason="illegible"/>Lot <measure
                                 type="currency" unit="£sd" quantity="0300">3 0 </measure></item>
                     </list>
                     <list type="entry">
                         <head>
                             <date when="1801-09">Sept 1801</date>
                         </head>
-                        <item>To one <unclear quantity="1" unit="words" reason="illegible"/>the
+                        <item><g ref="#stItem"/> one <unclear quantity="1" unit="words" reason="illegible"/>the
                             Codfish <measure type="currency" unit="£sd" quantity="0113">1 13
                             </measure>
                         </item>
