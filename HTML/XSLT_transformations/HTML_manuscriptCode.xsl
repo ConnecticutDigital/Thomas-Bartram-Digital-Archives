@@ -68,9 +68,9 @@
                 <xsl:apply-templates select="child::head"/>
             </span>
         </xsl:if>
-        <ol class="entries">
+        <ul class="entries">
             <xsl:apply-templates select="child::item"/>
-        </ol>
+        </ul>
     </xsl:template>
     <xsl:template match="item">
         <li>
