@@ -118,6 +118,7 @@
     </teiHeader>
     <text>
         <body>
+<!-- Page 3-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_003.jpg">
                 <!-- RF RP:2017-01-15: @type = most frequently pages on the right-side of the account book are credit and pages on the left-side are debits. Only use the subtype attribute if the page has been verified as either a "credit" or "debit". We might add attribute values if we determine there are pages that are neither credit or debit pages.-->
                 <!-- RF RP:2017-01-15: @facs = Here we provide the image file name and file extension for the specific page being transcribed and encoded. This format will be useful when processing this XML into presentational markup (HTML). -->
@@ -405,9 +406,7 @@
                 <!-- Proof-read stopped here on 2017-01-26 with Becca  -->
                 <div type="group">
                     <!-- LINE_39: ILLEGIBLE Urier Buckley  -->
-                    <head>
-                        <unclear reason="illegible" unit="chars" quantity="1"/>
-                        <persName ref="#UrierBuckley">Urier Buckley</persName>
+                    <head><persName ref="#UrierBuckley">Urier Buckley</persName>
                         <g ref="#afterName"/>
                     </head>
                     <list type="entry">
@@ -433,7 +432,7 @@
                     </list>
                 </div>
             </div>
-            <!-- PAGE 4-->
+<!-- PAGE 4-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_004.jpg">
                 <div type="group">
                     <head>
@@ -1176,7 +1175,7 @@
             <!-- Page 10-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_010.jpg">
                 <div type="group">
-                    <head>Barlow Sturges <g ref="#afterName"/>
+                    <head><persName ref="#BarlowSturges">Barlow Sturges</persName> <g ref="#afterName"/>
                         <date when="1801-04">April 1801</date></head>
                     <list type="entry">                        
                         <item><g ref="#stItem"/> 6 <unclear reason="illegible" unit="words" quantity="1"/> at /7
@@ -1213,8 +1212,7 @@
                 </div>
                 <!--2017-02-07 Bottom of page 10-->
                 <div type="group">
-                    <head><persName ref="#OnifiemanHubble">Onifieman Hubble</persName><g
-                            ref="#afterName"/>
+                    <head><persName ref="#OnifiemanHubble">Onifieman Hubble</persName><g ref="#afterName"/>
                         <date when="1801-11">Novemver 1801</date>
                     </head>
                     <list type="entry">
@@ -1325,7 +1323,7 @@
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_012.jpg">
                 <!--   Can't see measure numbers in third column on top of this page-->
                 <div type="group">
-                    <head>Daniel Osborn <g ref="#afterName"/></head>
+                    <head><persName ref="DanielOsborn"></persName>Daniel Osborn <g ref="#afterName"/></head>
                     <list type="entry">
                         <head>
                             <date when="1800-06">June 1800</date>
@@ -1360,7 +1358,7 @@
                     </list>
                 </div>
                 <div type="group">
-                    <head>Caleb Brewster <g ref="#afterName"/></head>
+                    <head><persName ref="#CalebBrewster">Caleb Brewster</persName> <g ref="#afterName"/></head>
                     <list type="entry">
                         <head>
                             <date when="1801-05-01">May 2 1801</date>
@@ -1474,7 +1472,7 @@
                     </head>
                     <item>by 900 feet Boards at 91
                         <measure type="currency" unit="£sd" quantity="040000">4 0 0 </measure></item>
-                    <item>by 580 feet Boarts at <g ref="#ditto"/><add resp="#RF">91</add>
+                    <item>by 580 feet Boards at <g ref="#ditto"/><add resp="#RF">91</add>
                         <measure type="currency" unit="£sd" quantity="021109">2 11 9</measure></item>
                     <item>by one old <unclear quantity="1" unit="words" reason="illegible"/>
                     &amp;
