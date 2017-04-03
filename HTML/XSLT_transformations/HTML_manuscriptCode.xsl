@@ -82,9 +82,9 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="measure[@type = 'currency']">
+    <xsl:template match="measure[@type = 'currency'][matches(@ana, '\d{2,}_\d{2,}_\d{2,}')]">
         <span class="curr"
-            title="£{tokenize(@quantity,'\d\d')[1]} s{tokenize(@quantity,'\d\d')[2]} d{tokenize(@quantity,'\d\d')[3]}">
+            title="£{tokenize(@ana,'_')[1]} s{tokenize(@ana,'_')[2]} d{tokenize(@ana,'_')[3]}">
             <!-- RJP:2017-03-16: The regular expression to match on two digits at time is not working here. Consult M.Kay and conisder creating variable that gets regular expression and can be entered here in place. Otherwise will need to change XML to better suit info supplied in attribute.  -->
             <xsl:apply-templates/>
         </span>

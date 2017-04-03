@@ -170,11 +170,16 @@
                         <dataRef key="teidata.word"/>
                      </datatype>
                   </attDef>
-                  <attDef ident="quantity" mode="replace" usage="req">
+                  <attDef ident="quantity" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.numeric"/><!-- If flagged: because of numbers starting with 0 -->
                         <!--2017-01-20 ebb: The teidata.numeric type has been deprecated, so you want to find an alternate w3c datatype.
                            We talked about this in Council and the idea is we want to not be duplicating existing datatypes in the w3c.-->
+                     </datatype>
+                  </attDef>
+                  <attDef ident="ana" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef/>
                      </datatype>
                   </attDef>
                   <attDef ident="unit" mode="replace" usage="req">
