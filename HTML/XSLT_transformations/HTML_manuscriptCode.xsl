@@ -12,6 +12,9 @@
                 <title>
                     <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
                 </title>
+                <xsl:comment>Bootstrap CSS</xsl:comment>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+                    <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" type="text/css" href="style.css"/>
             </head>
             <body>
@@ -20,12 +23,13 @@
                 </h1>
                 <h2>Authored by <xsl:apply-templates select="//teiHeader//titleStmt//author"/></h2>
                 <h3>Table of Contents</h3>
-                <div id="toc">
+                <div id="toc" class="col-xs-2">
                     <ul>
                         <xsl:apply-templates select="//div[@type = 'page']" mode="toc"/>
                     </ul>
                 </div>
                 <xsl:apply-templates select="//div[@type = 'page']"/>
+                
             </body>
         </html>
     </xsl:template>
@@ -37,12 +41,12 @@
         </li>
     </xsl:template>
     <xsl:template match="div[@type = 'page']">
-        <div id="page{2 + count(preceding::div[@type = 'page']) + 1}" class="page">
-            <div class="manu_Image">
+        <div id="page{2 + count(preceding::div[@type = 'page']) + 1}" class="col-xs-9 page">
+            <div class="manu_Image col-xs-5">
                 <img alt="manuscript image for page {2 + count(preceding::div[@type='page']) + 1}"
                     src="images/{@facs}"/>
             </div>
-            <div class="manu_Content">
+            <div class="manu_Content col-xs-4">
                 <xsl:apply-templates/>
             </div>
         </div>
