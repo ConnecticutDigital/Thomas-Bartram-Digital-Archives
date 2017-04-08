@@ -1422,7 +1422,7 @@
                             <date when="1806-09">September 1806</date>
                         </head>
                         <item><g ref="#stItem"/> Pig weighing 19 1/2 poinds at /6
-                            <measure type="currency" unit="£sd" ana="00_06_XX">0 6 </measure></item>
+                            <measure type="currency" unit="£sd" ana="XX_06_XX"> 6 </measure></item>
                     </list>
                     <list type="entry">
                         <head>
@@ -1540,9 +1540,132 @@
         <!--Page 14-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_014.jpg">
                 <div type="group">
-                    <head>Credit</head>
+                    <head><persName>Aron Turney</persName><g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1801-12-30">December 30 1801</date>
+                        </head>
+                        <item><g ref="#stItem"/>Set 2 Shews my <unclear quantity="1" unit="chars" reason="illegible"/> iron
+                            <measure type="currency" unit="£sd" ana="00_01_03">0 1 3 </measure></item>
+                        <item><g ref="#stItem"/>Mend hook<unclear quantity="1" unit="chars" reason="illegible"/> 2 Links
+                            <measure type="currency" unit="£sd" ana="00_01_06">0 1 6 </measure></item>
+                        <item><g ref="#stItem"/>Set <unclear quantity="1" unit="chars" reason="illegible"/> Shews <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1 0 </measure>
+                        </item>
+                    </list>
                 </div>
-            </div>            
+            <div type="group">
+                <list type="entry">
+                    <head>
+                        <date when="1803-05-01">May 1 1803</date>
+                    </head>
+                        <item><g ref="#stItem"/>plow 2 Days <unclear quantity="1" unit="chars" reason="illegible"/> <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2 0 </measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                 <head><persName>Samuel Bradley</persName><g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1804-02-09">February 9 1804</date>
+                        </head>
+                        <item><g ref="#stItem"/>Cash one Crown
+                            <g ref="#currency"/><measure type="currency" unit="£sd" ana="00_02_00">0 2 0 </measure>
+                        </item>
+                        <item><g ref="#stItem"/>Cash <g ref="#longHyphen" n="4"/>
+                            <measure type="currency" unit="£sd" ana="XX_03_05">0 3 5 </measure></item>
+                     <!--   Summary here 0 10 0--></list>
+                </div>
+                <div type="group">
+                    <head><persName>Miah Perry</persName><g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1805-12">Decem 1805</date>
+                        </head>
+                        <item><g ref="#stItem"/>Cash paid Uriah Buckley
+                            <measure type="currency" unit="£sd" ana="XX_11_06"> 11 6 </measure></item>
+                       <!-- Strikethrough and 5 with what looks like dollar sing and 125 bots? -->
+                    </list>
+                </div>
+            </div> 
+<!-- Page 15-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_015.jpg">
+                <div type="group">
+                    <head>Credit</head>
+               <list type="entry">
+                   <head>
+                       <date when="1801-12-30">Decem 30 &amp; 31</date>
+                   </head>
+                   <item>By Two Days work to Train Sloop
+                       <measure type="currency" unit="£sd" ana="XX_08_00"> 8 0 </measure>
+                   </item>
+                   <item>By one Day to Put on boards on Sloop
+                       <measure type="currency" unit="£sd" ana="XX_04_XX">  4  </measure></item>
+               </list>
+                </div>
+                <div type="group">
+                    <list type="entry">
+                        <head>
+                            <date when="1802-03">March 1802</date>
+                        </head>
+                        <item>By one Day Make Plow
+                            <g ref="#longHyphen" n="3"/>
+                          </item>
+                        <item>By Make Bellows
+                            <g ref="#longHyphen" n="4"/></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head>
+                            <date when="1804-01-04">January 5 1804</date>
+                        </head>
+                        <item>By making 3 gates</item>
+                    </list>
+                </div>
+                <div type="group">
+                   <head><choice><sic>Crd</sic><reg resp="#RF">Credit</reg></choice></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-01">Janey 1806</date>
+                        </head>
+                        <item>By Cash <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="01_1_06"> 1 11 6</measure></item>
+                    </list>
+                </div>
+                </div>
+<!--Page 16-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_016.jpg">
+                <div type="group">
+                    <head><persName>Ozias Burr</persName><g ref="#afterName"></g></head>
+                   <!-- <g ref="#longHyphen" n="15"/> can't put hypens in -->
+                    <list type="entry">
+                        <head>
+                            <date when="1805-12-19">Decemver 19 1805</date>
+                        </head>
+                        <item><g ref="#stItem"/>Cash 5 Dollars
+                            <measure type="currency" unit="£sd" ana="01_10_XX"> 1 10  </measure></item>
+                       <!-- there is a symbol for dollar sign-->
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName>Benjamin Sturges</persName><g ref="#afterName"></g></head>
+                    <list type="entry">
+                        <head>
+                            <date when="18002-04-28"></date>
+                        </head>
+                        <item><g ref="#stItem"/>Make with for cash
+                            <measure type="currency" unit="£sd" ana="01_06_00"> 0 6 0</measure></item>
+                        <item><g ref="#stItem"/>15 iron at 4 1/2 hour pound
+                            <measure type="currency" unit="£sd" ana="00_05_07"> 0 5 7</measure></item>
+                        
+                    </list>
+                   <!-- RF 2017-04-07 left off here on page 16 bottom of page-->
+                </div>
+                
+            </div>
+            
          
    
         </body>
