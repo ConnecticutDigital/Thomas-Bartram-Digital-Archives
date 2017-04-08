@@ -22,14 +22,15 @@
                     <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
                 </h1>
                 <h2>Authored by <xsl:apply-templates select="//teiHeader//titleStmt//author"/></h2>
-                <h3>Table of Contents</h3>
+                <div class="col-xs-12">
                 <div id="toc" class="col-xs-2">
+                    <h3>Table of Contents</h3>
                     <ul>
                         <xsl:apply-templates select="//div[@type = 'page']" mode="toc"/>
                     </ul>
                 </div>
                 <xsl:apply-templates select="//div[@type = 'page']"/>
-                
+                </div>
             </body>
         </html>
     </xsl:template>
@@ -41,11 +42,12 @@
         </li>
     </xsl:template>
     <xsl:template match="div[@type = 'page']">
-        <div id="page{2 + count(preceding::div[@type = 'page']) + 1}" class="col-xs-9 page">
-            <div class="manu_Image col-xs-5">
+        <div id="page{2 + count(preceding::div[@type = 'page']) + 1}" class="col-xs-10 page">
+            <div class="manu_Image col-xs-4">
                 <img alt="manuscript image for page {2 + count(preceding::div[@type='page']) + 1}"
                     src="images/{@facs}"/>
             </div>
+            <div class="col-xs-2"></div>
             <div class="manu_Content col-xs-4">
                 <xsl:apply-templates/>
             </div>
