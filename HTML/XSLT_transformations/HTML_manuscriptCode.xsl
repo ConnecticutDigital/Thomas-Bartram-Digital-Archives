@@ -13,28 +13,31 @@
                     <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
                 </title>
                 <xsl:comment>Bootstrap CSS</xsl:comment>
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-                    <xsl:comment>Custom CSS</xsl:comment>
+                <link rel="stylesheet"
+                    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+                <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" type="text/css" href="style.css"/>
             </head>
             <body>
                 <h1 class="main">
                     <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
                 </h1>
-                <h2 class="main">Authored by <xsl:apply-templates select="//teiHeader//titleStmt//author"/></h2>
+                <h2 class="main">Authored by <xsl:apply-templates
+                        select="//teiHeader//titleStmt//author"/></h2>
                 <div class="col-xs-12">
-                <!--  
-                    <div id="toc" class="col-xs-2">
+                    <!-- RJP:2017-04-30: We have decided to make the TOC appear on a seperate page. Uncomment the code below for it to appear on the same page as the manuscript/transcriptions. -->
+                    <!-- <div id="toc" class="col-xs-2">
                     <h3>Table of Contents</h3>
                     <ul>
                         <xsl:apply-templates select="//div[@type = 'page']" mode="toc"/>
                     </ul>
                 </div> -->
-                <xsl:apply-templates select="//div[@type = 'page']"/>
+                    <xsl:apply-templates select="//div[@type = 'page']"/>
                 </div>
             </body>
         </html>
     </xsl:template>
+    <!-- RJP:2017-04-30: We have decided to make the TOC appear on a seperate page. Uncomment the code below for it to appear on the same page as the manuscript/transcriptions. -->
     <!-- <xsl:template match="div[@type = 'page']" mode="toc">
         RJP:2016-03-09: Once we decide to add pages 1 and 2 to the master XML file we will go back and fix the code below so that the pages are counting from 1 instead of from 3 onward.
         <li>
@@ -43,12 +46,12 @@
         </li>
     </xsl:template> -->
     <xsl:template match="div[@type = 'page']">
-        <div id="page{2 + count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page">
+        <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page">
             <div class="manu_Image col-xs-4">
-                <img alt="manuscript image for page {2 + count(preceding::div[@type='page']) + 1}"
+                <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
                     src="images/{@facs}"/>
             </div>
-            <div class="col-xs-2"></div>
+            <div class="col-xs-2"/>
             <div class="manu_Content col-xs-6">
                 <hr class="pageDivider"/>
                 <xsl:apply-templates/>
@@ -61,7 +64,7 @@
         </span>
     </xsl:template>
     <xsl:template match="div[@type = 'group']">
-        <div class="section">            
+        <div class="section">
             <hr class="sectionDivider"/>
             <xsl:if test="child::head">
                 <span class="sectionHead">
@@ -129,7 +132,7 @@
     <!-- RJP:2017-03-14:Matches for Special Characters! -->
     <xsl:template match="add[preceding-sibling::g[@ref = '#ditto']]">
         <span class="ditto"
-            title="The text provided here was interpreted by a project editor (ID {@resp}).">
+            title="The text provided here was interpreted by a project editor (ID {@resp}). In the manuscript this text is represented by Bartram's ditto character.">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -141,7 +144,7 @@
     </xsl:template>
     <xsl:template match="g[@ref = '#currency']">
         <span class="currency"
-            title="A symbol bearing resemblance to the currency £ appears sometimes before money notation.">
+            title="A symbol bearing resemblance to the currency £ appears before money notation.">
             <xsl:text>£</xsl:text>
         </span>
     </xsl:template>
@@ -153,7 +156,7 @@
     </xsl:template>
     <xsl:template match="g[@ref = '#stItem']">
         <span class="stItem"
-            title="A symbol appears here before the start of most logged items. It bears resemblance to the word To">
+            title="A symbol appears here before the start of most logged items. It bears resemblance to the word To, and seems to be the way Bartram noted new entries.">
             <xsl:text>To</xsl:text>
         </span>
     </xsl:template>
