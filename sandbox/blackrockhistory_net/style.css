@@ -1,0 +1,109 @@
+/*For Black Rock Historic District*/
+
+.banner img
+{
+    width:800px;
+    margin-left: 280px;
+    
+}
+table {
+    
+}   
+table,
+tr,
+td,
+th{
+    border:black solid 1px;
+}
+
+.house_name 
+{
+    text-align:center;
+/*    margin-left:300px;*/
+}
+
+.date 
+{
+text-align:center;
+    
+}
+
+p, h2.heading
+{
+/* margin-right:10%;
+    margin-left:10%;*/
+    text-align:center;
+}
+
+
+
+.map_heading,.maps p
+{
+        text-align:center;
+}
+
+.house_images img{
+    max-width:100%;
+    margin-left:auto;
+        margin-right:auto;
+        display:block;
+    
+   /* margin-left:300px;*/
+
+margin-bottom: 2em;
+}
+
+
+.description{
+    text-align:justify;
+    width:70%;
+}
+table{
+    margin-right:10%;
+    margin-left:10%;
+}
+tr{
+    margin-bottom:1em;
+    padding-bottom:1em;
+}
+td{
+    padding:1em;
+
+}
+
+.maps img
+{
+    width:200px;
+        max-width:100%;
+    margin-left:auto;
+        margin-right:auto;
+        display:block;
+
+}
+.nav {
+    text-align: center;
+    padding:0;
+}
+
+.nav li{
+    list-style:none;
+    display:inline-block;
+    padding:0 1em;
+}
+
+/*nav li{
+  list-style:none;
+  display:inline-block;
+padding: 0 1em;
+}*/
+
+.nav li:first-child{
+ padding-left: 0em;
+}
+.nav li:last-child{
+ padding-right: 0em;
+}
+
+h2{
+
+}
