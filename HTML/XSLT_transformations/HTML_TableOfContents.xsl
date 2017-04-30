@@ -34,10 +34,9 @@
         </html>
     </xsl:template>
     <xsl:template match="div[@type = 'page']" mode="toc">
-        <!--RJP:2016-03-09: Once we decide to add pages 1 and 2 to the master XML file we will go back and fix the code below so that the pages are counting from 1 instead of from 3 onward.-->
         <li>
-            <a href="HTML_output.html#page{2 + count(preceding::div[@type='page']) + 1}">Page <xsl:apply-templates
-                select="2 + count(preceding::div[@type = 'page']) + 1"/></a>
+            <a href="HTML_output.html#page{count(preceding::div[@type='page']) + 1}">Page <xsl:apply-templates
+                select="count(preceding::div[@type = 'page']) + 1"/></a>
         </li>
     </xsl:template>
     

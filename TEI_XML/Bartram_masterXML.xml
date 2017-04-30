@@ -121,10 +121,10 @@
 <!-- Page 1-->  
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_001.jpg">  
                 <div type="group">
-                    <head>Front book cover</head>
+                    <head>Front Book Cover</head>
           <list type="entry">
-                        <item>Bartram, Thomas Acct. book. Fairfield County 1801-1819</item>
-              <item>Ms 76486 Vol1</item>
+                        <item>Bartram, Thomas Acct. book. Fairfield County. 1801-1819</item>
+              <item>Ms 76486 Vol 1</item>
                     </list>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                 <div type="group">
                     <head><persName ref="#ThomasBartram">Thomas Bartram</persName></head>
                     <list type="entry">
-                        <item>Book Bought of <persName ref="#SethPerry">Seth Perry</persName><date when="1801-24-12">December 24 1801</date></item>
+                        <item>Book Bought of <persName ref="#SethPerry">Seth Perry</persName> <date when="1801-24-12">December 24 1801</date></item>
                         <item>Price 6/6 dollars</item>
                     </list>
                 </div>
@@ -151,7 +151,7 @@
                         <item>
                             <measure commodity="board" quantity="2000" unit="ft">2000 feet
                                 boards</measure> at <measure type="currency" unit="dollars"
-                                ana="19.00">19 Dollars</measure>
+                                ana="19.00">19 Dollars</measure> <g ref="#currency"/>
                             <measure type="currency" unit="£sd" ana="11_08_00">11 8
                             0</measure><!-- RF RP:2017-01-15: We have developed a notation system for the Bartram account book that lists the pound-shilling-pence value in a six digit sequence; this method makes for easy retrieval of the values when we process this info later. -->
                         </item>
@@ -321,7 +321,7 @@
                             <choice>
                                 <sic>Nailes</sic>
                                 <reg resp="#RF">Nails</reg>
-                            </choice> &amp;<unclear reason="illegible" unit="words" quantity="1"
+                            </choice> &amp; <unclear reason="illegible" unit="words" quantity="1"
                                     ><supplied resp="#RF">Glass</supplied></unclear>
                             <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="01_01_00">1 1 0/</measure>
