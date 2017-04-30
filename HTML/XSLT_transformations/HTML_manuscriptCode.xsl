@@ -16,7 +16,7 @@
                 <link rel="stylesheet"
                     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
                 <xsl:comment>Custom CSS</xsl:comment>
-                <link rel="stylesheet" type="text/css" href="style.css"/>
+                <link rel="stylesheet" type="text/css" href="css/style.css"/>
             </head>
             <body>
                 <h1 class="main">

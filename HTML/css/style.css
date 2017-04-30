@@ -2,6 +2,10 @@ html{
     width:100%;
     height:100%;
     font-family: Georgia;
+    background:#BDB76B;
+}
+body{
+    background:#BDB76B;
 }
 img{
     height: auto; 
@@ -24,6 +28,7 @@ manu_Content{
 }
 .main{
     text-align: center;
+    
 
 }
 .sectionHead{
