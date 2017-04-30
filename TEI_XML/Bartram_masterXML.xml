@@ -118,6 +118,27 @@
     </teiHeader>
     <text>
         <body>
+<!-- Page 1-->  
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_001.jpg">  
+                <div type="group">
+                    <head>Front book cover</head>
+          <list type="entry">
+                        <item>Bartram, Thomas Acct. book. Fairfield County 1801-1819</item>
+              <item>Ms 76486 Vol1</item>
+                    </list>
+                </div>
+            </div>
+<!-- Page 2-->  
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_002.jpg">  
+<!--                There is a lot of math notation of adding numbers, which is not noted in our code-->
+                <div type="group">
+                    <head><persName ref="#ThomasBartram">Thomas Bartram</persName></head>
+                    <list type="entry">
+                        <item>Book Bought of <persName ref="#SethPerry">Seth Perry</persName><date when="1801-24-12">December 24 1801</date></item>
+                        <item>Price 6/6 dollars</item>
+                    </list>
+                </div>
+            </div>           
 <!-- Page 3-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_003.jpg">
                 <!-- RF RP:2017-01-15: @type = most frequently pages on the right-side of the account book are credit and pages on the left-side are debits. Only use the subtype attribute if the page has been verified as either a "credit" or "debit". We might add attribute values if we determine there are pages that are neither credit or debit pages.-->
@@ -1649,6 +1670,7 @@
                        <!-- there is a symbol for dollar sign-->
                     </list>
                 </div>
+            </div>
                 <div type="group">
                     <head><persName>Benjamin Sturges</persName><g ref="#afterName"></g></head>
                     <list type="entry">
@@ -1659,14 +1681,38 @@
                             <measure type="currency" unit="£sd" ana="01_06_00"> 0 6 0</measure></item>
                         <item><g ref="#stItem"/>15 iron at 4 1/2 hour pound
                             <measure type="currency" unit="£sd" ana="00_05_07"> 0 5 7</measure></item>
-                        
+                        <item><g ref="#stItem"/>Make 25 Small Spikes
+                        <measure type="currency" unit="£sd" ana="00_01_06"></measure>0 1 6</item>
+                        <item><g ref="#stItem"/>Make 18 <g ref="#ditto"/><add resp="#RF">Small</add>Spikes</item>
+                        <item><g ref="#stItem"/>Make 2 Bolts <unclear quantity="2" unit="words" reason="illegible"></unclear></item>
+                  <!--      There is a summary number-->                 
                     </list>
                    <!-- RF 2017-04-07 left off here on page 16 bottom of page-->
+                </div>             
+     
+<!--Page 17-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_017.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head>
+                            <date when="1802-01">January 1802</date>
+                        </head>
+                        <item>By Carting 2 Lod Timer from Chestnut Hill
+                            <measure type="currency" unit="£sd" ana="00_09_00"></measure></item>
+                        <item><date when="1805-12-19">December 19 1805</date> this account is Paid</item>
+                    </list>
+                        <div type="group">
+                            <head>Credit</head>
+                            <list type="entry">
+                                <head><date when="1802-09">Sept 1802</date></head>
+                                <item>By 3 gallons rum at 6/
+                                    <measure type="currency" unit="£sd" ana="00_18_00"></measure>0 18 0</item>
+                            </list>
+                        </div>
+               
                 </div>
-                
             </div>
-            
-         
    
         </body>
         <back>
