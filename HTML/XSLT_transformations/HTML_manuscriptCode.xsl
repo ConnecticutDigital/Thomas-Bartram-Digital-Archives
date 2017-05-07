@@ -7,8 +7,12 @@
     <xsl:output method="xhtml" indent="yes"
         doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
     <xsl:template match="/">
-        <html>
+        <html lang="en">
             <head>
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta name="description" content="Black Rock History Website"/>
+                <meta name="author" content="Rebecca Parker and Robert Foley"/>
                 <title>
                     <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
                 </title>

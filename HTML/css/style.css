@@ -1,12 +1,36 @@
 html{
     width:100%;
     height:100%;
-    font-family: Georgia;
-    background:#BDB76B;
+    font-family: Georgia !important;
+    background:#d8f0f3/*#b0e0e6*/;
 }
 body{
-    background:#BDB76B;
+    background:#d8f0f3/*#b0e0e6*/;
+    font-family: Georgia !important;
+    
 }
+a{
+    color: #30909c;
+    font-weight:600;
+}
+.navbar-brand:hover{
+    color: #b0e0e6 !important;
+}
+.navbar-nav > li > a:hover{
+    color: #b0e0e6 !important;
+}
+.navbar-nav > .active > a:hover{
+    color: #b0e0e6 !important;
+}
+.navbar-nav > .open > a:hover{
+    color: #b0e0e6 !important;
+}
+.navbar-brand {
+    font-family: Cooper !important;
+    font-size: 14pt !important;
+    color: #30909c  !important;
+}
+
 img{
     height: auto; 
     width: auto;
