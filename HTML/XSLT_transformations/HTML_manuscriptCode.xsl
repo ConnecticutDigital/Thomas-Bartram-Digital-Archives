@@ -21,13 +21,49 @@
                     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
                 <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" type="text/css" href="css/style.css"/>
+                <link href="css/portfolio-item.css" rel="stylesheet"/>
             </head>
             <body>
-                <h1 class="main">
-                    <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
-                </h1>
-                <h2 class="main">Authored by <xsl:apply-templates
-                        select="//teiHeader//titleStmt//author"/></h2>
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                            </button>
+                            <a class="navbar-brand" href="index.html">Black Rock History</a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="historicDistrict.html">Historic District</a>
+                                </li>
+                                <li>
+                                    <a href="merchantLog_main.html">Bartram Merchant Logs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="main">
+                            <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
+                        </h1>
+                        <h2 class="main">Authored by <xsl:apply-templates
+                                select="//teiHeader//titleStmt//author"/></h2>
+                    </div>
+                </div>
                 <div class="col-xs-12">
                     <!-- RJP:2017-04-30: We have decided to make the TOC appear on a seperate page. Uncomment the code below for it to appear on the same page as the manuscript/transcriptions. -->
                     <!-- <div id="toc" class="col-xs-2">
@@ -51,6 +87,7 @@
     </xsl:template> -->
     <xsl:template match="div[@type = 'page']">
         <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page">
+
             <div class="manu_Image col-xs-4">
                 <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
                     src="images/{@facs}"/>
@@ -58,6 +95,10 @@
             <div class="col-xs-2"/>
             <div class="manu_Content col-xs-6">
                 <hr class="pageDivider"/>
+                <span class="pageNum">
+                    <xsl:text>Page </xsl:text>
+                    <xsl:apply-templates select="count(preceding::div[@type = 'page']) + 1"/>
+                </span>
                 <xsl:apply-templates/>
             </div>
         </div>
