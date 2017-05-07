@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet exclude-result-prefixes="xs" version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet exclude-result-prefixes="xs" version="2.0"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
 		<html>
 			<head/>
@@ -34,18 +34,18 @@
 				</ul>
 				<h2 class="heading">Black Rock Harbor Historic District</h2>
 				<p> The Black Rock National Register District includes the remains of the village of
-                    Black Rock, third most important seaport in Connecticut after the Revolutionary
-                    War - and important shipbuilding center in the years immediately preceding the
-                    Civil War. It includes examples of every major American architectural style from
-                    the late Medieval of the seventeenth century to the Italianate of the
-                    mid-nineteenth, as well as some resort and suburban styles of the later
-                    Victorian era.</p>
+					Black Rock, third most important seaport in Connecticut after the Revolutionary
+					War - and important shipbuilding center in the years immediately preceding the
+					Civil War. It includes examples of every major American architectural style from
+					the late Medieval of the seventeenth century to the Italianate of the
+					mid-nineteenth, as well as some resort and suburban styles of the later
+					Victorian era.</p>
 				<p>Black Rock was made a Port of Entry for all of Western Connecticut in, 1790. A
-                    government lighthouse was built at the mouth of the harbor in 1807, and a
-                    turnpike laid out to Danbury in 1812. By 1830, however, Bridgeport begins to
-                    surpass Black Rock's place as the center of eastern Fairfield County commerce.
-                    At this time the village turned to ship and carriage building as a means of
-                    livelihood. </p>
+					government lighthouse was built at the mouth of the harbor in 1807, and a
+					turnpike laid out to Danbury in 1812. By 1830, however, Bridgeport begins to
+					surpass Black Rock's place as the center of eastern Fairfield County commerce.
+					At this time the village turned to ship and carriage building as a means of
+					livelihood. </p>
 			</body>
 		</html>
 		<!--Creates am html for each house-->
@@ -90,29 +90,35 @@
 							</li>
 						</ul>
 						<!-- put in the images-->
-					
+
 						<p class="house_name">
 							<xsl:value-of select="@house_name"/>
 						</p>
 						<p class="date">
-							<xsl:value-of select="date"></xsl:value-of>
+							<xsl:value-of select="date"/>
 						</p>
 						<div class="house_images">
 							<img src="../images/{@house_name}.jpg"/>
 							<xsl:apply-templates select="images"/>
-							
+
 							<ul class="nav">
-								<xsl:if test="not($houses[1] = $houses[@house_name = current()/@house_name])">
+								<xsl:if
+									test="not($houses[1] = $houses[@house_name = current()/@house_name])">
 									<li>
-										<a href="{$houses[@house_name = current()/@house_name]/preceding-sibling::house[1]/@house_name}.html">Previous</a>
+										<a
+											href="{$houses[@house_name = current()/@house_name]/preceding-sibling::house[1]/@house_name}.html"
+											>Previous</a>
 									</li>
 								</xsl:if>
 								<li>
 									<a href="../list.html">Back to list</a>
 								</li>
-								<xsl:if test="not($houses[last()] = $houses[@house_name = current()/@house_name])">
+								<xsl:if
+									test="not($houses[last()] = $houses[@house_name = current()/@house_name])">
 									<li>
-										<a href="{$houses[@house_name = current()/@house_name]/following-sibling::house[1]/@house_name}.html">Next</a>
+										<a
+											href="{$houses[@house_name = current()/@house_name]/following-sibling::house[1]/@house_name}.html"
+											>Next</a>
 									</li>
 								</xsl:if>
 							</ul>
@@ -156,20 +162,20 @@
 					</ul>
 					<h2 class="heading">The Black Rock National Register District</h2>
 					<p> This project's goal is to raise awareness about the seaside village of Black
-                        Rock, Connecticut. The historic distrcit is located at the head of Black
-                        Rock Harbor in the City of Bridgeport, approximately two and one-half miles
-                        southwest, of downtown. The area within the district boundaries comprises
-                        the residential section of an eighteenth' and nineteenth century
-                        seaport/shipbuilding center as delineated by old maps and surviving
-                        architectural evidence.</p>
+						Rock, Connecticut. The historic distrcit is located at the head of Black
+						Rock Harbor in the City of Bridgeport, approximately two and one-half miles
+						southwest, of downtown. The area within the district boundaries comprises
+						the residential section of an eighteenth' and nineteenth century
+						seaport/shipbuilding center as delineated by old maps and surviving
+						architectural evidence.</p>
 					<p>Included are two pre-Revolutionary houses, a Federal Greek Revival housing
-                        and manufacturing development, and an early Victorian, shipbuilding
-                        community interspersed with compatible late nineteenth and twentieth century
-                        structures constructed after the village had become incorporated into the
-                        larger urban center. The area surrounding the district is an urban
-                        residential neighborhood of twentieth century one- and two-family houses.
-                        The district is sited on a coastal plain with a gentle slope up to a small
-                        hill on Ellsworth Street.</p>
+						and manufacturing development, and an early Victorian, shipbuilding
+						community interspersed with compatible late nineteenth and twentieth century
+						structures constructed after the village had become incorporated into the
+						larger urban center. The area surrounding the district is an urban
+						residential neighborhood of twentieth century one- and two-family houses.
+						The district is sited on a coastal plain with a gentle slope up to a small
+						hill on Ellsworth Street.</p>
 				</body>
 			</html>
 		</xsl:result-document>
@@ -207,9 +213,9 @@
 							</h2>
 						</li>
 					</ul>
-					<h2>This databse lists the name of the historic house, the address, the style and
-                        description of the house and the year it was registered in the national
-                        register of historic places.</h2>
+					<h2>This databse lists the name of the historic house, the address, the style
+						and description of the house and the year it was registered in the national
+						register of historic places.</h2>
 					<p>CLICK THE HEADINGS TO SORT</p>
 					<table class="sortable">
 						<!--These are the headings for the table-->
