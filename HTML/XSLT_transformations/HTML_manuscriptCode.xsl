@@ -3,9 +3,8 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
-    xmlns="http://www.w3.org/1999/xhtml" version="3.0">
-    <xsl:output method="xhtml" indent="yes"
-        doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
+    xmlns="http://www.w3.org/1999/html" version="3.0">
+    <xsl:output method="html" indent="yes"/>
     <xsl:template match="/">
         <html lang="en">
             <head>
