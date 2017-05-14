@@ -1,0 +1,86 @@
+/*this is for the Wheeler diary*/
+.entry{
+
+   margin-bottom:1em;
+    border:1px solid black;
+    Padding-left: 3em;
+Padding-right: 4em;
+    
+ 
+}
+
+#navigation{
+margin-left: auto;
+margin-right: auto;    
+text-align:center;
+
+}
+.center{
+    text-align:center;
+}
+#titlepage{
+    margin-left:40em;
+    padding-top:8%;
+}
+#toc{
+    float:left;
+}
+#diary{
+    position:relative;
+    float:left;
+}
+hr{
+    position:relative;
+}
+#header img{
+    height:100px;
+}
+.left{
+    float:left;
+    margin-left:6em;
+}
+.right{
+    float:right;
+    position:relative;
+    margin-right:6em;
+}
+.middle{
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:4em;
+}
+#header p{
+    font-size:smaller;
+    margin-top:5px;
+    text-align: center;
+    padding-left:1em;
+    padding-right:1em;
+    
+}
+#header p.left{
+    width:134px;
+}
+
+#header p.right{
+    width:240px;
+}
+#header p.middle{
+    padding-left:23em;
+}
+
+#diary{
+margin-left:4em;
+margin-right:4em;
+}
+
+#intro{
+    margin-left:4em;
+margin-right:4em;
+}
+
+.about{
+padding-left:150px;   
+padding-right:150px;
+}
