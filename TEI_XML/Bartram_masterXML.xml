@@ -1799,14 +1799,109 @@
                     <head><persName>David Hoddsden</persName><g ref="#afterName"/></head>
                     <list type="entry">
                         <head><date when="1802-03-12">March 12 1802</date></head>
-                        <item><g ref="#stItem"/> Cash<measure type="currency" unit="£sd"
-                                ana="00_06_00">0 6 0</measure></item>
-                        <item><g ref="#stItem"/><measure commodity="frame" unit="whole" quantity="2"
-                                >two pound Flax</measure></item>
-
+                        <item><g ref="#stItem"/> Cash<measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure></item>
+                        <item><g ref="#stItem"/><measure commodity="frame" unit="whole" quantity="2">two pound Flax</measure>
+                            <measure type="currency" unit="£sd" ana="00_06200">0 2 0</measure></item>
                     </list>
+                    <list type="entry">
+                        <head><date when="1806-04">April 1806</date></head>
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1808-12-27">Dec 27 1808</date></head>
+                        <item><g ref="#stItem"/> 2 <unclear quantity="1" unit="words" reason="illegible"></unclear> New
+                            <measure type="currency" unit="£sd" ana="00_03_06">0 3 6</measure></item>
+                    </list>
+                      <!--  Line-->
+                    <list type="entry">
+                        <head><persName>Capt Ezekiel Hull</persName><g ref="#afterName"/>
+                            <date when="1802-05">May 1802</date></head>
+                        <item><g ref="#stItem"> Cash</g>
+                            <g ref="#currency"></g><measure type="currency" unit="£sd" ana="30_00_00">30 0 0</measure>
+                        </item>
+                    </list>
+             </div>
+            </div>
+            <!--    Page 19-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_019.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head>Credit<date when="1802-02">February 1802</date></head>
+                        <item><g ref="#stItem"/> Sawing 15 Sawmills Logs
+                            <measure type="currency" unit="£sd" ana="00_08_00">0 8 0</measure></item>
+                 <!--       Two lines under the currency sum--></list>
                 </div>
             </div>
+            <div type="group">
+                <head>Credit</head>
+                <list type="entry">
+                    <head>Credit<date when="1802-04">April 1802</date></head>
+                    <item><g ref="#stItem"/> Four Thousdand Five Hundred 3 feet Shingles at
+                        <measure type="currency" unit="£sd" ana="24_06_00">24 6 0 </measure></item>
+                </list>
+            </div>
+            
+            <!--    Page 20-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_020.jpg">
+                <div type="group">
+                  <head><persName ref="#SamuelRead">Samuel Read</persName></head>
+                    <list type="entry">
+                        <head> <date when="1802-04-01">April 1 1802</date></head>
+                        <item><g ref="#stItem"/> Mend hook &amp; one <unclear quantity="2" unit="words" reason="illegible">
+                            <measure type="currency" unit="£sd" ana="03_02_04">3 2 4</measure>
+                        </unclear>
+                        </item>
+                        <item><g ref="#stItem"/> Mend Peal &amp; Dung fork
+                            <measure type="currency" unit="£sd" ana="00_02_03">0 2 3</measure></item>
+                        <item><g ref="#stItem"/> one &amp; half of <unclear quantity="1" unit="words" reason="illegible"></unclear>
+                            <measure type="currency" unit="£sd" ana="00_00_07">0 0 7</measure>
+                        </item>
+                        <item>
+                        <g ref="#stItem"/><unclear quantity="2" unit="words" reason="illegible"></unclear>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure>
+                        </item>
+                        <item>
+                            <g ref="#stItem"/>Plowing 3 Days<measure type="currency" unit="£sd" ana="01_07_00">0 1 0</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1802-03-20">March 30 1802</date></head>
+                        <item><g ref="#stItem"/> one <unclear quantity="1" unit="words" reason="illegible"></unclear> bill Loft
+                            <measure type="currency" unit="£sd" ana="11_07_00">11 7 0</measure></item>
+                        <item><g ref="#stItem"/> <!--Looks like School Shoule--><unclear quantity="2" unit="words" reason="illegible"></unclear>
+                            <measure type="currency" unit="£sd" ana="01_04_06">0 4 6</measure></item>
+                        <item><g ref="#stItem"/> <unclear quantity="1" unit="words" reason="illegible"></unclear> Bush Coal &amp; 
+                            <unclear quantity="4" unit="words" reason="illegible"></unclear>
+                            <measure type="currency" unit="£sd" ana="01_07_00">0 7 0</measure>
+                        </item></list>
+                    <!--Sum of numbers 13 11 8-->
+</div>
+            </div>
+         <!-- Fairfield April 17 1804 crossed out text-->
+   <div type="group">
+       <head><persName ref="MaryOlson">Mary Olson</persName><g ref="#afterName"></g></head>
+       <list type="entry">
+       <head><date when="1802-01-04">June 4 1802</date></head>
+           <item><g ref="#stItem"/> 70 Pound foiurpenny Nailes at /10 2/1
+               <g ref="#currency"/> <measure type="currency" unit="£sd" ana="03_00_00">3 0 0</measure>
+           </item>
+           <item>Due on old account <measure type="currency" unit="£sd" ana="00_08_04">0 8 4</measure></item>
+           <item><g ref="#stItem"/> 5 Thousand <unclear quantity="2" unit="words" reason="illegible"></unclear>
+               <measure type="currency" unit="£sd" ana="02_05_00">2 5 </measure></item>
+           <item><g ref="#stItem"/> 1 Set Nives &amp; forks <measure type="currency" unit="£sd" ana="00_03_04">0 3 4</measure></item>
+           <item><g ref="#stItem"/> <unclear quantity="3" unit="words" reason="illegible"></unclear> 
+               <measure type="currency" unit="£sd" ana="00_01_00">0 1 0 </measure></item>
+           <item><g ref="#stItem"/><measure commodity="wool" unit="whole" quantity="13">13 lb wool at 2/1</measure></item>
+           
+   <!-- I stopped at 200 ext to cash 1 10 0-->
+       </list>
+   </div>
+            
+            
+                
+            
 
 
 

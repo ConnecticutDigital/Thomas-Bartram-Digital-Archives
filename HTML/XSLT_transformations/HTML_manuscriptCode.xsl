@@ -49,6 +49,9 @@
                                 <li>
                                     <a href="merchantLog_main.html">Bartram Merchant Logs</a>
                                 </li>
+                                <li>
+                                    <a href="wheeler_html">Wheeler Diary</a>
+                                </li>
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
