@@ -49,6 +49,9 @@
                                 <li>
                                     <a href="merchantLog_main.html">Bartram Merchant Logs</a>
                                 </li>
+                                <li>
+                                    <a href="wheeler_html">Wheeler Diary</a>
+                                </li>
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -79,7 +82,7 @@
     </xsl:template>
     <xsl:template match="div[@type = 'page']" mode="toc">
         <li>
-            <a href="HTML_output.html#page{count(preceding::div[@type='page']) + 1}">Page
+            <a href="merchantLog.html#page{count(preceding::div[@type='page']) + 1}">Page
                     <xsl:apply-templates select="count(preceding::div[@type = 'page']) + 1"/></a>
         </li>
     </xsl:template>
