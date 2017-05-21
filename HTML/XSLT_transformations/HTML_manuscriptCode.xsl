@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
-    xmlns="http://www.w3.org/1999/html" version="3.0">
-    <xsl:output method="html" indent="yes"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml">
+    <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes"/>
     <xsl:template match="/">
         <html lang="en">
             <head>
-                <meta charset="utf-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta name="description" content="Black Rock History Website"/>
                 <meta name="author" content="Rebecca Parker and Robert Foley"/>
@@ -18,6 +14,7 @@
                 <xsl:comment>Bootstrap CSS</xsl:comment>
                 <link rel="stylesheet"
                     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
                 <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" type="text/css" href="css/style.css"/>
                 <link href="css/portfolio-item.css" rel="stylesheet"/>
@@ -30,6 +27,7 @@
                             <button type="button" class="navbar-toggle" data-toggle="collapse"
                                 data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"/>
                                 <span class="icon-bar"/>
                                 <span class="icon-bar"/>
                                 <span class="icon-bar"/>
@@ -49,7 +47,7 @@
                                     <a href="merchantLog_main.html">Bartram Merchant Logs</a>
                                 </li>
                                 <li>
-                                    <a href="wheeler_html">Wheeler Diary</a>
+                                    <a href="wheelerDiary_main.html">Wheeler Diary</a>
                                 </li>
                             </ul>
                         </div>
@@ -81,18 +79,20 @@
     </xsl:template>
     <!-- RJP:2017-04-30: We have decided to make the TOC appear on a seperate page. Uncomment the code below for it to appear on the same page as the manuscript/transcriptions. -->
     <!-- <xsl:template match="div[@type = 'page']" mode="toc">
-        RJP:2016-03-09: Once we decide to add pages 1 and 2 to the master XML file we will go back and fix the code below so that the pages are counting from 1 instead of from 3 onward.
         <li>
-            <a href="#page{2 + count(preceding::div[@type='page']) + 1}">Page <xsl:apply-templates
-                    select="2 + count(preceding::div[@type = 'page']) + 1"/></a>
+            <a href="#page{count(preceding::div[@type='page']) + 1}">Page <xsl:apply-templates
+                    select="count(preceding::div[@type = 'page']) + 1"/></a>
         </li>
     </xsl:template> -->
     <xsl:template match="div[@type = 'page']">
         <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page">
 
             <div class="manu_Image col-xs-4">
-                <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
-                    src="images/{@facs}"/>
+                <a href="images/{@facs}" target="_blank">
+                    <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
+                        src="images/{@facs}"/>
+                </a>
+
             </div>
             <div class="col-xs-2"/>
             <div class="manu_Content col-xs-6">
@@ -142,6 +142,12 @@
         </span>
     </xsl:template>
     <xsl:template match="measure[@type = 'currency'][matches(@ana, '\d{2,}_\d{2,}_\d{2,}')]">
+        <!--
+            RJP:2017-05-21: Currently not function isn't working to only grab the currency elements that are not followed by the hyphen notation
+            
+            <xsl:if test="not(preceding-sibling::g[@ref='#longHyphen'])">
+            <span class="currSpacer" title="The *** does not appear in the original document and is only included in the transcription for purposes of webpage layout."><xsl:text> *** </xsl:text></span>
+        </xsl:if>-->
         <span class="curr"
             title="£{tokenize(@ana,'_')[1]} s{tokenize(@ana,'_')[2]} d{tokenize(@ana,'_')[3]}">
             <!-- RJP:2017-03-16: The regular expression to match on two digits at time is not working here. Consult M.Kay and conisder creating variable that gets regular expression and can be entered here in place. Otherwise will need to change XML to better suit info supplied in attribute.  -->
@@ -163,7 +169,7 @@
         <xsl:choose>
             <xsl:when test="child::supplied">
                 <span class="unclear"
-                    title="The text provided here was interpreted by a project editor (ID {child::supplied/@resp}) because the transcription source was unclear.">
+                    title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}) because the transcription source was unclear.">
                     <!-- RJP:2017-03-14: In the future, change this so the @resp goes up into the teiHeader and matches on the full name of the editor associated with the current() ID. -->
                     <xsl:apply-templates/>
                 </span>
@@ -179,7 +185,7 @@
     <!-- RJP:2017-03-14:Matches for Special Characters! -->
     <xsl:template match="add[preceding-sibling::g[@ref = '#ditto']]">
         <span class="ditto"
-            title="The text provided here was interpreted by a project editor (ID {@resp}). In the manuscript this text is represented by Bartram's ditto character.">
+            title="The text provided here was interpreted by a project editor (ID: {tokenize(@resp,'#')[last()]}). In the manuscript this text is represented by Bartram's ditto character.">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
