@@ -74,10 +74,10 @@
             <h2>
                 <xsl:apply-templates select="child::head"/>
             </h2>
-            <xsl:for-each select="//p">
-                <p><xsl:apply-templates/></p>
-            </xsl:for-each>
         </div>
+    </xsl:template>
+    <xsl:template match="p">
+        <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="italic">
         <span class="italics">
