@@ -62,26 +62,29 @@
                                 thereof till the Present Time,"</h3>
                         </div>
                         <div class="col-xs-12">
-                            <xsl:apply-templates select="//div[@type = 'section']"/>
+                            <xsl:apply-templates select="descendant::div[@type = 'section'][parent::div[@type='chapter'][contains(child::head, 'The Journal of William Wheeler (The historic manuscript')]]"/>
                         </div>
                     </div>
                 </div>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="div[@type = 'chapter']">
-        <div id="section{count(preceding::div[@type='chapter']) + 1}">
-            <h2>
-                <xsl:apply-templates select="child::head"/>
-            </h2>
+    <xsl:template match="div[@type = 'section']">
+        <div id="section{count(preceding::div[@type='section']) + 1}">
+            <xsl:apply-templates/>
         </div>
+    </xsl:template>
+    <xsl:template match="head">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
     </xsl:template>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
-    <xsl:template match="italic">
+    <!--<xsl:template match="italic">
         <span class="italics">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
+    </xsl:template>-->
 </xsl:stylesheet>
