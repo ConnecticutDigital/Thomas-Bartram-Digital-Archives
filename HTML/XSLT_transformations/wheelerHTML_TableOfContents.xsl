@@ -66,7 +66,7 @@
                     <div class="col-xs-12">
                         <div id="toc" class="col-xs-6">
                             <ul>
-                                <xsl:apply-templates select="//div[@type = 'chapter']"/>
+                                <xsl:apply-templates select="descendant::div[@type = 'section'][parent::div[contains(child::head, 'The Journal of William Wheeler (The historic manuscript')]]"/>
                             </ul>
                         </div>
                     </div>
@@ -74,10 +74,10 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="div[@type = 'chapter']">
+    <xsl:template match="div[@type = 'section']">
         <li>
-            <a href="wheelerDiary.html#section{count(preceding::div[@type='chapter']) + 1}">
-                <xsl:apply-templates select="child::head"/>
+            <a href="wheelerDiary.html#section{count(preceding::div[@type='section']) + 1}">
+                <xsl:apply-templates select="descendant::head[not(contains(.,'The Journal of William Wheeler (The historic manuscript'))]"/>
             </a>
         </li>
     </xsl:template>
