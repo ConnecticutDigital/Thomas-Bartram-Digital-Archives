@@ -4,8 +4,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><date from-iso="1801" to-iso="1819">1801 - 1819</date> Merchant and Shipping
-                    Account Log Book from Fairfield, Connecticut</title>
+                <title><date from-iso="1801" to-iso="1819">1801 - 1838</date> Merchant and Shipping
+                    Account Log Book from Black Rock, Fairfield, Connecticut</title>
                 <author ref="#BartramT">Thomas Bartram</author>
                 <sponsor>
                     <orgName>Black Rock Historical Society</orgName>
@@ -276,10 +276,6 @@
                             <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="27_00_00">27 0 0</measure>
                         </item>
-
-                        <!-- RP:2017-01-15: The encoding of the section above this point has been proof-read. -->
-
-                        <!-- LINE_19: 6 do 2 feet at - 3 Dollars -->
                         <item>
                             <measure commodity="shingles" quantity="6000" unit="ft">6 <g
                                     ref="#ditto"/><add resp="#RF">thousand</add> 2 feet at</measure>
@@ -541,7 +537,7 @@
                             <unclear reason="strikethrough" unit="words" quantity="1"><supplied
                                     resp="#RF">No></supplied></unclear> hay </item>
                         <!-- LINE_16: Illegible first and last name  -->
-                        <item> 3 No hay </item>
+                        <item>Ebezebot watron 3 No hay </item>
 
                         <!-- LINE_17: Joseph Sturges and others 65 1/4 paid  -->
                         <item><persName ref="#JosephSturges">Joseph Sturges</persName> and others 65
@@ -560,12 +556,12 @@
                             No hay</item>
                         <!-- RF 2017-01-26: Add unclear name  Canah Bult by Others?-->
                         <item><persName ref="DavidHubble">David Hubble</persName>
-                            <g ref="#longHyphen" n="1"> 7 1/4 paid</g></item>
-                        <!-- RF 2017-01-26: Add unclear name  Calam Capt? 31 1/4 paid-->
+                            <g ref="#longHyphen" n="1"/> 7 1/4 paid</item>
+                        <item>Calam Capt 31 1/4 paid </item>
                         <item><persName ref="WillThorp"/>Will Thorp <g ref="#longHyphen" n="3"/> 2
                                 <g ref="#longHyphen" n="1"/></item>
-                        <!-- RF 2017-01-26: Add unclear name  Jeb Burr - 2 paid-->
-                        <!-- RF 2017-01-26: Add unclear name  Lewis? Osborn - 22 paid-->
+                        <item>Jeb Burr - 2 paid</item>
+                        <item>Lewis Osborn - 22 paid</item>
                         <item><persName ref="CaptAllen">Capt allen</persName>
                             <g ref="#longHyphen" n="3"/> 5 1/4 paid</item>
                         <item><persName ref="DavidBradley">David Bradley</persName><g
@@ -637,16 +633,24 @@
                         <item>For <!--dollar sign--> 1840 freight to <unclear unit="words"
                                 quantity="1" reason="illegible"/></item>
                         <item>Due from Lynde Walter boston 45.00 </item>
-                        <item>Due from Amos Lock 66.00</item>
+                        <item>Due from tmas Lock 66.00</item>
                         <item>wool sold for <g ref="#longHyphen" n="1"/>1955.00</item>
                         <item>Left at Home Cash <g ref="#longHyphen" n="1"/></item>
                         <item>gave Seth Perry <g ref="#longHyphen" n="1"/> 550</item>
                         <item><unclear reason="illegible" unit="words" quantity="1"/> Novemeber 13
                                 <g ref="#longHyphen" n="1"/>
                             <!-- sum 2237.00 --></item>
-                        <!--    RF 2017-03-14: still need to transcribe bottom of this page starting with Nov 10 1812, by cash paid will Hayt...-->
-
-
+ </list>
+                </div>
+                <div type="group">
+                    <list type="entry">
+                        <head>
+                            <date when="1812-11-10"/>
+                        </head>
+                        <item><g ref="#stItem"/> Cash paid will Hayt for paints to paint house $94 75</item>
+                        <item><g ref="#stItem"/> Cash paid to Elijah Turney for work painting House 6 00</item>
+                        <item><g ref="#stItem"/> Cash paid to  Squire Nichols for <unclear quantity="1" unit="words" reason="illegible"/> Lead 83</item>
+                       <!-- Sum pound 114 58-->
                     </list>
                 </div>
             </div>
@@ -677,8 +681,7 @@
                         </item>
                         <item>
                             <g ref="#stItem"/>
-                            <measure commodity="butter" quantity="4" unit="lb">Four <unclear
-                                    reason="illegible" unit="chars" quantity="1"/> qrt <g
+                            <measure commodity="butter" quantity="4" unit="lb">Four qrt <g
                                     ref="#ditto"/><add resp="#RF">Butter</add> at 1/</measure>
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" ana="00_04_03">0 4 3</measure>
@@ -706,7 +709,7 @@
                     <list type="entry">
                         <head><date when="1802-04">April 1802</date></head>
                         <item>
-                            <g ref="#stItem"/>Fix Plow Plates <g ref="#longHyphen" n="3"/>
+                            <g ref="#stItem"/> Fix Plow Plates <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" ana="00_00_06">0 0 6</measure>
                         </item>
 
@@ -718,12 +721,7 @@
                         </item>
 
                         <item>
-                            <g ref="#stItem"/>
-                            <choice>
-                                <sic>Shearp</sic>
-                                <reg resp="#RF">Sharpen</reg>
-                            </choice>
-                            <g ref="#longHyphen" n="3"/>
+                            <g ref="#stItem"/>Shearp Sharpen <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure>
                         </item>
 
@@ -814,8 +812,7 @@
                             <measure type="currency" unit="£sd" ana="00_12_00">0 12 0</measure>
                         </item>
                         <item>
-                            <g ref="#stItem"/> Hay 4 1/4 <unclear reason="illegible" unit="words"
-                                quantity="1"/> Hundred at 4/6 <measure type="currency" unit="£sd"
+                            <g ref="#stItem"/> Hay 4 1/4 qrtHundred at 4/6 <measure type="currency" unit="£sd"
                                 ana="01_19_02">0 19 2</measure></item>
                     </list>
 
