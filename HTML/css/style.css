@@ -18,12 +18,27 @@ div#nav{
     width: 90%;
     text-align: center;
     padding: 5px;
-    font-size: 20px !important;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
 }
 .index_sub{
     font-size:12pt;
+    margin:0%;
+    margin-top:2%;
+     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20.4px;
 }
-
+#content{
+    text-align:center;
+}
 
 img{
     height: auto;
