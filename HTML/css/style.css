@@ -13,23 +13,17 @@ a{
     color: #30909c;
     font-weight: 600;
 }
-.navbar-brand:hover{
-    color: #b0e0e6 !important;
+div#nav{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px !important;
 }
-.navbar-nav > li > a:hover{
-    color: #b0e0e6 !important;
+.index_sub{
+    font-size:12pt;
 }
-.navbar-nav > .active > a:hover{
-    color: #b0e0e6 !important;
-}
-.navbar-nav > .open > a:hover{
-    color: #b0e0e6 !important;
-}
-.navbar-brand{
-    font-family: Cooper !important;
-    font-size: 16pt !important;
-    color: #30909c !important;
-}
+
 
 img{
     height: auto;
