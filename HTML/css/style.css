@@ -64,6 +64,9 @@ manu_Content{
     text-align: center;
     font-size: 45pt !important;
 }
+.pageNum{
+    font-size:16pt;
+}
 .main{
     text-align: center;
     font-size: 25pt !important;

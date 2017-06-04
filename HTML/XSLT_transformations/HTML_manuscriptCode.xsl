@@ -16,7 +16,20 @@
                     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
                 <xsl:comment>Custom CSS</xsl:comment>
+                <link rel="stylesheet" href="css/bootstrap-magnify.css"/>
                 <link rel="stylesheet" type="text/css" href="css/style.css"/>
+                    <script src="js/jquery.js"></script>
+                    <script src="js/bootstrap.min.js"></script>
+                    <script src="js/bootstrap-magnify.js"></script>
+                    <script>
+                        $(document).ready(function() {
+                        $('img')
+                        .filter(function() {
+                        return this.alt.match(/manuscript\simage/);
+                        })
+                        .magnify();
+                        });
+                    </script>
                
             </head>
             <body>
@@ -57,15 +70,15 @@
     <xsl:template match="div[@type = 'page']">
         <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page">
 
-            <div class="manu_Image col-xs-4">
+            <div class="manu_Image col-md-4">
                 <a href="images/{@facs}" target="_blank">
                     <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
                         src="images/{@facs}"/>
                 </a>
 
             </div>
-            <div class="col-xs-2"/>
-            <div class="manu_Content col-xs-6">
+            <div class="col-md-2"/>
+            <div class="manu_Content col-md-6">
                 <hr class="pageDivider"/>
                 <span class="pageNum">
                     <xsl:text>Page </xsl:text>
