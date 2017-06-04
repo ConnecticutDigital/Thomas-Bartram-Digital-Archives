@@ -17,6 +17,11 @@
                         by</resp>
                     <persName xml:id="SG">Susan Graham</persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Transcription of 
+                        by</resp>
+                    <persName xml:id="BN">Beth Northrop</persName>
+                </respStmt>
                 <!-- Add a respStmt for each transcriber -->
                 <respStmt>
                     <resp>XML mentorship provided by </resp>
@@ -227,18 +232,15 @@
                         </item>
                         <item>
                             <measure commodity="brick" unit="bought" quantity="1"/>Bought of
-                                <orgName ref="#DanGreShou_Brick">Daniel Gregory &amp;
-                                Shouland</orgName> Brick at <measure type="currency" unit="dollars"
+                            <persName xml:id="DanielGregory">Daniel Gregory</persName> <measure commodity="brick" quantity="8000" unit="whole">8 Thousand
+                                Brick</measure> at <measure type="currency" unit="dollars"
                                 ana="5000">5 Dollars Thousand</measure> &amp; paid him <measure
                                 type="currency" ana="40" unit="dollars">Forty Dollars</measure>
                             <date when="1802-02-10">February 10 1802</date>
                             <measure type="currency" unit="£sd" ana="12_00_00">12 0
                             0</measure><!-- RP:2017-01-15: This entry in particular makes me wonder if we are absolutely positive that the three column setup on the right side of the page indicates pound-shillings-pence value. -->
                         </item>
-                        <item>
-                            <measure commodity="hens" quantity="6" unit="whole">6 pound
-                                Hens</measure>
-                            <g ref="#longHyphen" n="5"/>
+                        <item>6 pound tens<g ref="#longHyphen" n="5"/>
                             <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure>
                         </item>
                         <item>
@@ -252,11 +254,8 @@
                                 <g ref="#longHyphen" n="2"/></measure>
                             <measure type="currency" unit="£sd" ana="00_09_00">0 9 0 </measure>
                         </item>
-                        <item>
-                            <measure commodity="hens" unit="lb" quantity="1.5">one &amp; half pound
-                                    <unclear reason="illegible" unit="words" quantity="1"/>
-                                <g ref="#longHyphen" n="2"/>
-                            </measure>
+                        <item>one &amp; half pound touns<g ref="#longHyphen" n="2"/>
+                            
                             <measure type="currency" unit="£sd" ana="00_01_03">0 1 3 </measure>
                         </item>
                         <item>
@@ -314,24 +313,18 @@
 
 
                         <!-- LINE_23: paid ILLEGIBLE nails & ILLEGIBLE -->
-                        <item> Paid <unclear reason="illegible" quantity="8" unit="chars"/>
-                            <choice>
-                                <sic>Nailes</sic>
-                                <reg resp="#RF">Nails</reg>
-                            </choice> &amp; <unclear reason="illegible" unit="words" quantity="1"
-                                    ><supplied resp="#RF">Glass</supplied></unclear>
-                            <g ref="#longHyphen" n="2"/>
+                        <item> Paid D Jutson Nailes &amp; Glass <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="01_01_00">1 1 0/</measure>
                         </item>
 
                         <!-- LINE_24: ILLEGIBLE Nailes Bill & ILLEGIBLE-->
-                        <item>
-                            <unclear reason="illegible" unit="words" quantity="1"/>
+                        <item><persName xml:id="SethPerry">S Perry</persName>
                             <choice>
                                 <sic>Nailes</sic>
                                 <reg resp="#RF">Nails</reg>
-                            </choice>
-                            <unclear reason="illegible" unit="words" quantity="3"/>
+                            </choice> <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">Bill &amp; Timber</supplied>
+                            </unclear>
+                            
                             <measure type="currency" unit="£sd" ana="06_00_00">6 0 0</measure>
                         </item>
 
@@ -342,13 +335,13 @@
 
                         <!-- LINE_26: inelliglbe Stone -->
                         <item>
-                            <unclear reason="illegible" unit="words" quantity="1"/> Stone <g
-                                ref="#longHyphen" n="2"/>
+                            <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">underpinning</supplied>
+                            </unclear> Stone <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="08_00_00">8 0
                             0</measure></item>
 
                         <!-- LINE_27: 15 Hundred illegible Boards -->
-                        <item> 15 Hundred feed Boards <g ref="#longHyphen" n="1"/>
+                        <item> 15 Hundred feet Boards <g ref="#longHyphen" n="1"/>
                             <measure type="currency" unit="£sd" ana="07_00_00">7 0
                             0</measure></item>
 
@@ -357,19 +350,28 @@
                                 ana="04_00_00">4 0 0</measure></item>
 
                         <!-- LINE_29: paints illegible  -->
-                        <item> paints &amp; <unclear reason="illegible" unit="words" quantity="2"/>
+                        <item> paints &amp; Painter Bill
                             <measure type="currency" unit="£sd" ana="15_00_00">15 0
                             0</measure></item>
 
                         <!-- LINE_30: parts Stones &amb; illegible illegibl -->
                         <item>
-                            <unclear reason="illegible" unit="words" quantity="1"/> Stones &amp;
-                                <unclear reason="illegible" unit="words" quantity="2"/>
-                            <measure type="currency" unit="£sd" ana="02_10_00">2 10
-                            0</measure></item>
+                            <choice>
+                                <sic>harth</sic>
+                                <reg resp="#RF">hearth</reg>
+                            </choice> Stones &amp; and Mason Bill
+                            <measure type="currency" unit="£sd" ana="02_10_00">2 10 0</measure></item>
 
                         <!-- LINE_31: Drying illegible &amp; illegible -->
-                        <item> Drying <unclear reason="illegible" unit="words" quantity="3"/>
+                        <item><unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF"><choice>
+                            <sic>digin </sic>
+                            <reg resp="#RF">digging</reg>
+                            </choice> 
+                            <choice>
+                                <sic>Seller</sic>
+                                <reg resp="#RF">cellar</reg>
+                                </choice> &amp; well</supplied>
+                        </unclear>
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" ana="05_00_00">5 0
                             0</measure></item>
@@ -383,8 +385,7 @@
                             <choice>
                                 <sic>Nailes</sic>
                                 <reg resp="#RF">Nails</reg>
-                            </choice> for floor &amp; <unclear reason="illegible" quantity="2"
-                                unit="words"><supplied resp="#RF">inside work</supplied></unclear>
+                            </choice> for floor &amp; inside work
                             <measure type="currency" unit="£sd" ana="03_00_00">3 0
                             0</measure></item>
 
@@ -394,9 +395,7 @@
                             </measure></item>
 
                         <!-- LINE_34: ILLEGIBLE BOARDS OF SHORT SHINGLES ILLEGIBLE  -->
-                        <item>
-                            <unclear reason="illegible" unit="words" quantity="1"/> Boards of Short
-                            Shingles <unclear reason="illegible" unit="words" quantity="1"/>
+                        <item>Clear Boards of Short Shingles <unclear reason="illegible" unit="words" quantity="1"/>
                         </item>
 
                         <!-- LINE_35: 2 thousand Brick  -->
@@ -407,8 +406,7 @@
                             </measure></item>
 
                         <!-- LINE_36: Boarding ILLEGIBLE & ILLEGIBLE bill  -->
-                        <item> Boarding <unclear reason="illegible" unit="words" quantity="1"/>
-                            &amp; <unclear reason="illegible" unit="words" quantity="2"/>bill
+                        <item> Boarding Joiner &amp; grog bill
                                 <measure type="currency" unit="£sd" ana="30_00_00">30 0
                             0</measure></item>
                     </list>
@@ -483,8 +481,7 @@
 
                         <!-- LINE_03: ILLEGIBLE Squire dash dash 6. dash dash dash 2/9 Paid  -->
                         <item><unclear reason="illegible" unit="words" quantity="1"/><persName
-                                ref="#Squire">
-                                <!-- Missing first name -->Squire</persName>
+                                ref="#NabbySquire">Nabby Squire</persName>
                             <!-- RP:2017-01-15: Check this is person's name and not organization. -->
                             <g ref="#longHyphen" n="3"/> 6 6 <g ref="#longHyphen" n="3"/>
                             <unclear reason="illegible" unit="chars" quantity="3"><supplied
@@ -500,11 +497,11 @@
                         <!-- LINE_05: Eben Bartarm 26 ELLIGIBLE fraction No hay  -->
                         <item><persName ref="#EbenBartram"> Eben Bartram</persName> 26 <unclear
                                 reason="illegible" unit="chars" quantity="3"><supplied resp="#RF"
-                                    >3/4</supplied></unclear> No hay 600 </item>
+                                    >2/4</supplied></unclear> No hay 600 </item>
 
                         <!-- LINE_06: John Wheeler 10 No hay  -->
                         <item><persName ref="#JohnWheeler">John Wheeler</persName>
-                            <g ref="#longHyphen" n="1"/> 10 <g ref="#longHyphen" n="1"/>No hay
+                            <g ref="#longHyphen" n="1"/> 10 <g ref="#longHyphen" n="1"/>No pay
                             120</item>
 
                         <!-- LINE_07: Job Bartram 8 ELLIGIBLE fraction paid  -->
@@ -535,9 +532,9 @@
                         <item><persName ref="#DavidJudson"> David Judson</persName>
                             <g ref="#longHyphen" n="1"/> 18 /<g ref="#longHyphen" n="1"/>
                             <unclear reason="strikethrough" unit="words" quantity="1"><supplied
-                                    resp="#RF">No></supplied></unclear> hay </item>
+                                    resp="#RF">No></supplied></unclear> paid </item>
                         <!-- LINE_16: Illegible first and last name  -->
-                        <item>Ebezebot watron 3 No hay </item>
+                        <item>Elezebet watson 3 No hay </item>
 
                         <!-- LINE_17: Joseph Sturges and others 65 1/4 paid  -->
                         <item><persName ref="#JosephSturges">Joseph Sturges</persName> and others 65
@@ -551,7 +548,7 @@
                         <item><persName ref="MRisley">M Risley</persName>
                             <g ref="#longHyphen" n="3"/> 4 <unclear reason="strikethrough"
                                 unit="words" quantity="1"><supplied resp="#RF"
-                                >No></supplied></unclear> hay paid</item>
+                                >No pay</supplied></unclear> paid</item>
                         <item><persName ref="WillThorp"/>Will Thorp <g ref="#longHyphen" n="3"/> 6
                             No hay</item>
                         <!-- RF 2017-01-26: Add unclear name  Canah Bult by Others?-->
@@ -581,7 +578,7 @@
                         <head>
                             <date when="1801-10"/>
                         </head>
-                        <item>By <unclear reason="illegible" unit="words" quantity="1"/> Cart with
+                        <item>By hiring Cart with
                             my help</item>
                     </list>
                     <list type="entry">
@@ -597,7 +594,7 @@
                         <item>By <choice>
                                 <sic>Seting</sic>
                                 <reg resp="#RF">Setting</reg>
-                            </choice> ox my help</item>
+                            </choice> ox Shews my help</item>
                     </list>
                     <list type="entry">
                         <item><!-- RF 2017-01-26: Feb 12 1802 By Making b Flows pipe Band 023?-->
