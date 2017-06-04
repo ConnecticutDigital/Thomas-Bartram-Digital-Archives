@@ -10,7 +10,21 @@
       <!--Bootstrap CSS-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <!--Custom CSS-->
+      <link rel="stylesheet" href="css/bootstrap-magnify.css">
       <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <!--Javascript-->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap-magnify.js"></script>
+      <script>
+          $(document).ready(function() {
+              $('img')
+                  .filter(function() {
+                  return this.alt.match(/manuscript\simage/);
+                  })
+                  .magnify();
+          });
+      </script>
    </head>
    <body>
       <div id="nav">
