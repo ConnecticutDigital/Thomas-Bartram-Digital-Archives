@@ -7,6 +7,7 @@ html{
 body{
     background: #d8f0f3 /*#b0e0e6*/;
     font-family: Georgia !important;
+    font-size:14pt;
 
 }
 a{
@@ -99,4 +100,17 @@ hr.sectionDivider{
 .ditto{
     font-size: 12pt;
     font-style: italic;
+}
+
+/*Wheeler Journal*/
+.smaller{
+    font-size:11pt;
+}
+span.italics{
+    font-style:italic;
+}
+.footnote{
+    border-style: dashed;
+    border-color: #30909c;
+    border-width: 1px;
 }
