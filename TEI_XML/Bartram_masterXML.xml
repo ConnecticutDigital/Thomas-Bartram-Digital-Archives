@@ -598,7 +598,8 @@
                     </list>
                     <list type="entry">
                         <item><!-- RF 2017-01-26: Feb 12 1802 By Making b Flows pipe Band 023?-->
-                            <unclear reason="strikethrough" unit="words" quantity="10"/>
+                            <unclear reason="strikethrough" unit="words" quantity="10"><date when="1801-02-12">Feb 12 1801</date>By Making bellows pipe and Band
+                                <measure type="currency" unit="£sd" ana="00_08_03">0 6 3</measure></unclear>
                         </item>
                     </list>
 
@@ -613,28 +614,24 @@
                         <head>
                             <date when="1809-07">July 1809</date></head>
                         <item> 1685 Cash<g ref="#longHyphen" n="1"/>
-                            <unclear reason="illegible" unit="words" quantity="1"/>
-                            <measure type="currency" unit="dollars" ana="222.00">222 Dollars
-                                cash</measure>
-                            <unclear reason="illegible" unit="words" quantity="1"/> gave Seth Perry
-                            1907 to go to N york to <choice>
-                                <sic>by</sic>
-                                <reg resp="#RF">buy</reg>
-                            </choice> cargo</item>
+                            <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">Plaster</supplied></unclear>
+                             <measure type="currency" unit="dollars" ana="222.00">222 Dollars cash Boston</measure>
+                           gave Seth Perry 1907 to go to N york to <choice><sic>by</sic><reg resp="#RF">buy</reg></choice> cargo</item>
                     </list>
                     <list type="entry">
                         <item>Stock belonging to sloop Fame <date when="1809-11-12">Nov 12
                                 1809</date></item>
                         <item>Two drafts Drawn by John wait briant boston for <!--dollar sign-->
                             1840</item>
-                        <item>For <!--dollar sign--> 1840 freight to <unclear unit="words"
-                                quantity="1" reason="illegible"/></item>
+                        <item>For <!--dollar sign--> 1840 freight to 
+                            <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">Newy</supplied>
+                            </unclear>New York</item>
                         <item>Due from Lynde Walter boston 45.00 </item>
-                        <item>Due from tmas Lock 66.00</item>
+                        <item>Due from Amas Lock 66.00</item>
                         <item>wool sold for <g ref="#longHyphen" n="1"/>1955.00</item>
                         <item>Left at Home Cash <g ref="#longHyphen" n="1"/></item>
                         <item>gave Seth Perry <g ref="#longHyphen" n="1"/> 550</item>
-                        <item><unclear reason="illegible" unit="words" quantity="1"/> Novemeber 13
+                        <item>David ed Novemeber 13
                                 <g ref="#longHyphen" n="1"/>
                             <!-- sum 2237.00 --></item>
  </list>
@@ -646,7 +643,7 @@
                         </head>
                         <item><g ref="#stItem"/> Cash paid will Hayt for paints to paint house $94 75</item>
                         <item><g ref="#stItem"/> Cash paid to Elijah Turney for work painting House 6 00</item>
-                        <item><g ref="#stItem"/> Cash paid to  Squire Nichols for <unclear quantity="1" unit="words" reason="illegible"/> Lead 83</item>
+                        <item><g ref="#stItem"/> Cash paid to  Squire Nichols for white Lead 83</item>
                        <!-- Sum pound 114 58-->
                     </list>
                 </div>
@@ -1866,14 +1863,22 @@
                             <measure type="currency" unit="£sd" ana="11_07_00">11 7 0</measure></item>
                         <item><g ref="#stItem"/> <!--Looks like School Shoule--><unclear quantity="2" unit="words" reason="illegible"></unclear>
                             <measure type="currency" unit="£sd" ana="01_04_06">0 4 6</measure></item>
-                        <item><g ref="#stItem"/> <unclear quantity="1" unit="words" reason="illegible"></unclear> Bush Coal &amp; 
-                            <unclear quantity="4" unit="words" reason="illegible"></unclear>
+                        <item><g ref="#stItem"/> <unclear quantity="8" unit="words" reason="illegible"></unclear>
                             <measure type="currency" unit="£sd" ana="01_07_00">0 7 0</measure>
                         </item></list>
                     <!--Sum of numbers 13 11 8-->
 </div>
             </div>
-         <!-- Fairfield April 17 1804 crossed out text-->
+    <div type="group">
+        <head>
+            Fairfield<date when="1804-04-17">April 17 1804</date>
+        </head>
+<list type="entry">
+    <item><unclear reason="strikethrough" unit="words" quantity="1"><supplied resp="#RF">this Day Little all accounts with <persName ref="#SamuelRead">Samuel Read</persName> &amp;found Due Six Pound</supplied>
+    </unclear></item>
+</list>
+        
+    </div>
    <div type="group">
        <head><persName ref="MaryOlson">Mary Olson</persName><g ref="#afterName"></g></head>
        <list type="entry">
@@ -1888,10 +1893,80 @@
            <item><g ref="#stItem"/> <unclear quantity="3" unit="words" reason="illegible"></unclear> 
                <measure type="currency" unit="£sd" ana="00_01_00">0 1 0 </measure></item>
            <item><g ref="#stItem"/><measure commodity="wool" unit="whole" quantity="13">13 lb wool at 2/1</measure></item>
-           
-   <!-- I stopped at 200 ext to cash 1 10 0-->
+           <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="4"/><measure type="currency" unit="£sd" ana="01_10_00">1 10 0</measure></item>
+           <item><g ref="#stItem"/> <measure commodity="oil" unit="whole" quantity="1">1 qrt oil</measure>
+               <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+           <item><g ref="#stItem"/> account Paid S Perry  <measure type="currency" unit="£sd" ana="01_11_14">1 11 14</measure></item>
+           <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="5"/></item>
+           <item>Paid January 1804</item>
        </list>
    </div>
+<!--Page 21-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_021.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head>
+                            <date when="1802-05">May 1802</date>
+                        </head>
+                        <item>Buy 6 Acres Planting ground at 5 Dollars <measure type="currency" unit="£sd" ana="10_10_00">10 10 0</measure></item>
+                        <item><g ref="#stItem"/> Cash</item>
+                        <!--Sum 10 10 10--> </list>
+                </div>
+            </div>
+            
+            <!--Page 22-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_022.jpg">
+                <div type="group">
+                    <head>William Morehourse</head>
+                    <list type="entry">
+                        <head>
+                            <date when="1799-09-22">Sept 29 1799</date>
+                        </head>
+                        <item>To Shear Sheep 1/ To Set <unclear quantity="1" unit="words" reason="illegible"/>
+                            <measure type="currency" unit="£sd" ana="10_10_00">10 10 0</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1799-12">Decd 1799</date></head>
+                        <item>To Set Shears <g ref="#longHyphen" n="3"/><measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                        <item>To Shoeing horse New <unclear quantity="1" unit="words" reason="illegible"/>toes <g ref="#longHyphen" n="2"/> 
+                            <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure></item>
+                    </list>
+                        <list type="entry">
+                            <head><date when="1800-11">Nov 1800</date></head>
+                            <item><g ref="#stItem"></g>Make handle iron <g ref="#longHyphen" n="3"/><measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+<!-- below item has no pound amount-->
+                            <item><g ref="#stItem"/> Shoeing horse New my iron &amp; Steel <measure type="currency" unit="£sd" ana="00_03_00"> 0 3 0</measure></item>
+                            <item><g ref="#stItem"/> <unclear quantity="1" unit="words" reason="illegible"/> Lumbers /6 to Lay and 4/ 
+                                <measure type="currency" unit="£sd" ana="00_04_06">0 4 6</measure></item>
+                    </list>             
+                    <list type="entry">
+                        <head><date when="1801-03">March 1801</date></head>
+                        <item>Long <sic>yoak</sic><reg resp="#RF">yoke</reg> &amp; Staple
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1801-04">April</date></head>
+                        <item><g ref="#stItem"/> Sowing 4 Stark ground <unclear quantity="1" unit="words" reason="illegible"></unclear>
+                        </item>
+                        <item><g ref="#stItem"/> Lay ax to Mend Chain<measure type="currency" unit="£sd" ana="000506">0 5 6</measure></item>
+<item><g ref="#stItem"/> one <choice><sic>yoak</sic><reg resp="#RF">yoke</reg></choice></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1803-01">January 1803</date></head>
+                        <item><g ref="#stItem"/> 3 Leaden tubs for washing
+                        <measure unit="£sd" type="currency" ana="010800">1 8 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1803-07">July 1803</date></head>
+                        <item><g ref="#stItem"/> use of Cart Six month
+                        <measure unit="£sd" type="currency" ana="001800">0 18 0</measure></item>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Busl</sic><reg resp="#RF">Bushel</reg></choice>
+                            Rye <unclear quantity="1" unit="words" reason="illegible"/> Sowing Lot half acre Middlebrooks</item>
+                    </list>
+                   </div>
+            </div>
             
             
                 

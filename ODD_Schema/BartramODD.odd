@@ -52,6 +52,7 @@
                      </datatype>
                      <valList type="closed">
                         <valItem ident="#RF"/>
+                        <valItem ident="#BN"/>
                         <valItem ident="#RP"/>
                         <valItem ident="#SG"/>
                         <valItem ident="#EDITORinitials"/>
