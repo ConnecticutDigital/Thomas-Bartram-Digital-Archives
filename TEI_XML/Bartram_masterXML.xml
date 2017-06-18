@@ -139,7 +139,7 @@
                 <div type="group">
                     <head><persName ref="#ThomasBartram">Thomas Bartram</persName></head>
                     <list type="entry">
-                        <item>Book Bought of <persName ref="#SethPerry">Seth Perry</persName>
+                        <item>Book Bought of <persName ref="SethPerry">Seth Perry</persName>
                             <date when="1801-24-12">December 24 1801</date></item>
                         <item>Price 6/6 dollars</item>
                     </list>
@@ -626,11 +626,11 @@
                         <item>For <!--dollar sign--> 1840 freight to 
                             <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RF">Newy</supplied>
                             </unclear>New York</item>
-                        <item>Due from Lynde Walter boston 45.00 </item>
-                        <item>Due from Amas Lock 66.00</item>
+                        <item>Due from <persName xml:id="LyndeWalter">Lynde Walter</persName> boston 45.00 </item>
+                        <item>Due from <persName xml:id="AmosLock">Amos Lock</persName> 66.00</item>
                         <item>wool sold for <g ref="#longHyphen" n="1"/>1955.00</item>
                         <item>Left at Home Cash <g ref="#longHyphen" n="1"/></item>
-                        <item>gave Seth Perry <g ref="#longHyphen" n="1"/> 550</item>
+                        <item>gave <persName ref="SethPerry">Seth Perry</persName> <g ref="#longHyphen" n="1"/> 550</item>
                         <item>David ed Novemeber 13
                                 <g ref="#longHyphen" n="1"/>
                             <!-- sum 2237.00 --></item>
@@ -642,7 +642,7 @@
                             <date when="1812-11-10"/>
                         </head>
                         <item><g ref="#stItem"/> Cash paid will Hayt for paints to paint house $94 75</item>
-                        <item><g ref="#stItem"/> Cash paid to Elijah Turney for work painting House 6 00</item>
+                        <item><g ref="#stItem"/> Cash paid to <persName ref="ElijahTurney">Elijah Turney</persName> for work painting House 6 00</item>
                         <item><g ref="#stItem"/> Cash paid to  Squire Nichols for white Lead 83</item>
                        <!-- Sum pound 114 58-->
                     </list>
@@ -917,7 +917,7 @@
                             Mill <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure>
                         </item>
                         <item>
-                            <g ref="#stItem"/> set two <choice>
+                            <g ref="#stItem"/> set two<choice>
                                 <sic>shews</sic>
                                 <reg resp="#RP">shoes</reg>
                             </choice>
@@ -951,7 +951,7 @@
                         </head>
                         <item>By one Bush Rye <g ref="#longHyphen" n="2"/></item>
                         <item>By Carting one load wood </item>
-                        <item>By veal 1/9 to horse to Newfield</item>
+                        <item>By veal 1/9 to horse to <placeName xml:id="Newfield">Newfield</placeName></item>
                         <item>By Carting Brick <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="04_00_00">4 0
                             0</measure></item>
@@ -1551,7 +1551,7 @@
                         <head>
                             <date when="1806-02">Feb 1806</date>
                         </head>
-                        <item> By horse to Millriver <measure type="currency" unit="£sd"
+                        <item> By horse to <placeName xml:id="Millriver">Millriver</placeName> <measure type="currency" unit="£sd"
                                 ana="00_01_06">0 1 6</measure>
                         </item>
                         <item>by horse to Elija <unclear quantity="2" unit="chars"
@@ -1579,7 +1579,7 @@
                             </choice>
                             <measure type="currency" unit="£sd" ana="00_01_XX">0 1 </measure>
                         </item>
-                        <item>By horse to Millriver &amp; Wheeler Hill</item>
+                        <item>By horse to <placeName ref="MillRiver">Mill River</placeName> &amp; <placeName xml:id="WheelerHill">Wheeler Hill</placeName></item>
                     </list>
                 </div>
             </div>
@@ -1638,7 +1638,7 @@
                         <head>
                             <date when="1805-12">Decem 1805</date>
                         </head>
-                        <item><g ref="#stItem"/> Cash paid Uriah Buckley <measure type="currency"
+                        <item><g ref="#stItem"/> Cash paid <persName ref="UriahBuckley">Uriah Buckley </persName><measure type="currency"
                                 unit="£sd" ana="XX_11_06"> 11 6 </measure></item>
                         <!-- Strikethrough and 5 with what looks like dollar sing and 125 bots? -->
                     </list>
@@ -1740,7 +1740,7 @@
                         <head>
                             <date when="1802-01">January 1802</date>
                         </head>
-                        <item>By Carting 2 Lod Timer from Chestnut Hill <measure type="currency"
+                        <item>By Carting 2 Lod Timer from <placeName ref="ChestnutHill">Chestnut Hill</placeName> <measure type="currency"
                                 unit="£sd" ana="00_09_00"/></item>
                         <item><date when="1805-12-19">December 19 1805</date> this account is
                             Paid</item>
@@ -1772,22 +1772,22 @@
             </div>
             <!--line-->
             <div type="group">
-                <head>Drafts on New York></head>
+                <head>Drafts on <placeName ref="NewYork">New York</placeName>></head>
                 <list type="entry">
                     <item><unclear unit="words" quantity="1" reason="illegible"> &amp; Osborn
                             $589</unclear></item>
-                    <item>Andrew Brtholomew 131/25th</item>
+                    <item><persName ref="AndrewBartholomew">Andrew Bartholomew</persName> 131/25th</item>
                 </list>
                 <div type="group">
                     <head><date when="1808-01-10">January 10 1808</date></head>
                     <list type="entry">
-                        <item>Sent by Seth Perry <measure type="currency" unit="£sd" ana="07_20_25"
+                        <item>Sent by <persName ref="SethPerry">Seth Perry</persName> <measure type="currency" unit="£sd" ana="07_20_25"
                             /></item>
                         <!--additional number 13, sum 707 25-->
                     </list>
                 </div>
                 <div type="group">
-                    <head><persName>David Hoddsden</persName><g ref="#afterName"/></head>
+                    <head><persName ref="DavidHoddsden">David Hoddsden</persName><g ref="#afterName"/></head>
                     <list type="entry">
                         <head><date when="1802-03-12">March 12 1802</date></head>
                         <item><g ref="#stItem"/> Cash<measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure></item>
@@ -1806,7 +1806,7 @@
                     </list>
                       <!--  Line-->
                     <list type="entry">
-                        <head><persName>Capt Ezekiel Hull</persName><g ref="#afterName"/>
+                        <head><persName ref="EzekielHull">Capt Ezekiel Hull</persName><g ref="#afterName"/>
                             <date when="1802-05">May 1802</date></head>
                         <item><g ref="#stItem"> Cash</g>
                             <g ref="#currency"></g><measure type="currency" unit="£sd" ana="30_00_00">30 0 0</measure>
@@ -1871,7 +1871,7 @@
             </div>
     <div type="group">
         <head>
-            Fairfield<date when="1804-04-17">April 17 1804</date>
+            <placeName ref="Fairfield">Fairfield</placeName><date when="1804-04-17">April 17 1804</date>
         </head>
 <list type="entry">
     <item><unclear reason="strikethrough" unit="words" quantity="1"><supplied resp="#RF">this Day Little all accounts with <persName ref="#SamuelRead">Samuel Read</persName> &amp;found Due Six Pound</supplied>
@@ -1896,7 +1896,7 @@
            <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="4"/><measure type="currency" unit="£sd" ana="01_10_00">1 10 0</measure></item>
            <item><g ref="#stItem"/> <measure commodity="oil" unit="whole" quantity="1">1 qrt oil</measure>
                <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
-           <item><g ref="#stItem"/> account Paid S Perry  <measure type="currency" unit="£sd" ana="01_11_14">1 11 14</measure></item>
+           <item><g ref="#stItem"/> account Paid <persName ref="SethPerry">S Perry</persName>  <measure type="currency" unit="£sd" ana="01_11_14">1 11 14</measure></item>
            <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="5"/></item>
            <item>Paid January 1804</item>
        </list>
@@ -1918,7 +1918,7 @@
             <!--Page 22-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_022.jpg">
                 <div type="group">
-                    <head>William Morehourse</head>
+                    <head><persName ref="WilliamMorehourse">William Morehourse</persName></head>
                     <list type="entry">
                         <head>
                             <date when="1799-09-22">Sept 29 1799</date>
@@ -1975,11 +1975,15 @@
 
 
         </body>
+        
+    <!--    PERSONOGRAPHY START-->
         <back>
             <!-- RF RP:2017-01-15: This is where we will create prosopography entries for people, places, and organizations mentioned in the document. -->
             <!-- RF:2017-02-02: Add slaves and to ODD too. -->
+            
+   <!--         START PERSONOGRAPOHY WITH SOME MISSING TEMPLATE CODE SUCH AS GENNAME AND ALIAS-->
             <listPerson>
-                <person xml:id="Bartram">
+                <person xml:id="ThomasBartram">
                     <persName>
                         <surname>Bartram</surname>
                         <forename type="first">Thomas</forename>
@@ -1993,13 +1997,408 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
-                <person xml:id="NathanielBurr">
+                    <person xml:id="NathanielBurr">
+                        <persName>
+                            <surname>Burr</surname>
+                            <forename type="first">Nathaniel</forename>
+                        </persName>
+                        <note resp="#RF"/>
+                </person>
+                
+                
+                <person xml:id="NabbySquire">
+                    <persName>
+                        <surname>Squire</surname>
+                        <forename type="first">Nabby</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="SethPerry">
+                    <persName>
+                        <surname>Perry</surname>
+                        <forename type="first">Seth</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="HannaBurr">
                     <persName>
                         <surname>Burr</surname>
-                        <forename type="first">Nathaniel</forename>
+                        <forename type="first">Hanna</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
                 </person>
+                
+                <person xml:id="EbenBartram">
+                    <persName>
+                        <surname>Bartram</surname>
+                        <forename type="first">Eben</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="JohnWheeler">
+                <persName>
+                    <surname>Wheeler</surname>
+                    <forename type="first">John</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="JobBartram">
+                    <persName>
+                        <surname></surname>
+                        <forename type="first"></forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="#AndrewWakemen">
+                <persName>
+                    <surname>#Wakemen</surname>
+                    <forename type="first">#Andrew</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="AndrewMaClery">
+                    <persName>
+                        <surname>MaClery</surname>
+                        <forename type="first">Andrew</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="EathanShearwood">
+                <persName>
+                    <surname>Shearwood</surname>
+                    <forename type="first">Eathan</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="DavidJudson">
+                    <persName>
+                        <surname>Judson</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+            
+                
+                <person xml:id="JosephSturges">
+                    <persName>
+                        <surname>Sturges</surname>
+                        <forename type="first">Joseph</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="JosephPerry">
+                <persName>
+                    <surname>Perry</surname>
+                    <forename type="first">Joseph</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="MRisley">
+                    <persName>
+                        <surname>Risley</surname>
+                        <forename type="first">M</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="WillThorp">
+                <persName>
+                    <surname>Thorp</surname>
+                    <forename type="first">Will</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="DavidHubble">
+                    <persName>
+                        <surname>Hubble</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="CaptAllen">
+                <persName>
+                    <surname>Allen</surname>
+                    <forename type="first">Capt</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="DavidBradley">
+                    <persName>
+                        <surname>Bradley</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="BradleyBulkley">
+                <persName>
+                    <surname>Bulkley</surname>
+                    <forename type="first">Bradley</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="LyndeWalter">
+                    <persName>
+                        <surname>Walter</surname>
+                        <forename type="first">Lynde</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="ElijahTurney">
+                    <persName>
+                        <surname>Turney</surname>
+                        <forename type="first">Elijah</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                
+                <person xml:id="AmosLock">
+                <persName>
+                    <surname>Lock</surname>
+                    <forename type="first">Amos</forename>
+                </persName>
+                <note resp="#RF">
+                    <!-- brief biographical info. about person -->
+                </note>
+                </person>
+                
+                <person xml:id="IsiahJennings">
+                    <persName>
+                        <surname>Jennings</surname>
+                        <forename type="first">Isiah</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+              <!--  END PERSONOGRAPOHY WITH SOME MISSING TEMPLATE CODE SUCH AS GENNAME AND ALIAS-->
+                
+                <person xml:id="SamuelBradley">
+                    <persName>
+                        <surname>Bradley</surname>
+                        <forename type= "first">Samuel</forename>
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                
+                <person xml:id="MiahPerry">
+                    <persName>
+                        <surname>Perry</surname>
+                        <forename type= "first">"Miah"/></forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="OziasBurr">
+                    <persName>
+                        <surname>Burr</surname>
+                        <forename type= "first">"Ozias"</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="BenjaminSturges">
+                    <persName>
+                        <surname>Sturges</surname>
+                            <forename type= "first">Benjamin</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="AndrewBartholomew">
+                    <persName>
+                        <surname>Bartholomew</surname>
+                        <forename type="first">Andrew</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="DavidHoddsden">
+                    <persName>
+                        <surname>Hoddsden</surname>
+                        <forename type="first">David</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="EzekielHull">
+                    <persName>
+                        <surname>Hull</surname>
+                        <forename type="first">Ezekiel</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="SamuelRead">
+                    <persName>
+                        <surname>Read"</surname>
+                        <forename type="first">Samuel</forename>
+                            <genName/>
+                            <!--generational name component; ie. Jr or II   -->
+                            <addName/>
+                            <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id=" DanielGregory">
+                    <persName>
+                        <surname>Gregory"</surname>
+                        <forename type="first">Daniel</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+               
+                
+                <person xml:id="UriahBuckley">
+                    <persName>
+                        <surname>Buckley</surname>
+                        <forename type="first">Uriah</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="OziasBurr">
+                    <persName>
+                        <surname>Burr</surname>
+                        <forename type="first">Ozias</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+                <person xml:id="WilliamMorehourse">
+                    <persName>
+                        <surname>Morehourse</surname>
+                        <forename type="first">William</forename>
+                        <genName/>
+                        <!--generational name component; ie. Jr or II   -->
+                        <addName/>
+                        <!-- alias  -->
+                    </persName>
+                    <note resp="#RF">
+                        <!-- brief biographical info. about person -->
+                    </note>
+                </person>
+                
+               <!-- END PERSONOGRAPHY-->
                 <!-- Below is a template. Delete un-used elements for each new person. -->
                 <person xml:id="UniqueIDforPerson">
                     <persName>
@@ -2019,16 +2418,65 @@
             </listPerson>
             <listPlace>
                 <!-- Below is a template. Delete un-used elements for each new place. -->
-                <place xml:id="UniqueIDforPlace">
+                <place xml:id="MillRiver">
                     <placeName/>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
                 <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+                
+                <place xml:id="NewYork">
+                    <placeName/>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
+               
+         
+            
+            <place xml:id="Newfield">
+                <placeName/>
+                <location>
+                    <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                </location>
+            </place>
+            <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+    
+            
+            <place xml:id="WheelerHill">
+                <placeName/>
+                <location>
+                    <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                </location>
+            </place>
+            <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+        
+            
+            <place xml:id=" ChestnutHill">
+                <placeName/>
+                <location>
+                    <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                </location>
+            </place>
+            <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+                
+                
+                <place xml:id="Fairfield">
+                    <placeName/>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
+                
             </listPlace>
-
-
+            
+      
+           
+            
+            
+            
+        </back>
             <!-- RJP:2017-02-02: Unsure of why listOrg is firing an error and requiring an interior listOrg. Will check with TEI. -->
             <!--<listOrg>
                 <org xml:id="DanGreShou_Brick">
@@ -2041,6 +2489,6 @@
                     <desc resp="#EDITORinitials"/>
                 </org>
             </listOrg>-->
-        </back>
+      
     </text>
 </TEI>
