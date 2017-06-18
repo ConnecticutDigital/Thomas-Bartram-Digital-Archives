@@ -20,21 +20,14 @@
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="nav">Black Rock Historical Society</h1>
+                    <h1 class="nav">
+                       Thomas Bartram's 1801 - 1838 Account Log Books
+                    </h1>
                     <a href="index.html">Home</a> |
                     <a href="about.html">About</a>
+                    <h3 class="main">Table of Contents</h3>
+                    
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="main">TABLE OF CONTENTS</h1>
-                            <h2 class="main">
-                                <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
-                            </h2>
-                            <h3 class="main">Authored by <xsl:apply-templates
-                                    select="//teiHeader//titleStmt//author"/></h3>
-                        </div>
-                    </div>
                     <div class="col-xs-12">
                         <div id="toc" class="col-xs-6">
                             <ul>
@@ -42,7 +35,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                
             </body>
         </html>
     </xsl:template>

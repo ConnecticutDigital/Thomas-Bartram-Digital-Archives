@@ -34,18 +34,13 @@
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="nav">Black Rock Historical Society</h1>
+                    <h1 class="main">
+                        1801 - 1838 Merchant and Shipping Account Log Book
+                    </h1>
+                    <h2 class="main">Authored by <xsl:apply-templates
+                        select="//teiHeader//titleStmt//author"/></h2>
                     <a href="index.html">Home</a> |
                     <a href="about.html">About</a>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="main">
-                            <xsl:apply-templates select="//teiHeader//titleStmt//title"/>
-                        </h1>
-                        <h2 class="main">Authored by <xsl:apply-templates
-                                select="//teiHeader//titleStmt//author"/></h2>
-                    </div>
                 </div>
                 <div class="col-xs-12">
                     <!-- RJP:2017-04-30: We have decided to make the TOC appear on a seperate page. Uncomment the code below for it to appear on the same page as the manuscript/transcriptions. -->
