@@ -2058,18 +2058,18 @@
                 
                 <person xml:id="JobBartram">
                     <persName>
-                        <surname></surname>
-                        <forename type="first"></forename>
+                        <surname>Bartram</surname>
+                        <forename type="first">Job</forename>
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
                 
-                <person xml:id="#AndrewWakemen">
+                <person xml:id="AndrewWakemen">
                 <persName>
-                    <surname>#Wakemen</surname>
-                    <forename type="first">#Andrew</forename>
+                    <surname>Wakemen</surname>
+                    <forename type="first">Andrew</forename>
                 </persName>
                 <note resp="#RF">
                     <!-- brief biographical info. about person -->
@@ -2245,7 +2245,7 @@
                 <person xml:id="MiahPerry">
                     <persName>
                         <surname>Perry</surname>
-                        <forename type= "first">"Miah"/></forename>
+                        <forename type= "first">Miah</forename>
                         <genName/>
                         <!--generational name component; ie. Jr or II   -->
                         <addName/>
@@ -2259,7 +2259,7 @@
                 <person xml:id="OziasBurr">
                     <persName>
                         <surname>Burr</surname>
-                        <forename type= "first">"Ozias"</forename>
+                        <forename type= "first">Ozias</forename>
                         <genName/>
                         <!--generational name component; ie. Jr or II   -->
                         <addName/>
@@ -2400,20 +2400,20 @@
                 
                <!-- END PERSONOGRAPHY-->
                 <!-- Below is a template. Delete un-used elements for each new person. -->
-                <person xml:id="UniqueIDforPerson">
+               <!-- <person xml:id="UniqueIDforPerson">
                     <persName>
                         <surname/>
                         <forename type="first"/>
                         <forename type="middle"/>
                         <genName/>
-                        <!--generational name component; ie. Jr or II   -->
+                        <!-\-generational name component; ie. Jr or II   -\->
                         <addName/>
-                        <!-- alias  -->
+                        <!-\- alias  -\->
                     </persName>
                     <note resp="#EDITORinitials">
-                        <!-- brief biographical info. about person -->
+                        <!-\- brief biographical info. about person -\->
                     </note>
-                </person>
+                </person>-->
                 <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html  -->
             </listPerson>
             <listPlace>
