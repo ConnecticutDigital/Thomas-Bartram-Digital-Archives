@@ -42,9 +42,9 @@
 
                             <th>Occupation</th>
                         </tr>
-                        <xsl:apply-templates select="//back/listPerson" mode="people">
+                        <xsl:apply-templates select="descendant::back/descendant::listPerson/descendant::person" mode="people">
                             <!-- RJP:2017-06-25: Why isn't sort working here? Is it because of where I am sitting on the tree in this template selection? -->
-                            <xsl:sort select="descendant::person/child::surname"/>
+                            <xsl:sort select="descendant::surname"/>
                         </xsl:apply-templates>
 
                     </table>
