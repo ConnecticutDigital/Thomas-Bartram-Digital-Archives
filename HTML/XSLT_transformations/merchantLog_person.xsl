@@ -16,56 +16,93 @@
                     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
                 <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-                
+
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="nav">
-                        People, Organizaitons, and Places Mentioned in Thomas Bartram's Merchant and Shipping Logs
-                    </h1>
-                    <a href="index.html">Home</a> |
-                    <a href="about.html">About</a>
-                    
+                    <h1 class="nav"> People, Organizaitons, and Places Mentioned in Thomas Bartram's
+                        Merchant and Shipping Logs </h1>
+                    <a href="index.html">Home</a> | <a href="about.html">About</a>
                 </div>
-                <div class="col-xs-12">                    
-                        <table id="people" class="prosoTable table">
-                            <tr>
-                                <th>Surname</th>
-                                
-                                <th>Forename</th>
-                                
-                                <th>Reference ID</th>
-                                
-                                <th>Birth</th>
-                                
-                                <th>Death</th>
-                                
-                                <th>Spouse</th>
-                                
-                                <th>Occupation</th>
-                            </tr>
-                            <xsl:apply-templates select="//back/listPerson" mode="people"/>
-                        </table>
-                    
+                <div class="col-xs-12">
+                    <table id="people" class="prosoTable table">
+                        <tr>
+                            <th>Surname</th>
+
+                            <th>Forename</th>
+
+                            <th>Reference ID</th>
+
+                            <th>Birth</th>
+
+                            <th>Death</th>
+
+                            <th>Spouse</th>
+
+                            <th>Occupation</th>
+                        </tr>
+                        <xsl:apply-templates select="//back/listPerson" mode="people">
+                            <!-- RJP:2017-06-25: Why isn't sort working here? Is it because of where I am sitting on the tree in this template selection? -->
+                            <xsl:sort select="descendant::person/child::surname"/>
+
+                        </xsl:apply-templates>
+
+                    </table>
+
                 </div>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="person" mode="people">
         <tr>
-            
-            <td><xsl:apply-templates select="descendant::persName/child::surname"/></td>
-            
-            <td><xsl:apply-templates select="descendant::persName/child::forename"/></td>
-            
-            <td><xsl:text>#</xsl:text><xsl:apply-templates select="@xml:id"/></td>
-            
-            <td>N.A.</td>
-            <td>N.A.</td>
-            <td>N.A.</td>
-            <td>N.A.</td>
-            
+
+            <td>
+                <xsl:apply-templates select="descendant::persName/child::surname"/>
+            </td>
+
+            <td>
+                <xsl:apply-templates select="descendant::persName/child::forename"/>
+            </td>
+
+            <td>
+                <xsl:text>#</xsl:text>
+                <xsl:apply-templates select="@xml:id"/>
+            </td>
+
+            <td>
+                <xsl:choose>
+                    <xsl:when test="child::birth">
+                        <xsl:apply-templates select="child::birth/@when"/>
+                    </xsl:when>
+                    <xsl:otherwise>N.A.</xsl:otherwise>
+                </xsl:choose>
+            </td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="child::death">
+                        <xsl:apply-templates select="child::death/@when"/>
+                    </xsl:when>
+                    <xsl:otherwise>N.A.</xsl:otherwise>
+                </xsl:choose>
+            </td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="child::occupation">
+                        <xsl:apply-templates select="child::occupation"/>
+                    </xsl:when>
+                    <xsl:otherwise>N.A.</xsl:otherwise>
+                </xsl:choose>
+            </td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="child::note[@type = 'spouse']">
+                        <xsl:apply-templates select="child::note[@type='spouse']"/>
+                    </xsl:when>
+                    <xsl:otherwise>N.A.</xsl:otherwise>
+                </xsl:choose>
+            </td>
+
         </tr>
-        
+
     </xsl:template>
 </xsl:stylesheet>

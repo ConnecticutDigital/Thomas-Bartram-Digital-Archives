@@ -36,7 +36,7 @@
             <moduleRef key="textstructure"/><!-- include="TEI back div" -->
             <!-- Optional Modules -->
             <moduleRef key="namesdates"
-               include="orgName placeName addName forename genName geo listPerson listPlace listOrg location persName person place surname"/>
+               include="orgName placeName addName forename genName geo listPerson listPlace listOrg location persName person place surname birth death occupation"/>
             <moduleRef key="gaiji" include="g char charDecl charName"/>
             <moduleRef key="figures" include="figure"/>
             <moduleRef key="msdescription"
@@ -196,7 +196,8 @@
                         <valItem ident="bought"/>
                         <valItem ident="bushels"/>
                         <valItem ident="bundles"/>
-                        
+                        <valItem ident="barrel"/>
+                        <valItem ident="qt"/>
                      </valList>
                   </attDef>
                </attList>
