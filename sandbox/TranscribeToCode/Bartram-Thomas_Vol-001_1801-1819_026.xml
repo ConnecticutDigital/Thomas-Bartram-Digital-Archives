@@ -1,0 +1,202 @@
+<div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_026">
+    <div type="group">
+        <head>
+            <persName ref="#HezekiahOsborn">Hezekiah Osborn</persName>
+            <g ref="#afterName"/>
+        </head>
+        <list type="entry">
+            <head>
+                <date when="1802-04-09">April 9 1802</date>
+            </head>
+            <g ref="#longHyphen" n="14"/>
+            <item>
+                <g ref="#stItem"/>
+                <measure commodity="board" quantity="18" unit="feet">one board 18 feet</measure>
+                <g ref="#longHyphen" n="2"/>
+                <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure>
+            </item>
+            <item>
+                <g ref="#stItem"/>
+                <measure commodity="steelCrowbar" quantity="1" unit="whole">Steel Crowbar</measure>
+                &amp; <measure commodity="wedges" quantity="2" unit="whole">2 wedges</measure>
+                <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure>
+            </item>
+            <item>
+                <g ref="#stItem"/>
+                <measure commodity="steelCrowbar" quantity="1" unit="whole">Steel <persName
+                        ref="#CalebBrewster">Caleb Brewster</persName>s <choice><sic>Crow
+                            Bar</sic><reg resp="#RP #SG">Crowbar</reg></choice></measure>
+                <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure>
+            </item>
+            <item>
+                <g ref="#stItem"/> fix <measure commodity="wedge" quantity="2" unit="whole">2
+                    wedges</measure>
+                <g ref="#longHyphen" n="6"/>
+                <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure>
+            </item>
+        </list>
+        <list type="entry">
+            <head>
+                <date when="1802-04-19">April 19</date>
+            </head>
+            <item><g ref="#stItem"/>
+                <choice><sic>Sled</sic><reg resp="#RP #SG">Sledge</reg></choice> Stone one Day <g
+                    ref="#longHyphen" n="2"/>
+                <measure type="currency" unit="£sd" ana="00_10_00">0 10 0</measure></item>
+        </list>
+        <list type="entry" subtype="total">
+            <item>
+                <measure type="currency" unit="£sd" ana="00_15_09"> 15 9</measure>
+            </item>
+        </list>
+    </div>
+    <div type="group">
+        <head>
+            <persName ref="#HezekiahOsborn">Hezekiah Osborn</persName>
+            <g ref="#afterName"/>
+        </head>
+        <list type="entry">
+            <head>
+                <date when="1802-01-20">January 20 1802</date>
+            </head>
+            <item><g ref="#stItem"/> Make <measure commodity="spikes" quantity="5" unit="whole">5
+                    Spikes</measure>
+                <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+            <item><g ref="#stItem"/> Mend <measure commodity="hooks" quantity="2" unit="whole">2
+                    hooks</measure>
+                <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure></item>
+        </list>
+    </div>
+    <div type="group">
+        <head>
+            <persName ref="#HezekiahOsborn">Hezekiah Osborn</persName>
+        </head>
+        <list type="entry">
+            <head>
+                <date when="1805-05-xx">May 1805</date>
+            </head>
+            <item>
+                <g ref="#stItem"/>
+                <measure commodity="vinegar" quantity="2" unit="quart">2 quart of
+                            <choice><sic>vinnigar</sic><reg resp="#RP #SG"
+                    >vinegar</reg></choice></measure>
+                <measure type="currency" unit="£sd" ana="00_00_06">0 0 6</measure>
+            </item>
+        </list>
+        <list>
+            <head>
+                <date when="1805-05-10">10</date>
+            </head>
+            <item><g ref="#stItem"/>
+                <measure commodity="horse" quantity="2" unit="quart">Horse</measure> Hire
+                    <placeName>Bridgeport</placeName>
+                <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure></item>
+        </list>
+        <list>
+            <head>
+                <date when="1805-05-17">17</date>
+            </head>
+            <item><g ref="#stItem"/>
+                <measure commodity="horse" quantity="2" unit="quart">Horse</measure> Hire
+                    <placeName>Millriver</placeName>
+                <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item>
+        </list>
+        <list>
+            <head>
+                <date when="1806-02-20">Febr 20 1806</date>
+            </head>
+            <item><g ref="#stItem"/> Fix <measure commodity="crowbar" quantity="1" unit="whole">Crow
+                    Bar</measure>
+                <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+            <item>
+                <g ref="#stItem"/> Shop &amp; <choice><sic>Cole</sic><reg resp="#RP #SG"
+                    >Coal</reg></choice> to fix <measure commodity="iron" quantity="1" unit="whole"
+                    >iron for vessel</measure>
+                <measure type="currency" unit="£sd" ana="00_01_00"> 1 0</measure>
+            </item>
+            <item><g ref="#stItem"/>
+                <measure commodity="horse" quantity="2" unit="quart">Horse</measure> Hire
+                    <placeName>Greenfiend</placeName>
+                <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure></item>
+        </list>
+        <list type="entry" subtype="total">
+            <item>
+                <measure type="currency" unit="£sd" ana="00_08_06"> 8 6</measure>
+            </item>
+        </list>
+    </div>
+    <div type="group">
+        <head>
+            <persName ref="#LewisGoodsell">Lewis Goodsell</persName>
+            <g ref="#afterName"/>
+        </head>
+        <list type="entry">
+            <head>
+                <date when="1802-08-xx">August 1802</date>
+            </head>
+            <g ref="#longHyphen" n="5"/>
+            <item>
+                <g ref="#stItem"/>
+                <measure commodity="cider" quantity="2" unit="barrel">one
+                            <choice><sic>Barril</sic><reg resp="#RP #SG">Barrel</reg></choice>
+                    Cider</measure>
+                <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure>
+            </item>
+            <item>
+                <g ref="#stItem"/>
+                <measure commodity="cider" quantity="2" unit="barrel">one
+                            <choice><sic>Chisele</sic><reg>Chisel</reg></choice></measure>
+                <g ref="#longHyphen" n="3"/>
+            </item>
+        </list>
+    </div>
+    <div type="group">
+        <head>
+            <choice><sic>Expence</sic><reg resp="#RP #SG">Expense</reg></choice> for building
+            Cowhouse <g ref="#longHyphen" n="1"/>
+        </head>
+        <list type="entry">
+            <item>
+                <measure commodity="nails" quantity="12" unit="pound">Twelve Pounds Nails</measure>
+                at 14 <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RP #SG"
+                        >Cents</supplied></unclear>
+                <measure type="currency" unit="dollars" ana="01_88">$1.88</measure>
+            </item>
+            <item><measure commodity="board">boards</measure> &amp; <measure commodity="shingles"
+                    >Shingles</measure>
+                <unclear reason="illegible" unit="words" quantity="1"/>
+                <placeName>bridgeport</placeName>
+                <measure type="currency" unit="dollars" ana="21_27">21.27</measure></item>
+            <item>
+                <measure commodity="board" unit="feet" quantity="160">boards my own 160
+                    feet</measure>
+                <g ref="#longHyphen" n="1"/>
+                <measure type="currency" unit="dollars" ana="02_56">2.56</measure>
+            </item>
+            <item>
+                <measure commodity="nails" unit="pound" quantity="12">Shingles Nails 12
+                    pounds</measure>
+                <g ref="#longHyphen" n="1"/>
+                <measure type="currency" unit="dollars" ana="02_00">2.00</measure>
+            </item>
+            <item>
+                <measure commodity="timber">Timber for frame</measure>
+                <g ref="#longHyphen" n="1"/>
+                <measure type="currency" unit="dollars" ana="07_00">7.00</measure>
+            </item>
+            <item>
+                <choice><sic>Jiners</sic><reg resp="#SG">Joiners</reg></choice> bill <g
+                    ref="#longHyphen" n="1"/>
+                <measure type="currency" unit="dollars" ana="09_00">9.00</measure>
+            </item>
+            <item>&amp; <measure commodity="hinges" unit="whole" quantity="2">pair hinges</measure>
+                <g ref="#longHyphen" n="1"/>
+                <measure type="currency" unit="dollars" ana="02_00">2.00</measure></item>
+        </list>
+        <list type="entry" subtype="total">
+            <item>
+                <measure type="currency" unit="dollars" ana="45_71">45.71</measure>
+            </item>
+        </list>
+    </div>
+</div>
