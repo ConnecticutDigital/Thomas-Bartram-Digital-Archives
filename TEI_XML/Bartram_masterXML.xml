@@ -2623,7 +2623,7 @@
 
                 <person xml:id="SamuelRead">
                     <persName>
-                        <surname>Read"</surname>
+                        <surname>Read</surname>
                         <forename type="first">Samuel</forename>
                         <genName/>
                         <!--generational name component; ie. Jr or II   -->
@@ -2637,7 +2637,7 @@
 
                 <person xml:id=" DanielGregory">
                     <persName>
-                        <surname>Gregory"</surname>
+                        <surname>Gregory</surname>
                         <forename type="first">Daniel</forename>
                         <genName/>
                         <!--generational name component; ie. Jr or II   -->
@@ -2664,21 +2664,6 @@
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
-
-                <person xml:id="OziasBurr">
-                    <persName>
-                        <surname>Burr</surname>
-                        <forename type="first">Ozias</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
-
                 <person xml:id="WilliamMorehourse">
                     <persName>
                         <surname>Morehourse</surname>
