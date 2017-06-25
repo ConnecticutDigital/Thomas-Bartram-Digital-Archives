@@ -25,7 +25,8 @@
                     <a href="index.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
-                    <table id="people" class="prosoTable table">
+                    <h3 class="text-center">People</h3>
+                    <table id="people" class="personTable table">
                         <tr>
                             <th>Surname</th>
 
@@ -44,11 +45,15 @@
                         <xsl:apply-templates select="//back/listPerson" mode="people">
                             <!-- RJP:2017-06-25: Why isn't sort working here? Is it because of where I am sitting on the tree in this template selection? -->
                             <xsl:sort select="descendant::person/child::surname"/>
-
                         </xsl:apply-templates>
 
                     </table>
-
+                    <div class="text-center">
+                        <h3>Organizations</h3>
+                        <p>Coming soon!</p>
+                        <h3>Places</h3>
+                        <p>Coming soon!</p>
+                    </div>
                 </div>
             </body>
         </html>
@@ -87,16 +92,17 @@
             </td>
             <td>
                 <xsl:choose>
-                    <xsl:when test="child::occupation">
-                        <xsl:apply-templates select="child::occupation"/>
+                    <xsl:when test="child::note[@type = 'spouse']">
+                        <xsl:apply-templates select="child::note[@type = 'spouse']"/>
                     </xsl:when>
                     <xsl:otherwise>N.A.</xsl:otherwise>
                 </xsl:choose>
+
             </td>
             <td>
                 <xsl:choose>
-                    <xsl:when test="child::note[@type = 'spouse']">
-                        <xsl:apply-templates select="child::note[@type='spouse']"/>
+                    <xsl:when test="child::occupation">
+                        <xsl:apply-templates select="child::occupation"/>
                     </xsl:when>
                     <xsl:otherwise>N.A.</xsl:otherwise>
                 </xsl:choose>
