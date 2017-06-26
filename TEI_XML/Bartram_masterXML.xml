@@ -2035,7 +2035,68 @@
             </div>
             <!-- RJP:2017-06-25: Page 23-25 coming soon! -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_023.jpg"/>
-            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_024.jpg"/>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_024">
+                <div type="group">
+                    <head>
+                        <date when="1803-02-08">February 8 1803</date>
+                        <persName ref="#LewisGoodsell">Lewis Goodsell</persName>
+                        <g ref="#afterName"/>
+                        <list type="entry">
+                            <item><g ref="#stItem"/>
+                                <measure commodity="cider" unit="barrel" quantity="1"><choice>
+                                        <sic>Barril</sic>
+                                        <reg resp="#SG">Barrel</reg>
+                                    </choice>
+                                    <choice>
+                                        <sic>Cyder</sic>
+                                        <reg resp="#SG">Cider</reg>
+                                    </choice></measure>
+                                <g ref="#longHyphen" n="3"/>
+                                <measure type="currency" unit="£sd" ana="00_06_00">0 6
+                                0</measure></item>
+                            <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="4"/>
+                                <measure type="currency" unit="£sd" ana="01_04_00">1 4 0</measure>
+                            </item>
+                            <item>
+                                <g ref="#stItem"/> order for <persName ref="#ThomasHull">Thomas
+                                    Hull</persName>
+                                <g ref="#longHyphen" n="3"/>
+                                <measure type="currency" unit="£sd" ana="06_02_06">6 2 6</measure>
+                            </item>
+                            <item><g ref="#stItem"/>
+                                <persName ref="#SethPerry">Seth Perry</persName>
+                                <g ref="#longHyphen" n="3"/>
+                                <measure type="currency" unit="£sd" ana="15_00_00">15 0
+                                0</measure></item>
+                            <item><g ref="#stItem"/>
+                                <persName ref="#Miah">Miah</persName>
+                                <g ref="#longHyphen" n="5"/>
+                                <measure type="currency" unit="£sd" ana="05_16_00">5 16
+                                0</measure></item>
+                            <item><g ref="#stItem"/>
+                                <choice>
+                                    <sic>Chissile</sic>
+                                    <reg resp="#SG">Chisel</reg>
+                                </choice>
+                                <persName ref="IsaacHenmans">Isaac Henmans</persName>
+                                <measure type="currency" unit="£sd" ana="00_08_00">0 8
+                                </measure></item>
+                            <item><g ref="#stItem"/> Cash for Barn <g ref="#longHyphen" n="1"/>
+                                <measure type="currency" unit="£sd" ana="09_00_00">9 0
+                                0</measure></item>
+                        </list>
+                        <list type="entry" subtype="total">
+                            <head><date when="1802-01">January 1802</date></head>
+                            <item><measure type="currency" unit="£sd" ana="37_01_06">37 1
+                                    6</measure></item>
+                            <item>This account is <choice>
+                                    <sic>notted</sic>
+                                    <reg resp="#SG">noted</reg>
+                                </choice> further over <g ref="#longHyphen" n="2"/></item>
+                        </list>
+                    </head>
+                </div>
+            </div>
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_025.jpg"/>
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_026.jpg">
                 <div type="group">
