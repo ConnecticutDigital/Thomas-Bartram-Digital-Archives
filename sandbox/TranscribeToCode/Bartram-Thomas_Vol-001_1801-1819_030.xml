@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_030.jpg">
+                <div type="group">
+                    <head><persName ref="#WalterBudington">Walter Budington</persName>
+                        <g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head><date when="1803-12-29">December 29 1803</date></head>
+                        <item><g ref="#stItem"/> Cash $5 Dollars <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="01_10_00">1 10
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1808-10">Oct 1808</date></head>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1"><choice>
+                                    <sic>pastering</sic>
+                                    <reg resp="#SG">pasturing</reg>
+                                </choice> horse</measure>
+                            <g ref="#longHyphen" n="1"/> 4 Weeks <measure type="currency" unit="£sd"
+                                ana="00_06_00">0 6 0</measure></item>
+                        <item><g ref="#stItem"/> Mend <unclear reason="illegible" unit="words"
+                                quantity="2"><supplied resp="#SG">Slay <choice>
+                                        <sic>Shew</sic>
+                                        <reg resp="#SG">Shoe</reg>
+                                    </choice></supplied></unclear>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_00_06">0 0
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-01-14">January 14 1809</date></head>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="horseshoes" unit="whole" quantity="4">4 Shews New
+                                Steel toes <unclear unit="chars" quantity="1" reason="illegible"/>
+                                Cork</measure>
+                            <measure type="currency" unit="£sd" ana="00_05_00"> 5 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-11-20">November 20 1809</date></head>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="pan" unit="whole" quantity="1"><unclear
+                                    reason="illegible" unit="words" quantity="1"><supplied
+                                        resp="#SG">bail</supplied></unclear> bake pan</measure>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_08_00">0 8
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-12-27">Dec 27 1809</date></head>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="screws" unit="whole" quantity="18">18 screws for
+                                    <unclear reason="illegible" unit="words" quantity="1"><supplied
+                                        resp="#SG">Slay</supplied></unclear> Shews</measure>
+                            <measure type="currency" unit="£sd" ana="00_09_00"> 9 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="screws" unit="whole" quantity="12">12 Screws for
+                                    <unclear reason="illegible" unit="words" quantity="1"><supplied
+                                        resp="#SG">Slay</supplied></unclear> Shews</measure>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_06_00"> 6 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1810-01">January 1810</date></head>
+                        <item><g ref="#stItem"/>
+                            <choice>
+                                <sic>but</sic>
+                                <reg resp="#SG">put</reg>
+                            </choice> half Shews on Slay posted further over <measure
+                                type="currency" unit="£sd" ana="00_06_00"> 6 0</measure></item>
+                        <item><g ref="#stItem"/> Mend Chain &amp; <unclear reason="illegible"
+                                unit="words" quantity="1"><supplied resp="#RP"
+                                >Staples</supplied></unclear>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_00_09"> 0 9</measure></item>
+                        <item><g ref="#stItem"/> Mend <measure commodity="pitchforks" unit="whole"
+                                quantity="2">2 pitchforks</measure>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2
+                            0</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item><measure type="currency" unit="£sd" ana="03_03_03">3 3
+                            3</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName ref="#DavidPenfield">David Penfield</persName>
+                    </head>
+                    <list type="entry">
+                        <head><date when="1805-05-04">May 4 1805</date></head>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
+                            Hire <g ref="#longHyphen" n="5"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
+                        <item><date when="1805-05-21">21</date></item>
+                    </list>
+                    <list type="entry"><head><date when="1805-05-22">22</date></head> 
+                        <item><g ref="#stItem"/> <measure commodity="horse" unit="whole" quantity="1">Horse</measure> Hire to <placeName>Fairfield</placeName> <unclear unit="words" quantity="1" reason="illegible"/> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item> 
+                        <item><g ref="#stItem"/> <measure commodity="horse" unit="whole" quantity="1">Horse</measure> Hire to [[place]] <placeName><choice><sic>Bridgport</sic><reg resp="#SG">Bridgeport</reg></choice></placeName> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item> 
+                        <item><g ref="#stItem"/> <measure commodity="fowl" unit="whole" quantity="1">one fowl</measure> <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item> 
+                        <item><g ref="#stItem"/> <measure commodity="horse" unit="whole" quantity="1">Horse</measure> Hire to <placeName><choice><sic>Bridgport</sic><reg resp="#SG">Bridgeport</reg></choice></placeName> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item>
+                        <item>This account is <choice><sic>notted</sic><reg resp="#SG">noted</reg></choice> further over</item></list> 
+                    <list type="entry"><head><date when="1805-05-25">25</date></head>
+                        <item><g ref="#stItem"/> <measure commodity="horse" unit="whole" quantity="1">Horse</measure> Hire to <placeName>Fairfield</placeName> <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure></item> 
+                        <item><g ref="#stItem"/> <measure commodity="horse" unit="whole" quantity="1">Horse</measure> Hire to <placeName>Fairfield Woods</placeName> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item></list> 
+                    <list type="entry"><head><date when="1805-05-25">20 January 1806</date></head>
+                        <item><unclear reason="strikethrough" unit="words" quantity="4"/> <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure></item></list>
+                </div>
+                <div type="group">
+                    [[person]] Samuel Staples [[/person]] 
+                    January 13 1804
+                    To 2 Shews [Shoes] [illegible] Steel Toes £0.3.00 
+                    To [[?]] Cork [[/?]] &amp; Set 20 old ones £0.1.06 
+                    July 1806
+                    To one Load oak wood £0.15.06 
+                    To 7 2/1 veal at 14 £0.2.00 
+                    January 25 1805
+                    To 1 lb Butter £0.0.09 
+                    To 1 pound of Butter £0.1.06 
+                    April 17
+                    To 4 Turkis [Turkeys] Eggs £0.0.04 
+                    May 1
+                    To 1 Pound of Butter £0.1.04 
+                    May 10 1805
+                    To one third of paster [pasture] Lot one Sommer [Summer] [[?]] £2.8.00 [[?/]] 
+                    January 25 1806
+                    To Cork 4 Shewes [Shoes] and Set them my Nail iron £0.4.00 
+                    June 4 1806 
+                    To 8 pounds of Veal £0.2.08 
+                    To Set 4 Shewes [Shoes] &amp; Corks my Steel mend one St [Set] toes £0.4.00 
+                    December 1806
+                    To make one [[?]] widged [[/?]] mend one £0.2.00 
+                    May 5 1807 
+                    To Cash – 2 Dollars £0.12.00 
+                    May 18
+                    To Soal [Sole] for one pair Shoes £0.2.00 
+                    June 11 
+                    To New [[?]] Ealshear &amp; hool [[/?]] £0.6.06
+                    To one Cheas [[?]]  Cheese [[/?]] £0.4.09 
+                    December 23 1807
+                    To Mending hook for hinge £0.6.00 
+                    To one Gallon Molasses £0.2.10 
+                    January 14 1808
+                    To Cash [illegible] [[?]] +2/ [[/?]] £0.12.00 
+                    July 1808
+                    To [[?]] gut, quart [[/?]] [illegible] Cod fish [[underline]] £0.8.00 [[/underline]] 
+                    Settled December 22 1808 £6.11.02 
+                    and Last Receipt [[underline]] £5.4.04 [[/underline]] 
+                    £1.6.08
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
