@@ -2033,7 +2033,7 @@
                     </list>
                 </div>
             </div>
-            <!-- RJP:2017-06-25: Page 23-25 coming soon! -->
+            <!-- RJP:2017-06-25: Page 23-30 coming soon! -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_023.jpg"/>
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_024">
                 <div type="group">
@@ -2326,6 +2326,10 @@
                     </list>
                 </div>
             </div>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_027.jpg"/>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_028.jpg"/>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_029.jpg"/>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_030.jpg"/>
         </body>
 
         <!--    PERSONOGRAPHY START-->

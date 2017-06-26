@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_028">
+                [[person]] Urier [Uriah] Bulkely [[/person]] 
+                April 21 1802 To Fix iron wedg [wedge] £0.0.09
+                May 1805 16 [[person]] Urier [Uriah] Bulkely [[/person]]  
+                To Horse Hire [[place]] Fairfield [[/place]] £0.0.09
+                To Horse Hire to [[place]] Greenfield [[/place]] £0.2.00 
+                To Horse Hire to [[place]] Bridgeport [[/place]] [illegible] £0.1.00 
+                To Horse Hire to [[place]] Bridgeport [[/place]] pirt [[?]] port [[/?]] £1.6.00 
+                To Horse Hire to [[place]] Oldmill [[/place]] £0.2.00 
+                To Horse Hire to [[place]] Greenfield [[/place]] &amp; £0.2.00 
+                To Horse Hire to [[place]] Fairfield [[/place]] £0.1.00 
+                To Horse Hire to [[place]] Fairfield [[/place]] £0.1.00 
+                To Horse Hire to [[place]] Fairfield [[/place]] £0.1.00
+                May 1801 [[person]] Richard Hall [[/person]] 
+                To Cash £2.2.00 
+                August 1803 To Cash £1.10.00 
+                To Cash £3.12.00 
+                £ [illegible] .1.06
+                Oct 1803 [[person]] Job Bartram [[/person]] 
+                To eight lb 2/1 wool at 2/6 £1.1.03 
+                To one hat for [[person]] William B [[/person]] £0.4.6 
+                April 9 1805 To horse hire £0.3.00
+                To horse hire one Day £0.0.00 
+                May 16 To Horse Hire [[?]] &amp; [[/?]] Cables £0.0.09 
+                To one pig 39 3/4 pound at - £0.16.07 
+                December 24 1806 To one pig [[/?]] 60 [?]] pounds at 4 4/1 £1.10.00 
+                to make [illegible] &amp; Mend heal £0.2.00 
+                Dec 8 1809 this Day filled [billed] all account Due &amp; Demand to this Date
+            </div>
+        </body>
+    </text>
+</TEI>
+
