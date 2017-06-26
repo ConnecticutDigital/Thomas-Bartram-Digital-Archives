@@ -2041,6 +2041,7 @@
                         <date when="1803-02-08">February 8 1803</date>
                         <persName ref="#LewisGoodsell">Lewis Goodsell</persName>
                         <g ref="#afterName"/>
+                    </head>
                         <list type="entry">
                             <item><g ref="#stItem"/>
                                 <measure commodity="cider" unit="barrel" quantity="1"><choice>
@@ -2094,7 +2095,6 @@
                                     <reg resp="#SG">noted</reg>
                                 </choice> further over <g ref="#longHyphen" n="2"/></item>
                         </list>
-                    </head>
                 </div>
             </div>
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_025.jpg"/>
