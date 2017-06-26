@@ -2327,7 +2327,7 @@
                 </div>
             </div>
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_027.jpg"/>
-            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_028">
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_028.jpg">
                 <div type="group">
                     <head><persName ref="#UriahBulkely"><choice>
                         <sic>Urier</sic>
@@ -2353,7 +2353,7 @@
                         <reg resp="#SG">Uriah</reg>
                     </choice> Bulkely</persName></head>
                     <list type="entry">
-                        <head><date when="1805-05-16">May 1805 16</date></head>
+                        <head> <date when="1805-05-16">May 1805 16</date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
                             Hire <placeName>Fairfield</placeName>
