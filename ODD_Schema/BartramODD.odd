@@ -198,6 +198,8 @@
                         <valItem ident="bundles"/>
                         <valItem ident="barrel"/>
                         <valItem ident="qt"/>
+                        <valItem ident="load"/>
+                        <valItem ident="gallon"/>
                      </valList>
                   </attDef>
                </attList>
