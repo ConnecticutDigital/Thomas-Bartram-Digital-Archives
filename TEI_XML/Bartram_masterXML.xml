@@ -2838,6 +2838,19 @@
             <!-- RF:2017-02-02: Add slaves and to ODD too. -->
 
             <!--         START PERSONOGRAPOHY WITH SOME MISSING TEMPLATE CODE SUCH AS GENNAME AND ALIAS-->
+            
+            <!-- template <person xml:id="ThomasBartram">
+                    <persName>
+                        <surname>Bartram</surname>
+                        <forename type="first">Thomas</forename>
+                    </persName>
+                    <birth when="1803"/>
+                    <death when="1886"/>
+                    <occupation>merchant</occupation>
+                    <note resp="#RF" type="spouse">Sarah Burr</note>
+                    <note resp="#RF"/>
+                </person>-->
+            
             <listPerson>
                 <person xml:id="ThomasBartram">
                     <persName>
@@ -2850,6 +2863,71 @@
                     <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
+                
+                 <person xml:id="SethPerry">
+                    <persName>
+                        <surname>Perry</surname>
+                        <forename type="first">Seth</forename>
+                    </persName>
+                    <birth when="1780"/>
+                    <death when="1866"/>
+                    <occupation>Merchant and Ship Owner</occupation>
+                    <note resp="#RF" type="spouse">Sarah Burr</note>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="DavidPenfield">
+                    <persName>
+                        <surname>Penfield</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                    <birth when="1769"/>
+                    <death when="1845"/>
+                    <occupation>Owned Ash Creek Mill and Black Rock Wharf</occupation>
+                    <note resp="#RF" type="spouse">Sarah Burr</note>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="EbenBartram">
+                    <persName>
+                        <surname>Bartram</surname>
+                        <forename type="first">Ebenezer</forename>
+                    </persName>
+                    <birth when="1762"/>
+                    <death when="1000"/>
+                    <occupation>merchant</occupation>
+                    <note resp="#RF" type="spouse">Abigail Jennings</note>
+                    <note resp="#RF"/>
+                </person>
+                
+               
+                
+               
+                <person xml:id="JobBartram">
+                    <persName>
+                        <surname>Bartram</surname>
+                        <forename type="first">Job</forename>
+                    </persName>
+                    <birth when="1000"/>
+                    <death when="1787"/>
+                    <occupation>Sea Captain</occupation>
+                    <note resp="#RF" type="spouse">Ruth Holberton</note>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="RichardHall">
+                    <persName>
+                        <surname>Hall</surname>
+                        <forename type="first">Richard</forename>
+                    </persName>
+                    <birth when="1800"/>
+                    <death when="1800"/>
+                    <occupation></occupation>
+                    <note resp="#RF" type="spouse"></note>
+                    <note resp="#RF"/>
+                    <!--     Find date of birth and death-->
+                </person>
+                
                 <person xml:id="UrierBuckley">
                     <persName>
                         <surname>Buckley</surname>
@@ -2857,6 +2935,7 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
+                
                 <person xml:id="NathanielBurr">
                     <persName>
                         <surname>Burr</surname>
@@ -2876,15 +2955,7 @@
                     </note>
                 </person>
 
-                <person xml:id="SethPerry">
-                    <persName>
-                        <surname>Perry</surname>
-                        <forename type="first">Seth</forename>
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
+               
 
                 <person xml:id="HannaBurr">
                     <persName>
@@ -2896,16 +2967,7 @@
                     </note>
                 </person>
 
-                <person xml:id="EbenBartram">
-                    <persName>
-                        <surname>Bartram</surname>
-                        <forename type="first">Eben</forename>
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
-
+               
                 <person xml:id="JohnWheeler">
                     <persName>
                         <surname>Wheeler</surname>
@@ -2916,15 +2978,7 @@
                     </note>
                 </person>
 
-                <person xml:id="JobBartram">
-                    <persName>
-                        <surname>Bartram</surname>
-                        <forename type="first">Job</forename>
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
+               
 
                 <person xml:id="AndrewWakemen">
                     <persName>
@@ -2966,6 +3020,17 @@
                     </note>
                 </person>
 
+<person xml:id="DavidJudson">
+                    <persName>
+                        <surname>Judson</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                    <birth when="1000"/>
+                    <death when="1000"/>
+                    <occupation>Trustee for the Bulkley heirs</occupation>
+                    <note resp="#RF" type="spouse">Esther Bulkley</note>
+                    <note resp="#RF"/>
+                </person>
 
 
                 <person xml:id="JosephSturges">
@@ -3313,6 +3378,28 @@
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
+                
+                <place xml:id="Oldmill">
+                    <placeName/>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
+                
+                <place xml:id="Greenfield">
+                    <placeName/>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
+                
+                <place xml:id="Bridgeport">
+                    <placeName/>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
+                
 
             </listPlace>
 
