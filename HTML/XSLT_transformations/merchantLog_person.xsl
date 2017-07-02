@@ -20,12 +20,11 @@
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="nav"> People, Organizaitons, and Places Mentioned in Thomas Bartram's
+                    <h1 class="nav"> People in Thomas Bartram's
                         Merchant and Shipping Logs </h1>
-                    <a href="index.html">Home</a> | <a href="about.html">About</a>
+                    <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
-                    <h3 class="text-center">People</h3>
                     <table id="people" class="personTable table">
                         <tr>
                             <th>Surname</th>
@@ -41,18 +40,13 @@
                             <th>Spouse</th>
 
                             <th>Occupation</th>
+                            <th>Description</th>
                         </tr>
                         <xsl:apply-templates select="descendant::back/descendant::listPerson/descendant::person" mode="people">
                             <xsl:sort select="descendant::surname"/>
                         </xsl:apply-templates>
 
                     </table>
-                    <div class="text-center">
-                        <h3>Organizations</h3>
-                        <p>Coming soon!</p>
-                        <h3>Places</h3>
-                        <p>Coming soon!</p>
-                    </div>
                 </div>
             </body>
         </html>
@@ -100,8 +94,19 @@
             </td>
             <td>
                 <xsl:choose>
-                    <xsl:when test="child::occupation">
+                    <xsl:when test="count(child::occupation) = 1">
                         <xsl:apply-templates select="child::occupation"/>
+                    </xsl:when>
+                    <xsl:when test="count(child::occupation) gt 1">
+                        <xsl:apply-templates select="string-join(child::occupation, ', ')"></xsl:apply-templates>
+                    </xsl:when>
+                    <xsl:otherwise>N.A.</xsl:otherwise>
+                </xsl:choose>
+            </td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="child::note[@resp][not(@spouse)][matches(.,'\w+')]">
+                        <span class="bioNote" title="This note was created by editor ID {child::note/@resp}"><xsl:apply-templates select="child::note[@resp][not(@spouse)]"/></span>
                     </xsl:when>
                     <xsl:otherwise>N.A.</xsl:otherwise>
                 </xsl:choose>

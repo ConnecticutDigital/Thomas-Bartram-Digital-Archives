@@ -39,7 +39,7 @@
                     </h1>
                     <h2 class="main">Authored by <xsl:apply-templates
                         select="//teiHeader//titleStmt//author"/></h2>
-                    <a href="index.html">Home</a> |
+                    <a href="merchantLog_main.html">Home</a> |
                     <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
@@ -84,7 +84,8 @@
         </div>
         <div class="col-xs-12 text-center">
             <a href="#nav">Return to Top</a> |
-            <a href="merchantLog_TOC.html">Table of Contents</a>
+            <a href="merchantLog_TOC.html">Table of Contents</a> | 
+            <a href="merchantLog_main.html">Return to Bartram Main Page</a>
         </div>
     </xsl:template>
     <xsl:template match="date[not(parent::title)]">
