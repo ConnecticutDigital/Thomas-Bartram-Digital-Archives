@@ -20,21 +20,45 @@
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="nav">Analysis of Thomas Bartram's Merchant and Shipping Logs</h1>
+                    <h1 class="nav"> Places in Thomas Bartram's
+                        Merchant and Shipping Logs </h1>
                     <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
-                    <p class="text-center">Disclaimer: the analysis represented on this page fluctuates as additional pages of Bartram's merchant logs are encoded.</p>
-                    <ul>
-                        <li>Pages Transcribed and Encoded: <xsl:apply-templates select="count(descendant::div[@type='page'])"></xsl:apply-templates></li>
-                        <li>Lines Transcribed and Encoded: <xsl:apply-templates select="count(descendant::body//descendant::item)"></xsl:apply-templates></li>
-                        <li>Instances of unclear/missing text: <xsl:apply-templates select="count(descendant::body//unclear)"></xsl:apply-templates></li>
-                        <li>Distinct People Mentioned: <xsl:apply-templates select="count(distinct-values(descendant::back/descendant::person/@xml:id))"></xsl:apply-templates></li>
-                        <li>Distinct Places Mentioned: <xsl:apply-templates select="count(distinct-values(descendant::back/descendant::place/@xml:id))"></xsl:apply-templates></li>
-                        <li>Distinct Commodities Mentioned: <xsl:apply-templates select="count(distinct-values(descendant::body/descendant::measure/@commodity))"></xsl:apply-templates></li>
-                    </ul>
+                    <table id="places" class="placeTable table">
+                        <tr>
+                            <th>Place</th>
+                            <th>Reference ID</th>
+                            <th>Geo Location</th>
+                            <th>Description</th>
+                            
+                        </tr>
+                        <xsl:apply-templates select="descendant::back/descendant::listPlace/descendant::place" mode="places">
+                            <!--<xsl:sort select="descendant::placeName"/>-->
+                        </xsl:apply-templates>
+                        
+                    </table>
                 </div>
             </body>
         </html>
     </xsl:template>
+    <xsl:template match="place">
+        
+        <tr>
+            
+            <td>
+                <xsl:apply-templates select="descendant::placeName"/>
+            </td>
+            
+            <td>
+                <xsl:text>#</xsl:text>
+                <xsl:apply-templates select="@xml:id"/>
+            </td>
+            <td>
+                <xsl:apply-templates select="descendant::geo"/>
+            </td>
+            <td><xsl:apply-templates select="descendant::note"/></td>
+        </tr>
+    </xsl:template>
+    
 </xsl:stylesheet>

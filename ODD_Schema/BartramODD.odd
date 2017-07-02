@@ -55,6 +55,7 @@
                         <valItem ident="#BN"/>
                         <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
+                        <valItem ident="#RW"/>
                         <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
@@ -206,14 +207,16 @@
             </elementSpec>
             <elementSpec ident="note" module="core" mode="change">
                <attList>
-                  <attDef ident="resp" mode="replace" usage="req">
+                  <attDef ident="resp" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.pointer"/>
                      </datatype>
                      <valList type="closed">
                         <valItem ident="#RF"/>
-                        <valItem ident="#RP"/>
+                        <valItem ident="#BN"/>
+                        <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
+                        <valItem ident="#RW"/>
                         <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
@@ -245,8 +248,10 @@
                      </datatype>
                      <valList type="closed">
                         <valItem ident="#RF"/>
-                        <valItem ident="#RP"/>
+                        <valItem ident="#BN"/>
+                        <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
+                        <valItem ident="#RW"/>
                      </valList>
                   </attDef>
                </attList>
@@ -259,8 +264,10 @@
                      </datatype>
                      <valList type="closed">
                         <valItem ident="#RF"/>
-                        <valItem ident="#RP"/>
+                        <valItem ident="#BN"/>
+                        <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
+                        <valItem ident="#RW"/>
                      </valList>
                   </attDef>
                </attList>
@@ -362,6 +369,14 @@
                   <sch:rule context="tei:add">
                      <sch:assert test="current()[@resp]"> The
                         supplied element must have a resp attribute.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="isoschematron" ident="noteResp">
+               <constraint>
+                  <sch:rule context="tei:note[not(@spouse)]">
+                     <sch:assert test="current()[@resp]"> This
+                        note element must have a resp attribute.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>

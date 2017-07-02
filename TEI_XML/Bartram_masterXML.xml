@@ -2860,7 +2860,7 @@
                     <birth when="1803"/>
                     <death when="1886"/>
                     <occupation>merchant</occupation>
-                    <note resp="#RF" type="spouse">Sarah Burr</note>
+                    <note type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2871,8 +2871,9 @@
                     </persName>
                     <birth when="1780"/>
                     <death when="1866"/>
-                    <occupation>Merchant and Ship Owner</occupation>
-                    <note resp="#RF" type="spouse">Sarah Burr</note>
+                    <occupation>Merchant</occupation>
+                     <occupation>Ship Owner</occupation>
+                    <note type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2884,7 +2885,7 @@
                     <birth when="1769"/>
                     <death when="1845"/>
                     <occupation>Owned Ash Creek Mill and Black Rock Wharf</occupation>
-                    <note resp="#RF" type="spouse">Sarah Burr</note>
+                    <note type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2896,7 +2897,7 @@
                     <birth when="1762"/>
                     <death when="1000"/>
                     <occupation>merchant</occupation>
-                    <note resp="#RF" type="spouse">Abigail Jennings</note>
+                    <note type="spouse">Abigail Jennings</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2911,7 +2912,7 @@
                     <birth when="1000"/>
                     <death when="1787"/>
                     <occupation>Sea Captain</occupation>
-                    <note resp="#RF" type="spouse">Ruth Holberton</note>
+                    <note type="spouse">Ruth Holberton</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2922,8 +2923,8 @@
                     </persName>
                     <birth when="1800"/>
                     <death when="1800"/>
-                    <occupation></occupation>
-                    <note resp="#RF" type="spouse"></note>
+                    <occupation/>
+                    <note type="spouse"></note>
                     <note resp="#RF"/>
                     <!--     Find date of birth and death-->
                 </person>
@@ -2941,7 +2942,7 @@
                         <surname>Burr</surname>
                         <forename type="first">Nathaniel</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    <note resp="#RF">Related to America's third Vice President, Aaron Burr.</note>
                 </person>
 
 
@@ -3028,7 +3029,7 @@
                     <birth when="1000"/>
                     <death when="1000"/>
                     <occupation>Trustee for the Bulkley heirs</occupation>
-                    <note resp="#RF" type="spouse">Esther Bulkley</note>
+                    <note type="spouse">Esther Bulkley</note>
                     <note resp="#RF"/>
                 </person>
 
@@ -3373,10 +3374,11 @@
 
 
                 <place xml:id="Fairfield">
-                    <placeName/>
+                    <placeName>Fairfield</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>Test</geo>
                     </location>
+                    <note resp="#RF">Test</note>
                 </place>
                 
                 <place xml:id="Oldmill">
@@ -3387,7 +3389,7 @@
                 </place>
                 
                 <place xml:id="Greenfield">
-                    <placeName/>
+                    <placeName>Greenfield</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>

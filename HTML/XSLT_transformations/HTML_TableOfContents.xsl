@@ -23,7 +23,7 @@
                     <h1 class="nav">
                        Thomas Bartram's 1801 - 1838 Account Log Books
                     </h1>
-                    <a href="index.html">Home</a> |
+                    <a href="merchantLog_main.html">Home</a> |
                     <a href="about.html">About</a>
                     <h3 class="main">Table of Contents</h3>
                     
