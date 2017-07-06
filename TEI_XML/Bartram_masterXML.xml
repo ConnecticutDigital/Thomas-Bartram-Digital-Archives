@@ -2860,7 +2860,7 @@
                     <birth when="1803"/>
                     <death when="1886"/>
                     <occupation>merchant</occupation>
-                    <note type="spouse">Sarah Burr</note>
+                    <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2871,9 +2871,8 @@
                     </persName>
                     <birth when="1780"/>
                     <death when="1866"/>
-                    <occupation>Merchant</occupation>
-                     <occupation>Ship Owner</occupation>
-                    <note type="spouse">Sarah Burr</note>
+                    <occupation>Merchant and Ship Owner</occupation>
+                    <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2885,7 +2884,7 @@
                     <birth when="1769"/>
                     <death when="1845"/>
                     <occupation>Owned Ash Creek Mill and Black Rock Wharf</occupation>
-                    <note type="spouse">Sarah Burr</note>
+                    <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2895,9 +2894,9 @@
                         <forename type="first">Ebenezer</forename>
                     </persName>
                     <birth when="1762"/>
-                    <death when="1000"/>
+             <!--       <death when=""/>-->
                     <occupation>merchant</occupation>
-                    <note type="spouse">Abigail Jennings</note>
+                    <note resp="#RF" type="spouse">Abigail Jennings</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2908,11 +2907,10 @@
                     <persName>
                         <surname>Bartram</surname>
                         <forename type="first">Job</forename>
-                    </persName>
-                    <birth when="1000"/>
+                    </persName>                
                     <death when="1787"/>
                     <occupation>Sea Captain</occupation>
-                    <note type="spouse">Ruth Holberton</note>
+                    <note resp="#RF" type="spouse">Ruth Holberton</note>
                     <note resp="#RF"/>
                 </person>
                 
@@ -2921,10 +2919,8 @@
                         <surname>Hall</surname>
                         <forename type="first">Richard</forename>
                     </persName>
-                    <birth when="1800"/>
-                    <death when="1800"/>
-                    <occupation/>
-                    <note type="spouse"></note>
+                    <occupation></occupation>
+                    <note resp="#RF" type="spouse"></note>
                     <note resp="#RF"/>
                     <!--     Find date of birth and death-->
                 </person>
@@ -2937,12 +2933,77 @@
                     <note resp="#RF"/>
                 </person>
                 
+                <person xml:id="WillThorp">
+                    <persName>
+                        <surname>Thorp</surname>
+                        <forename type="first">Will</forename>
+                    </persName>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="MRisley">
+                    <persName>
+                        <surname>Risley</surname>
+                        <forename type="first">M</forename>
+                    </persName>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="JosephPerry">
+                    <persName>
+                        <surname>Perry</surname>
+                        <forename type="first">Joseph</forename>
+                    </persName>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="DavidJudson">
+                    <persName>
+                        <surname>Judson</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                    <note resp="#RF"/>
+                </person>
+                
+                
+                <person xml:id="AmosLock">
+                    <persName>
+                        <surname>Lock</surname>
+                        <forename type="first">Amos</forename>
+                    </persName>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="AmosLock">
+                <persName>
+                    <surname>Lock</surname>
+                    <forename type="first">Amos</forename>
+                </persName>
+                <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="CaptAllen">
+                    <persName>
+                        <surname>Allen</surname>
+                        <forename type="first">Capt</forename>
+                    </persName>
+                    <note resp="#RF"/>
+                </person>
+                
+                <person xml:id="WalterLynde">
+                <persName>
+                    <surname>Lynde</surname>
+                    <forename type="first">Walter</forename>
+                </persName>
+                <note resp="#RF"/>
+                </person>
+                
                 <person xml:id="NathanielBurr">
                     <persName>
                         <surname>Burr</surname>
                         <forename type="first">Nathaniel</forename>
                     </persName>
-                    <note resp="#RF">Related to America's third Vice President, Aaron Burr.</note>
+                    <note resp="#RF"/>
                 </person>
 
 
@@ -3026,10 +3087,9 @@
                         <surname>Judson</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    <birth when="1000"/>
-                    <death when="1000"/>
+                    
                     <occupation>Trustee for the Bulkley heirs</occupation>
-                    <note type="spouse">Esther Bulkley</note>
+                    <note resp="#RF" type="spouse">Esther Bulkley</note>
                     <note resp="#RF"/>
                 </person>
 
@@ -3374,11 +3434,10 @@
 
 
                 <place xml:id="Fairfield">
-                    <placeName>Fairfield</placeName>
+                    <placeName/>
                     <location>
-                        <geo>Test</geo>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
-                    <note resp="#RF">Test</note>
                 </place>
                 
                 <place xml:id="Oldmill">
@@ -3389,7 +3448,7 @@
                 </place>
                 
                 <place xml:id="Greenfield">
-                    <placeName>Greenfield</placeName>
+                    <placeName/>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
