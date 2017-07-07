@@ -16,7 +16,7 @@
                     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
                 <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-
+                
             </head>
             <body>
                 <div id="nav">
@@ -24,43 +24,29 @@
                     <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
-                    <table id="places" class="placeTable table">
+                    <table id="commodities" class="placeTable table">
                         <tr>
-                            <th>Place</th>
-                            <th>Reference ID</th>
-                            <th>Geo Location</th>
-                            <th>Description</th>
-
+                            <th>Commodity</th>
+                            <th>Number of Times Referenced</th>
+                            
                         </tr>
-                        <xsl:apply-templates
-                            select="descendant::back/descendant::listPlace/descendant::place"/>
-                        <!--<xsl:sort select="descendant::placeName"/>-->
-
-
+                        <xsl:for-each select="distinct-values(descendant::body/descendant::measure[@commodity]/@commodity)">
+                            <xsl:variable name="com" select="."/>
+                            <tr>
+                                <td><xsl:value-of select="$com"/></td>
+                                
+                            </tr>
+                        </xsl:for-each>
+                        
                     </table>
                 </div>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="place">
-
+    <xsl:template match="measure[@commodity]">
         <tr>
-
-            <td>
-                <xsl:apply-templates select="descendant::placeName"/>
-            </td>
-
-            <td>
-                <xsl:text>#</xsl:text>
-                <xsl:apply-templates select="@xml:id"/>
-            </td>
-            <td>
-                <xsl:apply-templates select="descendant::geo"/>
-            </td>
-            <td>
-                <xsl:apply-templates select="descendant::note"/>
-            </td>
+            <td></td>
         </tr>
     </xsl:template>
-
+    
 </xsl:stylesheet>
