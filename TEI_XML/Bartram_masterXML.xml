@@ -400,7 +400,7 @@
                         </item>
 
                         <!-- LINE_35: 2 thousand Brick  -->
-                        <item><measure commodity="bricks" quantity="2000" unit="whole">2 thousand
+                        <item><measure commodity="brick" quantity="2000" unit="whole">2 thousand
                                 Brick</measure>
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" ana="10_10_00">10 10
@@ -2042,59 +2042,58 @@
                         <persName ref="#LewisGoodsell">Lewis Goodsell</persName>
                         <g ref="#afterName"/>
                     </head>
-                        <list type="entry">
-                            <item><g ref="#stItem"/>
-                                <measure commodity="cider" unit="barrel" quantity="1"><choice>
-                                        <sic>Barril</sic>
-                                        <reg resp="#SG">Barrel</reg>
-                                    </choice>
-                                    <choice>
-                                        <sic>Cyder</sic>
-                                        <reg resp="#SG">Cider</reg>
-                                    </choice></measure>
-                                <g ref="#longHyphen" n="3"/>
-                                <measure type="currency" unit="£sd" ana="00_06_00">0 6
-                                0</measure></item>
-                            <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="4"/>
-                                <measure type="currency" unit="£sd" ana="01_04_00">1 4 0</measure>
-                            </item>
-                            <item>
-                                <g ref="#stItem"/> order for <persName ref="#ThomasHull">Thomas
-                                    Hull</persName>
-                                <g ref="#longHyphen" n="3"/>
-                                <measure type="currency" unit="£sd" ana="06_02_06">6 2 6</measure>
-                            </item>
-                            <item><g ref="#stItem"/>
-                                <persName ref="#SethPerry">Seth Perry</persName>
-                                <g ref="#longHyphen" n="3"/>
-                                <measure type="currency" unit="£sd" ana="15_00_00">15 0
-                                0</measure></item>
-                            <item><g ref="#stItem"/>
-                                <persName ref="#Miah">Miah</persName>
-                                <g ref="#longHyphen" n="5"/>
-                                <measure type="currency" unit="£sd" ana="05_16_00">5 16
-                                0</measure></item>
-                            <item><g ref="#stItem"/>
-                                <choice>
-                                    <sic>Chissile</sic>
-                                    <reg resp="#SG">Chisel</reg>
+                    <list type="entry">
+                        <item><g ref="#stItem"/>
+                            <measure commodity="cider" unit="barrel" quantity="1"><choice>
+                                    <sic>Barril</sic>
+                                    <reg resp="#SG">Barrel</reg>
                                 </choice>
-                                <persName ref="IsaacHenmans">Isaac Henmans</persName>
-                                <measure type="currency" unit="£sd" ana="00_08_00">0 8
-                                </measure></item>
-                            <item><g ref="#stItem"/> Cash for Barn <g ref="#longHyphen" n="1"/>
-                                <measure type="currency" unit="£sd" ana="09_00_00">9 0
-                                0</measure></item>
-                        </list>
-                        <list type="entry" subtype="total">
-                            <head><date when="1802-01">January 1802</date></head>
-                            <item><measure type="currency" unit="£sd" ana="37_01_06">37 1
-                                    6</measure></item>
-                            <item>This account is <choice>
-                                    <sic>notted</sic>
-                                    <reg resp="#SG">noted</reg>
-                                </choice> further over <g ref="#longHyphen" n="2"/></item>
-                        </list>
+                                <choice>
+                                    <sic>Cyder</sic>
+                                    <reg resp="#SG">Cider</reg>
+                                </choice></measure>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_06_00">0 6
+                            0</measure></item>
+                        <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="4"/>
+                            <measure type="currency" unit="£sd" ana="01_04_00">1 4 0</measure>
+                        </item>
+                        <item>
+                            <g ref="#stItem"/> order for <persName ref="#ThomasHull">Thomas
+                                Hull</persName>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="06_02_06">6 2 6</measure>
+                        </item>
+                        <item><g ref="#stItem"/>
+                            <persName ref="#SethPerry">Seth Perry</persName>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="15_00_00">15 0
+                            0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <persName ref="#Miah">Miah</persName>
+                            <g ref="#longHyphen" n="5"/>
+                            <measure type="currency" unit="£sd" ana="05_16_00">5 16
+                            0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <choice>
+                                <sic>Chissile</sic>
+                                <reg resp="#SG">Chisel</reg>
+                            </choice>
+                            <persName ref="IsaacHenmans">Isaac Henmans</persName>
+                            <measure type="currency" unit="£sd" ana="00_08_00">0 8 </measure></item>
+                        <item><g ref="#stItem"/> Cash for Barn <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="09_00_00">9 0
+                            0</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <head><date when="1802-01">January 1802</date></head>
+                        <item><measure type="currency" unit="£sd" ana="37_01_06">37 1
+                            6</measure></item>
+                        <item>This account is <choice>
+                                <sic>notted</sic>
+                                <reg resp="#SG">noted</reg>
+                            </choice> further over <g ref="#longHyphen" n="2"/></item>
+                    </list>
                 </div>
             </div>
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_025.jpg"/>
@@ -2133,7 +2132,7 @@
                             <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure>
                         </item>
                         <item>
-                            <g ref="#stItem"/> fix <measure commodity="wedge" quantity="2"
+                            <g ref="#stItem"/> fix <measure commodity="wedges" quantity="2"
                                 unit="whole">2 wedges</measure>
                             <g ref="#longHyphen" n="6"/>
                             <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure>
@@ -2330,35 +2329,36 @@
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_028.jpg">
                 <div type="group">
                     <head><persName ref="#UriahBulkely"><choice>
-                        <sic>Urier</sic>
-                        <reg resp="#SG">Uriah</reg>
-                    </choice> Bulkely</persName>
+                                <sic>Urier</sic>
+                                <reg resp="#SG">Uriah</reg>
+                            </choice> Bulkely</persName>
                         <g ref="#afterName"/></head>
                     <list type="entry">
                         <head><date when="1802-04-21">April 21 1802</date>
                             <g ref="#longHyphen" n="11"/></head>
-                        <item><g ref="#stItem"/> Fix <measure commodity="wedge" unit="whole"
-                            quantity="1">iron <choice>
-                                <sic>wedg</sic>
-                                <reg resp="#SG">wedge</reg>
-                            </choice></measure>
+                        <item><g ref="#stItem"/> Fix <measure commodity="wedges" unit="whole"
+                                quantity="1">iron <choice>
+                                    <sic>wedg</sic>
+                                    <reg resp="#SG">wedge</reg>
+                                </choice></measure>
                             <g ref="#longHyphen" n="5"/>
                             <measure type="currency" unit="£sd" ana="00_00_09">0 0
-                                9</measure></item>
+                            9</measure></item>
                     </list>
                 </div>
                 <div type="group">
                     <head><persName ref="#UriahBulkely"><choice>
-                        <sic>Urier</sic>
-                        <reg resp="#SG">Uriah</reg>
-                    </choice> Bulkely</persName></head>
+                                <sic>Urier</sic>
+                                <reg resp="#SG">Uriah</reg>
+                            </choice> Bulkely</persName></head>
                     <list type="entry">
-                        <head> <date when="1805-05-16">May 1805 16</date></head>
+                        <head>
+                            <date when="1805-05-16">May 1805 16</date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
                             Hire <placeName>Fairfield</placeName>
                             <measure type="currency" unit="£sd" ana="00_00_09">0 0
-                                09</measure></item>
+                            09</measure></item>
                     </list>
                     <list type="entry">
                         <item><g ref="#stItem"/>
@@ -2386,7 +2386,7 @@
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
                             Hire to <placeName>Greenfield</placeName>
                             <unclear reason="illegible" unit="chars" quantity="1"><supplied
-                                resp="#SG">&amp;</supplied></unclear>
+                                    resp="#SG">&amp;</supplied></unclear>
                             <measure type="currency" unit="£sd" ana="00_02_00"> 2 </measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
@@ -2407,18 +2407,18 @@
                         <g ref="#afterName"/></head>
                     <list type="entry">
                         <head><date when="1801-05-01">May <unclear reason="illegible" unit="chars"
-                            quantity="1"><supplied resp="#RP">1</supplied></unclear>
-                            1801</date>
+                                    quantity="1"><supplied resp="#RP">1</supplied></unclear>
+                                1801</date>
                             <g ref="#longHyphen" n="3"/></head>
                         <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="4"/>
                             <measure type="currency" unit="£sd" ana="02_02_00">2 2
-                                0</measure></item>
+                            0</measure></item>
                     </list>
                     <list type="entry">
                         <head><date when="1803-08">August 1803</date></head>
                         <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="5"/>
                             <measure type="currency" unit="£sd" ana="01_10_00">1 10
-                                0</measure></item>
+                            0</measure></item>
                         <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="2"/>
                             <g ref="#currency"/><measure type="currency" unit="£sd" ana="03_12_00">3
                                 12 </measure></item>
@@ -2426,8 +2426,8 @@
                     <list type="entry" subtype="total">
                         <item>
                             <measure type="currency" unit="£sd" ana="00_01_06"><unclear unit="chars"
-                                quantity="1" reason="illegible"><supplied resp="#RP"
-                                    >0</supplied></unclear> 1 6</measure></item>
+                                    quantity="1" reason="illegible"><supplied resp="#RP"
+                                        >0</supplied></unclear> 1 6</measure></item>
                     </list>
                 </div>
                 <div type="group">
@@ -2442,16 +2442,16 @@
                                 1 3</measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="hat" unit="whole" quantity="1">one hat</measure> for
-                            <persName ref="#WilliamB">William B</persName>
+                                <persName ref="#WilliamB">William B</persName>
                             <measure type="currency" unit="£sd" ana="00_04_06">0 4
-                                6</measure></item>
+                            6</measure></item>
                     </list>
                     <list type="entry">
                         <head><date when="1805-04-09">April 9 1805</date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">horse</measure>
                             hire <measure type="currency" unit="£sd" ana="00_03_00">0 3
-                                0</measure></item>
+                            0</measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">horse</measure>
                             hire one Day <measure type="currency" unit="£sd" ana="00_00_00">0
@@ -2459,38 +2459,38 @@
                     </list>
                     <list type="entry">
                         <head><date when="1805-05-16">May 16 <supplied resp="#RP"
-                            >1805</supplied></date></head>
+                                >1805</supplied></date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
                             Hire <unclear reason="illegible" unit="words" quantity="2"><supplied
-                                resp="#RP">F Cables</supplied></unclear>
+                                    resp="#RP">F Cables</supplied></unclear>
                             <measure type="currency" unit="£sd" ana="00_00_09">0 0
-                                9</measure></item>
+                            9</measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="pig" unit="whole" quantity="1">one pig 39 3/4
                                 pound</measure> at <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_16_07">0 16
-                                7</measure></item>
+                            7</measure></item>
                     </list>
                     <list type="entry">
                         <head><date when="1806-12-24">Dec 24 1806</date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="pig" unit="whole" quantity="1">one <unclear
-                                reason="illegible" unit="words" quantity="2"><supplied
-                                    resp="#SG">pig 60</supplied></unclear> pounds at 4
+                                    reason="illegible" unit="words" quantity="2"><supplied
+                                        resp="#SG">pig 60</supplied></unclear> pounds at 4
                                 2/1</measure>
                             <measure type="currency" unit="£sd" ana="01_10_00">1 10 0</measure>
                         </item>
                         <item><g ref="#stItem"/> Make <unclear reason="illegible" unit="words"
-                            quantity="1"/> &amp; Mend heal <measure type="currency" unit="£sd"
+                                quantity="1"/> &amp; Mend heal <measure type="currency" unit="£sd"
                                 ana="00_02_00"> 2 0</measure></item>
                     </list>
                     <list type="entry">
                         <head><date when="1809-12-08">Dec 8 1809</date></head>
                         <item>this Day <choice>
-                            <sic>filled</sic>
-                            <reg resp="#SG">billed</reg>
-                        </choice> all account</item>
+                                <sic>filled</sic>
+                                <reg resp="#SG">billed</reg>
+                            </choice> all account</item>
                         <item>Due &amp; Demand to this Date</item>
                     </list>
                 </div>
@@ -2835,11 +2835,9 @@
         <!--    PERSONOGRAPHY START-->
         <back>
             <!-- RF RP:2017-01-15: This is where we will create prosopography entries for people, places, and organizations mentioned in the document. -->
-            <!-- RF:2017-02-02: Add slaves and to ODD too. -->
 
-            <!--         START PERSONOGRAPOHY WITH SOME MISSING TEMPLATE CODE SUCH AS GENNAME AND ALIAS-->
-            
-            <!-- template <person xml:id="ThomasBartram">
+            <!-- 
+                template <person xml:id="ThomasBartram">
                     <persName>
                         <surname>Bartram</surname>
                         <forename type="first">Thomas</forename>
@@ -2849,8 +2847,9 @@
                     <occupation>merchant</occupation>
                     <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
-                </person>-->
-            
+                </person>
+            -->
+
             <listPerson>
                 <person xml:id="ThomasBartram">
                     <persName>
@@ -2863,8 +2862,8 @@
                     <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
-                
-                 <person xml:id="SethPerry">
+
+                <person xml:id="SethPerry">
                     <persName>
                         <surname>Perry</surname>
                         <forename type="first">Seth</forename>
@@ -2872,10 +2871,9 @@
                     <birth when="1780"/>
                     <death when="1866"/>
                     <occupation>Merchant and Ship Owner</occupation>
-                    <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
-                
+
                 <person xml:id="DavidPenfield">
                     <persName>
                         <surname>Penfield</surname>
@@ -2884,55 +2882,46 @@
                     <birth when="1769"/>
                     <death when="1845"/>
                     <occupation>Owned Ash Creek Mill and Black Rock Wharf</occupation>
-                    <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
-                
+
                 <person xml:id="EbenBartram">
                     <persName>
                         <surname>Bartram</surname>
                         <forename type="first">Ebenezer</forename>
                     </persName>
                     <birth when="1762"/>
-             <!--       <death when=""/>-->
                     <occupation>merchant</occupation>
                     <note resp="#RF" type="spouse">Abigail Jennings</note>
                     <note resp="#RF"/>
                 </person>
-                
-               
-                
-               
+
+
+
+
                 <person xml:id="JobBartram">
                     <persName>
                         <surname>Bartram</surname>
                         <forename type="first">Job</forename>
-                    </persName>                
+                    </persName>
                     <death when="1787"/>
                     <occupation>Sea Captain</occupation>
                     <note resp="#RF" type="spouse">Ruth Holberton</note>
                     <note resp="#RF"/>
                 </person>
-                
+
                 <person xml:id="RichardHall">
                     <persName>
                         <surname>Hall</surname>
                         <forename type="first">Richard</forename>
                     </persName>
-                    <occupation></occupation>
-                    <note resp="#RF" type="spouse"></note>
+                    <occupation/>
                     <note resp="#RF"/>
                     <!--     Find date of birth and death-->
                 </person>
+
                 
-                <person xml:id="UrierBuckley">
-                    <persName>
-                        <surname>Buckley</surname>
-                        <forename type="first">Urier</forename>
-                    </persName>
-                    <note resp="#RF"/>
-                </person>
-                
+
                 <person xml:id="WillThorp">
                     <persName>
                         <surname>Thorp</surname>
@@ -2940,7 +2929,7 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
-                
+
                 <person xml:id="MRisley">
                     <persName>
                         <surname>Risley</surname>
@@ -2948,7 +2937,7 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
-                
+
                 <person xml:id="JosephPerry">
                     <persName>
                         <surname>Perry</surname>
@@ -2956,16 +2945,10 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
+
                 
-                <person xml:id="DavidJudson">
-                    <persName>
-                        <surname>Judson</surname>
-                        <forename type="first">David</forename>
-                    </persName>
-                    <note resp="#RF"/>
-                </person>
-                
-                
+
+
                 <person xml:id="AmosLock">
                     <persName>
                         <surname>Lock</surname>
@@ -2973,15 +2956,7 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
-                
-                <person xml:id="AmosLock">
-                <persName>
-                    <surname>Lock</surname>
-                    <forename type="first">Amos</forename>
-                </persName>
-                <note resp="#RF"/>
-                </person>
-                
+
                 <person xml:id="CaptAllen">
                     <persName>
                         <surname>Allen</surname>
@@ -2989,15 +2964,15 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
-                
+
                 <person xml:id="WalterLynde">
-                <persName>
-                    <surname>Lynde</surname>
-                    <forename type="first">Walter</forename>
-                </persName>
-                <note resp="#RF"/>
+                    <persName>
+                        <surname>Lynde</surname>
+                        <forename type="first">Walter</forename>
+                    </persName>
+                    <note resp="#RF"/>
                 </person>
-                
+
                 <person xml:id="NathanielBurr">
                     <persName>
                         <surname>Burr</surname>
@@ -3017,7 +2992,7 @@
                     </note>
                 </person>
 
-               
+
 
                 <person xml:id="HannaBurr">
                     <persName>
@@ -3029,7 +3004,7 @@
                     </note>
                 </person>
 
-               
+
                 <person xml:id="JohnWheeler">
                     <persName>
                         <surname>Wheeler</surname>
@@ -3040,7 +3015,7 @@
                     </note>
                 </person>
 
-               
+
 
                 <person xml:id="AndrewWakemen">
                     <persName>
@@ -3077,17 +3052,6 @@
                         <surname>Judson</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
-
-<person xml:id="DavidJudson">
-                    <persName>
-                        <surname>Judson</surname>
-                        <forename type="first">David</forename>
-                    </persName>
-                    
                     <occupation>Trustee for the Bulkley heirs</occupation>
                     <note resp="#RF" type="spouse">Esther Bulkley</note>
                     <note resp="#RF"/>
@@ -3104,15 +3068,7 @@
                     </note>
                 </person>
 
-                <person xml:id="JosephPerry">
-                    <persName>
-                        <surname>Perry</surname>
-                        <forename type="first">Joseph</forename>
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
+                
 
                 <person xml:id="MRisley">
                     <persName>
@@ -3124,15 +3080,7 @@
                     </note>
                 </person>
 
-                <person xml:id="WillThorp">
-                    <persName>
-                        <surname>Thorp</surname>
-                        <forename type="first">Will</forename>
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
+                
 
                 <person xml:id="DavidHubble">
                     <persName>
@@ -3144,15 +3092,7 @@
                     </note>
                 </person>
 
-                <person xml:id="CaptAllen">
-                    <persName>
-                        <surname>Allen</surname>
-                        <forename type="first">Capt</forename>
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
+
 
                 <person xml:id="DavidBradley">
                     <persName>
@@ -3195,15 +3135,7 @@
                 </person>
 
 
-                <person xml:id="AmosLock">
-                    <persName>
-                        <surname>Lock</surname>
-                        <forename type="first">Amos</forename>
-                    </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
-                </person>
+                
 
                 <person xml:id="IsiahJennings">
                     <persName>
@@ -3214,8 +3146,6 @@
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
-
-                <!--  END PERSONOGRAPOHY WITH SOME MISSING TEMPLATE CODE SUCH AS GENNAME AND ALIAS-->
 
                 <person xml:id="SamuelBradley">
                     <persName>
@@ -3232,10 +3162,6 @@
                     <persName>
                         <surname>Perry</surname>
                         <forename type="first">Miah</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3246,10 +3172,6 @@
                     <persName>
                         <surname>Burr</surname>
                         <forename type="first">Ozias</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3260,10 +3182,6 @@
                     <persName>
                         <surname>Sturges</surname>
                         <forename type="first">Benjamin</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3274,10 +3192,6 @@
                     <persName>
                         <surname>Bartholomew</surname>
                         <forename type="first">Andrew</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3288,10 +3202,6 @@
                     <persName>
                         <surname>Hoddsden</surname>
                         <forename type="first">David</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3302,10 +3212,6 @@
                     <persName>
                         <surname>Hull</surname>
                         <forename type="first">Ezekiel</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3316,24 +3222,16 @@
                     <persName>
                         <surname>Read</surname>
                         <forename type="first">Samuel</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
 
-                <person xml:id=" DanielGregory">
+                <person xml:id="DanielGregory">
                     <persName>
                         <surname>Gregory</surname>
                         <forename type="first">Daniel</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3346,10 +3244,6 @@
                     <persName>
                         <surname>Buckley</surname>
                         <forename type="first">Uriah</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
@@ -3359,108 +3253,87 @@
                     <persName>
                         <surname>Morehourse</surname>
                         <forename type="first">William</forename>
-                        <genName/>
-                        <!--generational name component; ie. Jr or II   -->
-                        <addName/>
-                        <!-- alias  -->
                     </persName>
                     <note resp="#RF">
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
-
-                <!-- END PERSONOGRAPHY-->
-                <!-- Below is a template. Delete un-used elements for each new person. -->
-                <!-- <person xml:id="UniqueIDforPerson">
-                    <persName>
-                        <surname/>
-                        <forename type="first"/>
-                        <forename type="middle"/>
-                        <genName/>
-                        <!-\-generational name component; ie. Jr or II   -\->
-                        <addName/>
-                        <!-\- alias  -\->
-                    </persName>
-                    <note resp="#EDITORinitials">
-                        <!-\- brief biographical info. about person -\->
-                    </note>
-                </person>-->
-                <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html  -->
             </listPerson>
             <listPlace>
-                <!-- Below is a template. Delete un-used elements for each new place. -->
+
                 <place xml:id="MillRiver">
-                    <placeName/>
+                    <placeName>Mill River</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.13674 -73.283487</geo>
                     </location>
                 </place>
-                <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+
 
                 <place xml:id="NewYork">
-                    <placeName/>
+                    <placeName>New York</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>40.790278 -73.959722</geo>
                     </location>
                 </place>
 
 
 
                 <place xml:id="Newfield">
-                    <placeName/>
+                    <placeName>Newfield</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-                <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+
 
 
                 <place xml:id="WheelerHill">
-                    <placeName/>
+                    <placeName>Wheeler Hill</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-                <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+
 
 
                 <place xml:id=" ChestnutHill">
-                    <placeName/>
+                    <placeName>Chestnut Hill</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-                <!--See for additional options: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html  -->
+
 
 
                 <place xml:id="Fairfield">
-                    <placeName/>
+                    <placeName>Fairfield</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.1408363 -73.26126149999999</geo>
+
                     </location>
                 </place>
-                
+
                 <place xml:id="Oldmill">
-                    <placeName/>
+                    <placeName>Old Mill</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-                
+
                 <place xml:id="Greenfield">
-                    <placeName/>
+                    <placeName>Greenfield</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-                
+
                 <place xml:id="Bridgeport">
-                    <placeName/>
+                    <placeName>Bridgeport</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-                
+
 
             </listPlace>
 

@@ -42,7 +42,7 @@
                             <th>Occupation</th>
                             <th>Description</th>
                         </tr>
-                        <xsl:apply-templates select="descendant::back/descendant::listPerson/descendant::person" mode="people">
+                        <xsl:apply-templates select="descendant::back/descendant::listPerson/descendant::person">
                             <xsl:sort select="descendant::surname"/>
                         </xsl:apply-templates>
 
@@ -51,7 +51,7 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="person" mode="people">
+    <xsl:template match="person">
         <tr>
 
             <td>
