@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><date from-iso="1801" to-iso="1819">1801 - 1838</date> Merchant and Shipping
+                <title><date from-iso="1801" to-iso="1838">1801 - 1838</date> Merchant and Shipping
                     Account Log Book from Black Rock, Fairfield, Connecticut</title>
                 <author ref="#BartramT">Thomas Bartram</author>
                 <sponsor>
@@ -2119,14 +2119,14 @@
                         </item>
                         <item>
                             <g ref="#stItem"/>
-                            <measure commodity="steelCrowbar" quantity="1" unit="whole">Steel
+                            <measure commodity="crowbar" quantity="1" unit="whole">Steel
                                 Crowbar</measure> &amp; <measure commodity="wedges" quantity="2"
                                 unit="whole">2 wedges</measure>
                             <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure>
                         </item>
                         <item>
                             <g ref="#stItem"/>
-                            <measure commodity="steelCrowbar" quantity="1" unit="whole">Steel
+                            <measure commodity="crowbar" quantity="1" unit="whole">Steel
                                     <persName ref="#CalebBrewster">Caleb Brewster</persName>s <choice>
                                     <sic>Crow Bar</sic>
                                     <reg resp="#SG">Crowbar</reg>

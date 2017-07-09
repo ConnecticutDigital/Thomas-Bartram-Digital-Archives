@@ -109,6 +109,9 @@ hr.sectionDivider{
 span.italics{
     font-style:italic;
 }
+.spelling{
+    font-style:italic;
+}
 .footnote{
     border-style: dashed;
     border-color: #30909c;
