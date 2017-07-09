@@ -3,6 +3,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes"/>
     <xsl:template match="/">
+
         <html lang="en">
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -20,8 +21,7 @@
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="nav"> People in Thomas Bartram's
-                        Merchant and Shipping Logs </h1>
+                    <h1 class="nav"> People in Thomas Bartram's Merchant and Shipping Logs </h1>
                     <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
@@ -33,6 +33,8 @@
 
                             <th>Reference ID</th>
 
+                            <th># of Times Referenced</th>
+
                             <th>Birth</th>
 
                             <th>Death</th>
@@ -42,7 +44,8 @@
                             <th>Occupation</th>
                             <th>Description</th>
                         </tr>
-                        <xsl:apply-templates select="descendant::back/descendant::listPerson/descendant::person">
+                        <xsl:apply-templates
+                            select="descendant::back/descendant::listPerson/descendant::person">
                             <xsl:sort select="descendant::surname"/>
                         </xsl:apply-templates>
 
@@ -52,6 +55,7 @@
         </html>
     </xsl:template>
     <xsl:template match="person">
+        <xsl:variable name="ID" select="@xml:id"/>
         <tr>
 
             <td>
@@ -64,7 +68,11 @@
 
             <td>
                 <xsl:text>#</xsl:text>
-                <xsl:apply-templates select="@xml:id"/>
+                <xsl:apply-templates select="$ID"/>
+            </td>
+
+            <td>
+                <xsl:value-of select="count(//persName[@ref eq $ID])"/>
             </td>
 
             <td>
@@ -98,15 +106,18 @@
                         <xsl:apply-templates select="child::occupation"/>
                     </xsl:when>
                     <xsl:when test="count(child::occupation) gt 1">
-                        <xsl:apply-templates select="string-join(child::occupation, ', ')"></xsl:apply-templates>
+                        <xsl:apply-templates select="string-join(child::occupation, ', ')"/>
                     </xsl:when>
                     <xsl:otherwise>N.A.</xsl:otherwise>
                 </xsl:choose>
             </td>
             <td>
                 <xsl:choose>
-                    <xsl:when test="child::note[@resp][not(@spouse)][matches(.,'\w+')]">
-                        <span class="bioNote" title="This note was created by editor ID {child::note/@resp}"><xsl:apply-templates select="child::note[@resp][not(@spouse)]"/></span>
+                    <xsl:when test="child::note[@resp][not(@spouse)][matches(., '\w+')]">
+                        <span class="bioNote"
+                            title="This note was created by editor ID {child::note/@resp}">
+                            <xsl:apply-templates select="child::note[@resp][not(@spouse)]"/>
+                        </span>
                     </xsl:when>
                     <xsl:otherwise>N.A.</xsl:otherwise>
                 </xsl:choose>

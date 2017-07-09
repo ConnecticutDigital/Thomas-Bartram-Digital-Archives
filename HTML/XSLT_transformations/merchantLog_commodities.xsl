@@ -3,6 +3,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes"/>
     <xsl:template match="/">
+        <xsl:variable name="treeWalk" select="descendant::body/descendant::measure[@commodity]/@commodity"/>
         <html lang="en">
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -28,14 +29,19 @@
                         <tr>
                             <th>Commodity</th>
                             <th>Number of Times Referenced</th>
+                            <th>List of People Associated with Commodity</th>
                             
                         </tr>
-                        <xsl:for-each select="distinct-values(descendant::body/descendant::measure[@commodity]/@commodity)">
-                            <xsl:variable name="com" select="."/>
+                        <xsl:for-each select="distinct-values($treeWalk)">
+                            <xsl:variable name="com" select="."/>                                                       
                             <tr>
                                 <td><xsl:value-of select="$com"/></td>
-                                
+                                <td><xsl:value-of select="count($treeWalk[. eq $com])"/></td>
+                                <td>
+                                    <ul><li><xsl:value-of select="$treeWalk[. eq $com]/following::persName"/></li></ul>
+                                </td>
                             </tr>
+                            
                         </xsl:for-each>
                         
                     </table>
@@ -43,10 +49,4 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="measure[@commodity]">
-        <tr>
-            <td></td>
-        </tr>
-    </xsl:template>
-    
 </xsl:stylesheet>
