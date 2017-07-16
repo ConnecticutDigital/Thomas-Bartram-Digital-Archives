@@ -25,43 +25,22 @@
                     <div class="row">
                         <div class="col-lg-12">
                             
-                            <h3>A public hanging of Goody Knapp in Black Rock, CT for accusations of witchcraft.</h3>
-                            <h4>As per testimony during the Goody Bassett trial</h4>
+                            <h3 class="main">The public hanging of Goody Knapp in Black Rock, CT for accusations of witchcraft 
+                                as per testimony during the Goody Bassett trial.</h3>
                         </div>
                         <div class="col-xs-12">
-                            <xsl:apply-templates select="descendant::div[@type = 'section'][parent::div[@type='chapter'][contains(child::head, 'The Journal of William Wheeler (The historic manuscript')]]"/>
+                            <xsl:apply-templates select="descendant::body"/>
                         </div>
                     </div>
                 </div>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="div[@type = 'section']">
-        <div id="section{count(preceding::div[@type='section']) + 1}">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-    <xsl:template match="head">
-        <h2>
-            <xsl:apply-templates/>
-        </h2>
-    </xsl:template>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
-    <!-- RJP: 2017-06-11: These will need ended once the Wheeler codebook is fully developed. -->
-    <xsl:template match="p[@ana='footnote']">
-        <p class="footnote">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="p[@ana='smaller']">
-        <p class="smaller">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="hi[@rend='italics']">
-        <span class="italics">
+    <xsl:template match="persName">
+        <span class="persName">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
