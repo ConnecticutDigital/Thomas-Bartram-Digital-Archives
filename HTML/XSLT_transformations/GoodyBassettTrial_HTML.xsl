@@ -36,7 +36,10 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="p">
+    <xsl:template match="p[child::date]">
+        <h2><xsl:apply-templates/></h2>
+    </xsl:template>
+    <xsl:template match="p[not(child::date)]">
         <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="persName">
