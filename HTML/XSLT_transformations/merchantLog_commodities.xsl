@@ -29,17 +29,17 @@
                         <tr>
                             <th>Commodity</th>
                             <th>Number of Times Referenced</th>
-                            <th>List of People Associated with Commodity</th>
+                            <!--<th>List of People Associated with Commodity</th>-->
                             
                         </tr>
                         <xsl:for-each select="distinct-values($treeWalk)">
-                            <xsl:variable name="com" select="."/>                                                       
+                            <xsl:variable name="com" select="."/>  <!-- RJP: look into group-by to figure out the issue with xsl:sort to get the greatest referenced commodity at the top of the table -->                                                      
                             <tr>
                                 <td><xsl:value-of select="$com"/></td>
                                 <td><xsl:value-of select="count($treeWalk[. eq $com])"/></td>
-                                <td>
+                                <!--<td>
                                     <ul><li><xsl:value-of select="$treeWalk[. eq $com]/following::persName"/></li></ul>
-                                </td>
+                                </td>-->
                             </tr>
                             
                         </xsl:for-each>
