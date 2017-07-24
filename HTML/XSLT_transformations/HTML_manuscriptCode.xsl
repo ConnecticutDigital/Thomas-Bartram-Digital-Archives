@@ -63,8 +63,11 @@
         </li>
     </xsl:template> -->
     <xsl:template match="div[@type = 'page']">
-        <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page">
+        <!--RJP:2017-07-24: I have determined this is a brittle way of identifying the pages in HTML because it is not relying on the data recorded in our XML as the @facs (which is a clear indication of the page number associated to the following transcription/encoding
+            
+            <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page"> -->
 
+       <div id="page{}" class="col-xs-12 page">
             <div class="manu_Image col-md-4">
                 <a href="images/{@facs}" target="_blank">
                     <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
@@ -81,12 +84,13 @@
                 </span>
                 <xsl:apply-templates/>
             </div>
-        </div>
+        <!--</div>-->
         <div class="col-xs-12 text-center">
             <a href="#nav">Return to Top</a> |
             <a href="merchantLog_TOC.html">Table of Contents</a> | 
             <a href="merchantLog_main.html">Return to Bartram Main Page</a>
         </div>
+       </div>
     </xsl:template>
     <xsl:template match="date[not(parent::title)]">
         <span class="date" title="{@when}">

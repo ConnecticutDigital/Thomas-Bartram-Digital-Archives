@@ -73,7 +73,7 @@
         <tr>
             <td>UN_<xsl:apply-templates select="count(preceding::unclear) + 1"/></td>
             <td>
-                <xsl:apply-templates select="ancestor::div[@type = 'page'][last()]/@facs"/>
+                <xsl:apply-templates select="ancestor::div[@type = 'page'][last()]/@facs/tokenize(.,'[_.]')[4]"/>
             </td>
             <td>
                 <xsl:choose>
