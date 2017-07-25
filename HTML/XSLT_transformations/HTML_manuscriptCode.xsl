@@ -100,6 +100,7 @@
                 <span class="sectionHead">
                     <xsl:apply-templates select="child::head"/>
                 </span>
+                <br/>
             </xsl:if>
             <xsl:apply-templates select="child::list"/>
         </div>
