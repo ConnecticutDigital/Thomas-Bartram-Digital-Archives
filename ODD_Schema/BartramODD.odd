@@ -201,13 +201,14 @@
                         <valItem ident="qt"/>
                         <valItem ident="load"/>
                         <valItem ident="gallon"/>
+                        <valItem ident="pair"/>
                      </valList>
                   </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="note" module="core" mode="change">
                <attList>
-                  <attDef ident="resp" mode="replace" usage="opt">
+                  <attDef ident="resp" mode="replace" usage="req">
                      <datatype>
                         <dataRef key="teidata.pointer"/>
                      </datatype>
@@ -217,7 +218,6 @@
                         <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
-                        <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
                </attList>

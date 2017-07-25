@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_031.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1803-03">March 1803 </date></head>
+                        <item>by making about <measure commodity="rod" quantity="10" unit="whole">10
+                                Rods</measure></item>
+                        <item>Board fence the front my house by the Rod was the bargain but no price
+                            was agreed upon <g ref="#longHyphen" n="3"/></item>
+                        <!--RJP:2017-07-05: note from transcriber (RW): 10 RODS IS 165 FEET.-->
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-11">Nov 1809</date></head>
+                        <item>by painting <choice>
+                                <sic>slay</sic>
+                                <reg resp="#RW">sleigh</reg>
+                            </choice>
+                            <g ref="#longHyphen" n="1"/> 0 18 0</item>
+                        <!--RJP:2017-07-05: note from transcriber (RW): I presume the slay/sleigh painting was normal prep of it for use in the snow?-->
+                    </list>
+                </div>
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1803-01-14">Jany 14 1803</date></head>
+                        <item>By Sealing <measure commodity="shoes" quantity="1" unit="pair">one
+                                pair shoes</measure> my leather</item>
+                        <item>By Making <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                Calf skin shoes</measure></item>
+                        <item>By making <measure commodity="shoes" quantity="1" unit="pair">one <g
+                                    ref="#ditto"/><add resp="#RP">pair shoes</add>
+                            Cowhide</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1805-04-03">April 3, 1805</date></head>
+                        <item>By Making <measure commodity="shoes" quantity="1" unit="pair">one <g
+                                    ref="#ditto"/><add resp="#RP">one pair shoes</add>
+                                women</measure>
+                            <g ref="#longHyphen" n="3"/></item>
+                        <item>By Making <measure commodity="shoes" quantity="4" unit="pair">Four
+                                Pair Shoes</measure>
+                            <measure type="currency" unit="£sd" ana="00_09_06">0 9
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-01">January 1806</date></head>
+                        <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_09_06"> 9 6</measure></item>
+                        <item>By <measure commodity="horse" quantity="1" unit="whole"
+                                >horse</measure> to <placeName ref="#Derby">Derby</placeName>
+                            <!--RJP:2017-07-05: note from transcriber (RW): Derby, CT  --> 14 miles
+                                <g ref="#longHyphen" n="2"/><measure type="currency" unit="£sd"
+                                ana="00_04_08">0 4 8</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-05-30">May 30 1806</date></head>
+                        <item>By making <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-12">Decem 1806</date></head>
+                        <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_09_06">0 9
+                            6</measure></item>
+                        <item>and <measure commodity="boots" quantity="1" unit="pair">one
+                                boots</measure>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_0000">0</measure></item>
+                        <item>By Sealing <measure commodity="shoes" quantity="1" unit="pair">one
+                                Pair Shoes</measure>
+                            <measure type="currency" unit="£sd" ana="00_00_00">0</measure></item>
+                        <item>By <measure commodity="horse" quantity="1" unit="whole"
+                                >horse</measure> to <placeName ref="#Bridgeport"
+                                >Bridgeport</placeName>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_00_09">0 0
+                            9</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-02">Feb 1807</date></head>
+                        <item>By making <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                Shoes</measure> me</item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-06-11">June 11</date></head>
+                        <item>By making <persName>Joseph</persName>
+                            <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_02_06"> 2 6</measure></item>
+                        <item>By sealing <measure commodity="shoes" quantity="1" unit="pair">one
+                                pair</measure> my leather <measure type="currency" unit="£sd"
+                                ana="00_01_00">1</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-12">Dec 1807</date></head>
+                        <item>By Making <measure commodity="horseShoes" quantity="3" unit="pair">3
+                                pair horse <choice>
+                                    <sic>Shews</sic>
+                                    <reg resp="#RP">shoes</reg>
+                                </choice></measure>
+                            <g ref="#longHyphen" n="2"/></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1808-01">January 1808</date></head>
+                        <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
+                                shoes</measure> 3/ <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_12_0 "> 12
+                            0</measure></item>
+                    </list>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

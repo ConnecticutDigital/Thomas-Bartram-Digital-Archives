@@ -2846,14 +2846,134 @@
                     </list>
                 </div>
             </div>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_031.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1803-03">March 1803 </date></head>
+                        <item>by making about <measure commodity="rod" quantity="10" unit="whole">10
+                                Rods</measure></item>
+                        <item>Board fence the front my house by the Rod was the bargain but no price
+                            was agreed upon <g ref="#longHyphen" n="3"/></item>
+                        <!--RJP:2017-07-05: note from transcriber (RW): 10 RODS IS 165 FEET.-->
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-11">Nov 1809</date></head>
+                        <item>by painting <choice>
+                                <sic>slay</sic>
+                                <reg resp="#RW">sleigh</reg>
+                            </choice>
+                            <g ref="#longHyphen" n="1"/> 0 18 0</item>
+                        <!--RJP:2017-07-05: note from transcriber (RW): I presume the slay/sleigh painting was normal prep of it for use in the snow?-->
+                    </list>
+                </div>
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1803-01-14">Jany 14 1803</date></head>
+                        <item>By Sealing <measure commodity="shoes" quantity="1" unit="pair">one
+                                pair shoes</measure> my leather</item>
+                        <item>By Making <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                Calf skin shoes</measure></item>
+                        <item>By making <measure commodity="shoes" quantity="1" unit="pair">one <g
+                                    ref="#ditto"/><add resp="#RP">pair shoes</add>
+                            Cowhide</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1805-04-03">April 3, 1805</date></head>
+                        <item>By Making <measure commodity="shoes" quantity="1" unit="pair">one <g
+                                    ref="#ditto"/><add resp="#RP">one pair shoes</add>
+                                women</measure>
+                            <g ref="#longHyphen" n="3"/></item>
+                        <item>By Making <measure commodity="shoes" quantity="4" unit="pair">Four
+                                Pair Shoes</measure>
+                            <measure type="currency" unit="£sd" ana="00_09_06">0 9
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-01">January 1806</date></head>
+                        <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_09_06"> 9 6</measure></item>
+                        <item>By <measure commodity="horse" quantity="1" unit="whole"
+                                >horse</measure> to <placeName ref="#Derby">Derby</placeName>
+                            <!--RJP:2017-07-05: note from transcriber (RW): Derby, CT  --> 14 miles
+                                <g ref="#longHyphen" n="2"/><measure type="currency" unit="£sd"
+                                ana="00_04_08">0 4 8</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-05-30">May 30 1806</date></head>
+                        <item>By making <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-12">Decem 1806</date></head>
+                        <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_09_06">0 9
+                            6</measure></item>
+                        <item>and <measure commodity="boots" quantity="1" unit="pair">one
+                                boots</measure>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_0000">0</measure></item>
+                        <item>By Sealing <measure commodity="shoes" quantity="1" unit="pair">one
+                                Pair Shoes</measure>
+                            <measure type="currency" unit="£sd" ana="00_00_00">0</measure></item>
+                        <item>By <measure commodity="horse" quantity="1" unit="whole"
+                                >horse</measure> to <placeName ref="#Bridgeport"
+                                >Bridgeport</placeName>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_00_09">0 0
+                            9</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-02">Feb 1807</date></head>
+                        <item>By making <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                Shoes</measure> me</item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-06-11">June 11</date></head>
+                        <item>By making <persName>Joseph</persName>
+                            <measure commodity="shoes" quantity="1" unit="pair">one pair
+                                shoes</measure>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_02_06"> 2 6</measure></item>
+                        <item>By sealing <measure commodity="shoes" quantity="1" unit="pair">one
+                                pair</measure> my leather <measure type="currency" unit="£sd"
+                                ana="00_01_00">1</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-12">Dec 1807</date></head>
+                        <item>By Making <measure commodity="horseShoes" quantity="3" unit="pair">3
+                                pair horse <choice>
+                                    <sic>Shews</sic>
+                                    <reg resp="#RP">shoes</reg>
+                                </choice></measure>
+                            <g ref="#longHyphen" n="2"/></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1808-01">January 1808</date></head>
+                        <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
+                                shoes</measure> 3/ <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_12_0 "> 12
+                            0</measure></item>
+                    </list>
+                </div>
+            </div>
         </body>
 
         <!--    PERSONOGRAPHY START-->
         <back>
             <!-- RF RP:2017-01-15: This is where we will create prosopography entries for people, places, and organizations mentioned in the document. -->
 
-            <!-- 
-                template <person xml:id="ThomasBartram">
+            <!-- List of People -->
+            <!--template
+                <person xml:id="ThomasBartram">
                     <persName>
                         <surname>Bartram</surname>
                         <forename type="first">Thomas</forename>
@@ -2865,7 +2985,6 @@
                     <note resp="#RF"/>
                 </person>
             -->
-
             <listPerson>
                 <person xml:id="ThomasBartram">
                     <persName>
@@ -2912,9 +3031,6 @@
                     <note resp="#RF"/>
                 </person>
 
-
-
-
                 <person xml:id="JobBartram">
                     <persName>
                         <surname>Bartram</surname>
@@ -2933,10 +3049,7 @@
                     </persName>
                     <occupation/>
                     <note resp="#RF"/>
-                    <!--     Find date of birth and death-->
                 </person>
-
-
 
                 <person xml:id="WillThorp">
                     <persName>
@@ -2946,8 +3059,6 @@
                     <note resp="#RF"/>
                 </person>
 
-
-
                 <person xml:id="JosephPerry">
                     <persName>
                         <surname>Perry</surname>
@@ -2955,9 +3066,6 @@
                     </persName>
                     <note resp="#RF"/>
                 </person>
-
-
-
 
                 <person xml:id="AmosLock">
                     <persName>
@@ -2991,7 +3099,6 @@
                     <note resp="#RF"/>
                 </person>
 
-
                 <person xml:id="NabbySquire">
                     <persName>
                         <surname>Squire</surname>
@@ -3001,8 +3108,6 @@
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
-
-
 
                 <person xml:id="HannaBurr">
                     <persName>
@@ -3014,7 +3119,6 @@
                     </note>
                 </person>
 
-
                 <person xml:id="JohnWheeler">
                     <persName>
                         <surname>Wheeler</surname>
@@ -3024,8 +3128,6 @@
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
-
-
 
                 <person xml:id="AndrewWakemen">
                     <persName>
@@ -3084,9 +3186,7 @@
                     </persName>
                     <occupation>Trustee for the Bulkley heirs</occupation>
                     <note resp="#RF" type="spouse">Esther Bulkley</note>
-
                 </person>
-
 
                 <person xml:id="JosephSturges">
                     <persName>
@@ -3097,8 +3197,6 @@
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
-
-
 
                 <person xml:id="MRisley">
                     <persName>
@@ -3200,9 +3298,6 @@
                     </note>
                 </person>
 
-
-
-
                 <person xml:id="DavidBradley">
                     <persName>
                         <surname>Bradley</surname>
@@ -3252,9 +3347,6 @@
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
-
-
-
 
                 <person xml:id="IsiahJennings">
                     <persName>
@@ -3396,6 +3488,7 @@
                         <!-- brief biographical info. about person -->
                     </note>
                 </person>
+
                 <person xml:id="WilliamMorehourse">
                     <persName>
                         <surname>Morehourse</surname>
@@ -3406,89 +3499,69 @@
                     </note>
                 </person>
             </listPerson>
+            <!-- List of Places -->
             <listPlace>
-
                 <place xml:id="MillRiver">
                     <placeName>Mill River</placeName>
                     <location>
                         <geo>41.13674 -73.283487</geo>
                     </location>
                 </place>
-
-
                 <place xml:id="NewYork">
                     <placeName>New York</placeName>
                     <location>
                         <geo>40.790278 -73.959722</geo>
                     </location>
                 </place>
-
-
-
                 <place xml:id="Newfield">
                     <placeName>Newfield</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-
-
-
                 <place xml:id="WheelerHill">
                     <placeName>Wheeler Hill</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-
-
-
-                <place xml:id=" ChestnutHill">
+                <place xml:id="ChestnutHill">
                     <placeName>Chestnut Hill</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-
-
-
                 <place xml:id="Fairfield">
                     <placeName>Fairfield</placeName>
                     <location>
                         <geo>41.1408363 -73.26126149999999</geo>
-
                     </location>
                 </place>
-
                 <place xml:id="Oldmill">
                     <placeName>Old Mill</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-
                 <place xml:id="Greenfield">
                     <placeName>Greenfield</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-
                 <place xml:id="Bridgeport">
                     <placeName>Bridgeport</placeName>
                     <location>
                         <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
                     </location>
                 </place>
-
-
+                <place xml:id="Derby">
+                    <placeName>Derby</placeName>
+                    <location>
+                        <geo>41.3207 -73.0890</geo>
+                    </location>
+                </place>
             </listPlace>
-
-
-
-
-
-
         </back>
         <!-- RJP:2017-02-02: Unsure of why listOrg is firing an error and requiring an interior listOrg. Will check with TEI. -->
         <!--<listOrg>
@@ -3503,9 +3576,8 @@
                 </org>
             </listOrg>-->
 
-        <!--Search codes: 
-        commodity
-        To get list of distinct commodities: distinct-values(//body//measure[@commodity]/@commodity)-->
+        <!--Search xpaths: 
+                   To get list of distinct commodities: distinct-values(//body//measure[@commodity]/@commodity)-->
 
 
     </text>
