@@ -119,6 +119,5 @@ span.italics{
 }
 .center-block {
   display: block !important;
-  margin-left:3% !important;
-  margin-right:3% !important;
+  margin: auto !important;
 }

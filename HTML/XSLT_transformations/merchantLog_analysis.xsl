@@ -21,10 +21,10 @@
             <body>
                 <div id="nav">
                     <h1 class="nav">Analysis of Thomas Bartram's Merchant and Shipping Logs</h1>
-                    <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
+                    <a href="merchantLog_main.html">Home</a>
                 </div>
-                <div class="col-xs-12">
-                    <p class="text-center">Disclaimer: the analysis represented on this page
+                <div class="col-xs-12 center-block">
+                    <p>Disclaimer: the analysis represented on this page
                         fluctuates as additional pages of Bartram's merchant logs are encoded.</p>
                     <ul>
                         <li>Pages Transcribed and Encoded: <xsl:apply-templates
@@ -44,7 +44,7 @@
                             select="count(descendant::body//unclear)"/></li>
                     </ul>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 center-block">
                     <h2>Help us transcribe!</h2>
                     <p>Below is a table displaying portions of text that our transcribers are unsure
                         of and we have marked as unclear/missing. We ask that if you can figure out
@@ -76,11 +76,11 @@
             <td>UN_<xsl:apply-templates select="count(preceding::unclear) + 1"/></td>
             <td>
                 <a
-                    href="merchantLog.html#page{ancestor::div[@type = 'page'][last()]/@facs/tokenize(.,'[_.]')[4]}"
+                    href="merchantLog.html#page{ancestor::div[@type = 'page'][1]/@facs/tokenize(.,'[_.]')[4]}"
                     target="_blank">
                     <xsl:text>Page </xsl:text>
                     <xsl:apply-templates
-                        select="ancestor::div[@type = 'page'][last()]/@facs/tokenize(., '[_.]')[4]"
+                        select="ancestor::div[@type = 'page'][1]/@facs/tokenize(., '[_.]')[4]"
                     />
                 </a>
             </td>
