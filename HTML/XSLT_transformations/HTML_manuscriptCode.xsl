@@ -18,10 +18,10 @@
                 <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" href="css/bootstrap-magnify.css"/>
                 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-                    <script src="js/jquery.js"></script>
-                    <script src="js/bootstrap.min.js"></script>
-                    <script src="js/bootstrap-magnify.js"></script>
-                    <script>
+                <script src="js/jquery.js"/>
+                <script src="js/bootstrap.min.js"/>
+                <script src="js/bootstrap-magnify.js"/>
+                <script>
                         $(document).ready(function() {
                         $('img')
                         .filter(function() {
@@ -30,17 +30,14 @@
                         .magnify();
                         });
                     </script>
-               
+
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="main">
-                        1801 - 1838 Merchant and Shipping Account Log Book
-                    </h1>
+                    <h1 class="main"> 1801 - 1838 Merchant and Shipping Account Log Book </h1>
                     <h2 class="main">Authored by <xsl:apply-templates
-                        select="//teiHeader//titleStmt//author"/></h2>
-                    <a href="merchantLog_main.html">Home</a> |
-                    <a href="about.html">About</a>
+                            select="//teiHeader//titleStmt//author"/></h2>
+                    <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
                     <!-- RJP:2017-04-30: We have decided to make the TOC appear on a seperate page. Uncomment the code below for it to appear on the same page as the manuscript/transcriptions. -->
@@ -67,7 +64,7 @@
             
             <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page"> -->
 
-       <div id="page{}" class="col-xs-12 page">
+        <div id="page{@facs/tokenize(.,'[_.]')[4]}" class="col-xs-12 page">
             <div class="manu_Image col-md-4">
                 <a href="images/{@facs}" target="_blank">
                     <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
@@ -84,13 +81,12 @@
                 </span>
                 <xsl:apply-templates/>
             </div>
-        <!--</div>-->
-        <div class="col-xs-12 text-center">
-            <a href="#nav">Return to Top</a> |
-            <a href="merchantLog_TOC.html">Table of Contents</a> | 
-            <a href="merchantLog_main.html">Return to Bartram Main Page</a>
+            <!--</div>-->
+            <div class="col-xs-12 text-center">
+                <a href="#nav">Return to Top</a> | <a href="merchantLog_TOC.html">Table of
+                    Contents</a> | <a href="merchantLog_main.html">Return to Bartram Main Page</a>
+            </div>
         </div>
-       </div>
     </xsl:template>
     <xsl:template match="date[not(parent::title)]">
         <span class="date" title="{@when}">

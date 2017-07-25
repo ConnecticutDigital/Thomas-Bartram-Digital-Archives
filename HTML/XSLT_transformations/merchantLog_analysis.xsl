@@ -30,9 +30,7 @@
                         <li>Pages Transcribed and Encoded: <xsl:apply-templates
                                 select="count(descendant::div[@type = 'page'])"/></li>
                         <li>Lines Transcribed and Encoded: <xsl:apply-templates
-                                select="count(descendant::body//descendant::item)"/></li>
-                        <li>Instances of unclear/missing text: <xsl:apply-templates
-                                select="count(descendant::body//unclear)"/></li>
+                                select="count(descendant::body//descendant::item)"/></li>                        
                         <li>Distinct People Mentioned: <xsl:apply-templates
                                 select="count(distinct-values(descendant::back/descendant::person/@xml:id))"
                             /></li>
@@ -42,23 +40,27 @@
                         <li>Distinct Commodities Mentioned: <xsl:apply-templates
                                 select="count(distinct-values(descendant::body/descendant::measure/@commodity))"
                             /></li>
+                        <li>Instances of unclear/missing text: <xsl:apply-templates
+                            select="count(descendant::body//unclear)"/></li>
                     </ul>
                 </div>
                 <div class="col-xs-12">
                     <h2>Help us transcribe!</h2>
                     <p>Below is a table displaying portions of text that our transcribers are unsure
                         of and we have marked as unclear/missing. We ask that if you can figure out
-                        what the missing/unclear text is that you send our project manager an email
-                        (bportnow at gmail dot com) that includes your transcription, the unclear
-                        ID, and your full name so we can credit you with the transcription. Thank
-                        you!</p>
+                        what the missing/unclear text is that you send our project manager, Robert
+                        Foley, an email (bportnow at gmail dot com) that includes your
+                        transcription, the unclear ID, and your full name so we can credit you with
+                        the transcription. When you click on the page, to view the missing/unclear
+                        text, you can see all of the missing/unclear text on the page is in <span
+                            class="unclear">RED</span>. Thank you!</p>
                     <table class="table">
                         <tr>
-                            <th>Unclear ID Number</th>
-                            <th>Page Where Text is Missing/Unclear</th>
-                            <th>Person Missing/Unclear Text is Under</th>
+                            <th>Unclear ID</th>
+                            <th>Page of Missing/Unclear Text</th>
+                            <th>Person Associated with the Missing/Unclear Text</th>
                             <th>Units of Missing/Unclear Text</th>
-                            <th>Our Transcriber's Best Guess</th>
+                            <th>Our Best Guess</th>
                         </tr>
 
                         <xsl:apply-templates select="descendant::body/descendant::unclear"
@@ -73,7 +75,14 @@
         <tr>
             <td>UN_<xsl:apply-templates select="count(preceding::unclear) + 1"/></td>
             <td>
-                <xsl:apply-templates select="ancestor::div[@type = 'page'][last()]/@facs/tokenize(.,'[_.]')[4]"/>
+                <a
+                    href="merchantLog.html#page{ancestor::div[@type = 'page'][last()]/@facs/tokenize(.,'[_.]')[4]}"
+                    target="_blank">
+                    <xsl:text>Page </xsl:text>
+                    <xsl:apply-templates
+                        select="ancestor::div[@type = 'page'][last()]/@facs/tokenize(., '[_.]')[4]"
+                    />
+                </a>
             </td>
             <td>
                 <xsl:choose>
@@ -82,7 +91,7 @@
                             select="ancestor::div[@type = 'group']/child::head//persName[last()]/text()"
                         />
                     </xsl:when>
-                    <xsl:otherwise>Not associated to a person.</xsl:otherwise>
+                    <xsl:otherwise>Not directly associated to a person.</xsl:otherwise>
                 </xsl:choose>
             </td>
             <td>
@@ -98,8 +107,19 @@
             </td>
             <td>
                 <xsl:choose>
-                    <xsl:when test="child::supplied">
-                        <xsl:apply-templates select="child::supplied"/>
+                    <xsl:when test="child::supplied[not(child::choice)]">
+                        <xsl:for-each select="child::supplied">
+                            <xsl:apply-templates select="./normalize-space()"/>
+                            <xsl:text> </xsl:text>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:when test="child::supplied[child::choice]">
+                        <xsl:apply-templates select="descendant::sic"/>
+                        <xsl:text> **Normalized Spelling: </xsl:text>
+                        <xsl:for-each select="descendant::reg">
+                            <xsl:apply-templates select="./normalize-space()"/>
+                            <xsl:text> </xsl:text>
+                        </xsl:for-each>
                     </xsl:when>
                     <xsl:when test="not(child::supplied)">No Guess</xsl:when>
                 </xsl:choose>

@@ -117,6 +117,8 @@ span.italics{
     border-color: #30909c;
     border-width: 1px;
 }
-.center{
-    margin:auto;
-} /*RJP: 2017-06-18 not working*/
+.center-block {
+  display: block !important;
+  margin-left:3% !important;
+  margin-right:3% !important;
+}
