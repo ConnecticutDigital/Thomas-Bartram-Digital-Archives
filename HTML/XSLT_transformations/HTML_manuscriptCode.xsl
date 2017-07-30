@@ -70,10 +70,9 @@
                     <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
                         src="images/{@facs}"/>
                 </a>
-
             </div>
             <div class="col-md-2"/>
-            <div class="manu_Content col-md-6">
+            <div class="manu_Content col-md-5">
                 <hr class="pageDivider"/>
                 <span class="pageNum">
                     <xsl:text>Page </xsl:text>

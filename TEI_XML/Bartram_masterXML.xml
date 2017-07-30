@@ -596,29 +596,29 @@
                             </choice> ox Shews my help</item>
                     </list>
                     <list type="entry">
-                        <item><!-- RF 2017-01-26: Feb 12 1802 By Making b Flows pipe Band 023?-->
-                            <unclear reason="strikethrough" unit="words" quantity="10"><date
-                                    when="1801-02-12">Feb 12 1801</date>By Making bellows pipe and
-                                Band <measure type="currency" unit="£sd" ana="00_08_03">0 6
-                                    3</measure></unclear>
-                        </item>
+                        <!-- RF 2017-01-26: Feb 12 1802 By Making b Flows pipe Band 023?-->
+                            <head><unclear reason="strikethrough" unit="words" quantity="10"><supplied resp="#RP"><date
+                                    when="1801-02-12">Feb 12 1801</date></supplied></unclear></head>
+                       <item><unclear reason="strikethrough" unit="words" quantity="7"><supplied resp="#RP">By Making bellows pipe and
+                                Band <measure type="currency" unit="£sd" ana="00_08_03">0 8 3</measure></supplied></unclear></item>
+                        
                     </list>
 
                     <list type="entry">
                         <item><!-- RF 2017-01-26: Calf 14?-->
-                            <unclear reason="strikethrough" unit="words" quantity="3"/>
+                            <unclear reason="strikethrough" unit="words" quantity="3"><supplied resp="#RP">Cash <measure type="currency" unit="dollars" ana="14.00">$14</measure></supplied></unclear>
                         </item>
                     </list>
 
                     <list type="entry">
-
                         <head>
                             <date when="1809-07">July 1809</date></head>
-                        <item> 1685 Cash<g ref="#longHyphen" n="1"/>
-                            <unclear reason="illegible" unit="words" quantity="1"><supplied
+                        <item>1685 Cash<g ref="#longHyphen" n="1"/></item>
+                           <item><unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#RF">Plaster</supplied></unclear>
                             <measure type="currency" unit="dollars" ana="222.00">222 Dollars cash
-                                Boston</measure> gave Seth Perry 1907 to go to N york to <choice>
+                                Boston</measure></item>
+                        <item>gave <persName ref="#SethPerry">Seth Perry</persName> 1907 to go to <placeName ref="#NewYork">N york</placeName> to <choice>
                                 <sic>by</sic>
                                 <reg resp="#RF">buy</reg>
                             </choice> cargo</item>
@@ -628,9 +628,8 @@
                                 1809</date></item>
                         <item>Two drafts Drawn by John wait briant boston for <!--dollar sign-->
                             1840</item>
-                        <item>For <!--dollar sign--> 1840 freight to <unclear reason="illegible"
-                                unit="words" quantity="1"><supplied resp="#RF">Newy</supplied>
-                            </unclear>New York</item>
+                        <item>For $1840 freight to <choice><sic>Newy</sic>
+                            <reg resp="#RF">New York</reg></choice> 18.40</item>
                         <item>Due from <persName xml:id="LyndeWalter">Lynde Walter</persName> boston
                             45.00 </item>
                         <item>Due from <persName xml:id="AmosLock">Amos Lock</persName> 66.00</item>

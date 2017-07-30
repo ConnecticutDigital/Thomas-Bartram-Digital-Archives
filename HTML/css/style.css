@@ -8,6 +8,8 @@ body{
     background: #d8f0f3 /*#b0e0e6*/;
     font-family: Georgia !important;
     font-size:14pt;
+    margin:auto;
+    width:95%;
 
 }
 a{
