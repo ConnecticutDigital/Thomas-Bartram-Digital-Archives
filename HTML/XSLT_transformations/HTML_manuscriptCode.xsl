@@ -18,10 +18,10 @@
                 <xsl:comment>Custom CSS</xsl:comment>
                 <link rel="stylesheet" href="css/bootstrap-magnify.css"/>
                 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-                    <script src="js/jquery.js"></script>
-                    <script src="js/bootstrap.min.js"></script>
-                    <script src="js/bootstrap-magnify.js"></script>
-                    <script>
+                <script src="js/jquery.js"/>
+                <script src="js/bootstrap.min.js"/>
+                <script src="js/bootstrap-magnify.js"/>
+                <script>
                         $(document).ready(function() {
                         $('img')
                         .filter(function() {
@@ -30,17 +30,14 @@
                         .magnify();
                         });
                     </script>
-               
+
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="main">
-                        1801 - 1838 Merchant and Shipping Account Log Book
-                    </h1>
+                    <h1 class="main"> 1801 - 1838 Merchant and Shipping Account Log Book </h1>
                     <h2 class="main">Authored by <xsl:apply-templates
-                        select="//teiHeader//titleStmt//author"/></h2>
-                    <a href="merchantLog_main.html">Home</a> |
-                    <a href="about.html">About</a>
+                            select="//teiHeader//titleStmt//author"/></h2>
+                    <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
                     <!-- RJP:2017-04-30: We have decided to make the TOC appear on a seperate page. Uncomment the code below for it to appear on the same page as the manuscript/transcriptions. -->
@@ -63,8 +60,11 @@
         </li>
     </xsl:template> -->
     <xsl:template match="div[@type = 'page']">
-        <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page">
+        <!--RJP:2017-07-24: I have determined this is a brittle way of identifying the pages in HTML because it is not relying on the data recorded in our XML as the @facs (which is a clear indication of the page number associated to the following transcription/encoding
+            
+            <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page"> -->
 
+        <div id="page{@facs/tokenize(.,'[_.]')[4]}" class="col-xs-12 page">
             <div class="manu_Image col-md-4">
                 <a href="images/{@facs}" target="_blank">
                     <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
@@ -81,11 +81,11 @@
                 </span>
                 <xsl:apply-templates/>
             </div>
-        </div>
-        <div class="col-xs-12 text-center">
-            <a href="#nav">Return to Top</a> |
-            <a href="merchantLog_TOC.html">Table of Contents</a> | 
-            <a href="merchantLog_main.html">Return to Bartram Main Page</a>
+            <!--</div>-->
+            <div class="col-xs-12 text-center">
+                <a href="#nav">Return to Top</a> | <a href="merchantLog_TOC.html">Table of
+                    Contents</a> | <a href="merchantLog_main.html">Return to Bartram Main Page</a>
+            </div>
         </div>
     </xsl:template>
     <xsl:template match="date[not(parent::title)]">
@@ -100,6 +100,7 @@
                 <span class="sectionHead">
                     <xsl:apply-templates select="child::head"/>
                 </span>
+                <br/>
             </xsl:if>
             <xsl:apply-templates select="child::list"/>
         </div>
@@ -152,19 +153,34 @@
         <xsl:choose>
             <xsl:when test="child::supplied">
                 <span class="unclear"
-                    title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}) because the transcription source was unclear.">
+                    title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}). {@reson}">
                     <!-- RJP:2017-03-14: In the future, change this so the @resp goes up into the teiHeader and matches on the full name of the editor associated with the current() ID. -->
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
             <xsl:otherwise>
                 <span class="unclear"
-                    title="The text is unclear and could not be transcribed. Reason: {@reason}.">
+                    title="The text is unclear and could not be transcribed. {@reason}">
                     <xsl:text> [MISSING TEXT] </xsl:text>
                 </span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template match="unclear[@reason='strikethrough']">
+        <xsl:choose>
+            <xsl:when test="child::supplied">
+                <span class="strike unclear" title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}). {@reson}"><xsl:apply-templates/></span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="strike unclear"
+                    title="The text is unclear and could not be transcribed. {@reason}">
+                    <xsl:text> [MISSING TEXT] </xsl:text>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+  
+  
     <!-- RJP:2017-03-14:Matches for Special Characters! -->
     <xsl:template match="add[preceding-sibling::g[@ref = '#ditto']]">
         <span class="ditto"

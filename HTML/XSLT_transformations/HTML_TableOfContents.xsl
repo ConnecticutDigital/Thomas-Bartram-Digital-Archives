@@ -45,7 +45,7 @@
             <xsl:text>Page </xsl:text>
             <xsl:apply-templates select="count(preceding::div[@type = 'page']) + 1"/>
             <xsl:text>   </xsl:text>
-            <a href="merchantLog.html#page{count(preceding::div[@type='page']) + 1}"
+            <a href="merchantLog.html#page{@facs/tokenize(.,'[_.]')[4]}"
                 >[Transcription]</a>
             <xsl:text>   </xsl:text>
             <a href="images/{@facs}">[Manuscript]</a>

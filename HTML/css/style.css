@@ -97,6 +97,9 @@ hr.sectionDivider{
     font-size: 12pt;
     color: red;
 }
+.strike{
+    text-decoration: line-through;
+}
 .ditto{
     font-size: 12pt;
     font-style: italic;
@@ -117,6 +120,7 @@ span.italics{
     border-color: #30909c;
     border-width: 1px;
 }
-.center{
-    margin:auto;
-} /*RJP: 2017-06-18 not working*/
+.center-block {
+  display: block !important;
+  margin: auto !important;
+}
