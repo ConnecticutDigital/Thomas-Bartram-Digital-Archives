@@ -153,19 +153,34 @@
         <xsl:choose>
             <xsl:when test="child::supplied">
                 <span class="unclear"
-                    title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}) because the transcription source was unclear.">
+                    title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}). {@reson}">
                     <!-- RJP:2017-03-14: In the future, change this so the @resp goes up into the teiHeader and matches on the full name of the editor associated with the current() ID. -->
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
             <xsl:otherwise>
                 <span class="unclear"
-                    title="The text is unclear and could not be transcribed. Reason: {@reason}.">
+                    title="The text is unclear and could not be transcribed. {@reason}">
                     <xsl:text> [MISSING TEXT] </xsl:text>
                 </span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template match="unclear[@reason='strikethrough']">
+        <xsl:choose>
+            <xsl:when test="child::supplied">
+                <span class="strike unclear" title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}). {@reson}"><xsl:apply-templates/></span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="strike unclear"
+                    title="The text is unclear and could not be transcribed. {@reason}">
+                    <xsl:text> [MISSING TEXT] </xsl:text>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+  
+  
     <!-- RJP:2017-03-14:Matches for Special Characters! -->
     <xsl:template match="add[preceding-sibling::g[@ref = '#ditto']]">
         <span class="ditto"

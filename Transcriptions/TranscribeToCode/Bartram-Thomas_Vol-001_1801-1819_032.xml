@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_032.jpg">
+                <div type="group">
+                    <head><persName ref="#JonathanSilliman">Jonathan Silliman</persName>
+                        <g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head><date when="1803-12-29">December 29 1803</date></head>
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars"
+                                ana="5.00">$5</measure>
+                            <measure type="currency" unit="£sd" ana="01.10.00">1 10
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1804-03-09">March 9 1804</date></head>
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars"
+                                ana="5.50">$5 50 Cents</measure>
+                            <measure type="currency" unit="£sd" ana="01.13.00">1 13
+                            </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1804-06-05">June 5 1804</date></head>
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars"
+                                ana="5.00">$5</measure>
+                            <measure type="currency" unit="£sd" ana="01.10.08">1 10
+                            8</measure></item>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
+                            hire Six miles <measure type="currency" unit="£sd" ana="00.02.00">0 2
+                                0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
+                            hire to <choice>
+                                <sic><placeName ref="#Redding">Reding</placeName></sic>
+                                <reg resp="#SG">Redding</reg>
+                            </choice>
+                            <measure type="currency" unit="£sd" ana="00.07.00">0 7 </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1805-03-08">March 8 1805</date></head>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
+                            Hire to <placeName ref="#FairfieldWoods">Fairfield Woods</placeName>
+                            <measure type="currency" unit="£sd" ana="00.01.06"> 1 6</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName ref="#WilliamBibbins">William Bibbins</persName>
+                        <g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head><date when="1804-05-03">May 3 1804</date></head>
+                        <item>To <measure commodity="oil" unit="barrel" quantity=".3">one Third <choice>
+                                    <sic>Barril</sic>
+                                    <reg resp="#RP">Barrel</reg>
+                                </choice> Oil</measure></item>
+                        <item>the price agreed <measure type="currency" unit="£sd" ana="1.13.00">1
+                                13 0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName ref="#SamuelBradley">Samuel Bradley</persName>
+                        <g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head><date when="1804-02">Febru 1804</date></head>
+                        <item>To Cash £0.6.02 0 6 2</item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1804-06-08">June 8 1804</date></head>
+                        <item>To trade at <persName ref="#SethPerry">Seth Perry</persName>s Store
+                                <measure type="currency" unit="£sd" ana="0.4.06">0 4
+                            6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item><measure type="currency" unit="£sd" ana="0.11.01"> 11
+                            1</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                   <head><persName ref="#WilliamBibbins">William Bibbins</persName></head>
+                   <list type="entry"><head><date when="1805-04-16">April 16 1805</date></head> 
+                    <item>To <measure commodity="horse" unit="whole" quantity="1">Horse</measure> Hire 5 Days</item>
+                    <item>And Part of Day</item></list>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

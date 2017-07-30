@@ -97,6 +97,9 @@ hr.sectionDivider{
     font-size: 12pt;
     color: red;
 }
+.strike{
+    text-decoration: line-through;
+}
 .ditto{
     font-size: 12pt;
     font-style: italic;
