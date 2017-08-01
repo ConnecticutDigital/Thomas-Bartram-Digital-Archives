@@ -134,7 +134,7 @@
             </div>
             <!-- Page 2-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_002.jpg">
-                <!--                There is a lot of math notation of adding numbers, which is not noted in our code-->
+                <!-- There is a lot of math notation of adding numbers, which is not noted in our code-->
                 <div type="group">
                     <head><persName ref="#ThomasBartram">Thomas Bartram</persName></head>
                     <list type="entry">
@@ -597,16 +597,21 @@
                     </list>
                     <list type="entry">
                         <!-- RF 2017-01-26: Feb 12 1802 By Making b Flows pipe Band 023?-->
-                            <head><unclear reason="strikethrough" unit="words" quantity="10"><supplied resp="#RP"><date
-                                    when="1801-02-12">Feb 12 1801</date></supplied></unclear></head>
-                       <item><unclear reason="strikethrough" unit="words" quantity="7"><supplied resp="#RP">By Making bellows pipe and
-                                Band <measure type="currency" unit="£sd" ana="00_08_03">0 8 3</measure></supplied></unclear></item>
-                        
+                        <head><unclear reason="strikethrough" unit="words" quantity="10"><supplied
+                                    resp="#RP"><date when="1801-02-12">Feb 12
+                                1801</date></supplied></unclear></head>
+                        <item><unclear reason="strikethrough" unit="words" quantity="7"><supplied
+                                    resp="#RP">By Making bellows pipe and Band <measure
+                                        type="currency" unit="£sd" ana="00_08_03">0 8
+                                    3</measure></supplied></unclear></item>
+
                     </list>
 
                     <list type="entry">
                         <item><!-- RF 2017-01-26: Calf 14?-->
-                            <unclear reason="strikethrough" unit="words" quantity="3"><supplied resp="#RP">Cash <measure type="currency" unit="dollars" ana="14.00">$14</measure></supplied></unclear>
+                            <unclear reason="strikethrough" unit="words" quantity="3"><supplied
+                                    resp="#RP">Cash <measure type="currency" unit="dollars"
+                                        ana="14.00">$14</measure></supplied></unclear>
                         </item>
                     </list>
 
@@ -614,11 +619,12 @@
                         <head>
                             <date when="1809-07">July 1809</date></head>
                         <item>1685 Cash<g ref="#longHyphen" n="1"/></item>
-                           <item><unclear reason="illegible" unit="words" quantity="1"><supplied
+                        <item><unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#RF">Plaster</supplied></unclear>
                             <measure type="currency" unit="dollars" ana="222.00">222 Dollars cash
                                 Boston</measure></item>
-                        <item>gave <persName ref="#SethPerry">Seth Perry</persName> 1907 to go to <placeName ref="#NewYork">N york</placeName> to <choice>
+                        <item>gave <persName ref="#SethPerry">Seth Perry</persName> 1907 to go to
+                                <placeName ref="#NewYork">N york</placeName> to <choice>
                                 <sic>by</sic>
                                 <reg resp="#RF">buy</reg>
                             </choice> cargo</item>
@@ -628,8 +634,10 @@
                                 1809</date></item>
                         <item>Two drafts Drawn by John wait briant boston for <!--dollar sign-->
                             1840</item>
-                        <item>For $1840 freight to <choice><sic>Newy</sic>
-                            <reg resp="#RF">New York</reg></choice> 18.40</item>
+                        <item>For $1840 freight to <choice>
+                                <sic>Newy</sic>
+                                <reg resp="#RF">New York</reg>
+                            </choice> 18.40</item>
                         <item>Due from <persName xml:id="LyndeWalter">Lynde Walter</persName> boston
                             45.00 </item>
                         <item>Due from <persName xml:id="AmosLock">Amos Lock</persName> 66.00</item>
@@ -656,7 +664,7 @@
                     </list>
                 </div>
             </div>
-            <!-- PAGE 6-->
+            <!-- PAGE 6 -->
             <!-- RP:2017-01-17: The encoding of the section below this point has been proof-read. -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_006.jpg">
                 <div type="group">
@@ -1911,8 +1919,8 @@
 
                 <div type="group">
                     <head>
-                        <placeName ref="Fairfield">Fairfield</placeName> <date when="1804-04-17"
-                            >April 17 1804</date>
+                        <placeName ref="Fairfield">Fairfield</placeName>
+                        <date when="1804-04-17">April 17 1804</date>
                     </head>
                     <list type="entry">
                         <item><unclear reason="strikethrough" unit="words" quantity="13"><supplied
@@ -2046,8 +2054,9 @@
                     <!-- MISSING 5 LINES OF TEXT STARTING WITH "TO BARN ROOM"-->
                 </div>
             </div>
-            <!-- RJP:2017-06-25: Page 23-30 coming soon! -->
+            <!-- Page 23 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_023.jpg"/>
+            <!-- Page 24 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_024.jpg">
                 <div type="group">
                     <head>
@@ -2110,7 +2119,9 @@
                     </list>
                 </div>
             </div>
+            <!-- Page 25 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_025.jpg"/>
+            <!-- Page 26 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_026.jpg">
                 <div type="group">
                     <head>
@@ -2339,7 +2350,9 @@
                     </list>
                 </div>
             </div>
+            <!-- Page 27 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_027.jpg"/>
+            <!-- Page 28 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_028.jpg">
                 <div type="group">
                     <head><persName ref="#UriahBulkely"><choice>
@@ -2510,7 +2523,9 @@
                     </list>
                 </div>
             </div>
+            <!-- Page 29 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_029.jpg"/>
+            <!-- Page 30 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_030.jpg">
                 <div type="group">
                     <head><persName ref="#WalterBudington">Walter Budington</persName>
@@ -2845,6 +2860,7 @@
                     </list>
                 </div>
             </div>
+            <!-- Page 31 -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_031.jpg">
                 <div type="group">
                     <head>Credit</head>
@@ -2964,6 +2980,96 @@
                     </list>
                 </div>
             </div>
+            <!-- Page 32 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_032.jpg">
+                <div type="group">
+                    <head><persName ref="#JonathanSilliman">Jonathan Silliman</persName>
+                        <g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head><date when="1803-12-29">December 29 1803</date></head>
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars"
+                                ana="5.00">$5</measure>
+                            <measure type="currency" unit="£sd" ana="01.10.00">1 10
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1804-03-09">March 9 1804</date></head>
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars"
+                                ana="5.50">$5 50 Cents</measure>
+                            <measure type="currency" unit="£sd" ana="01.13.00">1 13
+                            </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1804-06-05">June 5 1804</date></head>
+                        <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars"
+                                ana="5.00">$5</measure>
+                            <measure type="currency" unit="£sd" ana="01.10.08">1 10
+                            8</measure></item>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
+                            hire Six miles <measure type="currency" unit="£sd" ana="00.02.00">0 2
+                                0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
+                            hire to <choice>
+                                <sic><placeName ref="#Redding">Reding</placeName></sic>
+                                <reg resp="#SG">Redding</reg>
+                            </choice>
+                            <measure type="currency" unit="£sd" ana="00.07.00">0 7 </measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1805-03-08">March 8 1805</date></head>
+                        <item><g ref="#stItem"/>
+                            <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
+                            Hire to <placeName ref="#FairfieldWoods">Fairfield Woods</placeName>
+                            <measure type="currency" unit="£sd" ana="00.01.06"> 1 6</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName ref="#WilliamBibbins">William Bibbins</persName>
+                        <g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head><date when="1804-05-03">May 3 1804</date></head>
+                        <item>To <measure commodity="oil" unit="barrel" quantity=".3">one Third <choice>
+                                    <sic>Barril</sic>
+                                    <reg resp="#RP">Barrel</reg>
+                                </choice> Oil</measure></item>
+                        <item>the price agreed <measure type="currency" unit="£sd" ana="1.13.00">1
+                                13 0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName ref="#SamuelBradley">Samuel Bradley</persName>
+                        <g ref="#afterName"/></head>
+                    <list type="entry">
+                        <head><date when="1804-02">Febru 1804</date></head>
+                        <item>To Cash £0.6.02 0 6 2</item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1804-06-08">June 8 1804</date></head>
+                        <item>To trade at <persName ref="#SethPerry">Seth Perry</persName>s Store
+                                <measure type="currency" unit="£sd" ana="0.4.06">0 4
+                            6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item><measure type="currency" unit="£sd" ana="0.11.01"> 11
+                            1</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName ref="#WilliamBibbins">William Bibbins</persName></head>
+                    <list type="entry">
+                        <head><date when="1805-04-16">April 16 1805</date></head>
+                        <item>To <measure commodity="horse" unit="whole" quantity="1"
+                                >Horse</measure> Hire 5 Days</item>
+                        <item>And Part of Day</item>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 33 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_033.jpg"/>
+            <!-- Page 34 -->
         </body>
 
         <!--    PERSONOGRAPHY START-->
@@ -2996,7 +3102,27 @@
                     <note resp="#RF" type="spouse">Sarah Burr</note>
                     <note resp="#RF"/>
                 </person>
-
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="ThaddeusBurr">
+                    <persName>
+                        <surname>Burr</surname>
+                        <forename type="first">Thaddeus</forename>
+                    </persName>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="JonathanSilliman">
+                    <persName>
+                        <surname>Silliman</surname>
+                        <forename type="first">Jonathan</forename>
+                    </persName>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="WilliamBibbins">
+                    <persName>
+                        <surname>Bibbins</surname>
+                        <forename type="first">William</forename>
+                    </persName>
+                </person>
                 <person xml:id="SethPerry">
                     <persName>
                         <surname>Perry</surname>
@@ -3500,6 +3626,20 @@
             </listPerson>
             <!-- List of Places -->
             <listPlace>
+                <!-- INCOMPLETE ENTRY -->
+                <place xml:id="FairfieldWoods">
+                    <placeName>Fairfield Woods</placeName>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
+                <!-- INCOMPLETE ENTRY -->
+                <place xml:id="Redding">
+                    <placeName>Redding</placeName>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
                 <place xml:id="MillRiver">
                     <placeName>Mill River</placeName>
                     <location>
