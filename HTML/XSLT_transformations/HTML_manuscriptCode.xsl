@@ -65,14 +65,14 @@
             <div id="page{count(preceding::div[@type = 'page']) + 1}" class="col-xs-12 page"> -->
 
         <div id="page{@facs/tokenize(.,'[_.]')[4]}" class="col-xs-12 page">
-            <div class="manu_Image col-md-4">
+            <div class="manu_Image col-xs-4">
                 <a href="images/{@facs}" target="_blank">
                     <img alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
                         src="images/{@facs}"/>
                 </a>
             </div>
-            <div class="col-md-2"/>
-            <div class="manu_Content col-md-5">
+            <div class="col-xs-2"/>
+            <div class="manu_Content col-xs-5">
                 <hr class="pageDivider"/>
                 <span class="pageNum">
                     <xsl:text>Page </xsl:text>

@@ -231,7 +231,7 @@
                         </item>
                         <item>
                             <measure commodity="brick" unit="bought" quantity="1"/>Bought of
-                                <persName xml:id="DanielGregory">Daniel Gregory</persName>
+                                <persName ref="#DanielGregory">Daniel Gregory</persName>
                             <measure commodity="brick" quantity="8000" unit="whole">8 Thousand
                                 Brick</measure> at <measure type="currency" unit="dollars"
                                 ana="5000">5 Dollars Thousand</measure> &amp; paid him <measure
@@ -317,7 +317,7 @@
                         </item>
 
                         <!-- LINE_24: ILLEGIBLE Nailes Bill & ILLEGIBLE-->
-                        <item><persName xml:id="SethPerry">S Perry</persName>
+                        <item><persName ref="#SethPerry">S Perry</persName>
                             <choice>
                                 <sic>Nailes</sic>
                                 <reg resp="#RF">Nails</reg>
@@ -638,12 +638,12 @@
                                 <sic>Newy</sic>
                                 <reg resp="#RF">New York</reg>
                             </choice> 18.40</item>
-                        <item>Due from <persName xml:id="LyndeWalter">Lynde Walter</persName> boston
+                        <item>Due from <persName ref="#LyndeWalter">Lynde Walter</persName> boston
                             45.00 </item>
-                        <item>Due from <persName xml:id="AmosLock">Amos Lock</persName> 66.00</item>
+                        <item>Due from <persName ref="#AmosLock">Amos Lock</persName> 66.00</item>
                         <item>wool sold for <g ref="#longHyphen" n="1"/>1955.00</item>
                         <item>Left at Home Cash <g ref="#longHyphen" n="1"/></item>
-                        <item>gave <persName ref="SethPerry">Seth Perry</persName>
+                        <item>gave <persName ref="#SethPerry">Seth Perry</persName>
                             <g ref="#longHyphen" n="1"/> 550</item>
                         <item>David ed Novemeber 13 <g ref="#longHyphen" n="1"/>
                             <!-- sum 2237.00 --></item>
@@ -969,7 +969,7 @@
                         </head>
                         <item>By one Bush Rye <g ref="#longHyphen" n="2"/></item>
                         <item>By Carting one load wood </item>
-                        <item>By veal 1/9 to horse to <placeName xml:id="Newfield"
+                        <item>By veal 1/9 to horse to <placeName ref="#Newfield"
                                 >Newfield</placeName></item>
                         <item>By Carting Brick <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="04_00_00">4 0
@@ -1578,7 +1578,7 @@
                         <head>
                             <date when="1806-02">Feb 1806</date>
                         </head>
-                        <item> By horse to <placeName xml:id="Millriver">Millriver</placeName>
+                        <item> By horse to <placeName ref="#Millriver">Millriver</placeName>
                             <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure>
                         </item>
                         <item>by horse to Elija <unclear quantity="2" unit="chars"
@@ -1606,8 +1606,8 @@
                             </choice>
                             <measure type="currency" unit="£sd" ana="00_01_XX">0 1 </measure>
                         </item>
-                        <item>By horse to <placeName ref="MillRiver">Mill River</placeName> &amp;
-                                <placeName xml:id="WheelerHill">Wheeler Hill</placeName></item>
+                        <item>By horse to <placeName ref="#MillRiver">Mill River</placeName> &amp;
+                                <placeName ref="#WheelerHill">Wheeler Hill</placeName></item>
                     </list>
                 </div>
             </div>
@@ -1644,7 +1644,7 @@
                     </list>
                 </div>
                 <div type="group">
-                    <head><persName ref="SamuelBradley">Samuel Bradley</persName><g ref="#afterName"
+                    <head><persName ref="#SamuelBradley">Samuel Bradley</persName><g ref="#afterName"
                         /></head>
                     <list type="entry">
                         <head>
@@ -1660,7 +1660,7 @@
                     </list>
                 </div>
                 <div type="group">
-                    <head><persName ref="MiahPerry">Miah Perry</persName><g ref="#afterName"
+                    <head><persName ref="#MiahPerry">Miah Perry</persName><g ref="#afterName"
                         /></head>
                     <list type="entry">
                         <head>
