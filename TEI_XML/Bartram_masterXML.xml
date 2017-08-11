@@ -1112,7 +1112,7 @@
                     <list type="entry">
                         <head><date when="1795-02"/></head>
                         <item>
-                            <g ref="#stItem"/> Lay ax 4/6 to Calf 44/ <measure type="currency"
+                            <g ref="#stItem"/> Lay ax 4/6 to Calf 44/ <g ref="#currency"/> <measure type="currency"
                                 unit="£sd" ana="02_08_06">2 8 6</measure></item>
                     </list>
                     <list type="entry">
@@ -1140,13 +1140,13 @@
                             <measure type="currency" unit="£sd" ana="00_04_06">0 4
                             6</measure></item>
                     </list>
-                    <!-- RP:2017-01-23: PAGE 8 Bottom put in balance amount of 300 sum total-->
+                    <list type="entry" subtype="total">
+                        <item><measure type="currency" unit="£sd" ana="03_00_00">3 0 0</measure></item>
+                    </list>
                 </div>
 
                 <div type="group">
                     <head><orgName ref="SloopRisingSun">Sloop Rising Sun</orgName></head>
-
-                    <!-- RP:2017-01-23: PAGE 8 Bottom after 2nd underline-->
                     <list type="entry">
                         <head>
                             <date when="1808-10-14">Oct 14 1808</date>
@@ -1176,7 +1176,7 @@
                             <g ref="#stItem"/>
                             <unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#BN">work</supplied>
-                            </unclear>
+                            </unclear> <g ref="#longHyphen" n="1"/>
                             <measure type="currency" unit="£sd" ana="00_01_00">0 1
                             0</measure></item>
                     </list>
