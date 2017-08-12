@@ -155,7 +155,7 @@
     <!-- RJP:2017-03-14:Matches for Special Characters! -->
     <xsl:template match="add[preceding-sibling::g[@ref = '#ditto']]">
         <span class="ditto"
-            title="The text provided here was interpreted by a project editor ({//respStmt/persName[@xml:id = current()/supplied/tokenize(@resp,'#')[last()]]}). In the manuscript this text is represented by Bartram's ditto character.">
+            title="The text provided here was interpreted by a project editor ({//respStmt/persName[@xml:id = current()/tokenize(@resp,'#')[last()]]}). In the manuscript this text is represented by Bartram's ditto character.">
             <xsl:text>*Ditto* (</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
         </span>
     </xsl:template>
