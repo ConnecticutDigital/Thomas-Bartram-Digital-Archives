@@ -29,7 +29,7 @@
                     
                 </div>
                     <div class="col-xs-12">
-                        <h4 style="text-align:center;"><a href="https://docs.google.com/document/d/1rYQJzrl-6TFbnXuIr171zxQB5vCQU6bVws62I0d4b_c/edit?usp=sharing">Click for page by page summary.</a></h4>
+                        <h4 style="text-align:center;"><a href="https://docs.google.com/document/d/1rYQJzrl-6TFbnXuIr171zxQB5vCQU6bVws62I0d4b_c/edit?usp=sharing">View our Google Doc page by page summaries.</a></h4>
                         <div id="toc" class="col-xs-6">
                             <ul>
                                 <xsl:apply-templates select="//div[@type = 'page']" mode="toc"/>

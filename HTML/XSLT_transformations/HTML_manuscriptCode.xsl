@@ -107,8 +107,7 @@
     <xsl:template match="measure[@type = 'currency'][matches(@ana, '\d{2,}_\d{2,}_\d{2,}')]">
         <span class="curr"
             title="£{tokenize(@ana,'_')[1]} s{tokenize(@ana,'_')[2]} d{tokenize(@ana,'_')[3]}">
-            <!-- RJP:2017-03-16: The regular expression to match on two digits at time is not working here. Consult M.Kay and conisder creating variable that gets regular expression and can be entered here in place. Otherwise will need to change XML to better suit info supplied in attribute.  -->
-            <xsl:apply-templates/>
+           <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="persName">
@@ -126,8 +125,7 @@
         <xsl:choose>
             <xsl:when test="child::supplied">
                 <span class="unclear"
-                    title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}). Reason unclear: {@reason}.">
-                    <!-- RJP:2017-03-14: In the future, change this so the @resp goes up into the teiHeader and matches on the full name of the editor associated with the current() ID. -->
+                    title="The text provided here was interpreted by a project editor ({//respStmt/persName[@xml:id = current()/supplied/tokenize(@resp,'#')[last()]]}). Reason unclear: {@reason}.">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
@@ -142,7 +140,7 @@
     <xsl:template match="unclear[@reason='strikethrough']">
         <xsl:choose>
             <xsl:when test="child::supplied">
-                <span class="strike unclear" title="The text provided here was interpreted by a project editor (ID: {child::supplied/tokenize(@resp,'#')[last()]}). The text is unclear due to {@reason}."><xsl:apply-templates/></span>
+                <span class="strike unclear" title="The text provided here was interpreted by a project editor ({//respStmt/persName[@xml:id = current()/supplied/tokenize(@resp,'#')[last()]]}). The text is unclear due to {@reason}."><xsl:apply-templates/></span>
             </xsl:when>
             <xsl:otherwise>
                 <span class="strike unclear"
@@ -157,7 +155,7 @@
     <!-- RJP:2017-03-14:Matches for Special Characters! -->
     <xsl:template match="add[preceding-sibling::g[@ref = '#ditto']]">
         <span class="ditto"
-            title="The text provided here was interpreted by a project editor (ID: {tokenize(@resp,'#')[last()]}). In the manuscript this text is represented by Bartram's ditto character.">
+            title="The text provided here was interpreted by a project editor ({//respStmt/persName[@xml:id = current()/supplied/tokenize(@resp,'#')[last()]]}). In the manuscript this text is represented by Bartram's ditto character.">
             <xsl:text>*Ditto* (</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
         </span>
     </xsl:template>
