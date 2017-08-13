@@ -24,24 +24,25 @@
                     <a href="merchantLog_main.html">Home</a>
                 </div>
                 <div class="col-xs-12 center-block">
-                    <p>Disclaimer: the analysis represented on this page
-                        fluctuates as additional pages of Bartram's merchant logs are encoded.</p>
-                    <ul>
-                        <li>Pages Transcribed and Encoded: <xsl:apply-templates
-                                select="count(descendant::div[@type = 'page'])"/></li>
-                        <li>Lines Transcribed and Encoded: <xsl:apply-templates
-                                select="count(descendant::body//descendant::item)"/></li>                        
-                        <li>Distinct People Mentioned: <xsl:apply-templates
-                                select="count(distinct-values(descendant::back/descendant::person/@xml:id))"
-                            /></li>
-                        <li>Distinct Places Mentioned: <xsl:apply-templates
-                                select="count(distinct-values(descendant::back/descendant::place/@xml:id))"
-                            /></li>
-                        <li>Distinct Commodities Mentioned: <xsl:apply-templates
-                                select="count(distinct-values(descendant::body/descendant::measure/@commodity))"
-                            /></li>
-                        <li>Instances of unclear/missing text: <xsl:apply-templates
-                            select="count(descendant::body//unclear)"/></li>
+                    <p>Disclaimer: the analysis represented on this page fluctuates as additional
+                        pages of Bartram's merchant logs are encoded.</p>
+                    <ul class="larger">
+                        <li>Pages Transcribed and Encoded: <strong><xsl:apply-templates
+                                    select="count(descendant::div[@type = 'page'])"/></strong></li>
+                        <li>Lines Transcribed and Encoded: <strong><xsl:apply-templates
+                                    select="count(descendant::body//descendant::item)"
+                            /></strong></li>
+                        <li>Distinct People Mentioned: <strong><xsl:apply-templates
+                                    select="count(distinct-values(descendant::back/descendant::person/@xml:id))"
+                                /></strong></li>
+                        <li>Distinct Places Mentioned: <strong><xsl:apply-templates
+                                    select="count(distinct-values(descendant::back/descendant::place/@xml:id))"
+                                /></strong></li>
+                        <li>Distinct Commodities Mentioned: <strong><xsl:apply-templates
+                                    select="count(distinct-values(descendant::body/descendant::measure/@commodity))"
+                                /></strong></li>
+                        <li>Instances of unclear/missing text: <strong><xsl:apply-templates
+                                    select="count(descendant::body//unclear)"/></strong></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 center-block">
@@ -60,6 +61,7 @@
                             <th>Page of Missing/Unclear Text</th>
                             <th>Person Associated with the Missing/Unclear Text</th>
                             <th>Units of Missing/Unclear Text</th>
+                            <th>Surrounding Text</th>
                             <th>Our Best Guess</th>
                         </tr>
 
@@ -73,15 +75,14 @@
     </xsl:template>
     <xsl:template match="unclear" mode="unclearText">
         <tr>
-            <td>UN_<xsl:apply-templates select="count(preceding::unclear) + 1"/></td>
+            <td>ID_<xsl:apply-templates select="count(preceding::unclear) + 1"/></td>
             <td>
                 <a
                     href="merchantLog.html#page{ancestor::div[@type = 'page'][1]/@facs/tokenize(.,'[_.]')[4]}"
                     target="_blank">
                     <xsl:text>Page </xsl:text>
                     <xsl:apply-templates
-                        select="ancestor::div[@type = 'page'][1]/@facs/tokenize(., '[_.]')[4]"
-                    />
+                        select="ancestor::div[@type = 'page'][1]/@facs/tokenize(., '[_.]')[4]"/>
                 </a>
             </td>
             <td>
@@ -102,6 +103,16 @@
                     </xsl:when>
                     <xsl:when test="@unit = 'words'">
                         <xsl:text> word(s)</xsl:text>
+                    </xsl:when>
+                </xsl:choose>
+            </td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="ancestor::head">
+                        <xsl:apply-templates select="ancestor::head"/>
+                    </xsl:when>
+                    <xsl:when test="ancestor::item">
+                        <xsl:apply-templates select="ancestor::item"/>
                     </xsl:when>
                 </xsl:choose>
             </td>

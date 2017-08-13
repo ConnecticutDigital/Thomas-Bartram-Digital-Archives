@@ -208,7 +208,7 @@
             </elementSpec>
             <elementSpec ident="note" module="core" mode="change">
                <attList>
-                  <attDef ident="resp" mode="replace" usage="req">
+                  <attDef ident="resp" mode="replace" usage="opt">
                      <datatype>
                         <dataRef key="teidata.pointer"/>
                      </datatype>
@@ -367,15 +367,16 @@
             <constraintSpec scheme="isoschematron" ident="addResp">
                <constraint>
                   <sch:rule context="tei:add">
-                     <sch:assert test="current()[@resp]"> The
+                     <sch:assert test="current()[@resp]">The
                         supplied element must have a resp attribute.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
+            <!-- RP RF:2017-08-13: Fix this rule so fires when bio notes do not have @resp -->
             <constraintSpec scheme="isoschematron" ident="noteResp">
                <constraint>
-                  <sch:rule context="tei:note[not(@spouse)]">
-                     <sch:assert test="current()[@resp]"> This
+                  <sch:rule context="tei:note[@type='bio']">
+                     <sch:assert test="@resp">This
                         note element must have a resp attribute.</sch:assert>
                   </sch:rule>
                </constraint>

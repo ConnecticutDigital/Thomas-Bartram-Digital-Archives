@@ -16,6 +16,9 @@ a{
     color: #30909c;
     font-weight: 600;
 }
+.larger{
+    font-size:24px;
+}
 div#nav{
     margin: auto;
     width: 90%;
