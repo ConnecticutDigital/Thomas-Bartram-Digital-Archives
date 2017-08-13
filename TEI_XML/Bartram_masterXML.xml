@@ -8,7 +8,7 @@
                     Account Log Book from Black Rock, Fairfield, Connecticut</title>
                 <author ref="#BartramT">Thomas Bartram</author>
                 <sponsor>
-                    <orgName>Black Rock Historical Society</orgName>
+                    <orgName>Black Rock History Project</orgName>
                 </sponsor>
                 <!--http://www.blackrockhistory.org/-->
                 <principal ref="#RF">Robert Foley</principal>
@@ -3296,8 +3296,8 @@
                     <birth when="1803"/>
                     <death when="1886"/>
                     <occupation>merchant</occupation>
-                    <note resp="#RF" type="spouse">Sarah Burr</note>
-                    <note resp="#RF"/>
+                    <note type="spouse">Sarah Burr</note>
+                    <note resp="#RF" type="bio">Biographical Info Here</note>
                 </person>
             -->
             <listPerson>
@@ -3309,8 +3309,7 @@
                     <birth when="1803"/>
                     <death when="1886"/>
                     <occupation>merchant</occupation>
-                    <note resp="#RF" type="spouse">Sarah Burr</note>
-                    <note resp="#RF"/>
+                    <note type="spouse">Sarah Burr</note>
                 </person>
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="ThaddeusBurr">
@@ -3341,7 +3340,7 @@
                     <birth when="1780"/>
                     <death when="1866"/>
                     <occupation>Merchant and Ship Owner</occupation>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="DavidPenfield">
@@ -3352,7 +3351,7 @@
                     <birth when="1769"/>
                     <death when="1845"/>
                     <occupation>Owned Ash Creek Mill and Black Rock Wharf</occupation>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="EbenBartram">
@@ -3362,8 +3361,8 @@
                     </persName>
                     <birth when="1762"/>
                     <occupation>merchant</occupation>
-                    <note resp="#RF" type="spouse">Abigail Jennings</note>
-                    <note resp="#RF"/>
+                    <note type="spouse">Abigail Jennings</note>
+                    
                 </person>
 
                 <person xml:id="JobBartram">
@@ -3373,8 +3372,8 @@
                     </persName>
                     <death when="1787"/>
                     <occupation>Sea Captain</occupation>
-                    <note resp="#RF" type="spouse">Ruth Holberton</note>
-                    <note resp="#RF"/>
+                    <note type="spouse">Ruth Holberton</note>
+                    
                 </person>
 
                 <person xml:id="RichardHall">
@@ -3382,8 +3381,6 @@
                         <surname>Hall</surname>
                         <forename type="first">Richard</forename>
                     </persName>
-                    <occupation/>
-                    <note resp="#RF"/>
                 </person>
 
                 <person xml:id="WillThorp">
@@ -3391,7 +3388,7 @@
                         <surname>Thorp</surname>
                         <forename type="first">Will</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="JosephPerry">
@@ -3399,7 +3396,7 @@
                         <surname>Perry</surname>
                         <forename type="first">Joseph</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="AmosLock">
@@ -3407,7 +3404,7 @@
                         <surname>Lock</surname>
                         <forename type="first">Amos</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="CaptAllen">
@@ -3415,7 +3412,7 @@
                         <surname>Allen</surname>
                         <forename type="first">Capt</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="WalterLynde">
@@ -3423,7 +3420,7 @@
                         <surname>Lynde</surname>
                         <forename type="first">Walter</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="NathanielBurr">
@@ -3431,7 +3428,7 @@
                         <surname>Burr</surname>
                         <forename type="first">Nathaniel</forename>
                     </persName>
-                    <note resp="#RF"/>
+                    
                 </person>
 
                 <person xml:id="NabbySquire">
@@ -3439,9 +3436,7 @@
                         <surname>Squire</surname>
                         <forename type="first">Nabby</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="HannaBurr">
@@ -3449,9 +3444,7 @@
                         <surname>Burr</surname>
                         <forename type="first">Hanna</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="JohnWheeler">
@@ -3459,9 +3452,7 @@
                         <surname>Wheeler</surname>
                         <forename type="first">John</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="AndrewWakemen">
@@ -3469,9 +3460,7 @@
                         <surname>Wakemen</surname>
                         <forename type="first">Andrew</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="AndrewMaClery">
@@ -3479,9 +3468,7 @@
                         <surname>MaClery</surname>
                         <forename type="first">Andrew</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="WalterBudington">
@@ -3489,9 +3476,7 @@
                         <surname>Budington</surname>
                         <forename type="first">Walter</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="SamuelStaples">
@@ -3499,9 +3484,7 @@
                         <surname>Staples</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="EathanShearwood">
@@ -3509,9 +3492,7 @@
                         <surname>Shearwood</surname>
                         <forename type="first">Eathan</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="DavidJudson">
@@ -3520,7 +3501,7 @@
                         <forename type="first">David</forename>
                     </persName>
                     <occupation>Trustee for the Bulkley heirs</occupation>
-                    <note resp="#RF" type="spouse">Esther Bulkley</note>
+                    <note type="spouse">Esther Bulkley</note>
                 </person>
 
                 <person xml:id="JosephSturges">
@@ -3528,9 +3509,7 @@
                         <surname>Sturges</surname>
                         <forename type="first">Joseph</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="MRisley">
@@ -3538,9 +3517,7 @@
                         <surname>Risley</surname>
                         <forename type="first">M</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="SamuelPenfield">
@@ -3548,9 +3525,7 @@
                         <surname>Penfield</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="DavidHubble">
@@ -3558,9 +3533,7 @@
                         <surname>Hubble</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="BarlowSturges">
@@ -3568,9 +3541,7 @@
                         <surname>Sturges</surname>
                         <forename type="first">Barlow</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="OnifiemanHubble">
@@ -3578,9 +3549,7 @@
                         <surname>Onifieman</surname>
                         <forename type="first">Barlow</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="CalebBrewster">
@@ -3588,9 +3557,7 @@
                         <surname>Brewster</surname>
                         <forename type="first">Brewster</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="AronTurney">
@@ -3598,9 +3565,7 @@
                         <surname>Turney</surname>
                         <forename type="first">Aron</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="MaryOlson">
@@ -3608,9 +3573,7 @@
                         <surname>Olson</surname>
                         <forename type="first">Mary</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="LewisGoodsell">
@@ -3618,9 +3581,7 @@
                         <surname>Goodsell</surname>
                         <forename type="first">Lewis</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="ThomasHull">
@@ -3628,9 +3589,7 @@
                         <surname>Hull</surname>
                         <forename type="first">Thomas</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="DavidBradley">
@@ -3638,9 +3597,7 @@
                         <surname>Bradley</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="BradleyBulkley">
@@ -3648,9 +3605,7 @@
                         <surname>Bulkley</surname>
                         <forename type="first">Bradley</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="MarySquire">
@@ -3658,9 +3613,7 @@
                         <surname>Squire</surname>
                         <forename type="first">Mary</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="LyndeWalter">
@@ -3668,9 +3621,7 @@
                         <surname>Walter</surname>
                         <forename type="first">Lynde</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="ElijahTurney">
@@ -3678,9 +3629,7 @@
                         <surname>Turney</surname>
                         <forename type="first">Elijah</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="IsiahJennings">
@@ -3688,9 +3637,7 @@
                         <surname>Jennings</surname>
                         <forename type="first">Isiah</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="SamuelBradley">
@@ -3698,9 +3645,7 @@
                         <surname>Bradley</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
 
@@ -3709,9 +3654,7 @@
                         <surname>Perry</surname>
                         <forename type="first">Miah</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="IsaacHenmans">
@@ -3719,9 +3662,7 @@
                         <surname>Henmans</surname>
                         <forename type="first">Isaac</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="HezekiahObsorn">
@@ -3729,9 +3670,7 @@
                         <surname>Osborn</surname>
                         <forename type="first">Hezekiah</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="OziasBurr">
@@ -3739,9 +3678,7 @@
                         <surname>Burr</surname>
                         <forename type="first">Ozias</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="BenjaminSturges">
@@ -3749,9 +3686,7 @@
                         <surname>Sturges</surname>
                         <forename type="first">Benjamin</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="AndrewBartholomew">
@@ -3759,9 +3694,7 @@
                         <surname>Bartholomew</surname>
                         <forename type="first">Andrew</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="DavidHoddsden">
@@ -3769,9 +3702,7 @@
                         <surname>Hoddsden</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="EzekielHull">
@@ -3779,9 +3710,7 @@
                         <surname>Hull</surname>
                         <forename type="first">Ezekiel</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="SamuelRead">
@@ -3789,9 +3718,7 @@
                         <surname>Read</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="DanielGregory">
@@ -3799,9 +3726,7 @@
                         <surname>Gregory</surname>
                         <forename type="first">Daniel</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="DanielSMesser">
@@ -3809,9 +3734,7 @@
                         <surname>Daniel</surname>
                         <forename type="first">Messer</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="UriahBuckley">
@@ -3819,9 +3742,7 @@
                         <surname>Buckley</surname>
                         <forename type="first">Uriah</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
 
                 <person xml:id="WilliamMorehourse">
@@ -3829,9 +3750,7 @@
                         <surname>Morehourse</surname>
                         <forename type="first">William</forename>
                     </persName>
-                    <note resp="#RF">
-                        <!-- brief biographical info. about person -->
-                    </note>
+                    
                 </person>
             </listPerson>
             <!-- List of Places -->

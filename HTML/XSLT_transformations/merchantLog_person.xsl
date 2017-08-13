@@ -113,10 +113,10 @@
             </td>
             <td>
                 <xsl:choose>
-                    <xsl:when test="child::note[@resp][not(@spouse)][matches(., '\w+')]">
+                    <xsl:when test="child::note[@resp][@type='bio']">
                         <span class="bioNote"
-                            title="This note was created by editor ID {child::note/@resp}">
-                            <xsl:apply-templates select="child::note[@resp][not(@spouse)]"/>
+                            title="This note was created by editor {//respStmt/persName[@xml:id = current()/tokenize(@resp,'#')[last()]]}.">
+                            <xsl:apply-templates select="child::note[@resp][@type='bio']"/>
                         </span>
                     </xsl:when>
                     <xsl:otherwise>N.A.</xsl:otherwise>
