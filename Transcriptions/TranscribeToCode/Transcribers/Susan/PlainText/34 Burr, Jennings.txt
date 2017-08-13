@@ -1,39 +1,54 @@
 Bartram-Thomas_Vol-001_1801-1819_034
 Surname: Burr, Jennings
 [[start page]]
-June 12 1804 [[person]] Thadeus [Thaddeus] Burr [[/person]]
-To [[person]] Levi [[/person]] Driving – [[?]] Blow [[/?]] 3 Days £0.3.00
-To half day & Do [Ditto] £0.0.06
-To 1 Do [Ditto] £0.1.00
-June 21 1805 To half Day howing [hoeing] Corn & [[person]] Levi [[/person]] £0.3.09
-[[strikethrough]] To one third of paster [pasture] Lot [[/strikethrough]] [[?]] £1.4.00 [[/?]]
-To Cart one Day £0.1.00
+[[person]] Thadeus [Thaddeus] Burr [[/person]] (after name)
+June 12 1804 
+To [[person]] Levi [[/person]] Driving – [[?]] Blow [[/?]] 3 Days 00_03_00 0 3 0
+To half day - & - Do [Ditto] -- 00_00_06 0 0 6
+To 1 Do [Ditto] --- 00_01_00 0 1 0
+June 25 1805
+To half Day howing [hoeing] Corn & [[person]] Levi [[/person]] (note:“Levi Driving” may refer to a person, I have marked it that way for now as there was a Levi Burr in Fairfield 1769 - 1845) 00_03_09 0 3 9
+[[strikethrough]] To one third of paster [pasture] Lot [[/strikethrough]] [[?]] 01_04_00 1 4 0 [[/?]]
+To Cart one Day - 00_01_00 0 1 0
+January 15 1806
 To Shewing [Shoeing] horse all round Mend one
-Shew [Shoe] & toe 2 St [[?]] Set [[/?]] Corks £0.5.00
-To make Crow bar New & Steel it £0.6.00
-To mend Dung fork & Make over Lead £0.2.00
-To make New Calter [[?]] Halter [[/?]] £0.4.00
-To Shewing [Shoeing] horse all round St [[?]] Set [[/?]] toes my Steel £0.4.06
-To Lay ax iron & Steel £0.4.06
-To 2 days planting Corn £0.10.00
-To one Day planting Corn £0.5.00
-To 6 weeks Paster [Pasture] at 1/6 £0.9.00
-To Mend Lock to Chain & one New Link £0.1. [illegible] 
+Shew [Shoe] & toe 2 St [[?]] Set [[/?]] Corks 00_05_00 0 5 0
+To make Crow bar New & Steel it - 00_06_00 0 6 0
+February 3 1806
+To mend Dung fork & Make over Lead -- 00_02_00 0 2 0
+To make New Calter [[?]] Halter or RP: Cotten[[/?]] ----- 00_04_00 0 4 0
+Decem 1806
+To Shewing [Shoeing] horse all round St [[?]] Set [[/?]] toes my Steel 00_04_06   4 6
+To Lay ax iron & Steel -- 00_04_06 0 4 6
+May 1807
+To 2 days planting Corn - 00_10_00 0 10 0
+To one Day planting Corn - 00_05_00 0 5  
+Oct 1807
+To 6 weeks Paster [Pasture] at 1/6 - 00_09_00 0 9 0
+Dec 1807
+To Mend Lock to Chain & one New Link 00_01_06   1 [?]6[/?] 
 To toe and Cork 2 Shews [Shoes] & Set them
-my Nail iron £0.2.00
-To toe and Cork 2 Shews [Shoes] my N [[?]] Nail [[/?]] iron £0.2.00
-To make Dung fork & one pair hinges £0.0.90
+my Nail iron 00_02_00  2 0
+To toe and Cork 2 Shews [Shoes] my N [[?]] Nail [[/?]] iron 00_02_00   2 0
+March 4 1808
+To make Dung fork & one pair hinges 00_09_00 0 9 0
+
 [[person]] Isaiah Jenings [Jennings] [[/person]]
-June 1804 To horse to [[place]] Millriver [Mill River] [[/place]] £0.1.06
-To horse to Do [Ditto] £0.1.06
-To horse to Do [Ditto] £0.1.06
-To horse to go [[?]] in, with [[/?]] Coal wagon [wagon] after £0.1.06
-July 1 1804 To pasturing horse 2 Night one Day £0.2.09
-To 180 Bush [Bushel] Coal £0.15.01
-[[person]] Thadeus [Thaddeus] Burr [[/person]]
-March 6 1807 To Make Staple [[?]] to, for [[/?]] Long yoak [yoke] £0.2.00
-To Mend Chain £0.1.06
-To fix hoe £0.0.06
+June 1804 
+To horse to [[place]] Millriver [Mill River] [[/place]] -- 00_01_06 0 1 6
+To horse to Do [Ditto] - 00_01_06 0 1 6
+To horse to Do [Ditto] - 00_01_06 0 1 6
+To horse to go [[?]] in or with [[/?]] Coal waggon [wagon] after 00_01_06 0 1 6
+July 1 1804 
+To pasturing horse 2 Night one Day 00_02_09 0 2 9
+To 180 Bush [Bushel] Coal 00_15_01 0 15 1
+
+[[person]] Thadeus [Thaddeus] Burr [[/person]] (after name)
+March 6 1807
+ To Make Staple [[?]] to or for [[/?]] Long yoak [yoke] 00_02_00   2 0
+To Mend Chain - 00_01_06 0 1 6
+To fix hoe 00_00_06 - 0 0 6
 This account is [illegible] [[?]] noted [[/?]] further Over
 [[end page]]
-“Levi Driving” may refer to a person, I have marked it that way for now as there was a Levi Burr in Fairfield 1769 - 1845
+
+
