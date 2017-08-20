@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+   <Document>
+                <Placemark>
+         <name>Fairfield Woods</name>
+         <description>Project ID: #FairfieldWoods. </description>
+         <Point>
+            <coordinates>-73.2493327,41.189899</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Redding</name>
+         <description>Project ID: #Redding. </description>
+         <Point>
+            <coordinates>-73.4575546,41.3023028</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Mill River</name>
+         <description>Project ID: #MillRiver. </description>
+         <Point>
+            <coordinates>-73.283487,41.13674</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>New York</name>
+         <description>Project ID: #NewYork. Port on the east river; south street seaport.</description>
+         <Point>
+            <coordinates>-74.0026087,40.7077108</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Newfield</name>
+         <description>Project ID: #Newfield. </description>
+         <Point>
+            <coordinates>-73.19518,41.18655</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Wheeler Hill</name>
+         <description>Project ID: #WheelerHill. </description>
+         <Point>
+            <coordinates>,</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Chestnut Hill</name>
+         <description>Project ID: #ChestnutHill. </description>
+         <Point>
+            <coordinates>,</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Fairfield</name>
+         <description>Project ID: #Fairfield. </description>
+         <Point>
+            <coordinates>-73.26126149999999,41.1408363</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Old Mill</name>
+         <description>Project ID: #Oldmill. </description>
+         <Point>
+            <coordinates>-73.2443424,41.1538821</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Greenfield</name>
+         <description>Project ID: #Greenfield. </description>
+         <Point>
+            <coordinates>-73.2884248,41.176244</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Bridgeport</name>
+         <description>Project ID: #Bridgeport. </description>
+         <Point>
+            <coordinates>-73.19518,41.18655</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Derby</name>
+         <description>Project ID: #Derby. </description>
+         <Point>
+            <coordinates>-73.1169171,41.3270051</coordinates>
+         </Point>
+      </Placemark>
+            </Document>
+</kml>

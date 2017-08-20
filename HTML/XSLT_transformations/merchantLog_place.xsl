@@ -58,7 +58,7 @@
          </td>
 
          <td>
-            <xsl:value-of select="count(//placeName[@ref eq $ID])"/>
+            <!--<xsl:value-of select="count(//placeName[@ref eq current()/$ID/tokenize(.,'#')[2]])"/>--> <!-- RJP: 2017-08-20 Currently not working to grab the numbre of times place is mentioned in body.  -->
          </td>
          <td>
             <xsl:apply-templates select="descendant::geo"/>

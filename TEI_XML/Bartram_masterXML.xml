@@ -998,7 +998,7 @@
                         <item>By 3 Cattle team to Ozias Burr Sawmill Drove Them my self <measure
                                 type="currency" unit="£sd" ana="00_03_09">0 3 9</measure>
                         </item>
-                        <item> By 1 <unclear reason="illegible" unit="words" quantity="1"/> Cider
+                        <item> By 1 <unclear reason="illegible" unit="words" quantity="1"/><!--<supplied resp="BC">Cag</supplied>--> Cider
                                 <measure type="currency" unit="£sd" ana="00_03_00">0 3 0</measure>
                         </item>
                         <item> By 2 Barrels Cider <g ref="#longHyphen" n="2"/>
@@ -3755,18 +3755,16 @@
             </listPerson>
             <!-- List of Places -->
             <listPlace>
-                <!-- INCOMPLETE ENTRY -->
                 <place xml:id="FairfieldWoods">
                     <placeName>Fairfield Woods</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.189899 -73.2493327</geo>
                     </location>
                 </place>
-                <!-- INCOMPLETE ENTRY -->
                 <place xml:id="Redding">
                     <placeName>Redding</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.3023028 -73.4575546</geo>
                     </location>
                 </place>
                 <place xml:id="MillRiver">
@@ -3778,13 +3776,14 @@
                 <place xml:id="NewYork">
                     <placeName>New York</placeName>
                     <location>
-                        <geo>40.790278 -73.959722</geo>
+                        <geo>40.7077108 -74.0026087</geo>
                     </location>
+                    <desc>Port on the east river; south street seaport.</desc>
                 </place>
                 <place xml:id="Newfield">
                     <placeName>Newfield</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.18655 -73.19518</geo>
                     </location>
                 </place>
                 <place xml:id="WheelerHill">
@@ -3808,25 +3807,25 @@
                 <place xml:id="Oldmill">
                     <placeName>Old Mill</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.1538821 -73.2443424</geo>
                     </location>
                 </place>
                 <place xml:id="Greenfield">
                     <placeName>Greenfield</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.176244 -73.2884248</geo>
                     </location>
                 </place>
                 <place xml:id="Bridgeport">
                     <placeName>Bridgeport</placeName>
                     <location>
-                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                        <geo>41.18655 -73.19518</geo>
                     </location>
                 </place>
                 <place xml:id="Derby">
                     <placeName>Derby</placeName>
                     <location>
-                        <geo>41.3207 -73.0890</geo>
+                        <geo>41.3270051 -73.1169171</geo>
                     </location>
                 </place>
             </listPlace>
