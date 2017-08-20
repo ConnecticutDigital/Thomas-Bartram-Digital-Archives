@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+   <Document>
+                <Placemark>
+         <name>Fairfield Woods</name>
+         <description>Project ID: #FairfieldWoods. Number of times mentioned in log book: 2. </description>
+         <Point>
+            <coordinates>-73.2493327,41.189899</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Redding</name>
+         <description>Project ID: #Redding. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.4575546,41.3023028</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Mill River</name>
+         <description>Project ID: #MillRiver. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.283487,41.13674</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>New York</name>
+         <description>Project ID: #NewYork. Number of times mentioned in log book: 1. South street seaport on the east river.</description>
+         <Point>
+            <coordinates>-74.0026087,40.7077108</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Newfield</name>
+         <description>Project ID: #Newfield. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.19518,41.18655</coordinates>
+         </Point>
+      </Placemark>
+                
+                
+                <Placemark>
+         <name>Fairfield</name>
+         <description>Project ID: #Fairfield. Number of times mentioned in log book: 8. </description>
+         <Point>
+            <coordinates>-73.26126149999999,41.1408363</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Old Mill</name>
+         <description>Project ID: #Oldmill. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.2443424,41.1538821</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Greenfield</name>
+         <description>Project ID: #Greenfield. Number of times mentioned in log book: 2. </description>
+         <Point>
+            <coordinates>-73.2884248,41.176244</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Bridgeport</name>
+         <description>Project ID: #Bridgeport. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.19518,41.18655</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Derby</name>
+         <description>Project ID: #Derby. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.1169171,41.3270051</coordinates>
+         </Point>
+      </Placemark>
+            </Document>
+</kml>
