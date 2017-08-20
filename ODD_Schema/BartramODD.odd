@@ -220,6 +220,9 @@
                         <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
+                        <valItem ident="#BC"/> <!-- Bruce Clarke -->
+                        <valItem ident="#DM"/> <!-- Don Marks -->
+                        <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
                </attList>
@@ -254,6 +257,9 @@
                         <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
+                        <valItem ident="#BC"/> <!-- Bruce Clarke -->
+                        <valItem ident="#DM"/> <!-- Don Marks -->
+                        <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
                </attList>
@@ -270,6 +276,9 @@
                         <valItem ident="#RP"/> <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
+                        <valItem ident="#BC"/> <!-- Bruce Clarke -->
+                        <valItem ident="#DM"/> <!-- Don Marks -->
+                        <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
                </attList>

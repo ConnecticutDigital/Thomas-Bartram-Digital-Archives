@@ -8,19 +8,24 @@
     <xsl:template match="/">
         <kml>
             <Document>
-                <xsl:apply-templates
-                    select="descendant::back/descendant::listPlace"/>
+                <xsl:apply-templates select="descendant::back/descendant::listPlace"/>
             </Document>
         </kml>
     </xsl:template>
     <xsl:template match="place[not(descendant::geo/text())]"> </xsl:template>
-    <xsl:template match="place[descendant::geo]">
+    <xsl:template match="place[descendant::geo/text()]">
         <Placemark>
             <name>
                 <xsl:apply-templates select="placeName"/>
             </name>
             <description>
-                <xsl:text>Project ID: #</xsl:text><xsl:apply-templates select="@xml:id"/>. <xsl:apply-templates select="descendant::desc"/>
+                <xsl:text>Project ID: #</xsl:text>
+                <xsl:apply-templates select="@xml:id"/>
+                <xsl:text>. Number of times mentioned in log book: </xsl:text>
+                <xsl:value-of
+                    select="count(//placeName[@ref/tokenize(., '#')[2] eq current()/@xml:id])"/>
+                <xsl:text>. </xsl:text>
+                <xsl:apply-templates select="descendant::desc"/>
             </description>
             <Point>
                 <coordinates>

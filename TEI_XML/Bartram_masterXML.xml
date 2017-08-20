@@ -127,7 +127,7 @@
                 <div type="group">
                     <head>Front Book Cover</head>
                     <list type="entry">
-                        <item>Bartram, Thomas Acct. book. Fairfield County. 1801-1819</item>
+                        <item>Bartram, Thomas Acct. book. <placeName ref="#Fairfield">Fairfield County</placeName>. 1801-1819</item>
                         <item>Ms 76486 Vol 1</item>
                     </list>
                 </div>
@@ -998,7 +998,7 @@
                         <item>By 3 Cattle team to Ozias Burr Sawmill Drove Them my self <measure
                                 type="currency" unit="£sd" ana="00_03_09">0 3 9</measure>
                         </item>
-                        <item> By 1 <unclear reason="illegible" unit="words" quantity="1"/><!--<supplied resp="BC">Cag</supplied>--> Cider
+                        <item> By 1 <unclear reason="illegible" unit="words" quantity="1"/><supplied resp="#BC">Cag</supplied> Cider
                                 <measure type="currency" unit="£sd" ana="00_03_00">0 3 0</measure>
                         </item>
                         <item> By 2 Barrels Cider <g ref="#longHyphen" n="2"/>
@@ -1768,7 +1768,7 @@
                         <head>
                             <date when="1802-01">January 1802</date>
                         </head>
-                        <item>By Carting 2 Lod Timer from <placeName ref="ChestnutHill">Chestnut
+                        <item>By Carting 2 Lod Timer from <placeName ref="#ChestnutHill">Chestnut
                                 Hill</placeName>
                             <measure type="currency" unit="£sd" ana="00_09_00"/></item>
                         <item><date when="1805-12-19">December 19 1805</date> this account is
@@ -1919,7 +1919,7 @@
 
                 <div type="group">
                     <head>
-                        <placeName ref="Fairfield">Fairfield</placeName>
+                        <placeName ref="#Fairfield">Fairfield</placeName>
                         <date when="1804-04-17">April 17 1804</date>
                     </head>
                     <list type="entry">
@@ -2383,14 +2383,14 @@
                             <date when="1805-05-16">May 1805 16</date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire <placeName>Fairfield</placeName>
+                            Hire <placeName ref="#Fairfield">Fairfield</placeName>
                             <measure type="currency" unit="£sd" ana="00_00_09">0 0
                             9</measure></item>
                     </list>
                     <list type="entry">
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Greenfield</placeName>
+                            Hire to <placeName ref="#Greenfield">Greenfield</placeName>
                             <measure type="currency" unit="£sd" ana="00_02_00"> 2 </measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
@@ -2407,25 +2407,25 @@
                             <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Oldmill</placeName>
+                            Hire to <placeName ref="#Oldmill">Oldmill</placeName>
                             <measure type="currency" unit="£sd" ana="00_02_00"> 2 </measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Greenfield</placeName>
+                            Hire to <placeName ref="#Greenfield">Greenfield</placeName>
                             <unclear reason="illegible" unit="chars" quantity="1"><supplied
                                     resp="#SG">&amp;</supplied></unclear>
                             <measure type="currency" unit="£sd" ana="00_02_00"> 2 </measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Fairfield</placeName>
+                            Hire to <placeName ref="#Fairfield">Fairfield</placeName>
                             <measure type="currency" unit="£sd" ana="00_01_00"> 1 </measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Fairfield</placeName>
+                            Hire to <placeName ref="#Fairfield">Fairfield</placeName>
                             <measure type="currency" unit="£sd" ana="00_01_00"> 1 </measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Fairfield</placeName>
+                            Hire to <placeName ref="#Fairfield">Fairfield</placeName>
                             <measure type="currency" unit="£sd" ana="00_01_00"> 1 </measure></item>
                     </list>
                 </div>
@@ -2625,7 +2625,7 @@
                         <head><date when="1805-05-22">22</date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Fairfield</placeName>
+                            Hire to <placeName ref="#Fairfield">Fairfield</placeName>
                             <unclear unit="words" quantity="1" reason="illegible"/>
                             <measure type="currency" unit="£sd" ana="00_01_06">0 1
                             6</measure></item>
@@ -2659,12 +2659,12 @@
                         <head><date when="1805-05-25">25</date></head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Fairfield</placeName>
+                            Hire to <placeName ref="#Fairfield">Fairfield</placeName>
                             <measure type="currency" unit="£sd" ana="00_00_09">0 0
                             9</measure></item>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName>Fairfield Woods</placeName>
+                            Hire to <placeName ref="#FairfieldWoods">Fairfield Woods</placeName>
                             <measure type="currency" unit="£sd" ana="00_01_06">0 1
                             6</measure></item>
                     </list>
@@ -3778,7 +3778,7 @@
                     <location>
                         <geo>40.7077108 -74.0026087</geo>
                     </location>
-                    <desc>Port on the east river; south street seaport.</desc>
+                    <desc>South street seaport on the east river.</desc>
                 </place>
                 <place xml:id="Newfield">
                     <placeName>Newfield</placeName>

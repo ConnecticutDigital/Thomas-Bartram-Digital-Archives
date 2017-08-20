@@ -29,23 +29,20 @@
                      <th>Place</th>
                      <th>Reference ID</th>
                      <th># of Times Referenced</th>
-                     <th>Geo Location</th>
+                     <th>Location (Latitude, Longitude)</th>
                      <th>Description</th>
 
                   </tr>
                   <xsl:apply-templates
-                     select="descendant::back/descendant::listPlace/descendant::place"/>
-                  <!--<xsl:sort select="descendant::placeName"/>-->
-
-
+                     select="descendant::back/descendant::listPlace/descendant::place">
+                     <xsl:sort select="descendant::placeName"/>
+                  </xsl:apply-templates>
                </table>
             </div>
          </body>
       </html>
    </xsl:template>
    <xsl:template match="place">
-      <xsl:variable name="ID" select="@xml:id"/>
-
       <tr>
 
          <td>
@@ -54,17 +51,24 @@
 
          <td>
             <xsl:text>#</xsl:text>
-            <xsl:apply-templates select="$ID"/>
+            <xsl:apply-templates select="@xml:id"/>
          </td>
 
          <td>
-            <!--<xsl:value-of select="count(//placeName[@ref eq current()/$ID/tokenize(.,'#')[2]])"/>--> <!-- RJP: 2017-08-20 Currently not working to grab the numbre of times place is mentioned in body.  -->
+            <xsl:value-of select="count(//placeName[@ref/tokenize(., '#')[2] eq current()/@xml:id])"
+            />
          </td>
-         <td>
-            <xsl:apply-templates select="descendant::geo"/>
+         <td><xsl:choose>
+            <xsl:when test="descendant::geo/text()"><xsl:apply-templates select="descendant::geo"/></xsl:when>
+         <xsl:otherwise><xsl:text>More Info. Available Soon</xsl:text></xsl:otherwise>
+         </xsl:choose>
+            
          </td>
-         <td>
-            <xsl:apply-templates select="descendant::note"/>
+         <td><xsl:choose>
+            <xsl:when test="descendant::desc/text()"><xsl:apply-templates select="descendant::desc"/></xsl:when>
+            <xsl:otherwise><xsl:text>More Info. Available Soon</xsl:text></xsl:otherwise>
+         </xsl:choose>
+            
          </td>
       </tr>
    </xsl:template>
