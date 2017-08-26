@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -63,6 +62,10 @@
     </teiHeader>
     <text>
         <body>
+           <!-- Title and start of the trial text-->
+            <!--https://books.google.com/books?id=7PwPAAAAYAAJ&pg=PA81&lpg=PA81&dq=Colonial%20Records%2C%20The%20Trial%20of%20Goody%20Bassett%20testimony&source=bl&ots=FdOzNe1elu&sig=uqJohsDByYLC8LyXg20rF8Mccek&hl=en&sa=X&ved=0ahUKEwittpzvoIXVAhVCaT4KHVUCBMkQ6AEIVTAJ#v=onepage&q=Colonial%20Records%2C%20The%20Trial%20of%20Goody%20Bassett%20testimony&f=false
+            -->
+            <p>At a Court of Magistrats held at Newhauen foh the Jurisdiction the 29th of May 1654 </p>
 <p><date when="1654-05-13">May the thirteenth 1654</date></p> 
 <p><persName>Hester Ward</persName> wife of Andrew Ward being sworne de poseth that aboute a day
     after that goodwife Knapp was condemned for a witch she goeing to ye prison house where the said
