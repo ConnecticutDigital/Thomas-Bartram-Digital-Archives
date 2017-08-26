@@ -497,7 +497,7 @@
                         <!-- LINE_05: Eben Bartarm 26 ELLIGIBLE fraction No hay  -->
                         <item><persName ref="#EbenBartram"> Eben Bartram</persName> 26 <unclear
                                 reason="illegible" unit="chars" quantity="3"><supplied resp="#RF"
-                                    >2/4</supplied></unclear> No hay 600 </item>
+                                    >2/4</supplied></unclear> No pay 600 </item>
 
                         <!-- LINE_06: John Wheeler 10 No hay  -->
                         <item><persName ref="#JohnWheeler">John Wheeler</persName>
@@ -534,7 +534,7 @@
                             <unclear reason="strikethrough" unit="words" quantity="1"><supplied
                                     resp="#RF">No></supplied></unclear> paid </item>
                         <!-- LINE_16: Illegible first and last name  -->
-                        <item>Elezebet watson 3 No hay </item>
+                        <item>Elezebet watson 3 No pay </item>
 
                         <!-- LINE_17: Joseph Sturges and others 65 1/4 paid  -->
                         <item><persName ref="#JosephSturges">Joseph Sturges</persName> and others 65
@@ -550,7 +550,7 @@
                                 unit="words" quantity="1"><supplied resp="#RF">No
                                 pay</supplied></unclear> paid</item>
                         <item><persName ref="WillThorp"/>Will Thorp <g ref="#longHyphen" n="3"/> 6
-                            No hay</item>
+                            No pay</item>
                         <!-- RF 2017-01-26: Add unclear name  Canah Bult by Others?-->
                         <item><persName ref="DavidHubble">David Hubble</persName>
                             <g ref="#longHyphen" n="1"/> 7 1/4 paid</item>
@@ -969,13 +969,14 @@
                         </head>
                         <item>By one Bush Rye <g ref="#longHyphen" n="2"/></item>
                         <item>By Carting one load wood </item>
-                        <item>By veal 1/9 to horse to <placeName ref="#Newfield"
+                        <item>By veal 1/4 to horse to <placeName ref="#Newfield"
                                 >Newfield</placeName></item>
                         <item>By Carting Brick <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="04_00_00">4 0
                             0</measure></item>
 
-                        <item>By Cash &amp; other Materials <measure type="currency" unit="£sd"
+                        <item>By Cash &amp; other <choice><sic>Materials</sic><reg resp="#RF">materials</reg>
+                        </choice> <measure type="currency" unit="£sd"
                                 ana="01_03_09">1 3 9</measure>
                         </item>
                         <item>
@@ -987,6 +988,13 @@
                         </item>
                     </list>
                 </div>
+                <div type="group">
+                    <head>
+                        <date when="1804-02-20">February 20 1804</date>
+                    </head>
+                </div>
+                  
+     
 
                 <!-- RP:2017-01-22: PAGE 7 second and bottom half of page  -->
                 <div type="group">
