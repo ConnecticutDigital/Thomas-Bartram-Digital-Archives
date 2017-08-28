@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Black Rock History Website" />
+        <meta name="author" content="Rebecca Parker and Robert Foley" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        
+        <link href="css/style.css" rel="stylesheet" />
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+
+        <form method="post" id="emailForm" action="form-to-email.php">
+            <p> Name: <input type="text" name="name" />
+            </p>
+            <p> Email: <input type="text" name="email" />
+            </p>
+            <p> Reason for Contact: <select name="reason">
+                    <option value="general">General Inquiry</option>
+                    <option value="funds">Funding and Donation Information</option>
+                    <option value="volunteer">Volunteer Opportunities</option>
+                    <option value="textSuggest">Suggestion for Missing or Unclear Text</option>
+                    <option value="prosopSuggest">Provide Prosopography Information on Person,
+                        Place, Commodity, or Organization</option>
+                </select>
+            </p>
+            <div id="text">
+                <p>Please Specify:</p>
+                <p>Unclear ID Number (<a
+                        href="http://www.blackrockhistory.net/merchantLog_analysis.html#unclearTable"
+                        >Found on our Analysis Page</a>): <input name="textID" type="text" />
+                </p>
+                <p>Suggested Word: <input name="textWord" type="text" />
+                </p>
+                <p>Entire Line With Your Suggestion In Place: <input name="textLine" type="text" />
+                </p>
+                <p>Please describe the reasoning behind your suggestion in the Detailed Message
+                    section below. Thank you!</p>
+            </div>
+            <div id="prosop">
+                <p>Please Specify:</p>
+                <p>Name of Person, Place, Commodity, or Organization: <input name="prosopName"
+                        type="text" />
+                </p>
+                <p>Information Regarding Above Entity:<br />
+                    <textarea name="prosopInfo" rows="5" cols="30"></textarea>
+                </p>
+                <p>Please describe the reasoning behind your suggestion in the Detailed Message
+                    section below. Thank you!</p>
+            </div>
+
+            <p> Detailed Message:<br />
+                <textarea name="message" rows="7" cols="30"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" name="Submit" value="Submit" />
+            </p>
+        </form>
+        <script type="text/javascript" src="js/options.js"></script>
+        <script src="js/gen_validatorv31.js" type="text/javascript"></script>
+    </body>
+
+</html>

@@ -130,3 +130,9 @@ span.italics{
   display: block !important;
   margin: auto !important;
 }
+#text {
+    display:none;
+}
+#prosop {
+    display:none;
+}
