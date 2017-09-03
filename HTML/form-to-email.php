@@ -6,8 +6,13 @@ if(!isset($_POST['submit']))
 }
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
-//$reason = $_POST[''];
+$reason = $_POST['reason'];
 $message = $_POST['message'];
+$unclearID = $_POST['textID'];
+$suggest = $_POST['textWord'];
+$suggestLine = $_POST['textLine'];
+$prosopName = $_POST['prosopName'];
+$prosopInfo = $_POST['prosopInfo'];
 
 
 //Validate first
@@ -28,15 +33,30 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = "rjp396@gmail.com";//<== update the email address
+$email_from = "bportnow@gmail.com";//<== update the email address
 $email_subject = "New Form Submission";
 $email_body = 
     "You have received a new inquiry from $name. \n\n".
     "User provided email:\n $visitor_email \n\n".
-    //"Inquiry type:\n $reason \n\n".
-    "Here is their detailed message:\n $message \n\n".
     
-$to = "rjp396@gmail.com";//<== update the email address
+    "Inquiry type:\n $reason \n\n\n".
+    "Explanation of inquiry type:\n\n".
+    "\tgeneral is General Inquiry \n\n".
+    "\tfunds is Funding and Donation Information \n\n".
+    "\tvolunteer is Volunteer Opportunities \n\n".
+    "\ttextSuggest is Suggestion for Missing or Unclear Text \n\n".
+    "\tprosopSuggest is Provide Information on Person, Place, Commodity, or Organization \n\n\n".
+
+    "The following values will be blank if not pertaining to the inquiry type:\n\n".
+    "Unclear ID Number: $unclearID \n\n".
+    "Suggested Word: $suggest \n\n".
+    "Line containing suggest word: $suggestLine \n\n".
+    "Named Entity: $prosopName \n\n".
+    "Information about named entity: $prosopInfo \n\n".
+    "\n\n\n".
+    "Here is $name's detailed message:\n $message \n\n".
+    
+$to = "bportnow@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
