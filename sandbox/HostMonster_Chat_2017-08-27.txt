@@ -1,0 +1,81 @@
+HostMonster Support
+
+What issue can we help you with today?
+
+
+Is asp.net installed on our server? If not is their capability to add it?
+
+R
+Tech Support: Website Issues
+
+Is asp.net installed on our server? If not is their capability to add it?
+
+N
+Hello ,I am sorry for the wait time. My name is Nishmitha and I am happy to help you. How are you today?
+
+R
+Fine. 
+Is asp.net installed on our server? If not is their capability to add it?
+
+N
+Sorry its not installed 
+WE have linux hosting and asp.net needs window hosting
+
+R
+ok. what is the best way for me to add a content form to my site where the content filled out from a site visitor can then be sent to my email?
+can you send me to a resource to develop the code that works with what the server has installed?
+
+N
+you can use any contact form for that 
+
+R
+is there a way to run aspx code on our server?
+
+N
+Sorry its not possible on our server
+
+R
+Ok so how about node.js ?
+
+N
+It is installed on VPs server not on your current shared hosting 
+You can upgrade your account from shared to VPS
+
+R
+so node mailer package is not installed on the space I currently have?
+What are the options I have with my current space?
+you said any contact form and I have now listed two that you are saying are not available for me
+so be best if you could just point me to a resource that will walk me through creating a content form that will work on my current space
+
+N
+in your current plan you can use any contact form plugins or scripts so that the user can subscribe to your website and you will get email notification 
+
+R
+So my current space would not work to create something like this: http://projects.myasp.info/Contact_us.aspx
+
+N
+Please hold on
+
+R
+Okay I was just unsure if we had lost connection 
+
+N
+Sorry its not possible to create any asp.net files in our server
+however you can use any contact for or scripts to receive the notification from user
+
+R
+but not node.js
+either
+i dont just want a notification I would want the content from the form filled out by the user sent to ,e
+*me
+
+N
+node.js can be installed on VPs server where you get root access to the server 
+But currently you are in shared hosting 
+
+R
+thank you. have a good day.
+
+N
+You are welcome
+I hope I was able to answer your queries. Please click the ‘X’ button on the inner chat support window to rate my support. Please note that clicking on the X button on the browser will not give you the option to rate the chat.

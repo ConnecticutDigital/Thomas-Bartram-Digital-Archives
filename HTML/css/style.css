@@ -130,9 +130,16 @@ span.italics{
   display: block !important;
   margin: auto !important;
 }
+/*CONTACT FORM*/
 #text {
     display:none;
 }
 #prosop {
+    display:none;
+}
+#money {
+    display:none;
+}
+#service {
     display:none;
 }
