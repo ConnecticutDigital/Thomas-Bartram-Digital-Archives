@@ -6,6 +6,7 @@ if(!isset($_POST['submit']))
 }
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
+//$reason = $_POST[''];
 $message = $_POST['message'];
 
 
@@ -30,9 +31,10 @@ if(IsInjected($visitor_email))
 $email_from = "rjp396@gmail.com";//<== update the email address
 $email_subject = "New Form Submission";
 $email_body = 
-    "You have received a new inquiry from $name.\n\n".
-    "User provided email:\n $visitor_email\n\n".
-    "Here is their detailed message:\n $message\n\n".
+    "You have received a new inquiry from $name. \n\n".
+    "User provided email:\n $visitor_email \n\n".
+    //"Inquiry type:\n $reason \n\n".
+    "Here is their detailed message:\n $message \n\n".
     
 $to = "rjp396@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
