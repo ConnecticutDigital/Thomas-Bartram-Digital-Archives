@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-08-20T15:11:16Z. .
+Schema generated from ODD source 2017-09-10T14:22:06Z. .
 TEI Edition: Version 3.0.0. Last updated on
 	29th March 2016, revision 89ba24e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -5503,7 +5503,6 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signifies text supplied by the transcriber or editor for any reason; for example because the original cannot be read due to physical damage, or because of an obvious omission by the author or scribe. [11.3.3.1. Damage, Illegibility, and Supplied Text]</a:documentation>
          <ref name="teimacro.paraContent"/>
          <ref name="teiatt.global.attribute.xmlid"/>
-         <ref name="teiatt.global.attribute.n"/>
          <ref name="teiatt.global.attribute.xmllang"/>
          <ref name="teiatt.global.attribute.xmlbase"/>
          <ref name="teiatt.global.attribute.xmlspace"/>
@@ -5512,28 +5511,34 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
          <ref name="teiatt.global.rendition.attribute.rendition"/>
          <ref name="teiatt.global.facs.attribute.facs"/>
          <ref name="teiatt.global.change.attribute.change"/>
-         <ref name="teiatt.global.responsibility.attribute.cert"/>
          <ref name="teiatt.editLike.attributes"/>
+         <optional>
+            <attribute name="n">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <data type="double"/>
+                  <data type="token">
+                     <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+                  </data>
+                  <data type="decimal"/>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="cert">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>correct</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <attribute name="resp">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <choice>
-               <value>#RF</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>#BN</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>#RP</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>#SG</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>#RW</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>#BC</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>#DM</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>#EDITORinitials</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            </choice>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+Sample values include: 1] #RF; 2] #BN; 3] #RP; 4] #SG; 5] #RW; 6] #BC; 7] #DM; 8] #EDITORinitials</a:documentation>
+            <data type="token">
+               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+            </data>
          </attribute>
          <optional>
             <attribute name="reason">
@@ -5561,10 +5566,12 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:div[@type='page']">
-                     <sch:assert test="current()[@facs]"> The
-                        div element indicating a transcribed/encoded page must have a facs attribute pointing to the manuscript image.</sch:assert>
-                     <sch:assert test="count(child::tei:div[@type='group']) ge 1"> The
-                        div element indicating a transcribed/encoded page must have at least one child div @type="group", which contains the group of entries for any single account.</sch:assert>
+                     <sch:assert test="current()[@facs]">
+                        The div element indicating a transcribed/encoded page must have a facs
+                        attribute pointing to the manuscript image.</sch:assert>
+                     <sch:assert test="count(child::tei:div[@type='group']) ge 1"> The div element indicating
+                        a transcribed/encoded page must have at least one child div @type="group",
+                        which contains the group of entries for any single account.</sch:assert>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5573,8 +5580,10 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:div[@type='group']">
-                     <sch:assert test="count(child::tei:head) eq 1"> Every div @type="group" must have a child head element.</sch:assert>
-                     <sch:assert test="count(child::tei:list[@type='entry']) ge 1"> Every div @type="group" must have at least one child list @type="entry".</sch:assert>
+                     <sch:assert test="count(child::tei:head) eq 1"> Every div @type="group" must have a
+                        child head element.</sch:assert>
+                     <sch:assert test="count(child::tei:list[@type='entry']) ge 1"> Every div @type="group"
+                        must have at least one child list @type="entry".</sch:assert>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5583,8 +5592,10 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:list">
-                     <sch:report test="current()[not(child::tei:head)][parent::div[@type='group'][not(child::tei:head)]]"> This list element must have a child head element because the parent div @type="group" does not have a head element.</sch:report>
-                     <sch:assert test="count(child::tei:item) ge 1"> Every list must have at least one child item element.</sch:assert>
+                     <sch:report test="current()[not(child::tei:head)][parent::div[@type='group'][not(child::tei:head)]]"> This list element must have a child head element because the parent div
+                        @type="group" does not have a head element.</sch:report>
+                     <sch:assert test="count(child::tei:item) ge 1"> Every list must have at least
+                        one child item element.</sch:assert>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5593,7 +5604,9 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:date[descendant::tei:div]">
-                     <sch:assert test="current()[@when]"> Every date element inside of page transcription must get a when attribute with a iso standard value.</sch:assert>
+                     <sch:assert test="current()[@when]"> Every date element inside of page
+                        transcription must get a when attribute with a iso standard
+                        value.</sch:assert>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5602,8 +5615,8 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:unclear">
-                     <sch:assert test="current()[@reason][@unit][@quantity]"> The
-                        unclear element must have a reason, unit, and quantity attribute.</sch:assert>
+                     <sch:assert test="current()[@reason][@unit][@quantity]"> The unclear element
+                        must have a reason, unit, and quantity attribute.</sch:assert>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5612,8 +5625,8 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:supplied">
-                     <sch:assert test="current()[@resp]"> The
-                        supplied element must have a resp attribute.</sch:assert>
+                     <sch:assert test="current()[@resp]"> The supplied element must have a resp
+                        attribute.</sch:assert>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5622,8 +5635,8 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:add">
-                     <sch:assert test="current()[@resp]">The
-                        supplied element must have a resp attribute.</sch:assert>
+                     <sch:assert test="current()[@resp]">The supplied element must have a resp
+                        attribute.</sch:assert>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -5632,8 +5645,8 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:note[@type='bio']">
-                     <sch:assert test="@resp">This
-                        note element must have a resp attribute.</sch:assert>
+                     <sch:assert test="@resp">This note element must have a resp
+                        attribute.</sch:assert>
                   </sch:rule>
    </pattern>
 </grammar>

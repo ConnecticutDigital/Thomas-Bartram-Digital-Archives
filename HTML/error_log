@@ -1,0 +1,7 @@
+[03-Sep-2017 18:24:43 UTC] PHP Parse error:  syntax error, unexpected '$reason' (T_VARIABLE) in /home/myitali1/public_html/blackrockhistorynet/form-to-email.php on line 36
+[03-Sep-2017 18:24:48 UTC] PHP Parse error:  syntax error, unexpected '$reason' (T_VARIABLE) in /home/myitali1/public_html/blackrockhistorynet/form-to-email.php on line 36
+[03-Sep-2017 18:25:05 UTC] PHP Parse error:  syntax error, unexpected '$reason' (T_VARIABLE) in /home/myitali1/public_html/blackrockhistorynet/form-to-email.php on line 36
+[03-Sep-2017 18:54:55 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/myitali1/public_html/blackrockhistorynet/form-to-email.php on line 42
+[03-Sep-2017 18:55:10 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/myitali1/public_html/blackrockhistorynet/form-to-email.php on line 42
+[03-Sep-2017 18:55:38 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/myitali1/public_html/blackrockhistorynet/form-to-email.php on line 42
+[03-Sep-2017 19:12:57 UTC] PHP Parse error:  syntax error, unexpected '"\tgeneral is General Inquiry ' (T_CONSTANT_ENCAPSED_STRING) in /home/myitali1/public_html/blackrockhistorynet/form-to-email.php on line 44
