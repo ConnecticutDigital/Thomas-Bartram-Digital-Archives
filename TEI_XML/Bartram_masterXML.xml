@@ -127,7 +127,8 @@
                 <div type="group">
                     <head>Front Book Cover</head>
                     <list type="entry">
-                        <item>Bartram, Thomas Acct. book. <placeName ref="#Fairfield">Fairfield County</placeName>. 1801-1819</item>
+                        <item>Bartram, Thomas Acct. book. <placeName ref="#Fairfield">Fairfield
+                                County</placeName>. 1801-1819</item>
                         <item>Ms 76486 Vol 1</item>
                     </list>
                 </div>
@@ -975,9 +976,11 @@
                             <measure type="currency" unit="£sd" ana="04_00_00">4 0
                             0</measure></item>
 
-                        <item>By Cash &amp; other <choice><sic>Materials</sic><reg resp="#RF">materials</reg>
-                        </choice> <measure type="currency" unit="£sd"
-                                ana="01_03_09">1 3 9</measure>
+                        <item>By Cash &amp; other <choice>
+                                <sic>Materials</sic>
+                                <reg resp="#RF">materials</reg>
+                            </choice>
+                            <measure type="currency" unit="£sd" ana="01_03_09">1 3 9</measure>
                         </item>
                         <item>
                             <choice>
@@ -993,8 +996,8 @@
                         <date when="1804-02-20">February 20 1804</date>
                     </head>
                 </div>
-                  
-     
+
+
 
                 <!-- RP:2017-01-22: PAGE 7 second and bottom half of page  -->
                 <div type="group">
@@ -1006,8 +1009,9 @@
                         <item>By 3 Cattle team to Ozias Burr Sawmill Drove Them my self <measure
                                 type="currency" unit="£sd" ana="00_03_09">0 3 9</measure>
                         </item>
-                        <item> By 1 <unclear reason="illegible" unit="words" quantity="1"/><supplied resp="#BC">Cag</supplied> Cider
-                                <measure type="currency" unit="£sd" ana="00_03_00">0 3 0</measure>
+                        <item> By 1 <unclear reason="illegible" unit="words" quantity="1"/><supplied
+                                resp="#BC">Cag</supplied> Cider <measure type="currency" unit="£sd"
+                                ana="00_03_00">0 3 0</measure>
                         </item>
                         <item> By 2 Barrels Cider <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_12_00">0 12 0</measure>
@@ -1120,8 +1124,9 @@
                     <list type="entry">
                         <head><date when="1795-02"/></head>
                         <item>
-                            <g ref="#stItem"/> Lay ax 4/6 to Calf 44/ <g ref="#currency"/> <measure type="currency"
-                                unit="£sd" ana="02_08_06">2 8 6</measure></item>
+                            <g ref="#stItem"/> Lay ax 4/6 to Calf 44/ <g ref="#currency"/>
+                            <measure type="currency" unit="£sd" ana="02_08_06">2 8
+                            6</measure></item>
                     </list>
                     <list type="entry">
                         <head>
@@ -1149,7 +1154,8 @@
                             6</measure></item>
                     </list>
                     <list type="entry" subtype="total">
-                        <item><measure type="currency" unit="£sd" ana="03_00_00">3 0 0</measure></item>
+                        <item><measure type="currency" unit="£sd" ana="03_00_00">3 0
+                            0</measure></item>
                     </list>
                 </div>
 
@@ -1184,7 +1190,8 @@
                             <g ref="#stItem"/>
                             <unclear reason="illegible" unit="words" quantity="1"><supplied
                                     resp="#BN">work</supplied>
-                            </unclear> <g ref="#longHyphen" n="1"/>
+                            </unclear>
+                            <g ref="#longHyphen" n="1"/>
                             <measure type="currency" unit="£sd" ana="00_01_00">0 1
                             0</measure></item>
                     </list>
@@ -1889,14 +1896,23 @@
                     <head><persName ref="#SamuelRead">Samuel Read</persName></head>
                     <list type="entry">
                         <head>
-                            <date when="1802-04-01">April 1 1802</date></head>
-                        <item><g ref="#stItem"/> Mend hook &amp; New link <choice><unclear reason="illegible" unit="words" quantity="1"><supplied resp="#SG" n="1">shil</supplied>
-                            <supplied cert="high" resp="#SG #RP" n="2">shot</supplied></unclear></choice> <measure
-                                type="currency" unit="£sd" ana="03_02_04">3 2 4</measure></item>
+                            <date when="1802-04-01">April 1 1802</date>
+                            <g ref="#longHyphen" n="21"/></head>
+                        <item><g ref="#stItem"/> Mend hook &amp; New link <choice>
+                                <unclear reason="illegible" unit="words" quantity="1"><supplied
+                                        resp="#SG" n="1">shil</supplied>
+                                    <supplied cert="high" resp="#SG #RP" n="2"
+                                    >shot</supplied></unclear>
+                            </choice>
+                            <measure type="currency" unit="£sd" ana="03_02_04">3 2
+                            4</measure></item>
                         <item><g ref="#stItem"/> Mend Peat &amp; Dung fork <measure type="currency"
                                 unit="£sd" ana="00_02_03">0 2 3</measure></item>
-                        <item><g ref="#stItem"/> one &amp; half of iron <measure type="currency"
-                                unit="£sd" ana="00_00_07">0 0 7</measure>
+                        <item><g ref="#stItem"/> one &amp; half of <choice>
+                                <unclear unit="words" quantity="1" reason="illegible"><supplied
+                                        resp="#SG" cert="high" n="1">iron</supplied></unclear>
+                            </choice>
+                            <measure type="currency" unit="£sd" ana="00_00_07">0 0 7</measure>
                         </item>
                         <item>
                             <g ref="#stItem"/><choice>
@@ -1906,75 +1922,102 @@
                             <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure>
                         </item>
                         <item>
-                            <g ref="#stItem"/> Plowing 3 Days &amp; <measure type="currency"
-                                unit="£sd" ana="01_07_00">1 7 0</measure>
+                            <g ref="#stItem"/> plowing 3 Days &amp; <unclear unit="words"
+                                quantity="4" reason="strikethrough"/>
+                            <measure type="currency" unit="£sd" ana="01_07_00">1 7 0</measure>
                         </item>
                     </list>
                     <list type="entry">
                         <head><date when="1802-03-20">March 30 1802</date></head>
-                        <item><g ref="#stItem"/> one due bill Lost <measure type="currency"
+                        <item><g ref="#stItem"/> one Due bill Lost <measure type="currency"
                                 unit="£sd" ana="11_07_00">11 7 0</measure></item>
-                        <item><g ref="#stItem"
-                            /><!--Susan says Schoopl? shole (shovel) or school shovel--> School
-                            shovel <measure type="currency" unit="£sd" ana="01_04_06">0 4
-                                6</measure></item>
-                        <item><g ref="#stItem"/> Seven Bush Coal and use Shop of tools for Joseph
-                            Nichols to work <measure type="currency" unit="£sd" ana="01_07_00">0 7
-                                0</measure>
+                        <item><g ref="#stItem"/>
+                            <choice>
+                                <sic>Schooh Shovle</sic>
+                                <reg resp="#SG">School Shovel</reg>
+                            </choice>
+                            <measure type="currency" unit="£sd" ana="01_04_06">0 4
+                            6</measure></item>
+                        <item><g ref="#stItem"/> Seven <choice>
+                                <sic>Bush</sic>
+                                <reg resp="#SG">Bushel</reg>
+                            </choice> Coal and use of Shop &amp; tools for <persName
+                                ref="#JosephNichols">Joseph Nichols</persName> to work <measure
+                                type="currency" unit="£sd" ana="01_07_00">0 7 0</measure>
                         </item>
                     </list>
-                    <!--Sum of numbers 13 11 8-->
-                    <!--      Missing section June 1802 Mary Osborn-->
-                </div>
-
-                <div type="group">
-                    <head>
-                        <placeName ref="#Fairfield">Fairfield</placeName>
-                        <date when="1804-04-17">April 17 1804</date>
-                    </head>
+                    <list type="entry" subtype="total">
+                        <item><measure type="currency" unit="£sd" ana="12_11_08">13 11
+                            8</measure></item>
+                    </list>
                     <list type="entry">
+                        <head>
+                            <placeName ref="#Fairfield">Fairfield</placeName>
+                            <date when="1804-04-17">April 17 1804</date>
+                        </head>
+
                         <item><unclear reason="strikethrough" unit="words" quantity="13"><supplied
-                                    resp="#RF">This Day Little all accounts with <persName
-                                        ref="#SamuelRead">Samuel Read</persName> &amp; found Due Six
+                                    resp="#RF">This Day Settle all accounts with <persName
+                                        ref="#SamuelRead">Samuel Read</persName> &amp; found Due
+                                        <unclear unit="word" reason="illegible" quantity="1"/> Six
                                     Pound</supplied>
                             </unclear></item>
-                    </list>
 
+                    </list>
                 </div>
                 <div type="group">
                     <head><persName ref="MaryOlson">Mary Olson</persName><g ref="#afterName"
                         /></head>
                     <list type="entry">
-                        <head><date when="1802-01-04">June 4 1802</date></head>
-                        <item><g ref="#stItem"/> 70 Pound foiurpenny Nailes at /10 2/1 <g
-                                ref="#currency"/>
+                        <head><date when="1802-06-04">June 4 1802</date></head>
+                        <item><g ref="#stItem"/> 70 Pound fourpenny <choice>
+                                <sic>Nailes</sic>
+                                <reg resp="#SG">Nails</reg>
+                            </choice> at /10 2/4 <g ref="#longHyphen" n="1"/>
+                            <g ref="#currency"/>
                             <measure type="currency" unit="£sd" ana="03_00_00">3 0 0</measure>
                         </item>
                         <item>Due on old account <measure type="currency" unit="£sd" ana="00_08_04"
                                 >0 8 4</measure></item>
-                        <item><g ref="#stItem"/> 5 Thousand <unclear quantity="2" unit="words"
+                        <item><g ref="#stItem"/> 5 Thousand <unclear quantity="1" unit="words"
+                                reason="illegible"><supplied resp="#SG"
+                                >Lath</supplied></unclear><unclear quantity="1" unit="words"
                                 reason="illegible"/>
                             <measure type="currency" unit="£sd" ana="02_05_00">2 5 </measure></item>
-                        <item><g ref="#stItem"/> 1 Set Nives &amp; forks <measure type="currency"
-                                unit="£sd" ana="00_03_04">0 3 4</measure></item>
-                        <item><g ref="#stItem"/>
-                            <unclear quantity="3" unit="words" reason="illegible"/>
+                        <item><g ref="#stItem"/> 1 Set <choice>
+                                <sic>Nives</sic>
+                                <reg resp="#SG">Knives</reg>
+                            </choice> &amp; forks <measure type="currency" unit="£sd" ana="00_03_04"
+                                >0 3 4</measure></item>
+                        <item><g ref="#stItem"/> Cash <persName ref="#AbramMorehouse">Abram <choice>
+                                    <sic>Morehause</sic>
+                                    <reg>Morehouse</reg>
+                                </choice></persName>
                             <measure type="currency" unit="£sd" ana="00_01_00">0 1 0
                             </measure></item>
-                        <item><g ref="#stItem"/><measure commodity="wool" unit="whole" quantity="13"
-                                >13 lb wool at 2/1</measure></item>
+                        <item><g ref="#stItem"/><measure commodity="wool" unit="lb" quantity="13">13
+                                lb wool at 2/1</measure>
+                            <measure type="currency" unit="£sd" ana="01_07_01">1 7 1
+                            </measure></item>
                         <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="4"/><measure
                                 type="currency" unit="£sd" ana="01_10_00">1 10 0</measure></item>
                         <item><g ref="#stItem"/>
-                            <measure commodity="oil" unit="whole" quantity="1">1 qrt oil</measure>
+                            <measure commodity="oil" unit="quart" quantity="1">1 qrt oil</measure>
                             <measure type="currency" unit="£sd" ana="00_01_00">0 1
                             0</measure></item>
                         <item><g ref="#stItem"/> account Paid <persName ref="SethPerry">S
                                 Perry</persName>
                             <measure type="currency" unit="£sd" ana="01_11_14">1 11
                             14</measure></item>
-                        <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="5"/></item>
-                        <item>Paid January 1804</item>
+                        <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="5"/><measure
+                                type="currency" unit="£sd" ana="00_03_10">0 3 10 </measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+
+                        <item>Paid <date when="1804-01">January 1804</date>
+                            <measure type="currency" unit="£sd" ana="10_10_14">10 10 14 </measure>
+                        </item>
+
                     </list>
                 </div>
             </div>
@@ -1995,23 +2038,25 @@
             </div>
 
             <!--Page 22-->
+            <!-- RJP:2017-09-10: This page has portions with the black x hand. Be sure to include in tei:Header -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_022.jpg">
                 <div type="group">
-                    <head><persName ref="WilliamMorehouse">William Morehouse</persName></head>
+                    <head><persName ref="WilliamMorehouse">William Morehouse</persName> <g ref="#afterName"/></head>
                     <list type="entry">
                         <head>
                             <date when="1799-09-22">Sept 29 1799</date>
                         </head>
-                        <item>To Shear Sheep 1/ To Set Shears <measure type="currency" unit="£sd"
+                        <item>toe one <g ref="#longHyphen" n="2"/></item>
+                        <item>To <choice><sic>Shearp</sic> <reg resp="#SG">Sheep</reg></choice> Shear 1/ To Set <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#SG">of</supplied></unclear> Shears <measure type="currency" unit="£sd"
                                 ana="00_02_06">0 2 6</measure>
                         </item>
                     </list>
                     <list type="entry">
-                        <head><date when="1799-12">Decd 1799</date></head>
-                        <item>To Set Shears <g ref="#longHyphen" n="3"/><measure type="currency"
+                        <head><date when="1799-12">Decd. 1799</date></head>
+                        <item>To Set <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#SG">of</supplied></unclear> Shears <g ref="#longHyphen" n="3"/><measure type="currency"
                                 unit="£sd" ana="00_01_00">0 1 0</measure></item>
-                        <item>To Shoeing horse New <unclear quantity="1" unit="words"
-                                reason="illegible"/>toes <g ref="#longHyphen" n="2"/>
+                        <item>To <choice><sic>Shewing</sic><reg resp="#SG">Shoeing</reg></choice> horse New <unclear quantity="1" unit="words"
+                                reason="illegible"><supplied resp="#SG">Set</supplied></unclear>toes <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_06_00">0 6
                             0</measure></item>
                     </list>
@@ -2020,12 +2065,11 @@
                         <item><g ref="#stItem"/> Make <unclear quantity="1" unit="words"
                                 reason="illegible"/> iron <g ref="#longHyphen" n="3"/><measure
                                 type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
-                        <!-- below item has no pound amount-->
-                        <item><g ref="#stItem"/> Shoeing horse New my iron &amp; Steel <measure
-                                type="currency" unit="£sd" ana="00_03_00"> 0 3 0</measure></item>
+                       <item><g ref="#stItem"/> <choice><sic>Shewing</sic><reg resp="#SG">Shoeing</reg></choice> horse New my iron &amp; Steel <measure
+                                type="currency" unit="£sd" ana="00_03_00">  3 0</measure></item>
                         <item><g ref="#stItem"/>
                             <unclear quantity="1" unit="words" reason="illegible"/> Lumbers /6 to
-                            Lay and 4/ <measure type="currency" unit="£sd" ana="00_04_06">0 4
+                            Lay <unclear quantity="1" unit="words" reason="illegible"><supplied resp="#SG">and</supplied></unclear> 4/ <measure type="currency" unit="£sd" ana="00_04_06">0 4
                                 6</measure></item>
                     </list>
                     <list type="entry">
@@ -3350,7 +3394,7 @@
                     <birth when="1780"/>
                     <death when="1866"/>
                     <occupation>Merchant and Ship Owner</occupation>
-                    
+
                 </person>
 
                 <person xml:id="DavidPenfield">
@@ -3361,7 +3405,7 @@
                     <birth when="1769"/>
                     <death when="1845"/>
                     <occupation>Owned Ash Creek Mill and Black Rock Wharf</occupation>
-                    
+
                 </person>
 
                 <person xml:id="EbenBartram">
@@ -3372,7 +3416,7 @@
                     <birth when="1762"/>
                     <occupation>merchant</occupation>
                     <note type="spouse">Abigail Jennings</note>
-                    
+
                 </person>
 
                 <person xml:id="JobBartram">
@@ -3383,7 +3427,7 @@
                     <death when="1787"/>
                     <occupation>Sea Captain</occupation>
                     <note type="spouse">Ruth Holberton</note>
-                    
+
                 </person>
 
                 <person xml:id="RichardHall">
@@ -3398,7 +3442,7 @@
                         <surname>Thorp</surname>
                         <forename type="first">Will</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="JosephPerry">
@@ -3406,7 +3450,7 @@
                         <surname>Perry</surname>
                         <forename type="first">Joseph</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="AmosLock">
@@ -3414,7 +3458,7 @@
                         <surname>Lock</surname>
                         <forename type="first">Amos</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="CaptAllen">
@@ -3422,7 +3466,7 @@
                         <surname>Allen</surname>
                         <forename type="first">Capt</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="WalterLynde">
@@ -3430,7 +3474,7 @@
                         <surname>Lynde</surname>
                         <forename type="first">Walter</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="NathanielBurr">
@@ -3438,7 +3482,7 @@
                         <surname>Burr</surname>
                         <forename type="first">Nathaniel</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="NabbySquire">
@@ -3446,7 +3490,7 @@
                         <surname>Squire</surname>
                         <forename type="first">Nabby</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="HannaBurr">
@@ -3454,7 +3498,7 @@
                         <surname>Burr</surname>
                         <forename type="first">Hanna</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="JohnWheeler">
@@ -3462,7 +3506,7 @@
                         <surname>Wheeler</surname>
                         <forename type="first">John</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="AndrewWakemen">
@@ -3470,7 +3514,7 @@
                         <surname>Wakemen</surname>
                         <forename type="first">Andrew</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="AndrewMaClery">
@@ -3478,7 +3522,7 @@
                         <surname>MaClery</surname>
                         <forename type="first">Andrew</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="WalterBudington">
@@ -3486,7 +3530,7 @@
                         <surname>Budington</surname>
                         <forename type="first">Walter</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="SamuelStaples">
@@ -3494,7 +3538,7 @@
                         <surname>Staples</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="EathanShearwood">
@@ -3502,7 +3546,7 @@
                         <surname>Shearwood</surname>
                         <forename type="first">Eathan</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="DavidJudson">
@@ -3519,7 +3563,7 @@
                         <surname>Sturges</surname>
                         <forename type="first">Joseph</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="MRisley">
@@ -3527,7 +3571,7 @@
                         <surname>Risley</surname>
                         <forename type="first">M</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="SamuelPenfield">
@@ -3535,7 +3579,7 @@
                         <surname>Penfield</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="DavidHubble">
@@ -3543,7 +3587,7 @@
                         <surname>Hubble</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="BarlowSturges">
@@ -3551,7 +3595,7 @@
                         <surname>Sturges</surname>
                         <forename type="first">Barlow</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="OnifiemanHubble">
@@ -3559,7 +3603,7 @@
                         <surname>Onifieman</surname>
                         <forename type="first">Barlow</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="CalebBrewster">
@@ -3567,7 +3611,7 @@
                         <surname>Brewster</surname>
                         <forename type="first">Brewster</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="AronTurney">
@@ -3575,7 +3619,7 @@
                         <surname>Turney</surname>
                         <forename type="first">Aron</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="MaryOlson">
@@ -3583,7 +3627,7 @@
                         <surname>Olson</surname>
                         <forename type="first">Mary</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="LewisGoodsell">
@@ -3591,7 +3635,7 @@
                         <surname>Goodsell</surname>
                         <forename type="first">Lewis</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="ThomasHull">
@@ -3599,7 +3643,7 @@
                         <surname>Hull</surname>
                         <forename type="first">Thomas</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="DavidBradley">
@@ -3607,7 +3651,7 @@
                         <surname>Bradley</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="BradleyBulkley">
@@ -3615,7 +3659,7 @@
                         <surname>Bulkley</surname>
                         <forename type="first">Bradley</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="MarySquire">
@@ -3623,7 +3667,7 @@
                         <surname>Squire</surname>
                         <forename type="first">Mary</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="LyndeWalter">
@@ -3631,7 +3675,7 @@
                         <surname>Walter</surname>
                         <forename type="first">Lynde</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="ElijahTurney">
@@ -3639,7 +3683,7 @@
                         <surname>Turney</surname>
                         <forename type="first">Elijah</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="IsiahJennings">
@@ -3647,7 +3691,7 @@
                         <surname>Jennings</surname>
                         <forename type="first">Isiah</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="SamuelBradley">
@@ -3655,7 +3699,7 @@
                         <surname>Bradley</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    
+
                 </person>
 
 
@@ -3664,7 +3708,7 @@
                         <surname>Perry</surname>
                         <forename type="first">Miah</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="IsaacHenmans">
@@ -3672,7 +3716,7 @@
                         <surname>Henmans</surname>
                         <forename type="first">Isaac</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="HezekiahObsorn">
@@ -3680,7 +3724,7 @@
                         <surname>Osborn</surname>
                         <forename type="first">Hezekiah</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="OziasBurr">
@@ -3688,7 +3732,7 @@
                         <surname>Burr</surname>
                         <forename type="first">Ozias</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="BenjaminSturges">
@@ -3696,7 +3740,7 @@
                         <surname>Sturges</surname>
                         <forename type="first">Benjamin</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="AndrewBartholomew">
@@ -3704,7 +3748,7 @@
                         <surname>Bartholomew</surname>
                         <forename type="first">Andrew</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="DavidHoddsden">
@@ -3712,7 +3756,7 @@
                         <surname>Hoddsden</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="EzekielHull">
@@ -3720,7 +3764,7 @@
                         <surname>Hull</surname>
                         <forename type="first">Ezekiel</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="SamuelRead">
@@ -3728,7 +3772,7 @@
                         <surname>Read</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="DanielGregory">
@@ -3736,7 +3780,7 @@
                         <surname>Gregory</surname>
                         <forename type="first">Daniel</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="DanielSMesser">
@@ -3744,7 +3788,7 @@
                         <surname>Daniel</surname>
                         <forename type="first">Messer</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="UriahBuckley">
@@ -3752,7 +3796,7 @@
                         <surname>Buckley</surname>
                         <forename type="first">Uriah</forename>
                     </persName>
-                    
+
                 </person>
 
                 <person xml:id="WilliamMorehourse">
@@ -3760,7 +3804,7 @@
                         <surname>Morehourse</surname>
                         <forename type="first">William</forename>
                     </persName>
-                    
+
                 </person>
             </listPerson>
             <!-- List of Places -->
