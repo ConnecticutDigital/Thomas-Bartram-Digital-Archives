@@ -23,7 +23,7 @@
                 </respStmt>
                 <!-- Add a respStmt for each transcriber -->
                 <respStmt>
-                    <resp>XML mentorship provided by </resp>
+                    <resp>XML mentorship, encoding and processing provided by </resp>
                     <persName xml:id="RP">Rebecca Parker</persName>
                 </respStmt>
                 <respStmt>
