@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="../ODD_Schema/out/BartramODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -139,7 +139,7 @@
                     <head><persName ref="#ThomasBartram">Thomas Bartram</persName></head>
                     <list type="entry">
                         <item>Book Bought of <persName ref="SethPerry">Seth Perry</persName>
-                            <date when="1801-24-12">December 24 1801</date></item>
+                            <date when="1801-12-24">December 24 1801</date></item>
                         <item>Price 6/6 dollars</item>
                     </list>
                 </div>
@@ -1370,7 +1370,7 @@
                     <!--January faintly written-->
                     <list type="entry">
                         <head>
-                            <date when="1806-02-31">February 31 1806</date>
+                            <date when="1806-02-03">February 3 1806</date>
                         </head>
                         <item>This Day Settled all accounts to this Date Onifimius hubbell</item>
                     </list>
@@ -1512,7 +1512,7 @@
                     </list>
                     <list type="entry">
                         <head>
-                            <date when="1807-02-015">February 15 1807</date>
+                            <date when="1807-02-15">February 15 1807</date>
                         </head>
                         <item><g ref="#stItem"/> New hook &amp; <unclear quantity="2" unit="chars"
                                 reason="illegible"/> Links Charge my iron <measure type="currency"
@@ -1883,13 +1883,15 @@
                 </div>
             </div>
             <!--    Page 20-->
+            <!-- RJP:2017-09-10: This page has portions with the black x hand. Be sure to include in tei:Header -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_020.jpg">
                 <div type="group">
                     <head><persName ref="#SamuelRead">Samuel Read</persName></head>
                     <list type="entry">
                         <head>
                             <date when="1802-04-01">April 1 1802</date></head>
-                        <item><g ref="#stItem"/> Mend hook &amp; new link shot <measure
+                        <item><g ref="#stItem"/> Mend hook &amp; New link <choice><unclear reason="illegible" unit="words" quantity="1"><supplied resp="#SG" n="1">shil</supplied>
+                            <supplied cert="high" resp="#SG #RP" n="2">shot</supplied></unclear></choice> <measure
                                 type="currency" unit="£sd" ana="03_02_04">3 2 4</measure></item>
                         <item><g ref="#stItem"/> Mend Peat &amp; Dung fork <measure type="currency"
                                 unit="£sd" ana="00_02_03">0 2 3</measure></item>

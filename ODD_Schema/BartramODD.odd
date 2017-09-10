@@ -33,7 +33,8 @@
                include="author date desc graphic p pubPlace resp respStmt title head list item note measure choice sic reg unclear add"/>
             <moduleRef key="header"
                include="teiHeader authority availability handNote idno licence principal profileDesc publicationStmt sourceDesc sponsor titleStmt edition editionStmt editorialDecl encodingDesc fileDesc"/>
-            <moduleRef key="textstructure"/><!-- include="TEI back div" -->
+            <moduleRef key="textstructure"/>
+            <!-- include="TEI back div" -->
             <!-- Optional Modules -->
             <moduleRef key="namesdates"
                include="orgName placeName addName forename genName geo listPerson listPlace listOrg location persName person place surname birth death occupation"/>
@@ -53,11 +54,14 @@
                      <valList type="closed">
                         <valItem ident="#RF"/>
                         <valItem ident="#BN"/>
-                        <valItem ident="#RP"/> <!-- Rebecca Parker -->
+                        <valItem ident="#RP"/>
+                        <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
-                        <valItem ident="#BC"/> <!-- Bruce Clarke -->
-                        <valItem ident="#DM"/> <!-- Don Marks -->
+                        <valItem ident="#BC"/>
+                        <!-- Bruce Clarke -->
+                        <valItem ident="#DM"/>
+                        <!-- Don Marks -->
                         <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
@@ -217,11 +221,14 @@
                      <valList type="closed">
                         <valItem ident="#RF"/>
                         <valItem ident="#BN"/>
-                        <valItem ident="#RP"/> <!-- Rebecca Parker -->
+                        <valItem ident="#RP"/>
+                        <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
-                        <valItem ident="#BC"/> <!-- Bruce Clarke -->
-                        <valItem ident="#DM"/> <!-- Don Marks -->
+                        <valItem ident="#BC"/>
+                        <!-- Bruce Clarke -->
+                        <valItem ident="#DM"/>
+                        <!-- Don Marks -->
                         <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
@@ -254,11 +261,14 @@
                      <valList type="closed">
                         <valItem ident="#RF"/>
                         <valItem ident="#BN"/>
-                        <valItem ident="#RP"/> <!-- Rebecca Parker -->
+                        <valItem ident="#RP"/>
+                        <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
-                        <valItem ident="#BC"/> <!-- Bruce Clarke -->
-                        <valItem ident="#DM"/> <!-- Don Marks -->
+                        <valItem ident="#BC"/>
+                        <!-- Bruce Clarke -->
+                        <valItem ident="#DM"/>
+                        <!-- Don Marks -->
                         <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
@@ -268,19 +278,37 @@
                <attList>
                   <attDef ident="resp" mode="replace" usage="req">
                      <datatype>
-                        <dataRef key="teidata.pointer"/>
+                        <dataRef key="teidata.word"/>
                      </datatype>
-                     <valList type="closed">
+                     <valList type="open">
                         <valItem ident="#RF"/>
                         <valItem ident="#BN"/>
-                        <valItem ident="#RP"/> <!-- Rebecca Parker -->
+                        <valItem ident="#RP"/>
+                        <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
                         <valItem ident="#RW"/>
-                        <valItem ident="#BC"/> <!-- Bruce Clarke -->
-                        <valItem ident="#DM"/> <!-- Don Marks -->
+                        <valItem ident="#BC"/>
+                        <!-- Bruce Clarke -->
+                        <valItem ident="#DM"/>
+                        <!-- Don Marks -->
                         <valItem ident="#EDITORinitials"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="correct"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="n" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/><!-- If flagged: because of numbers starting with 0 -->
+                        <!--2017-01-20 ebb: The teidata.numeric type has been deprecated, so you want to find an alternate w3c datatype.
+                           We talked about this in Council and the idea is we want to not be duplicating existing datatypes in the w3c.-->
+                     </datatype>
+                    </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="unclear" module="core" mode="change">
@@ -326,60 +354,74 @@
             <constraintSpec scheme="isoschematron" ident="divPage">
                <constraint>
                   <sch:rule context="tei:div[@type='page']">
-                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="current()[@facs]"> The
-                        div element indicating a transcribed/encoded page must have a facs attribute pointing to the manuscript image.</sch:assert>
-                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="count(child::tei:div[@type='group']) ge 1"> The
-                        div element indicating a transcribed/encoded page must have at least one child div @type="group", which contains the group of entries for any single account.</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="current()[@facs]">
+                        The div element indicating a transcribed/encoded page must have a facs
+                        attribute pointing to the manuscript image.</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert
+                        test="count(child::tei:div[@type='group']) ge 1"> The div element indicating
+                        a transcribed/encoded page must have at least one child div @type="group",
+                        which contains the group of entries for any single account.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
             <constraintSpec scheme="isoschematron" ident="divGroup">
                <constraint>
                   <sch:rule context="tei:div[@type='group']">
-                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="count(child::tei:head) eq 1"> Every div @type="group" must have a child head element.</sch:assert>
-                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="count(child::tei:list[@type='entry']) ge 1"> Every div @type="group" must have at least one child list @type="entry".</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert
+                        test="count(child::tei:head) eq 1"> Every div @type="group" must have a
+                        child head element.</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert
+                        test="count(child::tei:list[@type='entry']) ge 1"> Every div @type="group"
+                        must have at least one child list @type="entry".</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
-            
+
             <constraintSpec scheme="isoschematron" ident="lists">
                <constraint>
                   <sch:rule context="tei:list">
-                     <sch:report test="current()[not(child::tei:head)][parent::div[@type='group'][not(child::tei:head)]]"> This list element must have a child head element because the parent div @type="group" does not have a head element.</sch:report>
-                     <sch:assert test="count(child::tei:item) ge 1"> Every list must have at least one child item element.</sch:assert>
+                     <sch:report
+                        test="current()[not(child::tei:head)][parent::div[@type='group'][not(child::tei:head)]]"
+                        > This list element must have a child head element because the parent div
+                        @type="group" does not have a head element.</sch:report>
+                     <sch:assert test="count(child::tei:item) ge 1"> Every list must have at least
+                        one child item element.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
-            
+
             <constraintSpec scheme="isoschematron" ident="date">
                <constraint>
-                  <!-- RJP:2017-01-24:Rule not firing! --><sch:rule context="tei:date[descendant::tei:div]">
-                     <sch:assert test="current()[@when]"> Every date element inside of page transcription must get a when attribute with a iso standard value.</sch:assert>
+                  <!-- RJP:2017-01-24:Rule not firing! --><sch:rule
+                     context="tei:date[descendant::tei:div]">
+                     <sch:assert test="current()[@when]"> Every date element inside of page
+                        transcription must get a when attribute with a iso standard
+                        value.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
-            
+
             <constraintSpec scheme="isoschematron" ident="unclearText">
                <constraint>
                   <sch:rule context="tei:unclear">
-                     <sch:assert test="current()[@reason][@unit][@quantity]"> The
-                        unclear element must have a reason, unit, and quantity attribute.</sch:assert>
+                     <sch:assert test="current()[@reason][@unit][@quantity]"> The unclear element
+                        must have a reason, unit, and quantity attribute.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
             <constraintSpec scheme="isoschematron" ident="suppliedResp">
                <constraint>
                   <sch:rule context="tei:supplied">
-                     <sch:assert test="current()[@resp]"> The
-                        supplied element must have a resp attribute.</sch:assert>
+                     <sch:assert test="current()[@resp]"> The supplied element must have a resp
+                        attribute.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
             <constraintSpec scheme="isoschematron" ident="addResp">
                <constraint>
                   <sch:rule context="tei:add">
-                     <sch:assert test="current()[@resp]">The
-                        supplied element must have a resp attribute.</sch:assert>
+                     <sch:assert test="current()[@resp]">The supplied element must have a resp
+                        attribute.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
@@ -387,12 +429,12 @@
             <constraintSpec scheme="isoschematron" ident="noteResp">
                <constraint>
                   <sch:rule context="tei:note[@type='bio']">
-                     <sch:assert test="@resp">This
-                        note element must have a resp attribute.</sch:assert>
+                     <sch:assert test="@resp">This note element must have a resp
+                        attribute.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>
-<!-- RP RF:2017-01-21: Continue writing schematron constraints: date or persName inside head, etc.... -->
+            <!-- RP RF:2017-01-21: Continue writing schematron constraints: date or persName inside head, etc.... -->
 
             <!-- Sample schematron rule for ODD:
           <constraintSpec scheme="isoschematron" ident="pair_geos">
