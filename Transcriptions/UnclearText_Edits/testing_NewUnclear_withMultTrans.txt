@@ -1,0 +1,25 @@
+
+To mend hook & one New link [[shil, shot]] £3.2.04
+
+	
+	<item>
+		<g ref="#stItem"/> Mend hook &amp; New link 
+		<choice>
+			<unclear reason="illegible" unit="words" quantity="1">
+				<supplied resp="#SG" n="1">shil</supplied>
+                <supplied cert="high" resp="#SG #RP" n="2">shot</supplied>
+			</unclear>
+		</choice> 
+		<measure type="currency" unit="£sd" ana="03_02_04">3 2 4</measure>
+	</item>
+
+To Schooh Shovle [school shovel] £0.4.06
+	
+	<item>
+		<g ref="#stItem"/> 
+		<choice>
+			<sic>Schooh Shovle</sic>
+			<reg resp="#SG">School Shovel</reg>
+		</choice>
+        <measure type="currency" unit="£sd" ana="01_04_06">0 4 6</measure>
+	</item>
