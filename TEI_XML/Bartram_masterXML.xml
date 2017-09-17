@@ -1901,17 +1901,16 @@
                         <item><g ref="#stItem"/> Mend hook &amp; New link <choice>
                                 <unclear reason="illegible" unit="words" quantity="1"><supplied
                                         resp="#SG" n="1">shil</supplied>
-                                    <supplied cert="high" resp="#SG #RP" n="2"
+                                    <supplied cert="medium" resp="#SG #RP" n="2"
                                     >shot</supplied></unclear>
                             </choice>
                             <measure type="currency" unit="£sd" ana="03_02_04">3 2
                             4</measure></item>
                         <item><g ref="#stItem"/> Mend Peat &amp; Dung fork <measure type="currency"
                                 unit="£sd" ana="00_02_03">0 2 3</measure></item>
-                        <item><g ref="#stItem"/> one &amp; half of <choice>
-                                <unclear unit="words" quantity="1" reason="illegible"><supplied
-                                        resp="#SG" cert="high" n="1">iron</supplied></unclear>
-                            </choice>
+                        <item><g ref="#stItem"/> one &amp; half of <unclear unit="words"
+                                quantity="1" reason="illegible"><supplied resp="#SG" cert="high"
+                                    n="1">iron</supplied></unclear>
                             <measure type="currency" unit="£sd" ana="00_00_07">0 0 7</measure>
                         </item>
                         <item>
@@ -2041,22 +2040,33 @@
             <!-- RJP:2017-09-10: This page has portions with the black x hand. Be sure to include in tei:Header -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_022.jpg">
                 <div type="group">
-                    <head><persName ref="WilliamMorehouse">William Morehouse</persName> <g ref="#afterName"/></head>
+                    <head><persName ref="WilliamMorehouse">William Morehouse</persName>
+                        <g ref="#afterName"/></head>
                     <list type="entry">
                         <head>
                             <date when="1799-09-22">Sept 29 1799</date>
                         </head>
                         <item>toe one <g ref="#longHyphen" n="2"/></item>
-                        <item>To <choice><sic>Shearp</sic> <reg resp="#SG">Sheep</reg></choice> Shear 1/ To Set <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#SG">of</supplied></unclear> Shears <measure type="currency" unit="£sd"
-                                ana="00_02_06">0 2 6</measure>
+                        <item>To <choice>
+                                <sic>Shearp</sic>
+                                <reg resp="#SG">Sheep</reg>
+                            </choice> Shear 1/ To Set <unclear reason="illegible" unit="words"
+                                quantity="1"><supplied resp="#SG">of</supplied></unclear> Shears
+                                <measure type="currency" unit="£sd" ana="00_02_06">0 2 6</measure>
                         </item>
                     </list>
                     <list type="entry">
                         <head><date when="1799-12">Decd. 1799</date></head>
-                        <item>To Set <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#SG">of</supplied></unclear> Shears <g ref="#longHyphen" n="3"/><measure type="currency"
-                                unit="£sd" ana="00_01_00">0 1 0</measure></item>
-                        <item>To <choice><sic>Shewing</sic><reg resp="#SG">Shoeing</reg></choice> horse New <unclear quantity="1" unit="words"
-                                reason="illegible"><supplied resp="#SG">Set</supplied></unclear>toes <g ref="#longHyphen" n="2"/>
+                        <item>To Set <unclear reason="illegible" unit="words" quantity="1"><supplied
+                                    resp="#SG">of</supplied></unclear> Shears <g ref="#longHyphen"
+                                n="3"/><measure type="currency" unit="£sd" ana="00_01_00">0 1
+                                0</measure></item>
+                        <item>To <choice>
+                                <sic>Shewing</sic>
+                                <reg resp="#SG">Shoeing</reg>
+                            </choice> horse New <unclear quantity="1" unit="words"
+                                reason="illegible"><supplied resp="#SG">Set</supplied></unclear>toes
+                                <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_06_00">0 6
                             0</measure></item>
                     </list>
@@ -2065,12 +2075,17 @@
                         <item><g ref="#stItem"/> Make <unclear quantity="1" unit="words"
                                 reason="illegible"/> iron <g ref="#longHyphen" n="3"/><measure
                                 type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
-                       <item><g ref="#stItem"/> <choice><sic>Shewing</sic><reg resp="#SG">Shoeing</reg></choice> horse New my iron &amp; Steel <measure
-                                type="currency" unit="£sd" ana="00_03_00">  3 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <choice>
+                                <sic>Shewing</sic>
+                                <reg resp="#SG">Shoeing</reg>
+                            </choice> horse New my iron &amp; Steel <measure type="currency"
+                                unit="£sd" ana="00_03_00"> 3 0</measure></item>
                         <item><g ref="#stItem"/>
                             <unclear quantity="1" unit="words" reason="illegible"/> Lumbers /6 to
-                            Lay <unclear quantity="1" unit="words" reason="illegible"><supplied resp="#SG">and</supplied></unclear> 4/ <measure type="currency" unit="£sd" ana="00_04_06">0 4
-                                6</measure></item>
+                            Lay <unclear quantity="1" unit="words" reason="illegible"><supplied
+                                    resp="#SG">and</supplied></unclear> 4/ <measure type="currency"
+                                unit="£sd" ana="00_04_06">0 4 6</measure></item>
                     </list>
                     <list type="entry">
                         <head><date when="1801-03">March 1801</date></head>
