@@ -46,13 +46,13 @@
     
     <xsl:template match="div[@type = 'page']">
             <div id="page{@facs/tokenize(.,'[_.]')[4]}" class="row">
-            <div class="manu_Image col-xs-6">
+            <div class="manu_Image col-xs-5">
                 <a href="images/{@facs}" target="_blank">
                     <img class="img-responsive" alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
                         src="images/{@facs}"/>
                 </a>
             </div>
-            <div class="manu_Content col-xs-6">
+            <div class="manu_Content col-xs-7">
                 <hr class="pageDivider"/>
                 <span class="pageNum">
                     <xsl:text>Page </xsl:text>
@@ -123,10 +123,16 @@
     </xsl:template>
     <xsl:template match="unclear">
         <xsl:choose>
-            <xsl:when test="child::supplied">
-                <span class="unclear"
+            <xsl:when test="child::supplied[not(@cert)][not(@n)]">
+                <span class="suggest"
                     title="The text provided here was interpreted by a project editor ({//respStmt/persName[@xml:id = current()/supplied/tokenize(@resp,'#')[last()]]}). Reason unclear: {@reason}.">
                     <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="count(child::supplied) > 1">
+                <span class="multSuggest"
+                    title="The text provided here has multiple interpretations by one or more editors. Reason unclear: {@reason}. Other suggestion(s): {child::supplied[not(@cert='high')][1]} {child::supplied[not(@cert='high')][2]}">
+                    <xsl:apply-templates select="child::supplied[@cert='high']"/>
                 </span>
             </xsl:when>
             <xsl:otherwise>
@@ -166,7 +172,7 @@
     <xsl:template match="g[@ref = '#longHyphen']">
         <span class="hyphen"
             title="The actual number of hyphens present here in the manuscript is {@n}; however, we have standardized the number of hyphens appearing here for the sake of web formatting.">
-            <xsl:text>___</xsl:text>
+            <xsl:text>- - - - -</xsl:text>
         </span>
     </xsl:template>
     <xsl:template match="g[@ref = '#currency']">
