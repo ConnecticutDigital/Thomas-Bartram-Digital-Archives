@@ -42,6 +42,7 @@
                             <th>Spouse</th>
 
                             <th>Occupation</th>
+                            
                             <th>Description</th>
                         </tr>
                         <xsl:apply-templates
@@ -56,6 +57,7 @@
     </xsl:template>
     <xsl:template match="person">
         <xsl:variable name="ID" select="@xml:id"/>
+        <xsl:variable name="ref" select="tokenize(@ref,'#')[last()]"/>
         <tr>
 
             <td>
@@ -72,7 +74,7 @@
             </td>
 
             <td>
-                <xsl:value-of select="count(//persName[@ref eq $ID])"/>
+                <xsl:value-of select="count(//persName[@ref/tokenize(., '#')[2] eq current()/@xml:id])"/>
             </td>
 
             <td>

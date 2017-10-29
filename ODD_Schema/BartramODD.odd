@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--RJP:2017-10-28: NOT BEING USED DUE TO ERRORS - XML IS CONTROLLED BY Bartram_schema.sch -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
    xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
    <teiHeader>
@@ -264,7 +265,6 @@
                         <valItem ident="#RP"/>
                         <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
-                        <valItem ident="#RW"/>
                         <valItem ident="#BC"/>
                         <!-- Bruce Clarke -->
                         <valItem ident="#DM"/>
