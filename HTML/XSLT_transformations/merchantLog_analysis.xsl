@@ -42,30 +42,31 @@
                                     select="count(distinct-values(descendant::body/descendant::measure/@commodity))"
                                 /></strong></li>
                         <li>Instances of unclear/missing text: <strong><xsl:apply-templates
-                                    select="count(descendant::body//unclear)"/></strong></li>
+                                    select="count(descendant::body//unclear[not(child::supplied)])"
+                                /></strong></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 center-block">
                     <h2>Help us transcribe!</h2>
-                    <p>Below is a table displaying portions of text that our transcribers are unsure
-                        of and we have marked as unclear/missing. We ask that if you can figure out
-                        what the missing/unclear text is that you send our project manager, Robert
-                        Foley, an email (bportnow at gmail dot com) that includes your
-                        transcription, the unclear ID, and your full name so we can credit you with
-                        the transcription. When you click on the page, to view the missing/unclear
-                        text, you can see all of the missing/unclear text on the page is in <span
-                            class="unclear">RED</span>. Thank you!</p>
+                    <p>Below is a table displaying portions of text where our transcribers could not
+                        determine what was written. We ask that if you can figure out what the
+                        missing/unclear text is that you fill out our <a href="contact.html"
+                            target="_blank">contact form</a> and let us know of your best guess.
+                        When you click on the page, to view the missing/unclear text, you can see
+                        all of the missing/unclear text on the page is in <span class="unclear"
+                            >RED</span>. Thank you!</p>
                     <table class="table">
                         <tr>
                             <th>Unclear ID</th>
                             <th>Page of Missing/Unclear Text</th>
                             <th>Person Associated with the Missing/Unclear Text</th>
                             <th>Units of Missing/Unclear Text</th>
-                            <th>Surrounding Text</th>
-                            <th>Our Best Guess</th>
+                            <!--<th>Surrounding Text</th>-->
+                            <!--<th>Our Best Guess</th>-->
                         </tr>
 
-                        <xsl:apply-templates select="descendant::body/descendant::unclear"
+                        <xsl:apply-templates
+                            select="descendant::body/descendant::unclear[count(child::supplied) eq 0]"
                             mode="unclearText"/>
 
                     </table>
@@ -75,7 +76,8 @@
     </xsl:template>
     <xsl:template match="unclear" mode="unclearText">
         <tr>
-            <td>ID_<xsl:apply-templates select="count(preceding::unclear) + 1"/></td>
+            <td>ID_<xsl:apply-templates select="count(preceding::unclear[not(child::supplied)]) + 1"
+                /></td>
             <td>
                 <a
                     href="merchantLog.html#page{ancestor::div[@type = 'page'][1]/@facs/tokenize(.,'[_.]')[4]}"
@@ -106,7 +108,7 @@
                     </xsl:when>
                 </xsl:choose>
             </td>
-            <td>
+            <!--<td>
                 <xsl:choose>
                     <xsl:when test="ancestor::head">
                         <xsl:apply-templates select="ancestor::head"/>
@@ -115,8 +117,8 @@
                         <xsl:apply-templates select="ancestor::item"/>
                     </xsl:when>
                 </xsl:choose>
-            </td>
-            <td>
+            </td>-->
+            <!--<td>
                 <xsl:choose>
                     <xsl:when test="child::supplied[not(child::choice)]">
                         <xsl:for-each select="child::supplied">
@@ -134,7 +136,7 @@
                     </xsl:when>
                     <xsl:when test="not(child::supplied)">No Guess</xsl:when>
                 </xsl:choose>
-            </td>
+            </td>-->
         </tr>
     </xsl:template>
 </xsl:stylesheet>

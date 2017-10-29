@@ -2,7 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--RJP:2017-10-28: NOT BEING USED DUE TO ERRORS - XML IS CONTROLLED BY Bartram_schema.sch -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
    xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
    <teiHeader>
@@ -265,6 +264,7 @@
                         <valItem ident="#RP"/>
                         <!-- Rebecca Parker -->
                         <valItem ident="#SG"/>
+                        <valItem ident="#RW"/>
                         <valItem ident="#BC"/>
                         <!-- Bruce Clarke -->
                         <valItem ident="#DM"/>
@@ -341,7 +341,42 @@
                </attList>
             </elementSpec>
 
-            
+            <!--2017-01-24:RJP: NOT FIRING!
+               <constraintSpec scheme="isoschematron" ident="unusualSpelling">
+               <constraint>
+                  <sch:rule context="tei:choice">
+                     <sch:assert test="count(child::tei:reg) = 1 and count(child::tei:sic) = 1"> The
+                        choice element must contain both a reg and a sic element. </sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            -->
+            <constraintSpec scheme="isoschematron" ident="divPage">
+               <constraint>
+                  <sch:rule context="tei:div[@type='page']">
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert test="current()[@facs]">
+                        The div element indicating a transcribed/encoded page must have a facs
+                        attribute pointing to the manuscript image.</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert
+                        test="count(child::tei:div[@type='group']) ge 1"> The div element indicating
+                        a transcribed/encoded page must have at least one child div @type="group",
+                        which contains the group of entries for any single account.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="isoschematron" ident="divGroup">
+               <constraint>
+                  <sch:rule context="tei:div[@type='group']">
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert
+                        test="count(child::tei:head) eq 1"> Every div @type="group" must have a
+                        child head element.</sch:assert>
+                     <!-- RJP:2017-01-24:Rule not firing! --><sch:assert
+                        test="count(child::tei:list[@type='entry']) ge 1"> Every div @type="group"
+                        must have at least one child list @type="entry".</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+
             <constraintSpec scheme="isoschematron" ident="lists">
                <constraint>
                   <sch:rule context="tei:list">
@@ -351,6 +386,17 @@
                         @type="group" does not have a head element.</sch:report>
                      <sch:assert test="count(child::tei:item) ge 1"> Every list must have at least
                         one child item element.</sch:assert>
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+
+            <constraintSpec scheme="isoschematron" ident="date">
+               <constraint>
+                  <!-- RJP:2017-01-24:Rule not firing! --><sch:rule
+                     context="tei:date[descendant::tei:div]">
+                     <sch:assert test="current()[@when]"> Every date element inside of page
+                        transcription must get a when attribute with a iso standard
+                        value.</sch:assert>
                   </sch:rule>
                </constraint>
             </constraintSpec>

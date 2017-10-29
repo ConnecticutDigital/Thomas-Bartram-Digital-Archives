@@ -1,0 +1,94 @@
+﻿<?xml-model href="../../TEI_XML/Bartram_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<xml>
+    <!-- #BN:2017-09-21:
+Beth Northrop #BN 
+Bartram-Thomas_Vol-001_1801-1819_041.jpg 
+Headings: L William Morehouse , Credit  
+Side: right -->
+
+    <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_041.jpg">
+        <div type="group">
+            <head>
+                <persName ref="#WilliamMorehouse">L <choice><sic>william</sic>
+                        <reg resp="#BN">William</reg></choice> Morehouse</persName>
+                <!-- #BN:2017-09-17:From Heritage Quest - there is a single William Morehouse census listing in 1800 and two William Morehouse listings in 1810.  The smudged “L” before William might be a disambiguation between 2 Williams that could represent an initial, a title, such as Lt. or even an attempt to erase. -->
+                <g ref="#afterName"/>
+                <!-- #BN:2017-09-17: Same 3 loop ornamental figure after all customers.-->
+            </head>
+            <list type="entry">
+                <head>
+                    <date when="1805-01-15"><choice><sic>Janury</sic><reg resp="#BN"
+                            >January</reg></choice> 15 1805</date>
+                </head>
+                <item><g ref="#stItem"/> Cash $ 47 <unclear reason="strikethrough" unit="words"
+                        quantity="1"><supplied resp="#BN">Dollars</supplied></unclear> - 5 7
+                    0</item>
+            </list>
+        </div>
+        <div type="group">
+            <head>Credit</head>
+            <list type="entry">
+                <head>
+                    <date when="1806-01-09"><choice><sic>Janury</sic><reg resp="#BN"
+                            >January</reg></choice> 9 1806</date>
+                </head>
+                <item> By one Day work Graving <!-- #BN:2017-09-17: "Graving [BreamingJ. The practice of cleaning a hull's bottom -by burning barnacles, grass, and other foul material preparatory to recoating it with tar, sulphur, etc. The vessel was careened or drydocked to perform this task." https://brown.edu/Departments/Joukowsky_Institute/courses/maritimearchaeology11/files/17920584.pdf  Very good maritime reference.-->
+                    <choice><sic>vessell</sic><reg resp="#BN">vessel</reg></choice>. <measure
+                        type="currency" unit="" ana="00_04_00">0 4 0</measure>
+                    <!-- #BN:2017-09-26: It appears he shifted currency down below text for this first line amount.--></item>
+                <item>By Carting 3 <choice><sic>bords</sic><reg resp="#BN">boards</reg></choice>
+                    from <unclear><supplied resp="#BN #RP" n="1" cert="high">V Bull
+                            Stone</supplied><supplied resp="#BN" n="2" cert="low">V Bull
+                            Store</supplied></unclear>
+                    <!-- # EJ 9-26-17 Perhaps a person related to Leman Stone 2 pages after “Caleb Bruster“ 1790 Black Rock census.  It is also possible that Bull Stone is the name of a vessel.-->
+                    <measure type="currency" unit="" ana="00_00_09"> 0 9</measure></item>
+                <item>By <choice><sic>Cart</sic><reg resp="#BN">Carting</reg></choice> Dung half Day
+                        <g ref="#longHyphen" n="3"/>
+                    <measure type="currency" unit="" ana="00_04_00">0 4 0</measure></item>
+            </list>
+        </div>
+
+        <div type="group">
+            <list type="entry">
+                <item>By half <choice><sic>Barril</sic><reg resp="#BN">barrel</reg></choice>
+                    <!-- #BN:2017-09-26: An “X” appears on top of cyder extending down on top of apples. Unable to determine meaning.-->
+                    <choice><sic>Cyder</sic><reg resp="#BN">cider</reg></choice>
+                    <g ref="#longHyphen" n="3"/>
+                    <measure type="currency" unit="" ana="00_04_06">0 4 6</measure></item>
+                <item>By 2 <choice><sic>bush</sic><reg resp="#BN">bushels</reg></choice> apples
+                            <unclear><supplied resp="#BN" n="1" cert="low">one
+                            2/</supplied><supplied resp="#BN #RP" n="2" cert="high">one
+                            3/</supplied></unclear><!-- #BN:2017-09-26: This might refer to either the source, the variety or quality of apples.-->
+                    <g ref="#longHyphen" n="1"/>
+                    <measure type="currency" unit="" ana="00_05_00">0 5 0</measure></item>
+            </list>
+            <list type="entry" subtype="total">
+                <item>
+                    <measure type="currency" unit="" ana="00_00_06"> 6</measure>
+                </item>
+            </list>
+        </div>
+
+        <div type="group">
+            <list type="entry">
+                <head>
+                    <date when="1806-09"><choice><sic>Sept</sic><reg resp="#BN"
+                            >September</reg></choice> 1806</date>
+                </head>
+                <item>By 2 <choice><sic>bush</sic><reg resp="#BN">bushels</reg></choice> apples <g
+                        ref="#longHyphen" n="1"/>
+                    <measure type="currency" unit="" ana="00_04_00">0 4 0</measure></item>
+            </list>
+            <list type="entry">
+                <head>
+                    <date when="1806-12"><choice><sic>Decd</sic><reg resp="#BN"
+                            >December</reg></choice> 1806</date>
+                </head>
+                <item>By Carting one Load wood <g ref="#longHyphen" n="2"/>
+                    <measure type="currency" unit="" ana="00_07_06">0 7 6</measure></item>
+                <item>By Carting one Load wood <g ref="#longHyphen" n="2"/>
+                    <measure type="currency" unit="" ana="00_07_06">0 7 6</measure></item>
+            </list>
+        </div>
+    </div>
+</xml>

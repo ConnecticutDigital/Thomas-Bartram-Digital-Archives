@@ -1,0 +1,48 @@
+﻿<?xml-model href="../../TEI_XML/Bartram_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<xml>
+    <!-- #BN
+Beth Northrop #BN 
+Bartram-Thomas_Vol-001_1801-1819_043.jpg 
+Headings:Hezekiah Banks, Cred
+Side: right -->
+
+    <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_041.jpg">
+        <head>[person] Hezekiah Banks [person] <unclear><supplied resp="#BN" n="1" cert="high"
+                    >Jun</supplied><supplied resp="#RP" n="2" cert="medium">Son</supplied></unclear>
+            <g ref="#afterName"/>
+            <!--#BN 2017-09-30: Same 3 loop ornamental figure after all 
+customers.--> of [place]
+            Weston [place]</head>
+        <div type="group">
+            <list type="entry">
+                <head>May 8 1808</head>
+                <item>To one Calf [calf] 3 daye [days] old <g ref="#longHyphen" n="1"/> 0 9 0</item>
+            </list>
+        </div>
+        <div type="group">
+            <list type="entry">
+                <item>Bought the Cow [cow] that the Calf [calf]</item>
+                <item>That [that] [person] Mr Banks [person] had of [person] Mr Oakley
+                    [person]</item>
+                <item>of weston [Weston] Living [living] Next [next] Door [door]</item>
+                <item>to [person] Jerry Oakley [person] the Joiner [joiner]</item>
+                <!--#BN 2017-09-30: These four lines vary in indentation.-->
+            </list>
+        </div>
+        <!--#BN 2017-09-30: horizontal line spans page separating cow section and blank section. -->
+        <!--#BN 2017-09-30: horizontal line spans page separating blank section and Credit section.-->
+        <div type="group">
+            <head>Credit <g ref="#longHyphen" n="1"/></head>
+            <list type="entry">
+                <head>Decem [December] 26 1807</head>
+                <item>By one bucket for well with</item>
+                <item>out any Hoops [hoops] <!--#BN 2017-09-30: Images &amp; descriptions of bucket types are shown on this web page: 
+https://permies.com/t/37539/coopering-making-wooden-buckets.-->
+                    <g ref="#longHyphen" n="3"/>
+                </item>
+                <item>by one Churn [churn] <g ref="#longHyphen" n="1"/>
+                </item>
+            </list>
+        </div>
+    </div>
+</xml>
