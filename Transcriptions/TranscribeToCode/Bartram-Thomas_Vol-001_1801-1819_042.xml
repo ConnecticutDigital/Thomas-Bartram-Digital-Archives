@@ -1,0 +1,49 @@
+﻿<?xml-model href="../../TEI_XML/Bartram_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<xml>
+    <!--#BN
+Beth Northrop #BN 
+Bartram-Thomas_Vol-001_1801-1819_042.jpg 
+Headings: Joseph Perry , Wakeman, Lewis
+Side: left -->
+
+    <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_042.jpg">
+        <div type="group">
+            <head>[person] Joseph Perry [person] <g ref="#afterName"/>
+                <!--#BN 2017-09-26: Same 3 loop ornamental figure 
+after all customers.--> Little
+                [?Moon, Man, Muse]
+                <!--#BN 2017-09-30: I believe the X is a flourish on the Y of Perry.--></head>
+            <list type="entry">
+                <head>Sept [September] 1804</head>
+                <item>To 25 lb Reaming [reaming] iron
+                    <!--#BN 2017-09-26: "Reaming iron...An iron chisel used for opening planking seams for 
+caulking." 
+https://brown.edu/Departments/Joukowsky_Institute/courses/maritimearchaeology11/files/17920584.pdf-->
+                    at 7 cents 0 10 0</item>
+            </list>
+        </div>
+        <div type="group">
+            <head>[person] Charles Wakeman [person] <g ref="#afterName"/>
+                <!--#BN 2017-09-26: Same 3 loop ornamental figure after all 
+customers.--></head>
+            <list type="entry">
+                <head>June 16 1805</head>
+                <item>To horse hire to [person] Joseph Lyons [person] 0 2 0</item>
+            </list>
+        </div>
+        <div type="group">
+            <head>[person]Nathan Lewis of Derby [person] <g ref="#afterName"/></head>
+            <!--#BN 2017-09-26: Same 3 loop ornamental figure after all 
+customers.-->
+            <!--#BN 2017-09-26: horizontal line spans page under Nathan Lewis name-->
+            <list type="entry">
+                <head>January 30 1806</head>
+                <item>To 3 Drawing [drawing] Nives [knives] at 5/ <g ref="#longHyphen" n="2"/> 0 15 0</item>
+            </list>
+            <list type="entry">
+                <head>Feb 26 1813</head>
+                <item>To 2 Drawing [drawing] Nifes [knives] 5/6 <g ref="#longHyphen" n="1"/> 11 [0]</item>
+            </list>
+        </div>
+    </div>
+</xml>
