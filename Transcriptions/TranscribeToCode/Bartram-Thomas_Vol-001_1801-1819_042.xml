@@ -8,41 +8,41 @@ Side: left -->
 
     <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_042.jpg">
         <div type="group">
-            <head>[person] Joseph Perry [person] <g ref="#afterName"/>
+            <head><persName ref="#JosephPerry">Joseph Perry</persName> <g ref="#afterName"/>
                 <!--#BN 2017-09-26: Same 3 loop ornamental figure 
 after all customers.--> Little
-                [?Moon, Man, Muse]
+                <unclear reason="illegible" unit="word" quantity="1"><supplied n="1" cert="high" resp="#BN #RP">Moon</supplied><supplied resp="#BN" cert="low" n="2">Man</supplied><supplied n="3" cert="low" resp="#BN">Muse</supplied></unclear>
                 <!--#BN 2017-09-30: I believe the X is a flourish on the Y of Perry.--></head>
             <list type="entry">
-                <head>Sept [September] 1804</head>
-                <item>To 25 lb Reaming [reaming] iron
+                <head><date when="1804-09">Sept 1804</date></head>
+                <item>To 25 lb Reaming iron
                     <!--#BN 2017-09-26: "Reaming iron...An iron chisel used for opening planking seams for 
 caulking." 
 https://brown.edu/Departments/Joukowsky_Institute/courses/maritimearchaeology11/files/17920584.pdf-->
-                    at 7 cents 0 10 0</item>
+                    at 7 cents <measure type="currency" unit="" ana="00_10_00">0 10 0</measure></item>
             </list>
         </div>
         <div type="group">
-            <head>[person] Charles Wakeman [person] <g ref="#afterName"/>
+            <head><persName ref="#CharlesWakeman">Charles Wakeman</persName> <g ref="#afterName"/>
                 <!--#BN 2017-09-26: Same 3 loop ornamental figure after all 
 customers.--></head>
             <list type="entry">
-                <head>June 16 1805</head>
-                <item>To horse hire to [person] Joseph Lyons [person] 0 2 0</item>
+                <head><date when="1805-06-16">June 16 1805</date></head>
+                <item>To horse hire to <persName ref="#JosephLyons">Joseph Lyons</persName> <measure type="currency" unit="" ana="00_02_00">0 2 0</measure></item>
             </list>
         </div>
         <div type="group">
-            <head>[person]Nathan Lewis of Derby [person] <g ref="#afterName"/></head>
+            <head><persName ref="#NathanLewis">Nathan Lewis</persName> of <placeName ref="#Derby">Derby</placeName> <g ref="#afterName"/></head>
             <!--#BN 2017-09-26: Same 3 loop ornamental figure after all 
 customers.-->
             <!--#BN 2017-09-26: horizontal line spans page under Nathan Lewis name-->
             <list type="entry">
-                <head>January 30 1806</head>
-                <item>To 3 Drawing [drawing] Nives [knives] at 5/ <g ref="#longHyphen" n="2"/> 0 15 0</item>
+                <head><date when="1806-01-30">January 30 1806</date></head>
+                <item>To 3 Drawing <choice><sic>Nives</sic><reg resp="#BN">knives</reg></choice> at 5/ <g ref="#longHyphen" n="2"/> <measure type="currency" unit="" ana="00_15_00">0 15 0</measure></item>
             </list>
             <list type="entry">
-                <head>Feb 26 1813</head>
-                <item>To 2 Drawing [drawing] Nifes [knives] 5/6 <g ref="#longHyphen" n="1"/> 11 [0]</item>
+                <head><date when="1813-02-26">Feb 26 1813</date></head>
+                <item>To 2 Drawing] Nifes <choice><sic>Nives</sic><reg resp="#BN">knives</reg></choice> 5/6 <g ref="#longHyphen" n="1"/> <measure type="currency" unit="" ana="00_11_00">11</measure></item>
             </list>
         </div>
     </div>
