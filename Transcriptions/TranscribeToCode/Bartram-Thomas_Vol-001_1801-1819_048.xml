@@ -1,0 +1,82 @@
+﻿<?xml-model href="../../TEI_XML/Bartram_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<xml>
+<!-- #BN:2017-09-30: Beth Northrop #EJ 
+Bartram-Thomas_Vol-001_1801-1819_048.jpg 
+Headings: Lewis Goodsell Jn
+Side: left -->
+
+<div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_048.jpg">
+[! #EJ 2017-09-30: The currency column has numerous short vertical lines which are likely calculation marks from 
+“carrying over”.]
+March 4 1804 [person] Lewis Goodsell Jn [person] flourish [! #EJ 2017-09-30: Same 3 loop ornamental figure after all 
+customers.]
+March 5 To Cash 62$ 50 Centh [cents] - - - 18 15 0
+To Cash 55$ - - - - - 16 10 0
+April 8 1805 To Cash 20$ - - - - - - 6 0 0
+To Cash paid for Iron & Spikes rods in N York [New York] Lawfut [lawful] M [money] [! #EJ 2017-10-1: Lawful money 
+text is in the currency column and appears to refer to the currency number directly below his note.]
+13 4 0
+To Carting iron & rigging in N-York [New York] - 0 3 0
+28 To freight oniron [on iron] & rigging paid [person] Malbie [Maltbie] [person] [! #EJ 2017-09-17: Perhaps this 
+refers to a son of Capt Jonathan Maltbie.  A William is listed in the Captain's listing.  
+https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .] 0 9 0
+To 3 Days work Keep my self 7/6 - 1 2 6 
+To horse hine [hire] 10 Miles - - - - - 0 3 4
+29 To Cash 5$ - - - - - - - 1 10 0
+To 16 feet Timber [timber] Dilivered [delivered] in yard - 0 16 0
+To 3 Bush [bushel] Coal 2/3 to horse 8 Miles - - 0 4 9
+To 21 [?lb, W.] [! #EJ 2017-10-2:This probably indicates reaming irons were a one pound variety .] Reaming irons at 
+10 Cent [! #EJ 2017-09-30:"Reaming iron [Reeming iron] an iron chisel used for opening planking seams for 
+caulking."  The Oxford Handbook of Maritime Archaeology 
+https://books.google.com/books?id=GOESDAAAQBAJ&pg=PA1142&lpg=PA1142&dq=reaming+maritime&source=b
+l&ots=J2SNF3LTlb&sig=eG4qltIix0Ra2XG__DmGyhCj-9c&hl=en&sa=X&ved=0ahUKEwiBkMuCr9LWAhXNZiYKHd6fBa
+sQ6AEINzAB#v=onepage&q=reaming%20maritime&f=false .] [0] 72 [?7, 77, 79] 
+To one Hundred feet Timber 5 0 0 
+May 4 1804 To 9 Days works Reaming [! #EJ 2017-09-30:"Reaming iron [Reeming iron] an iron chisel used for 
+opening planking seams for caulking."  The Oxford Handbook of Maritime Archaeology 
+https://books.google.com/books?id=GOESDAAAQBAJ&pg=PA1142&lpg=PA1142&dq=reaming+maritime&source=b
+l&ots=J2SNF3LTlb&sig=eG4qltIix0Ra2XG__DmGyhCj-9c&hl=en&sa=X&ved=0ahUKEwiBkMuCr9LWAhXNZiYKHd6fBa
+sQ6AEINzAB#v=onepage&q=reaming%20maritime&f=false .] for Corkers [caulkers] 3 6 6 
+To cash 4$ - To 2 days Graving vessell [vessel] 2 40 0
+To horse hire 13 Miles - - - - - 0 4 8
+To horse hire [place] Mill river [Mill River][place] 6 times 0 7 6
+To horse to townd [town] - - - - 0 1 0
+To horse to [place] Trumble [Trumbull] [place] Eight Miles 0 2 8
+To my Self & horse To [to] [place] Sanfords Iron Works [place] 0 9 0
+To 3 daye [days] works at vessell [vessel] keep my sell [self] 1 2 6
+To 20 Dollars paid [person] Sanford [person] for Iron  - 6 0 0 
+June 8 1004 [1804]To half barril [barrel] Tar  - - - - 0 7 6
+To my self & horse in waggon [wagon] after 
+iron to [place] Sanfords [place] [! #EJ 2017-10-1: Line is indented to suggest continued from line above.] 0 10 0
+To horse to N field [?Newfield] - - - - 0 1 6
+To cash 1 $ To Six Daye [days] at vessell [vessel] - - 2 11 0
+To one side Soal [sole] Leather [! #EJ 2017-10-3: Sole leather is defined as “a thick strong leather especially for shoe 
+soles”. https://www.merriam-webster.com/dictionary/sole%20leather] - - - 1 2 4
+To horse to Bridgeport to Cash & S [self] [0] 7 6
+10 To my sell [self] and horse in waggon [wagon]after Timber [timber]
+Six Miles [! #EJ 2017-10-1: Line is indented to suggest continued from line above.][0] 7 6
+To horse to [place] Trumble [Trumbull [place] Eight Miles - - - 0 2 8
+11 To 3 Days at wessell [vessel] - - - 0 19 6
+To Cash paid of [person] Railey & Coe [person][! #EJ 2017-10-2: Railey may be Terence Riley. "In 1803 Terence Riley 
+bought from John Wheeler the house, with a wharf and store ...sudden death in New York in 1805..." History of 
+Black Rock https://archive.org/stream/historyofblackro00just#page/24/mode/2up/search/riley] on your $305 
+order [! #EJ 2017-10-1: Two lines are bracketed together.] 105 00 0
+To Cash 10$ - - - 1 10 0 
+13 To Six Days works keep my Self - 2 5 0
+To Cash - - - - - 1 10 4 [! #EJ 2017-10-2: Tiny o in first currency column is likely a calculating mark.]
+20 To Cash paid for Mast in [place] N York [New York] [place] 15 00 [0]
+To 5 Days work at vessels keep my S [self] 1 17 6
+26 To Cash 5$ - - - - - 1 10 0
+To Cash 5$ To 3 days at vessell [vessel] - - 2 15 8
+To horse 8 Times to [place] Newfield [place] - - 0 12 0
+To horse to townd [town] 2 - - - - 0 2 0
+To Cash 30$ - - - - 9 0 0 
+July 1804 To 3 days works - - - - [0] 19 6
+To Cash paid [person] Capt Malbie [person][! #EJ 2017-09-30:Name is probably Maltbie and may refer to a son of 
+Capt Jonathan Maltbie.  A son, William is listed in the Captain's listing.  
+https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .] for towing
+Mast from Newyork [New York] & ankers [anchors] 
+& Sundries - - - - 2 8 9
+[horizontal line spans currency columns][total] 233 8 4 [total]
+</div>
+</xml>
