@@ -1,0 +1,92 @@
+﻿<?xml-model href="../../TEI_XML/Bartram_schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<xml>
+    <!-- #BN:2017-09-30: Beth Northrop #BN 
+Bartram-Thomas_Vol-001_1801-1819_046.jpg 
+Headings: Lewis Goodsell, Perry
+Side: left -->
+
+    <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_046.jpg">
+        <div type="group">
+            <head>
+                <persName ref="#">Lewis Goodsell</persName>
+                <g ref="#afterName"/>
+                <!-- #BN 2017-09-30: Same 3 loop ornamental figure after all 
+customers.-->
+            </head>
+            <list type="entry">
+                <head>
+                    <date when="1803-02-08">February 8 1803</date>
+                </head>
+                <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="9"/>
+                    <measure type="currency" unit="" ana="01_04_00">1 4 0</measure></item>
+                <item><g ref="#stItem"/> one <choice><sic>Barril</sic><reg resp="#BN"
+                        >Barrel</reg></choice>
+                    <choice><sic>Cyder</sic><reg resp="#BN">Cider</reg></choice>
+                    <g ref="#longHyphen" n="4"/>
+                    <measure type="currency" unit="" ana="00_06_00">0 6 0</measure></item>
+                <item><g ref="#stItem"/> an order Paid <persName ref="#">Thomas Hull</persName>
+                    <measure type="currency" unit="" ana="06_02_06">6 2 6</measure></item>
+                <item><g ref="#stItem"/> an order Paid <persName ref="#">Seth Perry</persName>
+                    <g ref="#longHyphen" n="2"/>
+                    <measure type="currency" unit="" ana="15_00_00">15 0 0</measure></item>
+                <item><g ref="#stItem"/> a note Paid <persName ref="#">Miah Perry</persName>
+                    <g ref="#longHyphen" n="2"/>
+                    <measure type="currency" unit="" ana="06_16_00">6 16 </measure></item>
+                <item><g ref="#stItem"/> one <choice><sic>Chissel</sic><reg resp="#BN"
+                        >chisel</reg></choice>
+                    <g ref="#longHyphen" n="3"/>
+                    <measure type="currency" unit="" ana="00_03_00">0 3 0</measure></item>
+            </list>
+            <list type="entry">
+                <head>
+                    <date when="1804-01"><choice><sic>Janury</sic><reg resp="#BN"
+                            >January</reg></choice> 1804</date>
+                </head>
+                <item><g ref="#stItem"/> Cash - <measure type="currency" unit="dollars" ana="30_00"
+                        >30$</measure>
+                    <g ref="#longHyphen" n="6"/>
+                    <measure type="currency" unit="" ana="09_00_00">9 0 0</measure></item>
+                <item><g ref="#stItem"/> Twelve Days Joiner
+                    <!-- #BN 2017-09-30: "A joiner is an artisan who builds things by joining pieces of wood, 
+particularly lighter and more ornamental work than that done by a carpenter, including furniture and the "fittings" 
+of a house, ship, etc. Joiner - Wikipedia https://en.wikipedia.org/wiki/Joiner .-->
+                    work wanting <measure type="currency" unit="" ana="03_10_00">3 10 0</measure>
+                    <!-- #BN 
+2017-09-30: The currency “10” is above an inkspot.  It is not a two.  While it could possibly be a 9, it is most likely 
+the ten.--></item>
+
+                <item><g ref="#stItem"/> finish house
+                    <!-- #BN 2017-09-30: This line is indented to indicate continuation of line above.-->
+                    -</item>
+            </list>
+            <list type="entry" subtype="total"
+                ><!-- #BN 2017-09-30: horizontal line spans currency columns--></list>
+        </div>
+        <div>
+            <head>
+                <persName ref="#">Nathan Perry</persName>
+                <g ref="#afterName"/>
+                <!-- #BN 2017-09-30: Same 3 loop ornamental figure 
+after all customers.-->
+            </head>
+            <list type="entry">
+                <head>
+                    <date when="1807-02-05"><choice><sic>Februry</sic><reg resp="#BN"
+                            >February</reg></choice> 5 1807</date>
+                </head>
+                <item><g ref="#stItem"/> Make Crank for <choice><sic>Laithe</sic><reg resp="#BN"
+                            >Lathe</reg></choice>
+                    <measure type="currency" unit="" ana="00_01_06">0 1 6</measure></item>
+            </list>
+            <list type="entry">
+                <head>
+                    <date when="1808-03-04">March 4 1808</date>
+                </head>
+                <item><g ref="#stItem"/> Make 2 Butcher <choice><sic>Nives</sic><reg resp="#BN"
+                            >knives</reg></choice>
+                    <g ref="#longHyphen" n="2"/>
+                    <measure type="currency" unit="" ana="00_01_06">0 1 6</measure></item>
+            </list>
+        </div>
+    </div>
+</xml>
