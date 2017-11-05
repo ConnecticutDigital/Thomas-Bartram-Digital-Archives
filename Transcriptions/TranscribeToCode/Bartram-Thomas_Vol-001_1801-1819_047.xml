@@ -23,7 +23,7 @@ Joiner - Wikipedia https://en.wikipedia.org/wiki/Joiner .-->
                 <item>agreed upon for <measure type="currency" unit="dollars" ana="30_00"
                         >30$</measure>
                     <g ref="#longHyphen" n="2"/>
-                    <measure type="currency" unit="" ana="09_00_00">9 0 0</measure>
+                    <measure type="currency" unit="£sd" ana="09_00_00">9 0 0</measure>
                     <!-- #BN 2017-09-30: Line is indented to suggest continuation of line above.--></item>
             </list>
             <list type="entry">
@@ -42,7 +42,7 @@ indicates inserted text.--> to the
 of inserted text.-->
                     a house and Lay</item>
                 <item>Chamber <choice><sic>flour</sic><reg resp="#BN">floor</reg></choice> according
-                    to agreement <measure type="currency" unit="" ana="36_00_00">36 0
+                    to agreement <measure type="currency" unit="£sd" ana="36_00_00">36 0
                     0</measure></item>
                 <item>but did not finish it</item>
             </list>
@@ -58,7 +58,7 @@ of inserted text.-->
                             >February</reg></choice> 1808</date>
                 </head>
                 <item>By flax 2 3/4 flax at/ll pound <g ref="#currency"/>
-                    <measure type="currency" unit="" ana="00_02_07">0 2 7</measure>
+                    <measure type="currency" unit="£sd" ana="00_02_07">0 2 7</measure>
                     <!-- #BN 2017-09-30: This 7 numeral has a small loop to the 
 top, but I read it as his 7 rather than 9.--></item>
             </list>
