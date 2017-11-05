@@ -435,7 +435,10 @@
                         <g ref="#afterName"/>
                     </head>
                     <list type="entry">
-                        <item><persName ref="#UriahBuckley">Urier Bukley</persName> <g ref="#currency"/></item>
+                        <item>
+                            <persName ref="#UriahBuckley">Urier Bukley</persName>
+                            <g ref="#currency"/>
+                        </item>
                         <item><g ref="#stItem"/>
                             <g ref="#longHyphen" n="2"/><measure commodity="flaxseed" quantity="6.5"
                                 unit="whole">6 1/2 of flax</measure>
@@ -714,7 +717,6 @@
                 </div>
             </div>
             <!-- PAGE 6 -->
-            <!-- RP:2017-01-17: The encoding of the section below this point has been proof-read. -->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_006.jpg">
                 <div type="group">
                     <head>
@@ -746,7 +748,6 @@
                             <measure type="currency" unit="£sd" ana="00_04_03">0 4 3</measure>
                         </item>
                     </list>
-                    <!-- RP:2017-01-17: The encoding of the section above this point has been proof-read. -->
                     <list type="entry">
                         <head>
                             <date when="1801-11">November <unclear reason="illegible" unit="chars"
@@ -849,7 +850,6 @@
                         </item>
                     </list>
                 </div>
-                <!-- RF: 2017-01-17 this is first half of page 6 separated by underline -->
                 <div type="group">
                     <head>
                         <date when="1804-02-20">February 20 1804</date>
@@ -885,7 +885,7 @@
                             <date when="1805-07-10">July 10 <add resp="#RF">1805</add></date>
                         </head>
                         <item>
-                            <g ref="#stItem"/> 12 Pounds &amp; qrt <measure type="currency"
+                            <g ref="#stItem"/> 12 Pounds &amp; qrt Veal<measure type="currency"
                                 unit="£sd" ana="00_04_06">0 4 6</measure>
                         </item>
                         <item>
@@ -1069,8 +1069,8 @@
                         <item>By 3 Cattle team to Ozias Burr Sawmill Drove Them my self <measure
                                 type="currency" unit="£sd" ana="00_03_09">0 3 9</measure>
                         </item>
-                        <item> By 1 Cag Cider <measure type="currency" unit="£sd"
-                                ana="00_03_00">0 3 0</measure>
+                        <item> By 1 Cag Cider <measure type="currency" unit="£sd" ana="00_03_00">0 3
+                                0</measure>
                         </item>
                         <item> By 2 Barrels Cider <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_12_00">0 12 0</measure>
@@ -1228,7 +1228,8 @@
 
                 <div type="group">
                     <head>
-                        <orgName ref="SloopRisingSun">Sloop Rising Sun</orgName> <g ref="#afterName"/>
+                        <orgName ref="SloopRisingSun">Sloop Rising Sun</orgName>
+                        <g ref="#afterName"/>
                     </head>
                     <list type="entry">
                         <head>
@@ -1521,8 +1522,8 @@
                         <item><g ref="#stItem"/> one Bush Flax Seed <measure type="currency"
                                 unit="£sd" ana="01_10_00">1 10 </measure></item>
                         <item><g ref="#stItem"/>
-                            <g ref="#ditto"/><add resp="#RP"/> of Hay <measure type="currency" unit="£sd"
-                                ana="00_03_00">0 3 </measure></item>
+                            <g ref="#ditto"/><add resp="#RP"/> of Hay <measure type="currency"
+                                unit="£sd" ana="00_03_00">0 3 </measure></item>
                         <item><g ref="#stItem"/> 10 of <g ref="#ditto"/><add resp="#RP"/>
                             <measure type="currency" unit="£sd" ana="00_02_00">0 2 </measure></item>
                         <item><g ref="#stItem"/>
@@ -1763,7 +1764,9 @@
                     </list>
                     <list type="entry" subtype="total">
                         <head>July <g ref="#longHyphen" n="5"/></head>
-                        <item><measure type="currency" unit="£sd" ana="00_10_00">0 10 0</measure></item>
+                        <item>
+                            <measure type="currency" unit="£sd" ana="00_10_00">0 10 0</measure>
+                        </item>
                     </list>
                 </div>
                 <div type="group">
@@ -1956,7 +1959,7 @@
                         <item>
                             <g ref="#stItem"/>
                             <measure commodity="frame" unit="whole" quantity="2">two pound
-                                Flax</measure> 
+                                Flax</measure>
                             <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure>
                         </item>
                     </list>
@@ -1978,14 +1981,16 @@
                     </list>
                 </div>
                 <div type="group">
-                    <head><persName ref="#EzekielHull">Capt Ezekiel Hull</persName>
-                        <g ref="#afterName"/></head>
+                    <head>
+                        <persName ref="#EzekielHull">Capt Ezekiel Hull</persName>
+                        <g ref="#afterName"/>
+                    </head>
                     <list type="entry">
                         <head>
                             <date when="1802-05">May 1802</date>
                         </head>
                         <item>
-                            <g ref="#stItem"/> Cash <g ref="#longHyphen" n="3"/> 
+                            <g ref="#stItem"/> Cash <g ref="#longHyphen" n="3"/>
                             <g ref="#currency"/>
                             <measure type="currency" unit="£sd" ana="30_00_00">30 0 0</measure>
                         </item>
@@ -1997,7 +2002,9 @@
                 <div type="group">
                     <head>Credit</head>
                     <list type="entry">
-                        <head><date when="1802-02">February 1802</date></head>
+                        <head>
+                            <date when="1802-02">February 1802</date>
+                        </head>
                         <item><g ref="#stItem"/> Sawing 15 Sawmills Logs <measure type="currency"
                                 unit="£sd" ana="00_08_00">0 8 0</measure></item>
                         <!--       Two lines under the currency sum-->
@@ -2006,7 +2013,9 @@
                 <div type="group">
                     <head>Credit</head>
                     <list type="entry">
-                        <head><date when="1802-04">April 1802</date></head>
+                        <head>
+                            <date when="1802-04">April 1802</date>
+                        </head>
                         <item><g ref="#stItem"/> Four Thousdand Five Hundred 3 feet Shingles at
                                 <measure type="currency" unit="£sd" ana="24_06_00">24 6 0
                             </measure></item>
@@ -3828,8 +3837,260 @@
                     </list>
                 </div>
             </div>
-        </body>
+            <!-- Page 35 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_035.jpg">
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item/>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 36 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_036.jpg">
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item/>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 37 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_037.jpg">
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item/>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 38 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_038.jpg">
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item/>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 39 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_039.jpg">
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item/>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 40 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_040.jpg">
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item/>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 41 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_041.jpg">
+                <div type="group">
+                    <head>
+                        <persName ref="#WilliamMorehouse">L <choice><sic>william</sic>
+                                <reg resp="#BN">William</reg></choice> Morehouse</persName>
+                        <!-- #BN:2017-09-17:From Heritage Quest - there is a single William Morehouse census listing in 1800 and two William Morehouse listings in 1810.  The smudged “L” before William might be a disambiguation between 2 Williams that could represent an initial, a title, such as Lt. or even an attempt to erase. -->
+                        <g ref="#afterName"/>
+                        <!-- #BN:2017-09-17: Same 3 loop ornamental figure after all customers.-->
+                    </head>
+                    <list type="entry">
+                        <head>
+                            <date when="1805-01-15"><choice><sic>Janury</sic><reg resp="#BN"
+                                        >January</reg></choice> 15 1805</date>
+                        </head>
+                        <item><g ref="#stItem"/> Cash $ 47 <unclear reason="strikethrough"
+                                unit="words" quantity="1"><supplied resp="#BN"
+                                >Dollars</supplied></unclear> - 5 7 0</item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-01-09"><choice><sic>Janury</sic><reg resp="#BN"
+                                        >January</reg></choice> 9 1806</date>
+                        </head>
+                        <item> By one Day work Graving <!-- #BN:2017-09-17: "Graving [BreamingJ. The practice of cleaning a hull's bottom -by burning barnacles, grass, and other foul material preparatory to recoating it with tar, sulphur, etc. The vessel was careened or drydocked to perform this task." https://brown.edu/Departments/Joukowsky_Institute/courses/maritimearchaeology11/files/17920584.pdf  Very good maritime reference.-->
+                            <choice><sic>vessell</sic><reg resp="#BN">vessel</reg></choice>.
+                                <measure type="currency" unit="£sd" ana="00_04_00">0 4 0</measure>
+                            <!-- #BN:2017-09-26: It appears he shifted currency down below text for this first line amount.--></item>
+                        <item>By Carting 3 <choice><sic>bords</sic><reg resp="#BN"
+                                >boards</reg></choice> from <unclear reason="illegible" unit="words"
+                                quantity="3"><supplied resp="#BN #RP" n="1" cert="high">V Bull
+                                    Stone</supplied><supplied resp="#BN" n="2" cert="low">V Bull
+                                    Store</supplied></unclear>
+                            <!-- # EJ 9-26-17 Perhaps a person related to Leman Stone 2 pages after “Caleb Bruster“ 1790 Black Rock census.  It is also possible that Bull Stone is the name of a vessel.-->
+                            <measure type="currency" unit="£sd" ana="00_00_09"> 0 9</measure></item>
+                        <item>By <choice><sic>Cart</sic><reg resp="#BN">Carting</reg></choice> Dung
+                            half Day <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_04_00">0 4
+                            0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item>By half <choice><sic>Barril</sic><reg resp="#BN">barrel</reg></choice>
+                            <!-- #BN:2017-09-26: An “X” appears on top of cyder extending down on top of apples. Unable to determine meaning.-->
+                            <choice><sic>Cyder</sic><reg resp="#BN">cider</reg></choice>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_04_06">0 4
+                            6</measure></item>
+                        <item>By 2 <choice><sic>bush</sic><reg resp="#BN">bushels</reg></choice>
+                            apples <unclear reason="illegible" unit="words" quantity="2"><supplied
+                                    resp="#BN" n="1" cert="low">one 2/</supplied><supplied
+                                    resp="#BN #RP" n="2" cert="high">one 3/</supplied></unclear><!-- #BN:2017-09-26: This might refer to either the source, the variety or quality of apples.-->
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_05_00">0 5
+                            0</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="00_00_06"> 6</measure>
+                        </item>
+                    </list>
+                </div>
 
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-09"><choice><sic>Sept</sic><reg resp="#BN"
+                                        >September</reg></choice> 1806</date>
+                        </head>
+                        <item>By 2 <choice><sic>bush</sic><reg resp="#BN">bushels</reg></choice>
+                            apples <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_04_00">0 4
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-12"><choice><sic>Decd</sic><reg resp="#BN"
+                                        >December</reg></choice> 1806</date>
+                        </head>
+                        <item>By Carting one Load wood <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_07_06">0 7
+                            6</measure></item>
+                        <item>By Carting one Load wood <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_07_06">0 7
+                            6</measure></item>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 42 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_042.jpg">
+                <div type="group">
+                    <head><persName ref="#JosephPerry">Joseph Perry</persName>
+                        <g ref="#afterName"/>
+                        <!--#BN 2017-09-26: Same 3 loop ornamental figure 
+after all customers.-->
+                        Little <unclear reason="illegible" unit="words" quantity="1"><supplied n="1"
+                                cert="high" resp="#BN #RP">Moon</supplied><supplied resp="#BN"
+                                cert="low" n="2">Man</supplied><supplied n="3" cert="low" resp="#BN"
+                                >Muse</supplied></unclear>
+                        <!--#BN 2017-09-30: I believe the X is a flourish on the Y of Perry.--></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1804-09">Sept 1804</date>
+                        </head>
+                        <item>To 25 lb Reaming iron
+                            <!--#BN 2017-09-26: "Reaming iron...An iron chisel used for opening planking seams for 
+caulking." 
+https://brown.edu/Departments/Joukowsky_Institute/courses/maritimearchaeology11/files/17920584.pdf-->
+                            at 7 cents <measure type="currency" unit="£sd" ana="00_10_00">0 10
+                                0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <persName ref="#CharlesWakeman">Charles Wakeman</persName>
+                        <g ref="#afterName"/>
+                        <!--#BN 2017-09-26: Same 3 loop ornamental figure after all 
+customers.-->
+                    </head>
+                    <list type="entry">
+                        <head>
+                            <date when="1805-06-16">June 16 1805</date>
+                        </head>
+                        <item>To horse hire to <persName ref="#JosephLyons">Joseph Lyons</persName>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2
+                            0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head><persName ref="#NathanLewis">Nathan Lewis</persName> of <placeName
+                            ref="#Derby">Derby</placeName>
+                        <g ref="#afterName"/></head>
+                    <!--#BN 2017-09-26: Same 3 loop ornamental figure after all 
+customers.-->
+                    <!--#BN 2017-09-26: horizontal line spans page under Nathan Lewis name-->
+                    <list type="entry">
+                        <head>
+                            <date when="1806-01-30">January 30 1806</date>
+                        </head>
+                        <item>To 3 Drawing <choice><sic>Nives</sic><reg resp="#BN"
+                                >knives</reg></choice> at 5/ <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_15_00">0 15
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1813-02-26">Feb 26 1813</date>
+                        </head>
+                        <item>To 2 Drawing] Nifes <choice><sic>Nives</sic><reg resp="#BN"
+                                    >knives</reg></choice> 5/6 <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_11_00">11</measure></item>
+                    </list>
+                </div>
+            </div>
+            <!-- Page 43 -->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_043.jpg">
+                <div type="group">
+                    <head><persName ref="#HezekiahBanks">Hezekiah Banks</persName> <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#BN" n="1" cert="high"
+                        >Jun</supplied><supplied resp="#RP" n="2" cert="medium">Son</supplied></unclear>
+                        <g ref="#afterName"/>
+                        <!--#BN 2017-09-30: Same 3 loop ornamental figure after all 
+customers.--> of <placeName ref="#Weston">Weston</placeName></head>
+                    <list type="entry">
+                        <head><date when="1808-05-08">May 8 1808</date></head>
+                        <item>To one Calf 3 <choice><sic>daye</sic><reg resp="#BN">days</reg></choice> old <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_09_00">0 9 0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head></head>
+                    <list type="entry">
+                        <item>Bought the Cow that the Calf</item>
+                        <item>That <persName ref="#HezekiahBanks">Mr Banks</persName> had of <persName ref="#JerryOakley">Mr Oakley</persName></item>
+                        <item>of <placeName ref="#Weston"><choice><sic>weston</sic><reg resp="#BN">Weston</reg></choice></placeName> Living Next Door</item>
+                        <item>to <persName ref="#JerryOakley">Jerry Oakley</persName> the Joiner</item>
+                        <!--#BN 2017-09-30: These four lines vary in indentation.-->
+                    </list>
+                </div>
+                <!--#BN 2017-09-30: horizontal line spans page separating cow section and blank section. -->
+                <!--#BN 2017-09-30: horizontal line spans page separating blank section and Credit section.-->
+                <div type="group">
+                    <head>Credit <g ref="#longHyphen" n="1"/></head>
+                    <list type="entry">
+                        <head><date when="1807-12-26">Decem 26 1807</date></head>
+                        <item>By one bucket for well with</item>
+                        <item>out any Hoops <!--#BN 2017-09-30: Images &amp; descriptions of bucket types are shown on this web page: 
+https://permies.com/t/37539/coopering-making-wooden-buckets.-->
+                            <g ref="#longHyphen" n="3"/>
+                        </item>
+                        <item>by one Churn <g ref="#longHyphen" n="1"/>
+                        </item>
+                    </list>
+                </div>
+            </div>
+        </body>
         <!--    PERSONOGRAPHY START-->
         <back>
             <!-- RF RP:2017-01-15: This is where we will create prosopography entries for people, places, and organizations mentioned in the document. -->
@@ -3858,6 +4119,41 @@
                     <death when="1886"/>
                     <occupation>merchant</occupation>
                     <note type="spouse">Sarah Burr</note>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="JerryOakley">
+                    <persName>
+                        <surname>Oakley</surname>
+                        <forename>Jerry</forename>
+                    </persName>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="HezekiahBanks">
+                    <persName>
+                        <surname>Banks</surname>
+                        <forename>Hezekiah</forename>
+                    </persName>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="NathanLewis">
+                    <persName>
+                        <surname>Lewis</surname>
+                        <forename>Nathan</forename>
+                    </persName>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="JosephLyons">
+                    <persName>
+                        <surname>Lyons</surname>
+                        <forename>Joseph</forename>
+                    </persName>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="CharlesWakeman">
+                    <persName>
+                        <surname>Wakeman</surname>
+                        <forename>Charles</forename>
+                    </persName>
                 </person>
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="ThaddeusBurr">
@@ -4337,6 +4633,12 @@
             </listPerson>
             <!-- List of Places -->
             <listPlace>
+                <place xml:id="Weston">
+                    <placeName>Weston</placeName>
+                    <location>
+                        <geo>41.2248089 -73.4470614</geo>
+                    </location>
+                </place>
                 <place xml:id="Middlebrooks">
                     <placeName>Middlebrooks</placeName>
                     <location>
