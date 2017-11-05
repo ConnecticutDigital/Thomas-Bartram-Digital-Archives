@@ -42,8 +42,8 @@
         <tr>
             <td><xsl:apply-templates select="normalize-space(text())"/></td>
             <td><xsl:apply-templates select="@ana"/></td>
-            <td><xsl:apply-templates select="ancestor::div[@type='page']/@facs"/></td>
-            <td><xsl:apply-templates select="preceding-sibling::text()/normalize-space()"/></td>
+            <td>Page <xsl:apply-templates select="ancestor::div[@type='page']/@facs/tokenize(.,'[_.]')[4]"/></td>
+            <td><xsl:apply-templates select="parent::item//text()"/></td>
         </tr>
     </xsl:template>
 
