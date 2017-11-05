@@ -154,7 +154,10 @@
                         <item>Book Bought of <persName ref="#SethPerry">Seth Perry</persName>
                             <date when="1801-12-24">December 24 1801</date></item>
                         <item>Price 6/6 dollars</item>
+                        <item><persName ref="#JohnMaltbie">John Malbie <!--Maltbie correct last name spelling--></persName></item>
+                        <item>Gave <persName ref="#ThomasStaples"></persName> to Collect</item>
                     </list>
+                
                 </div>
             </div>
             <!-- Page 3-->
@@ -216,7 +219,7 @@
                                     resp="#RF">Pound fourpenny</add> Hens for <g ref="#ditto"/><add
                                     resp="#RF">Shop</add></measure>
                             <g ref="#longHyphen" n="4"/>
-                            <measure type="currency" unit="£sd" ana="00_08_08">0 6 0</measure>
+                            <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure>
                         </item>
                         <item>
                             <measure commodity="board" quantity="200" unit="whole">2 Hundred oak
@@ -234,7 +237,7 @@
                             <measure commodity="frame" unit="whole" quantity="1">Frame for
                                 House</measure>
                             <g ref="#longHyphen" n="5"/>
-                            <measure type="currency" unit="£sd" ana="00_04_00">0 4 0</measure>
+                            <measure type="currency" unit="£sd" ana="27_00_00">27 0 0</measure>
                         </item>
                         <item>
                             <measure commodity="frame" unit="whole" quantity="1">Frame for
@@ -267,7 +270,7 @@
                                 <g ref="#longHyphen" n="2"/></measure>
                             <measure type="currency" unit="£sd" ana="00_09_00">0 9 0 </measure>
                         </item>
-                        <item>one &amp; half pound touns<g ref="#longHyphen" n="2"/>
+                        <item>one &amp; half pound fours<g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_01_03">0 1 3 </measure>
                         </item>
                         <item>
@@ -282,7 +285,7 @@
                             <measure commodity="shingles" quantity="5000" unit="whole">5 <unclear
                                     reason="illegible" unit="chars" quantity="3"><supplied
                                         resp="#RF">2/1</supplied></unclear> Thousand 3 feet
-                                Shingles</measure>
+                                <choice><sic>Shingles</sic><reg resp="#SG">Shingl</reg></choice></measure>
                             <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="27_00_00">27 0 0</measure>
                         </item>
@@ -364,7 +367,7 @@
                                 ana="04_00_00">4 0 0</measure></item>
 
                         <!-- LINE_29: paints illegible  -->
-                        <item> paints &amp; Painter Bill <measure type="currency" unit="£sd"
+                        <item> paints &amp; Painters Bill <measure type="currency" unit="£sd"
                                 ana="15_00_00">15 0 0</measure></item>
 
                         <!-- LINE_30: parts Stones &amb; illegible illegibl -->
@@ -376,13 +379,7 @@
                                 unit="£sd" ana="02_10_00">2 10 0</measure></item>
 
                         <!-- LINE_31: Drying illegible &amp; illegible -->
-                        <item>
-                            <unclear reason="illegible" unit="words" quantity="1">
-                                <supplied resp="#RF"><choice>
-                                        <sic>digin </sic>
-                                        <reg resp="#RF">digging</reg>
-                                    </choice>
-                                    <choice>
+                        <item>>digging <choice>
                                         <sic>Seller</sic>
                                         <reg resp="#RF">cellar</reg>
                                     </choice> &amp; well</supplied>
@@ -409,7 +406,7 @@
                             </measure></item>
 
                         <!-- LINE_34: ILLEGIBLE BOARDS OF SHORT SHINGLES ILLEGIBLE  -->
-                        <item>Clear Boards of Short Shingles <unclear reason="illegible"
+                        <item><choice><sic>Clear</sic> <reg resp="#SG">Cleer</reg></choice> Boards of Short Shingles <unclear reason="illegible"
                                 unit="words" quantity="1"/>
                         </item>
 
@@ -1646,11 +1643,11 @@
                         <item>by one old <unclear quantity="1" unit="words" reason="illegible"/>
                             &amp; <unclear quantity="1" unit="words" reason="illegible"/> &amp;
                                 <unclear quantity="1" unit="words" reason="illegible"/>
-                            <measure type="currency" unit="£sd" ana="00_03_06">0 30 6</measure>
+                            <measure type="currency" unit="£sd" ana="00_03_06">0 3 6</measure>
                         </item>
                         <item>by horse to Plow &amp; hay <g ref="#longHyphen" n="4"/>
-                            <measure type="currency" unit="£sd" ana="06_15_03">0 30
-                            6</measure></item>
+                            <measure type="currency" unit="£sd" ana="06_15_03">6 15
+                            05</measure></item>
                         <item>By Cash <g ref="#longHyphen" n="5"/>
                             <measure type="currency" unit="£sd" ana="07_07_03">7 7 3</measure>
                         </item>
@@ -3318,9 +3315,9 @@
                         <head>
                             <date when="1803-03">March 1803 </date>
                         </head>
-                        <item>by making about <measure commodity="rod" quantity="10" unit="whole">10
+                        <item>By making about <measure commodity="rod" quantity="10" unit="whole">10
                                 Rods</measure></item>
-                        <item>Board fence the front my house by the Rod was the bargain but no price
+                        <item>Board fence the front my house by the Rod was the Bargain but No Price
                             was agreed upon <g ref="#longHyphen" n="3"/></item>
                         <!--RJP:2017-07-05: note from transcriber (RW): 10 RODS IS 165 FEET.-->
                     </list>
@@ -3340,12 +3337,12 @@
                     <head>Credit</head>
                     <list type="entry">
                         <head>
-                            <date when="1803-01-14">Jany 14 1803</date>
+                            <date when="1803-01-14">Janury 14 1803</date>
                         </head>
                         <item>By Sealing <measure commodity="shoes" quantity="1" unit="pair">one
-                                pair shoes</measure> my leather</item>
+                                pair Shoes</measure> my leather</item>
                         <item>By Making <measure commodity="shoes" quantity="1" unit="pair">one pair
-                                Calf skin shoes</measure></item>
+                                Calf skin Shoes</measure></item>
                         <item>By making <measure commodity="shoes" quantity="1" unit="pair">one <g
                                     ref="#ditto"/><add resp="#RP">pair shoes</add>
                             Cowhide</measure></item>
@@ -3355,17 +3352,17 @@
                             <date when="1805-04-03">April 3, 1805</date>
                         </head>
                         <item>By Making <measure commodity="shoes" quantity="1" unit="pair">one <g
-                                    ref="#ditto"/><add resp="#RP">one pair shoes</add>
+                                    ref="#ditto"/><add resp="#RP">pair shoes</add>
                                 women</measure>
                             <g ref="#longHyphen" n="3"/></item>
                         <item>By Making <measure commodity="shoes" quantity="4" unit="pair">Four
-                                Pair Shoes</measure>
+                                Pair shoes</measure>
                             <measure type="currency" unit="£sd" ana="00_09_06">0 9
                             6</measure></item>
                     </list>
                     <list type="entry">
                         <head>
-                            <date when="1806-01">January 1806</date>
+                            <date when="1806-01"><choice><sic>Jany</sic><reg resp="#SG">January</reg></choice> 1806</date>
                         </head>
                         <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
                                 shoes</measure>
@@ -3373,7 +3370,7 @@
                             <measure type="currency" unit="£sd" ana="00_09_06"> 9 6</measure></item>
                         <item>By <measure commodity="horse" quantity="1" unit="whole"
                                 >horse</measure> to <placeName ref="#Derby">Derby</placeName>
-                            <!--RJP:2017-07-05: note from transcriber (RW): Derby, CT  --> 14 miles
+                            <!--RJP:2017-07-05: note from transcriber (RW): Derby, CT  --> 14 Miles
                                 <g ref="#longHyphen" n="2"/><measure type="currency" unit="£sd"
                                 ana="00_04_08">0 4 8</measure></item>
                     </list>
@@ -3381,8 +3378,8 @@
                         <head>
                             <date when="1806-05-30">May 30 1806</date>
                         </head>
-                        <item>By making <measure commodity="shoes" quantity="1" unit="pair">one pair
-                                shoes</measure>
+                        <item>By Making <measure commodity="shoes" quantity="1" unit="pair">one Pair
+                                Shoes</measure>
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" ana="00_02_00">0 2
                             0</measure></item>
@@ -3392,11 +3389,11 @@
                             <date when="1806-12">Decem 1806</date>
                         </head>
                         <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
-                                shoes</measure>
+                                Shoes</measure>
                             <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_09_06">0 9
                             6</measure></item>
-                        <item>and <measure commodity="boots" quantity="1" unit="pair">one
+                        <item>and <measure commodity="boots" quantity="1" unit="pair"><unclear quantity="1" unit="chars" reason="illegible"/> one
                                 boots</measure>
                             <g ref="#longHyphen" n="3"/>
                             <measure type="currency" unit="£sd" ana="00_00_00">0</measure></item>
@@ -3446,7 +3443,7 @@
                             <date when="1808-01">January 1808</date>
                         </head>
                         <item>By making <measure commodity="shoes" quantity="4" unit="pair">4 pair
-                                shoes</measure> 3/ <g ref="#longHyphen" n="1"/>
+                                Shoes</measure> 3/ <g ref="#longHyphen" n="1"/>
                             <measure type="currency" unit="£sd" ana="00_12_00"> 12
                             0</measure></item>
                     </list>
@@ -3517,7 +3514,7 @@
                         </head>
                         <item><g ref="#stItem"/>
                             <measure commodity="horse" unit="whole" quantity="1">Horse</measure>
-                            Hire to <placeName ref="#FairfieldWoods">Fairfield Woods</placeName>
+                            Hire to <placeName ref="#FairfieldWoods">Fairfield woods</placeName>
                             <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
                     </list>
                 </div>
@@ -4156,6 +4153,14 @@
                         <surname>Bradley</surname>
                         <forename type="first">David</forename>
                     </persName>
+                    
+                    <person xml:id="ThomasStaples">
+                        <persName>
+                            <surname>Staples</surname>
+                            <forename type="first">Thomas</forename>
+                        </persName>
+                    
+
 
                 </person>
 
@@ -4308,9 +4313,15 @@
                         <surname>Buckley</surname>
                         <forename type="first">Uriah</forename>
                     </persName>
-
                 </person>
-
+                
+                <person xml:id="JohnMaltbie">
+                    <persName>
+                        <surname>Maltbie</surname>
+                        <forename type="first">John</forename>
+                    </persName>
+                </person>
+                    
                 <person xml:id="WilliamMorehouse">
                     <persName>
                         <surname>Morehouse</surname>
