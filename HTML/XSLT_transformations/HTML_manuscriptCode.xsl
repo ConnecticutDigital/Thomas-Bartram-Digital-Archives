@@ -162,7 +162,7 @@
     <xsl:template match="unclear[@reason = 'strikethrough']">
         <xsl:choose>
             <xsl:when test="child::supplied">
-                <span class="strike unclear"
+                <span class="strike suggest"
                     title="The text provided here was interpreted by a project editor ({//respStmt/persName[@xml:id = current()/supplied/tokenize(@resp,'#')[last()]]}). The text is unclear due to {@reason}.">
                     <xsl:apply-templates/>
                 </span>
