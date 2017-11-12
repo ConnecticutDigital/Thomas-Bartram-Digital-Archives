@@ -18,155 +18,147 @@ Side: left -->
                 <head>
                     <date when="1804-03-05">March 5</date>
                 </head>
-                <item><g ref="#stItem"/> Cash 62$ 50 Centh [cents] <g ref="#longHyphen" n="3"/> 18
-                    15 0</item>
-                <item><g ref="#stItem"/> Cash 55$ <g ref="#longHyphen" n="5"/> 16 10 0</item>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollar" ana="62.50">62$ 50 <choice><sic>Centh</sic><reg resp="#BN">cents</reg></choice></measure> <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="18_15_00">18
+                    15 0</measure></item>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars" ana="55.00">55$</measure> <g ref="#longHyphen" n="5"/> <measure type="currency" unit="£sd" ana="16_10_00">16 10 0</measure></item>
             </list>
             <list type="entry">
-                <head>April 8 1805</head>
-                <item><g ref="#stItem"/> Cash 20$ <g ref="#longHyphen" n="6"/> 6 0 0</item>
-                <item><g ref="#stItem"/> Cash paid for Iron &amp; Spikes rods in N York [New York]
-                    Lawfut [lawful] M [money]
+                <head><date when="1805-04-08">April 8 1805</date></head>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars" ana="20.00">20$</measure> <g ref="#longHyphen" n="6"/> <measure type="currency" unit="£sd" ana="06_00_00">6 0 0</measure></item>
+                <item><g ref="#stItem"/> Cash paid for Iron &amp; Spikes rods in <placeName ref="#NewYork">N York</placeName>
+                    <choice><sic>Lawfut</sic><reg resp="#BN">Lawful</reg></choice> <choice><sic>M</sic><reg resp="#BN">money</reg></choice>
                     <!-- #BN 2017-10-1: Lawful money 
 text is in the currency column and appears to refer to the currency number directly below his note.-->
-                    13 4 0</item>
-                <item><g ref="#stItem"/> Carting iron &amp; rigging in N-York [New York] -<g
-                        ref="#longHyphen" n="1"/> 0 3 0</item>
+                    <measure type="currency" unit="£sd" ana="13_04_00">13 4 0</measure></item>
+                <item><g ref="#stItem"/> Carting iron &amp; rigging in <placeName ref="#NewYork">N-York</placeName> <g
+                    ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_03_00">0 3 0</measure></item>
             </list>
             <list type="entry">
-                <head>28</head>
-                <item><g ref="#stItem"/> freight oniron [on iron] &amp; rigging paid [person] Malbie
-                    [Maltbie] [person]
+                <head><date when="1805-04-28">28</date></head>
+                <item><g ref="#stItem"/> freight <choice><sic>oniron</sic><reg resp="#BN">on iron</reg></choice> &amp; rigging paid <persName ref="#WilliamMaltbie"><choice><sic>Malbie</sic><reg resp="#BN">Maltbie</reg></choice></persName>
                     <!-- #BN 2017-09-17: Perhaps this 
 refers to a son of Capt Jonathan Maltbie.  A William is listed in the Captain's listing.  
 https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                     0 9 0</item>
-                <item><g ref="#stItem"/> 3 Days work Keep my self 7/6 <g ref="#longHyphen" n="1"/> 1
-                    2 6</item>
-                <item><g ref="#stItem"/> horse hine [hire] 10 Miles <g ref="#longHyphen" n="5"/> 0 3
-                    4</item>
+                <item><g ref="#stItem"/> 3 Days work Keep my self 7/6 <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="01_02_06">1
+                    2 6</measure></item>
+                <item><g ref="#stItem"/> horse <choice><sic>hine</sic><reg resp="#BN">hire</reg></choice> 10 Miles <g ref="#longHyphen" n="5"/> <measure type="currency" unit="£sd" ana="00_03_04">0 3 4</measure></item>
             </list>
             <list type="entry">
-                <head>29</head>
-                <item><g ref="#stItem"/> Cash 5$ <g ref="#longHyphen" n="7"/> 1 10 0</item>
-                <item><g ref="#stItem"/> 16 feet Timber [timber] Dilivered [delivered] in yard <g
-                        ref="#longHyphen" n="1"/> 0 16 0</item>
-                <item><g ref="#stItem"/> 3 Bush [bushel] Coal 2/3 to horse 8 Miles <g
-                        ref="#longHyphen" n="2"/> 0 4 9</item>
-                <item><g ref="#stItem"/> 21 [?lb, W.]
+                <head><date when="1805-04-29">29</date></head>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars" ana="5.00">5$</measure> <g ref="#longHyphen" n="7"/> <measure type="currency" unit="£sd" ana="01_10_00">1 10 0</measure></item>
+                <item><g ref="#stItem"/> 16 feet Timber <choice><sic>Dilivered</sic><reg resp="#BN">delivered</reg></choice> in yard <g
+                    ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_16_00">0 16 0</measure></item>
+                <item><g ref="#stItem"/> 3 <choice><sic>Bush</sic><reg resp="#BN">bushel</reg></choice> Coal 2/3 to horse 8 Miles <g
+                    ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_04_09">0 4 9</measure></item>
+                <item><g ref="#stItem"/> 21 lb
                     <!-- #BN 2017-10-2:This probably indicates reaming irons were a one pound variety .-->
-                    Reaming irons at 10 Cent
+                    Reaming irons at <measure type="currency" unit="dollar" ana="0.10">10 Cent</measure>
                     <!-- #BN 2017-09-30:"Reaming iron [Reeming iron an iron chisel used for opening planking seams for 
 caulking."  The Oxford Handbook of Maritime Archaeology 
 https://books.google.com/books?id=GOESDAAAQBAJ&pg=PA1142&lpg=PA1142&dq=reaming+maritime&source=b
 l&ots=J2SNF3LTlb&sig=eG4qltIix0Ra2XG__DmGyhCj-9c&hl=en&sa=X&ved=0ahUKEwiBkMuCr9LWAhXNZiYKHd6fBa
 sQ6AEINzAB#v=onepage&q=reaming%20maritime&f=false .-->
-                    [0] 72 [?7, 77, 79]</item>
-                <item><g ref="#stItem"/> one Hundred feet Timber 5 0 0</item>
+                    <measure type="currency" unit="£sd" ana="00_12_79">  12 79</measure></item>
+                <item><g ref="#stItem"/> one Hundred feet Timber <measure type="currency" unit="£sd" ana="05_00_00">5 0 0</measure></item>
             </list>
             <list type="entry">
-                <head>May 4 1804</head>
+                <head><date when="1804-05-04">May 4 1804</date></head>
                 <item><g ref="#stItem"/> 9 Days works Reaming
                     <!-- #BN 2017-09-30:"Reaming iron [Reeming iron an iron chisel used for 
 opening planking seams for caulking."  The Oxford Handbook of Maritime Archaeology 
 https://books.google.com/books?id=GOESDAAAQBAJ&pg=PA1142&lpg=PA1142&dq=reaming+maritime&source=b
 l&ots=J2SNF3LTlb&sig=eG4qltIix0Ra2XG__DmGyhCj-9c&hl=en&sa=X&ved=0ahUKEwiBkMuCr9LWAhXNZiYKHd6fBa
 sQ6AEINzAB#v=onepage&q=reaming%20maritime&f=false .-->
-                    for Corkers [caulkers] 3 6 6</item>
-                <item><g ref="#stItem"/> cash 4$ - <g ref="#stItem"/> 2 days Graving vessell
-                    [vessel] 2 40 0</item>
-                <item><g ref="#stItem"/> horse hire 13 Miles <g ref="#longHyphen" n="5"/> 0 4
-                    8</item>
-                <item><g ref="#stItem"/> horse hire [place] Mill river [Mill River][place] 6 times 0
-                    7 6</item>
-                <item><g ref="#stItem"/> horse to townd [town] <g ref="#longHyphen" n="4"/> 0 1
-                    0</item>
-                <item><g ref="#stItem"/> horse to [place] Trumble [Trumbull] [place] Eight Miles 0 2
-                    8</item>
-                <item><g ref="#stItem"/> my Self &amp; horse <g ref="#stItem"/> [to] [place]
-                    Sanfords Iron Works [place] 0 9 0</item>
-                <item><g ref="#stItem"/> 3 daye [days] works at vessell [vessel] keep my sell [self]
-                    1 2 6</item>
-                <item><g ref="#stItem"/> 20 Dollars paid [person] Sanford [person] for Iron <g
-                        ref="#longHyphen" n="1"/> 6 0 0</item>
+                    for <choice><sic>Corkers</sic><reg resp="#BN">caulkers</reg></choice> <measure type="currency" unit="£sd" ana="03_06_06">3 6 6</measure></item>
+                <item><g ref="#stItem"/> cash <measure type="currency" unit="dollars" ana="4.00">4$</measure> - <g ref="#stItem"/> 2 days Graving <choice><sic>vessell</sic><reg resp="#BN">vessel</reg></choice> <measure type="currency" unit="£sd" ana="02_40_00">2 40 0</measure></item>
+                <item><g ref="#stItem"/> horse hire 13 Miles <g ref="#longHyphen" n="5"/> <measure type="currency" unit="£sd" ana="00_04_08">0 4
+                    8</measure></item>
+                <item><g ref="#stItem"/> horse hire <placeName ref="#MillRiver"><choice><sic>Mill river</sic><reg resp="#BN">Mill River</reg></choice></placeName> 6 times <measure type="currency" unit="£sd" ana="00_07_06">0 7 6</measure></item>
+                <item><g ref="#stItem"/> horse to <choice><sic>townd</sic><reg resp="#BN">town</reg></choice> <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                    0</measure></item>
+                <item><g ref="#stItem"/> horse to <placeName ref="#Trumbull"><choice><sic>Trumble</sic><reg resp="#BN">Trumbull</reg></choice></placeName> Eight Miles <measure type="currency" unit="£sd" ana="00_02_08">0 2
+                    8</measure></item>
+                <item><g ref="#stItem"/> my Self &amp; horse To <placeName>
+                    Sanfords Iron Works</placeName> <measure type="currency" unit="£sd" ana="00_09_00">0 9 0</measure></item>
+                <item><g ref="#stItem"/> 3 <choice><sic>daye</sic><reg resp="#BN">days</reg></choice> works at <choice><sic>vessell</sic><reg resp="#BN">vessel</reg></choice> keep my <choice><sic>sell</sic><reg resp="#BN">self</reg></choice>
+                    <measure type="currency" unit="£sd" ana="01_02_06">1 2 6</measure></item>
+                <item><g ref="#stItem"/> <measure type="currency" unit="dollars" ana="20.00">20 Dollars</measure> paid <persName>Sanford</persName> for Iron <g
+                    ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="06_00_00">6 0 0</measure></item>
             </list>
             <list type="entry">
-                <head>June 8 1004 [1804]</head>
-                <item><g ref="#stItem"/> half barril [barrel] Tar <g ref="#longHyphen" n="4"/> 0 7
-                    6</item>
-                <item><g ref="#stItem"/> my self &amp; horse in waggon [wagon] after</item>
-                <item>iron to [place] Sanfords [place]
-                    <!-- #BN 2017-10-1: Line is indented to suggest continued from line above.--> 0
-                    10 0</item>
-                <item><g ref="#stItem"/> horse to N field [?Newfield] <g ref="#longHyphen" n="4"/> 0
-                    1 6</item>
+                <head><date when="1804-06-08">June 8 <choice><sic>1004</sic><reg resp="#BN">1804</reg></choice></date></head>
+                <item><g ref="#stItem"/> half <choice><sic>barril</sic><reg resp="#BN">barrel</reg></choice> Tar <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_07_06">0 7
+                    6</measure></item>
+                <item><g ref="#stItem"/> my self &amp; horse in <choice><sic>waggon</sic><reg resp="#BN">wagon</reg></choice> after</item>
+                <item>iron to <placeName>Sanfords</placeName>
+                    <!-- #BN 2017-10-1: Line is indented to suggest continued from line above.--> <measure type="currency" unit="£sd" ana="00_10_00">0
+                    10 0</measure></item>
+                <item><g ref="#stItem"/> horse to <placeName ref="#Newfield"><choice><sic>N field</sic><reg resp="#BN">Newfield</reg></choice></placeName> <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_01_06">0
+                    1 6</measure></item>
                 <item>
-                    <g ref="#stItem"/> cash 1 $ <g ref="#stItem"/> Six Daye [days] at vessell
-                    [vessel] <g ref="#longHyphen" n="2"/> 2 11 0</item>
-                <item><g ref="#stItem"/> one side Soal [sole] Leather <!-- #BN 2017-10-3: Sole leather is defined as “a thick strong leather especially for shoe 
+                    <g ref="#stItem"/> cash <measure type="currency" unit="dollars" ana="1.00">1 $</measure> <g ref="#stItem"/> Six <choice><sic>Daye</sic><reg resp="#BN">days</reg></choice> at <choice><sic>vessell</sic> <reg resp="#BN">vessel</reg></choice> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="02_11_00">2 11 0</measure></item>
+                <item><g ref="#stItem"/> one side <choice><sic>Soal</sic><reg resp="#BN">sole</reg></choice> Leather <!-- #BN 2017-10-3: Sole leather is defined as “a thick strong leather especially for shoe 
 soles”. https://www.merriam-webster.com/dictionary/sole%20leather-->
-                    <g ref="#longHyphen" n="3"/> 1 2 4</item>
-                <item><g ref="#stItem"/> horse to Bridgeport to Cash &amp; S [self] [0] 7 6</item>
+                    <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="01_02_04">1 2 4</measure></item>
+                <item><g ref="#stItem"/> horse to <placeName ref="#Bridgeport">Bridgeport</placeName> to Cash &amp; <choice><sic>S</sic><reg resp="#BN">self</reg></choice> <measure type="currency" unit="£sd" ana="00_07_06">  7 6</measure></item>
             </list>
             <list type="entry">
-                <head>10</head>
-                <item><g ref="#stItem"/> my sell [self] and horse in waggon [wagon]after Timber
-                    [timber]</item>
+                <head><date when="1804-06-10">10</date></head>
+                <item><g ref="#stItem"/> my <choice><sic>sell</sic><reg resp="#BN">self</reg></choice> and horse in <choice><sic>waggon</sic><reg resp="#BN">wagon</reg></choice> after Timber</item>
                 <item>Six Miles
                     <!-- #BN 2017-10-1: Line is indented to suggest continued from line above.]-->
-                    [0] 7 6</item>
-                <item><g ref="#stItem"/> horse to [place] Trumble [Trumbull [place] Eight Miles <g
-                        ref="#longHyphen" n="3"/> 0 2 8</item>
+                    <measure type="currency" unit="£sd" ana="00_07_06">  7 6</measure></item>
+                <item><g ref="#stItem"/> horse to <placeName ref="#Trumbull"><choice><sic>Trumble</sic><reg resp="#BN">Trumbull</reg></choice></placeName> Eight Miles <g
+                    ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_02_08">0 2 8</measure></item>
             </list>
             <list type="entry">
-                <head>11</head>
-                <item><g ref="#stItem"/> 3 Days at wessell [vessel] <g ref="#longHyphen" n="3"/> 0
-                    19 6</item>
-                <item><g ref="#stItem"/> Cash paid of [person] Railey &amp; Coe
-                    [person]<!-- #BN 2017-10-2: Railey may be Terence Riley. "In 1803 Terence Riley 
+                <head><date when="1804-06-11">11</date></head>
+                <item><g ref="#stItem"/> 3 Days at <choice><sic>wessell</sic> <reg resp="#BN">vessel</reg></choice> <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_19_06">0
+                    19 6</measure></item>
+                <item><g ref="#stItem"/> Cash paid of Railey &amp; Coe <!-- #BN 2017-10-2: Railey may be Terence Riley. "In 1803 Terence Riley 
 bought from John Wheeler the house, with a wharf and store ...sudden death in New York in 1805..." History of 
 Black Rock https://archive.org/stream/historyofblackro00just#page/24/mode/2up/search/riley -->
-                    on your $305 order <!-- #BN 2017-10-1: Two lines are bracketed together.--> 105
-                    00 0</item>
-                <item><g ref="#stItem"/> Cash 10$ <g ref="#longHyphen" n="3"/> 1 10 0</item>
+                    on your <measure type="currency" unit="dollars" ana="305.00">$305</measure> order <!-- #BN 2017-10-1: Two lines are bracketed together.--> <measure type="currency" unit="£sd" ana="105_00_00">105
+                    00 0</measure></item>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars" ana="10.00">10$</measure> <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="01_10_00">1 10 0</measure></item>
             </list>
             <list type="entry">
-                <head>13</head>
-                <item><g ref="#stItem"/> Six Days works keep my Self <g ref="#longHyphen" n="1"/> 2
-                    5 0</item>
-                <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="5"/> 1 10 4
+                <head><date when="1804-06-13">13</date></head>
+                <item><g ref="#stItem"/> Six Days works keep my Self <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="02_05_00">2
+                    5 0</measure></item>
+                <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="5"/> <measure type="currency" unit="£sd" ana="01_10_04">1 10 4</measure>
                     <!-- #BN 2017-10-2: Tiny o in first currency column is likely a calculating mark.--></item>
             </list>
             <list type="entry">
-                <head>20</head>
-                <item><g ref="#stItem"/> Cash paid for Mast in [place] N York [New York] [place] 15
-                    00 [0]</item>
-                <item><g ref="#stItem"/> 5 Days work at vessels keep my S [self] 1 17 6</item>
+                <head><date when="1804-06-20">20</date></head>
+                <item><g ref="#stItem"/> Cash paid for Mast in <placeName ref="#NewYork">N York</placeName> <measure type="currency" unit="£sd" ana="15_00_00">15
+                    00  </measure></item>
+                <item><g ref="#stItem"/> 5 Days work at vessels keep my <choice><sic>S</sic><reg resp="#BN">self</reg></choice> <measure type="currency" unit="£sd" ana="01_17_06">1 17 6</measure></item>
             </list>
             <list type="entry">
-                <head>26</head>
-                <item><g ref="#stItem"/> Cash 5$ <g ref="#longHyphen" n="5"/> 1 10 0</item>
-                <item><g ref="#stItem"/> Cash 5$ <g ref="#stItem"/> 3 days at vessell [vessel] <g
-                        ref="#longHyphen" n="2"/> 2 15 8</item>
-                <item><g ref="#stItem"/> horse 8 Times to [place] Newfield [place] <g
-                        ref="#longHyphen" n="2"/> 0 12 0</item>
-                <item><g ref="#stItem"/> horse to townd [town] 2 <g ref="#longHyphen" n="4"/> 0 2
-                    0</item>
-                <item><g ref="#stItem"/> Cash 30$ <g ref="#longHyphen" n="4"/> 9 0 0</item>
+                <head><date when="1804-06-26">26</date></head>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars" ana="5.00">5$</measure> <g ref="#longHyphen" n="5"/> <measure type="currency" unit="£sd" ana="01_10_00">1 10 0</measure></item>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars" ana="5.00">5$</measure> <g ref="#stItem"/> 3 days at <choice><sic>vessell</sic> <reg resp="#BN">vessel</reg></choice> <g
+                    ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="02_15_08">2 15 8</measure></item>
+                <item><g ref="#stItem"/> horse 8 Times to <placeName ref="#Newfield">Newfield</placeName> <g
+                    ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_12_00">0 12 0</measure></item>
+                <item><g ref="#stItem"/> horse to <choice><sic>townd</sic><reg resp="#BN">town</reg></choice> 2 <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_02_00">0 2
+                    0</measure></item>
+                <item><g ref="#stItem"/> Cash <measure type="currency" unit="dollars" ana="30.00">30$</measure> <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="09_00_00">9 0 0</measure></item>
             </list>
             <list type="entry">
-                <head>July 1804</head>
-                <item><g ref="#stItem"/> 3 days works <g ref="#longHyphen" n="4"/> [0] 19 6</item>
-                <item><g ref="#stItem"/> Cash paid [person] Capt Malbie
-                    [person]<!-- #BN 2017-09-30:Name is probably Maltbie and may refer to a son of 
+                <head><date when="1804-07">July 1804</date></head>
+                <item><g ref="#stItem"/> 3 days works <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_19_06">  19 6</measure></item>
+                <item><g ref="#stItem"/> Cash paid <persName ref="#JonathanMaltbie">Capt <choice><sic>Malbie</sic><reg resp="#BN">Maltbie</reg></choice></persName><!-- #BN 2017-09-30:Name is probably Maltbie and may refer to a son of 
 Capt Jonathan Maltbie.  A son, William is listed in the Captain's listing.  
 https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                     for towing</item>
-                <item>Mast from Newyork [New York] &amp; ankers [anchors]</item>
-                <item>&amp; Sundries <g ref="#longHyphen" n="4"/> 2 8 9</item>
+                <item>Mast from <placeName ref="#NewYork"><choice><sic>Newyork</sic><reg resp="#BN">New York</reg></choice></placeName> &amp; <choice><sic>ankers</sic><reg resp="#BN">anchors</reg></choice></item>
+                <item>&amp; Sundries <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="02_08_09">2 8 9</measure></item>
             </list>
             <list type="entry" subtype="total">
-                <item>233 8 4</item>
+                <item><measure type="currency" unit="£sd" ana="233_08_04">233 8 4</measure></item>
             </list>
         </div>
     </div>
