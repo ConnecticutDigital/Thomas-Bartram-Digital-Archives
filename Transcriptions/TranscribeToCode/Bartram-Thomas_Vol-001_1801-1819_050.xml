@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_050.jpg">
+    <div type="group">
+        <head>Sloop Rising Sun <g ref="#afterName"/></head>
+        <list type="entry">
+            <head><date when="1806-01-04"><choice><sic>Janury</sic><reg resp="#RF">January</reg></choice> 4 1806</date></head>
+            <item><g ref="#stItem"/> one Day <unclear unit="words" quantity="1" reason="illegible"><supplied resp="#RF">graving</supplied></unclear> <g ref="#longHypen" n="3"/> <measure type="currency" unit="" ana="00_06_00">0 6 0</measure></item>
+            <item><g ref="#stItem"/> one <g ref="#ditto"/> <add resp="#RF">day <unclear unit="words" quantity="1" reason="illegible"><supplied resp="#RF">graving</supplied></unclear></add> &amp; five <g ref="#longHypen" n="2"/> <measure type="currency" unit="" ana="00_07_00">0 7 0</measure></item>
+            <item><g ref="#stItem"/> one <g ref="#ditto"/> <add resp="#RF">day <unclear unit="words" quantity="1" reason="illegible"><supplied resp="#RF">graving</supplied></unclear></add> by N <unclear unit="words" quantity="1" reason="illegible"/> &amp; <unclear unit="words" quantity="1" reason="illegible"/> <measure type="currency" unit="" ana="00_06_00">0 6</measure></item>
+            <item><g ref="#stItem"/> <g ref="#ditto"/> <add resp="#RF">one day</add> <unclear unit="words" quantity="4" reason="illedgible"/> Coal <measure type="currency" unit="" ana="00_09_00">0 9 0</measure></item>
+            <item><g ref="#stItem"/> one Graving &amp; <unclear unit="words" quantity="1" reason="illegible"/> <g ref="#longHyphen" n="5"/> <measure type="currency" unit="" ana="00_07_00">0 7 0</measure></item>
+            <item><g ref="#stItem"/> <unclear unit="words" quantity="2" reason="illedgible"/> &amp; <unclear unit="words" quantity="1" reason="illedgible"/> <g ref="#longHyphen" n="1"/> <measure type="currency" unit="" ana="00_06_00">0 6</measure></item>
+            <item><g ref="#stItem"/> <measure type="currency" unit="dollars" ana="3.00">3 Dollars</measure> paid <orgName>Cornwill &amp; Son</orgName> Sails <unclear unit="words" quantity="1" reason="illegible"><supplied resp="#RF">Mend</supplied></unclear> <measure type="currency" unit="" ana="00_18_00">  18  </measure></item>
+            <item><g ref="#stItem"/> 10 Meals Sail Makers <g ref="#longHyphen" n="1"/> <measure type="currency" unit="" ana="00_06_00">0 6 0</measure></item>
+            <item><g ref="#stItem"/> straw by <unclear unit="char" quantity="1" reason="illegible"/> <persName ref=""><choice><sic>wheeler</sic><reg resp="#RF">Wheeler</reg></choice></persName> <unclear unit="words" quantity="1" reason="illegible"><supplied resp="#RF">Rum</supplied></unclear> <choice><sic>vessell</sic><reg resp="#RF">vessel</reg></choice> <measure type="currency" unit="" ana="00_06_00">  6 0</measure></item>
+        </list>
+        <list type="entry" subtupe="total">
+            <measure type="currency" unit="" ana="03_11_00">3 11 0</measure>
+        </list>
+        <list type="entry">
+            <head><date when="1806-01"><choice><sic>Janiary</sic><reg resp="#RF">January</reg></choice> 1806</date></head>
+            <item><persName ref="#MiahPerry">Miah Perry</persName> Settled Bill for <orgName><unclear unit="words" quantity="1" reason="illegible"/> &amp; <unclear unit="words" quantity="1" reason="illegible"/> Tar &amp; Oil</orgName> <g ref="#longHyphen" n="4"/> <measure type="currency" unit="" ana="06_08_04">6 8 4</measure></item>
+        </list>
+    </div>
+    <div type="group">
+        <head></head>
+        <list type="entry"><head><date when="1806-01"><choice><sic>Jany</sic><reg resp="#RF">January</reg></choice> 1806</date></head>
+        <item><choice><sic>Shipt</sic><reg resp="#RF">Shipped</reg></choice> on board Sloop Rising sun</item>
+            <item>by <persName ref="#WillaimWheeler"><choice><sic>william wheeler</sic><reg resp="#RF">William Wheeler</reg></choice></persName> 5 2/1 <choice><sic>bush</sic><reg resp="#RF">bushel</reg></choice> Oats</item>
+        </list>
+    </div>
+    <div type="group">
+        <head><persName ref="#EbenKnapp">Eben Knapp</persName> <g ref="#afterName"/></head>
+        <list type="entry">
+            <head><date when="1808-12-06"><choice><sic>Decem</sic><reg resp="#RF">December</reg></choice> 6 1808</date></head>
+            <item><g ref="#stItem"/> <choice><sic>Shewing</sic><reg resp="#RF">Shoeing</reg></choice> one horse my own iron &amp; Steel all Round <measure type="currency" unit="" ana="00_06_00">  6 0</measure></item>
+        </list>
+        <list type="entry">
+            <head><date when="1809-01-04">January 4 1809</date></head>
+            <item><g ref="#stItem"/> toe 2 <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice> &amp; Cork my Steel <measure type="currency" unit="" ana="00_02_00">0 2 0</measure></item>
+        </list>
+    </div>
+</div>
