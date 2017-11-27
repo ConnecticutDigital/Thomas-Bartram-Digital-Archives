@@ -45,6 +45,8 @@
     </xsl:template>
 
     <xsl:template match="div[@type = 'page']">
+        <xsl:choose>
+            <xsl:when test="div[@type='page'][descendant::item/text()]">
         <div id="page{@facs/tokenize(.,'[_.]')[4]}" class="row">
             <div class="manu_Image col-xs-5">
                 <a href="images/{@facs}" target="_blank">
@@ -66,7 +68,31 @@
             <a href="#nav">Return to Top</a> | <a href="merchantLog_TOC.html">Table of Contents</a>
             | <a href="merchantLog_main.html">Return to Bartram Main Page</a>
         </div>
-
+            </xsl:when>
+            <xsl:otherwise>
+                <div id="page{@facs/tokenize(.,'[_.]')[4]}" class="row">
+                    <div class="manu_Image col-xs-5">
+                        <a href="images/{@facs}" target="_blank">
+                            <img class="img-responsive"
+                                alt="manuscript image for page {count(preceding::div[@type='page']) + 1}"
+                                src="images/{@facs}"/>
+                        </a>
+                    </div>
+                    <div class="manu_Content col-xs-7">
+                        <span class="pageNum">
+                            <xsl:text>Page </xsl:text>
+                            <xsl:apply-templates select="count(preceding::div[@type = 'page']) + 1"/>
+                        </span>
+                        <hr class="pageDivider"/>
+                        <p><xsl:text>This page still needs transcribed. If you wish to contribute, please fill out our </xsl:text><a href="http://www.blackrockhistory.net/contact.html">Contact Form</a><xsl:text>.</xsl:text></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 text-center">
+                    <a href="#nav">Return to Top</a> | <a href="merchantLog_TOC.html">Table of Contents</a>
+                    | <a href="merchantLog_main.html">Return to Bartram Main Page</a>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="date[not(parent::title)]">
         <span class="date" title="{@when}">
