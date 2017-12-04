@@ -84,7 +84,7 @@
                             <xsl:apply-templates select="count(preceding::div[@type = 'page']) + 1"/>
                         </span>
                         <hr class="pageDivider"/>
-                        <p><xsl:text>This page still needs transcribed.</xsl:text></p> <p><xsl:text>If you wish to contribute, please fill out our </xsl:text><a href="http://www.blackrockhistory.net/contact.html">Contact Form</a><xsl:text>.</xsl:text></p>
+                        <p><xsl:text>This page still needs transcribed.</xsl:text></p> <p><xsl:text>If you wish to contribute, please fill out our </xsl:text><!--<a href="http://www.blackrockhistory.net/contact.html">-->Contact Form<!--</a>--><xsl:text>.</xsl:text></p>
                     </div>
                 </div>
                 <div class="col-xs-12 text-center">

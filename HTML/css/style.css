@@ -16,6 +16,11 @@ a{
     color: #30909c;
     font-weight: 600;
 }
+div.toc > div > ul > li > a{
+    font-size:16px !important;
+    color: #30909c;
+    font-weight: 400;
+}
 .larger{
     font-size:24px;
 }
@@ -156,6 +161,8 @@ span.italics{
   margin: auto !important;
 }
 /*CONTACT FORM*/
+.website{ display:none; }
+#website{ display:none; }
 #text {
     display:none;
 }

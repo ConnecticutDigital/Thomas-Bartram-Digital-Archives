@@ -28,11 +28,25 @@
                     <h3 class="main">Table of Contents</h3>
                     
                 </div>
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 toc">
                         <h4 style="text-align:center;"><a href="https://docs.google.com/document/d/1rYQJzrl-6TFbnXuIr171zxQB5vCQU6bVws62I0d4b_c/edit?usp=sharing">View our Google Doc page by page summaries.</a></h4>
-                        <div id="toc" class="col-xs-6">
+                        <h4 style="text-align:center;">Some transcriptions are not yet available if you would like to contribute please do so via our <a href="contact.html">contact form</a>.</h4>
+                        <h4>Volume 1 : 1801-1819</h4>
+                        <div id="tocVolume1" class="col-xs-4">
                             <ul>
-                                <xsl:apply-templates select="//div[@type = 'page']" mode="toc"/>
+                                <xsl:apply-templates select="//div[@type = 'page'][@facs/tokenize(.,'[_.]')[2] = 'Vol-001']"/>
+                            </ul>
+                        </div>
+                        <h4>Volume 2 : 1815-1819</h4>
+                        <div id="tocVolume2" class="col-xs-4">
+                            <ul>
+                                <xsl:apply-templates select="//div[@type = 'page'][@facs/tokenize(.,'[_.]')[2] = 'Vol-002']"/>
+                            </ul>
+                        </div>
+                        <h4>Volume 3 : 1829-1838</h4>
+                        <div id="tocVolume3" class="col-xs-4">
+                            <ul>
+                                <xsl:apply-templates select="//div[@type = 'page'][@facs/tokenize(.,'[_.]')[2] = 'Vol-003']"/>
                             </ul>
                         </div>
                     </div>
@@ -40,12 +54,12 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="div[@type = 'page']" mode="toc">
+    <xsl:template match="div[@type = 'page']">
         <li>
             <xsl:text>Page </xsl:text>
-            <xsl:apply-templates select="count(preceding::div[@type = 'page']) + 1"/>
+            <xsl:apply-templates select="@facs/tokenize(.,'[_.]')[4]"/>
             <xsl:text>   </xsl:text>
-            <a href="merchantLog.html#page{@facs/tokenize(.,'[_.]')[4]}"
+            <a href="merchantLog.html#{@facs/tokenize(.,'[_.]')[2]}page{@facs/tokenize(.,'[_.]')[4]}"
                 >[Transcription]</a>
             <xsl:text>   </xsl:text>
             <a href="images/{@facs}">[Manuscript]</a>
