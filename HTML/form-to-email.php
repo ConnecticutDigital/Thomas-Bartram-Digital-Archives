@@ -32,7 +32,7 @@ if(IsInjected($visitor_email))
     echo "Error! You have provided an invalid email value. Return to <a href='http://www.blackrockhistory.net/contact.html'>http://www.blackrockhistory.net/contact.html</a> to complete your inquiry.";
     exit;
 }
-
+if(!empty($_POST['website'])) die();
 $email_from = "bportnow@gmail.com";//<== update the email address
 $email_subject = "New Form Submission";
 $email_body = 
