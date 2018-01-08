@@ -58,9 +58,14 @@
         <li>
             <xsl:text>Page </xsl:text>
             <xsl:apply-templates select="@facs/tokenize(.,'[_.]')[4]"/>
-            <xsl:text>   </xsl:text>
-            <a href="merchantLog.html#{@facs/tokenize(.,'[_.]')[2]}page{@facs/tokenize(.,'[_.]')[4]}"
-                >[Transcription]</a>
+            <xsl:choose>
+                <xsl:when test="descendant::item[text()]">
+                    <xsl:text>   </xsl:text>
+                    <a href="merchantLog.html#{@facs/tokenize(.,'[_.]')[2]}page{@facs/tokenize(.,'[_.]')[4]}"
+                        >[Transcription]</a>
+                </xsl:when>
+                <xsl:otherwise></xsl:otherwise>
+            </xsl:choose>
             <xsl:text>   </xsl:text>
             <a href="images/{@facs}">[Manuscript]</a>
         </li>
