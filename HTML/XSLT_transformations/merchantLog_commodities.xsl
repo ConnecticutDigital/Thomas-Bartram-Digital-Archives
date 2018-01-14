@@ -33,6 +33,7 @@
                             
                         </tr>
                         <xsl:for-each select="distinct-values($treeWalk)">
+                            <xsl:sort/>
                             <xsl:variable name="com" select="."/>  <!-- RJP: look into group-by to figure out the issue with xsl:sort to get the greatest referenced commodity at the top of the table -->                                                      
                             <tr>
                                 <td><xsl:value-of select="$com"/></td>
