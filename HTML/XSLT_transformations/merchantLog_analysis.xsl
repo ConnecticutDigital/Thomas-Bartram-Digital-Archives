@@ -80,9 +80,11 @@
                 /></td>
             <td>
                 <a
-                    href="merchantLog.html#page{ancestor::div[@type = 'page'][1]/@facs/tokenize(.,'[_.]')[4]}"
+                    href="merchantLog.html#{ancestor::div[@type = 'page'][1]/@facs/tokenize(.,'[_.]')[2]}page{ancestor::div[@type = 'page'][1]/@facs/tokenize(.,'[_.]')[4]}"
                     target="_blank">
-                    <xsl:text>Page </xsl:text>
+                    <xsl:apply-templates
+                        select="ancestor::div[@type = 'page'][1]/@facs/tokenize(.,'[_.]')[2]"/>
+                    <xsl:text> Page </xsl:text>
                     <xsl:apply-templates
                         select="ancestor::div[@type = 'page'][1]/@facs/tokenize(., '[_.]')[4]"/>
                 </a>
