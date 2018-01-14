@@ -2828,7 +2828,7 @@
                         </item>
                         <item><g ref="#stItem"/>
                             <measure commodity="hat" unit="whole" quantity="1">one hat</measure> for
-                                <persName>William B</persName>
+                                <!--<persName>-->William B<!--</persName>-->
                             <measure type="currency" unit="£sd" ana="00_04_06">0 4
                             6</measure></item>
                     </list>
@@ -3435,7 +3435,7 @@
                         <head>
                             <date when="1807-06-11">June 11</date>
                         </head>
-                        <item>By making <persName>Joseph</persName>
+                        <item>By making <!--<persName>-->Joseph<!--</persName>-->
                             <measure commodity="shoes" quantity="1" unit="pair">one pair
                                 shoes</measure>
                             <g ref="#longHyphen" n="2"/>
@@ -4748,7 +4748,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <div type="group">
                     <head>Credit</head>
                     <list type="entry">
-                        <head><date when="">January 4 <unclear unit="words" quantity="1" reason="illegible"/></date></head>
+                        <head><!--<date>-->January 4 <unclear unit="words" quantity="1" reason="illegible"/><!--</date>--></head>
                         <item>by Carting one load <unclear unit="words" quantity="1" reason="illegible"/> <measure type="currency" unit="£sd" ana="00_07_06">  7 6</measure></item>
                     </list>
                 </div>
@@ -4763,7 +4763,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <item><g ref="#stItem"/> horse - to <placeName ref="#Fairfield"><choice><sic>fairfield</sic><reg resp="#RP">Fairfield</reg></choice></placeName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
                     </list>
                     <list type="entry"><head><date when="1805-05-21">4</date></head><item><g ref="#stItem"/> horse To <placeName ref="#FairfieldWoods">Fairfield woods</placeName> <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item></list>
-                    <list type="entry"><head><date when="1805-05-24">24</date></head><item><g ref="#stItem"/> horse To BridgePort <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item>
+                    <list type="entry"><head><date when="1805-05-24">24</date></head><item><g ref="#stItem"/> horse To <placeName ref="#Bridgeport">BridgePort</placeName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item>
                         <item><g ref="#stItem"/> one fowl <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
                         <item><g ref="#stItem"/> horse To <placeName ref="#Bridgeport">BridgePort</placeName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item>
                         <item><g ref="#stItem"/> horse To <placeName ref="#Fairfield"><choice><sic>fairfield</sic><reg resp="#RP">Fairfield</reg></choice></placeName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure></item>
@@ -4777,10 +4777,10 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <head><date when="1808-10">Oct 1808</date></head>
                         <item><g ref="#stItem"/> horse To <placeName ref="#Stratford">Stratford</placeName> in Carriage <measure type="currency" unit="£sd" ana="00_03_00">0 3 0</measure></item>
                         <item><g ref="#stItem"/> <unclear unit="words" quantity="1" reason="illegible"/> horse To <placeName ref="#BlackRock">Town</placeName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure></item>
-                        <item><g ref="#stItem"/> horse To <persName ref="#Osborn">Osborn</persName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                        <item><g ref="#stItem"/> horse To <persName>Osborn</persName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
                         <item><g ref="#stItem"/> Mend wheelbarrow <g ref="#longHyphen" n="3"/><measure type="currency" unit="£sd" ana="00_02_06">0 2 6</measure></item>
                     </list>
-                    <list type="entry' subtype="total">
+                    <list type="entry" subtype="total">
                         <item><measure type="currency" unit="£sd" ana="00_16_09">0 16 9</measure></item>
                     </list>
                 </div>
@@ -10627,6 +10627,18 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
             </listPerson>
             <!-- List of Places -->
             <listPlace>
+                <place xml:id="BlackRock">
+                    <placeName>Black Rock</placeName>
+                    <location>
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Stratford">
+                    <placeName>Stratford</placeName>
+                    <location>
+                        <geo></geo>
+                    </location>
+                </place>
                 <place xml:id="Weston">
                     <placeName>Weston</placeName>
                     <location>
