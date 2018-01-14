@@ -31,7 +31,10 @@
                         by </resp>
                     <persName xml:id="BN">Beth Northrop</persName>
                 </respStmt>
-                <!-- Add a respStmt for each transcriber -->
+                <respStmt>
+                    <resp>XML encoding by </resp>
+                    <persName xml:id="OC">Ognjen Ćirić </persName>
+                </respStmt>
                 <respStmt>
                     <resp>XML mentorship, encoding, proof-reading, and processing provided by </resp>
                     <persName xml:id="RP">Rebecca Parker</persName>
