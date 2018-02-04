@@ -1,0 +1,127 @@
+            <!--Vol-001 Page 055-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_055.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1808-08-18">August 18 1808</date></head>
+                        <item>By Carating Hay one Day <unclear quantity="1" unit="words" reason="illegible"/> <measure type="currency" unit="£sd" ana="00_10_06">0 10 6</measure></item>
+                        <item>By <unclear quantity="2" unit="words" reason="illegible"/> one Tide <measure type="currency" unit="£sd" ana="00_03_00">0 3 0</measure></item>
+                        <item>By <measure commodity="flax" quantity="16" unit="lb"/> 16 lb Flax at 1/ <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_16_00">16<g ref="#longHyphen" n="1"/></measure></item>
+                        <!--#RF 2017-01-24 It does not mention lb symbol but surely implies it since prior line -->
+                        <item>By <measure commodity="flax" quantity="6" unit="lb"/> 6 lb 2/4 Flax at 1/ <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_06_06">6 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-07-26">July 26 1809</date></head>
+                        <item>Paid <g ref="#longHyphen" n="2"/></item>
+                    </list>
+                </div>
+            </div>
+            <!--Vol-001 Page 056-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_056.jpg">
+                <div type="group">
+                    <head>
+                        <!-- uknown name added into the incomplete entries #OC-->
+                        <persName ref="#JamesSquire">James Squire</persName>
+                        <g ref="#afterName"/>
+                    </head>
+                    <list type="entry">
+                        <head><date when="1806-02">Febru 1806</date></head>
+                        <item><g ref="#stItem"/> 1 pair Mittens <measure type="currency" unit="£sd" ana="00_02_06">0 2 6</measure></item>
+                        <item><g ref="#stItem"/> 1 Steel <unclear reason="illegible" unit="words" quantity="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                        <item><g ref="#longHyphen" n="6"/></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-02-17">February 17 1806</date></head>
+                        <item><persName ref="#ThomasBartram">Thos Bartram</persName> began wages in <orgName ref="SloopRisingSun">Sloop Rising sun</orgName> at $ 30 Dollars Month <g ref="#longHyphen" n="3"/></item>
+                        <item><g ref="#longHyphen" n="5"/></item>
+                    </list>
+                </div>
+                <!-- looks like starting of the new div is the way to go. #OC 2018-01-27 -->
+                <div type="group">
+                        <head>
+                            <persName ref="#MiahPerry">Miah Perry</persName>
+                            <g ref="#afterName"/>
+                        </head>
+                    <list type="entry">
+                        <head><date when="1806-08">August 1806</date></head>
+                        <!-- #RF 2018-01-24 Guessed at dollar sign 10 dollars, maybe 40 dollars or 240?  -->
+                        <item><g ref="#stItem"/> $ 10 Dollars as profits <unclear quantity="1" unit="chars" reason="illegible"/> Rising Sun</item>
+                        <item><g ref="#longHyphen" n="4"/></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <persName ref="#SethPerry">Seth Perry</persName>
+                        <g ref="#afterName"/>
+                    </head>
+                    <list type="entry">
+                        <!-- #RF 2018-01-24 Guessed at dollar sign 10 dollars, maybe 40 dollars or 240?  -->
+                        <head><date when="1806-08">August 1806</date></head>
+                        <item><g ref="#longHyphen" n="3"/> <g ref="#stItem"/> Cash 120 Dollars on profits <unclear quantity="1" unit="chars" reason="illegible"/> Rising Sun</item>
+                        <item><g ref="#longHyphen" n="7"/></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <!--  Mr. Cogswell the Cooper need's to be defined, don't know what is the last name. #OC 2018-01-27 -->
+                    <head>
+                        Mr. Cogswell the Cooper
+                    </head>
+                    <list type="entry">
+                        <head><date when="1806-12">Decem 1806</date></head>
+                        <!-- #RF 2018-01-24 – add the word Paid somewhere, it is superimpoosed over the unclear word -->
+                        <item><g ref="#stItem"/> one <unclear reason="illegible" unit="words" quantity="1"/> nife <choice><sic>Nife</sic><reg resp="#RF">Knife</reg></choice> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_04_06">0 4 6</measure></item>
+                        <item><g ref="#stItem"/> fix <unclear reason="illegible" unit="words" quantity="1"/> nife <choice><sic>Nife</sic><reg resp="#RF">Knife</reg></choice> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_06">0 1 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <!-- date definition withou the actual year is not possible #OC 2018-01-27 set year to next, 1807, this needs a review-->
+                        <head><date when="1807-02-25">Feb 25</date></head>
+                        <!-- smudge below number 1 in the currency section looks like a 7 #OC 2018-01-27 -->
+                        <item><g ref="#stItem"/> Make <unclear reason="illegible" unit="words" quantity="1"/> for <unclear reason="illegible" unit="words" quantity="2"/> <measure type="currency" unit="£sd" ana="00_01_00">1 0</measure></item>
+                    </list>
+                </div>
+            </div>
+            <!--Vol-001 Page 057-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_057.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1806-06-20">June 20 1806</date></head>
+                        <item>By Cash<g ref="#longHyphen" n="2"/> $138 <g ref="#longHyphen" n="3"/></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-10-20">Oct 20 1806</date></head>
+                        <!-- one number under the other "265 for wages" is under 127 see manuscript page 057 265 #OC-->
+                        <item>By Cash<g ref="#longHyphen" n="2"/> 127 265 for wages  265</item>
+                        <item><unclear reason="illegible" unit="words" quantity="1"/> 120 Dollars profits of <unclear reason="illegible" unit="words" quantity="1"/> sell $120 <g ref="#longHyphen" n="1"/></item>
+                        <!-- multiple hyphens under here on this line -->
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <!-- how to define two names at the header #OC-->
+                        <persName ref="#SethPerry">Seth &amp; Bradley Perry</persName>
+                        <g ref="#afterName"/>
+                    </head>
+                    <list type="entry"> 
+                        <item><unclear reason="illegible" unit="words" quantity="1"/><g ref="#stItem"/> Cash <placeName ref="#NewYork"><choice><sic>N York</sic><reg
+                            resp="#BN">New York</reg></choice></placeName> profits <unclear reason="illegible" unit="words" quantity="1"/> wage $60</item>
+                        <item><unclear reason="illegible" unit="words" quantity="1"/><g ref="#stItem"/> Cash <placeName ref="#NewYork"><choice><sic>N York</sic><reg
+                            resp="#BN">New York</reg></choice></placeName> profits <unclear reason="illegible" unit="words" quantity="1"/> wage $198</item>
+                        <item><persName ref="#ThomasBartram">Thos Bartram</persName> Cash <g ref="#longHyphen" n="1"/> 20</item>
+                        <item>Cash <g ref="#longHyphen" n="1"/> 66</item>
+                    </list>
+                    <!-- looks like this is total value -->
+                    <list type="entry" subtype="total">
+                        <item>344</item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <unclear reason="illegible" unit="words" quantity="1"/>
+                    </head>
+                    <list type="entry">
+                        <head><date when="1808-01-09">January 09 1808</date></head>
+                        <item>By Cash <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_07_00">0 7 0</measure></item>
+                    </list>
+                </div>
+            </div>
