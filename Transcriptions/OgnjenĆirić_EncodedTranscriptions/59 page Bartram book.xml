@@ -1,0 +1,10 @@
+ <!--Vol-001 Page 059-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_059.jpg">
+                <div type="group">
+                    <head><choice><sic>Cred</sic><reg resp="#RF">Credit</reg></choice> by one gallon Brandy <unclear reason="illegible" unit="words" quantity="1"/></head>
+                    <list type="entry"> 
+                        <!-- looks like a date maybe on far left side 02.02.2018. #RF -->
+                        <item>Paid <g ref="#longHyphen" n="1"/></item>
+                    </list>
+                </div>
+            </div>
