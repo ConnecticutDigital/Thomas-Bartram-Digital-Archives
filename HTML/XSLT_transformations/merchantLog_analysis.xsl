@@ -28,17 +28,17 @@
                         pages of Bartram's merchant logs are encoded.</p>
                     <ul class="larger">
                         <li>Pages Transcribed and Encoded: <strong><xsl:apply-templates
-                                    select="count(descendant::div[@type = 'page'])"/></strong></li>
+                            select="count(descendant::div[@type = 'page'][descendant::item[text()]])"/></strong></li>
                         <li>Lines Transcribed and Encoded: <strong><xsl:apply-templates
-                                    select="count(descendant::body//descendant::item)"
+                                    select="count(descendant::body//descendant::item[text()])"
                             /></strong></li>
-                        <li>Distinct People Mentioned: <strong><xsl:apply-templates
+                        <li>Distinct <a href="merchantLog_people.html">People</a> Mentioned: <strong><xsl:apply-templates
                                     select="count(distinct-values(descendant::back/descendant::person/@xml:id))"
                                 /></strong></li>
-                        <li>Distinct Places Mentioned: <strong><xsl:apply-templates
+                        <li>Distinct <a href="merchantLog_places.html">Places</a> Mentioned: <strong><xsl:apply-templates
                                     select="count(distinct-values(descendant::back/descendant::place/@xml:id))"
                                 /></strong></li>
-                        <li>Distinct Commodities Mentioned: <strong><xsl:apply-templates
+                        <li>Distinct <a href="merchantLog_commodities.html">Commodities</a> Mentioned: <strong><xsl:apply-templates
                                     select="count(distinct-values(descendant::body/descendant::measure/@commodity))"
                                 /></strong></li>
                         <li>Instances of unclear/missing text: <strong><xsl:apply-templates
