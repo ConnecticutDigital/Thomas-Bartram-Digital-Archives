@@ -5324,55 +5324,81 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <head>
                             <date when="1806-06-20">June 20 1806</date>
                         </head>
-                        <item>By Cash <g ref="#longHyphen" n="2"/> <measure type="currency" unit="dollars" ana="138.00">$138</measure> <g ref="#longHyphen" n="3"
-                            /></item>
+                        <item>By Cash <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="dollars" ana="138.00">$138</measure>
+                            <g ref="#longHyphen" n="3"/></item>
                     </list>
                     <list type="entry">
                         <head>
                             <date when="1806-10-20">Oct 20 1806</date>
                         </head>
                         <!-- one number under the other "265 for wages" is under 127 see manuscript page 057 265 #OC-->
-                        <item>By Cash<g ref="#longHyphen" n="2"/> <measure type="currency" unit="dollars" ana="127.00">127</measure></item>
+                        <item>By Cash<g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="dollars" ana="127.00"
+                            >127</measure></item>
                     </list>
                     <list type="entry" subtype="total">
-                        <item><measure type="currency" unit="dollars" ana="265.00">265</measure> for wages <measure type="currency" unit="dollars" ana="265.00">265</measure></item>
-                        <item><unclear reason="illegible" unit="words" quantity="1"/> <measure type="currency" unit="dollars" ana="120.00">120 Dollars</measure>
-                            profits of <unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RP"><choice><sic>vessell</sic><reg resp="#RP">vessel</reg></choice></supplied></unclear>
-                            <measure type="currency" unit="dollars" ana="120.00">$120</measure> <g ref="#longHyphen" n="1"/></item>
+                        <item><measure type="currency" unit="dollars" ana="265.00">265</measure> for
+                            wages <measure type="currency" unit="dollars" ana="265.00"
+                            >265</measure></item>
+                        <item><unclear reason="illegible" unit="words" quantity="1"/>
+                            <measure type="currency" unit="dollars" ana="120.00">120
+                                Dollars</measure> profits of <unclear reason="illegible"
+                                unit="words" quantity="1"><supplied resp="#RP"
+                                            ><choice><sic>vessell</sic><reg resp="#RP"
+                                        >vessel</reg></choice></supplied></unclear>
+                            <measure type="currency" unit="dollars" ana="120.00">$120</measure>
+                            <g ref="#longHyphen" n="1"/></item>
                         <!-- multiple hyphens under here on this line -->
                     </list>
                 </div>
                 <div type="group">
                     <head>
                         <!-- how to define two names at the header #OC-->
-                        <persName ref="#SethPerry">Seth</persName> &amp; <persName ref="#BradleyPerry">Bradley Perry</persName>
+                        <persName ref="#SethPerry">Seth</persName> &amp; <persName
+                            ref="#BradleyPerry">Bradley Perry</persName>
                         <g ref="#afterName"/>
                     </head>
                     <list type="entry">
-                        <head><unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RP">April</supplied></unclear></head>
-                        <item><g
-                                ref="#stItem"/> Cash <placeName ref="#NewYork"><choice><sic>N
+                        <head>
+                            <unclear reason="illegible" unit="words" quantity="1">
+                                <supplied resp="#RP">April</supplied>
+                            </unclear>
+                        </head>
+                        <item><g ref="#stItem"/> Cash <placeName ref="#NewYork"><choice><sic>N
                                         York</sic><reg resp="#RF">New
                                 York</reg></choice></placeName> profits <unclear reason="illegible"
-                                unit="words" quantity="1"/> wage <measure type="currency" unit="dollars" ana="60.00">$60</measure></item>
+                                unit="words" quantity="1"/> wage <measure type="currency"
+                                unit="dollars" ana="60.00">$60</measure></item>
                     </list>
                     <list type="entry">
-                        <head><unclear reason="illegible" unit="words" quantity="1"><supplied resp="#RP">June</supplied></unclear></head>
-                        <item><g
-                                ref="#stItem"/> Cash <g ref="#ditto"/><add resp="#RP"><placeName ref="#NewYork"><choice><sic>N
-                                        York</sic><reg resp="#BN">New
-                                            York</reg></choice></placeName></add> for <g ref="#ditto"/><add resp="#RP"> profits <unclear reason="illegible"
-                                                unit="words" quantity="1"/> wage</add> <measure type="currency" unit="dollars" ana="198.00">$198</measure></item>
+                        <head>
+                            <unclear reason="illegible" unit="words" quantity="1">
+                                <supplied resp="#RP">June</supplied>
+                            </unclear>
+                        </head>
+                        <item><g ref="#stItem"/> Cash <g ref="#ditto"/><add resp="#RP"><placeName
+                                    ref="#NewYork"><choice><sic>N York</sic><reg resp="#BN">New
+                                            York</reg></choice></placeName></add> for <g
+                                ref="#ditto"/><add resp="#RP"> profits <unclear reason="illegible"
+                                    unit="words" quantity="1"/> wage</add>
+                            <measure type="currency" unit="dollars" ana="198.00"
+                            >$198</measure></item>
                     </list>
                     <list type="entry">
-                        <head><persName ref="#ThomasBartram">Thos Bartram</persName></head>
-                        <item>Cash <g
-                            ref="#longHyphen" n="1"/> <measure type="currency" unit="dollars" ana="20.00">20</measure></item>
-                        <item>Cash <g ref="#longHyphen" n="1"/> <measure type="currency" unit="dollars" ana="66.00">66</measure></item>
+                        <head>
+                            <persName ref="#ThomasBartram">Thos Bartram</persName>
+                        </head>
+                        <item>Cash <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="dollars" ana="20.00">20</measure></item>
+                        <item>Cash <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="dollars" ana="66.00">66</measure></item>
                     </list>
                     <!-- looks like this is total value -->
                     <list type="entry" subtype="total">
-                        <item><measure type="currency" unit="dollars" ana="344.00">344</measure></item>
+                        <item>
+                            <measure type="currency" unit="dollars" ana="344.00">344</measure>
+                        </item>
                     </list>
                 </div>
                 <div type="group">
@@ -5381,7 +5407,8 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                     </head>
                     <list type="entry">
                         <head>
-                            <date when="1808-01-09"><choice><sic>Januy</sic><reg resp="#RP">January</reg></choice> 9 1808</date>
+                            <date when="1808-01-09"><choice><sic>Januy</sic><reg resp="#RP"
+                                        >January</reg></choice> 9 1808</date>
                         </head>
                         <item>By Cash <g ref="#longHyphen" n="2"/>
                             <measure type="currency" unit="£sd" ana="00_07_00">0 7
@@ -5394,13 +5421,19 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <div type="group">
                     <head>
                         <!-- unclear last anme 02.02.2018. #OC-->
-                        <persName ref="#Ebenezer">Ebenezer <unclear reason="illegible" unit="words" quantity="1"/></persName>
+                        <persName ref="#Ebenezer">Ebenezer <unclear reason="illegible" unit="words"
+                                quantity="1"/></persName>
                         <g ref="#afterName"/>
                     </head>
                     <list type="entry">
-                        <head><date when="1806-12">Decem 1806</date></head>
-                        <item>To horse to <unclear reason="illegible" unit="words" quantity="1"/> water $ 34/100</item>
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="1"/> One Day Ride horse 33/ $0 67</item>
+                        <head>
+                            <date when="1806-12">Decem 1806</date>
+                        </head>
+                        <item>To horse to <unclear reason="illegible" unit="words" quantity="1"/>
+                            water $ 34/100</item>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="1"/> One Day Ride
+                            horse 33/ $0 67</item>
                         <item>Paid</item>
                     </list>
                 </div>
@@ -5409,9 +5442,14 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <persName ref="#ThomasStaples">Thos Staples</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1806-12-28">December 28 1806</date></head>
-                        <item><g ref="#stItem"/> 8 2/1 point Steel for <choice><sic>Slay</sic><reg resp="#RF">sleigh</reg></choice> <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice> <measure type="currency" unit="£sd" ana="00_08_06">8 6</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-12-28">December 28 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> 8 2/1 point Steel for <choice><sic>Slay</sic><reg
+                                    resp="#RF">sleigh</reg></choice>
+                            <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice>
+                            <measure type="currency" unit="£sd" ana="00_08_06">8 6</measure></item>
                     </list>
                 </div>
                 <div type="group">
@@ -5420,47 +5458,91 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <persName ref="#UriahBuckley">Uriah Buckley</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1807-12-15">December 28 1806</date></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-12-15">December 28 1806</date>
+                        </head>
                         <!-- there is a smudge at number 3 in measure currency section #OC -->
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="1"/> 2 <choice><sic>Shewes</sic><reg resp="#RF">shoes</reg></choice> Steel Toes &amp; <unclear reason="illegible" unit="words" quantity="1"/> <measure type="currency" unit="£sd" ana="00_03_00">3 0</measure></item>
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="1"/> crow bar &amp; wedge <measure type="currency" unit="£sd" ana="00_01_00">1 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="1"/> 2
+                                    <choice><sic>Shewes</sic><reg resp="#RF">shoes</reg></choice>
+                            Steel Toes &amp; <unclear reason="illegible" unit="words" quantity="1"/>
+                            <measure type="currency" unit="£sd" ana="00_03_00">3 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="1"/> crow bar &amp;
+                            wedge <measure type="currency" unit="£sd" ana="00_01_00">1
+                            0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1809-08-21">21 August 1809</date></head>
-                        <item><g ref="#stItem"/> horse to <placeName ref="#Greenfield">greenfield</placeName> <measure type="currency" unit="£sd" ana="00_02_00">2</measure></item>
-                        <item><g ref="#stItem"/> horse to hire <placeName ref="#Bridgeport">Bridgeport</placeName> <measure type="currency" unit="£sd" ana="00_01_00">1</measure></item>
-                        <item><g ref="#stItem"/> horse to <placeName ref="#Oldmill">old Mill</placeName> <measure type="currency" unit="£sd" ana="00_02_00">0 2</measure></item>
-                        <item><g ref="#stItem"/> horse to <placeName ref="#Greenfield">greenfield</placeName> <measure type="currency" unit="£sd" ana="00_02_00">2</measure></item>
-                        <item><g ref="#stItem"/> horse to hire <placeName ref="#Fairfield">fairfield</placeName> <measure type="currency" unit="£sd" ana="00_01_00">0 1</measure></item>
-                        <item><g ref="#stItem"/> horse to hire <placeName ref="#Fairfield">fairfield</placeName> <measure type="currency" unit="£sd" ana="00_01_00">0 1</measure></item>
-                        <item><g ref="#stItem"/> Mend <unclear reason="illegible" unit="words" quantity="1"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-08-21">21 August 1809</date>
+                        </head>
+                        <item><g ref="#stItem"/> horse to <placeName ref="#Greenfield"
+                                >greenfield</placeName>
+                            <measure type="currency" unit="£sd" ana="00_02_00">2</measure></item>
+                        <item><g ref="#stItem"/> horse to hire <placeName ref="#Bridgeport"
+                                >Bridgeport</placeName>
+                            <measure type="currency" unit="£sd" ana="00_01_00">1</measure></item>
+                        <item><g ref="#stItem"/> horse to <placeName ref="#Oldmill">old
+                                Mill</placeName>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2</measure></item>
+                        <item><g ref="#stItem"/> horse to <placeName ref="#Greenfield"
+                                >greenfield</placeName>
+                            <measure type="currency" unit="£sd" ana="00_02_00">2</measure></item>
+                        <item><g ref="#stItem"/> horse to hire <placeName ref="#Fairfield"
+                                >fairfield</placeName>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1</measure></item>
+                        <item><g ref="#stItem"/> horse to hire <placeName ref="#Fairfield"
+                                >fairfield</placeName>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1</measure></item>
+                        <item><g ref="#stItem"/> Mend <unclear reason="illegible" unit="words"
+                                quantity="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1808-01-09">January 9 1808</date></head>
-                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#RF">shoes</reg></choice> New Steel toes &amp; Cork <measure type="currency" unit="£sd" ana="00_03_00">3 0</measure></item>
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="2"/> my iron <measure type="currency" unit="£sd" ana="00_01_00">0 1</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-01-09">January 9 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#RF"
+                                    >shoes</reg></choice> New Steel toes &amp; Cork <measure
+                                type="currency" unit="£sd" ana="00_03_00">3 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="2"/> my iron <measure
+                                type="currency" unit="£sd" ana="00_01_00">0 1</measure></item>
                     </list>
-                    <list type="entry"> 
+                    <list type="entry">
                         <!-- likely same year 1808 but no year is mentioned 02.02.2018. #RF-->
-                        <head><date when="1808-03">March 1808</date></head>
-                        <item><g ref="#stItem"/> Make Crowbar <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure></item>
-                        
-                        <item><g ref="#stItem"/> 20 lb <unclear reason="illegible" unit="words" quantity="1"/><!-- unclear word, Robert thinks it's "Hay". Also presuming it's part with hyphen is hyphen. Not crossed. 02.02.2018. #OC--> at /6 <g ref="#longHyphen" n="1"/><measure type="currency" unit="£sd" ana="00_10_00">10</measure></item>
+                        <head>
+                            <date when="1808-03">March 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> Make Crowbar <measure type="currency" unit="£sd"
+                                ana="00_06_00">0 6 0</measure></item>
+
+                        <item><g ref="#stItem"/> 20 lb <unclear reason="illegible" unit="words"
+                                quantity="1"
+                            /><!-- unclear word, Robert thinks it's "Hay". Also presuming it's part with hyphen is hyphen. Not crossed. 02.02.2018. #OC-->
+                            at /6 <g ref="#longHyphen" n="1"/><measure type="currency" unit="£sd"
+                                ana="00_10_00">10</measure></item>
                     </list>
                     <list type="entry" subtype="total">
-                        <item><measure type="currency" unit="£sd" ana="01_15_00">1 15 0</measure></item>
+                        <item>
+                            <measure type="currency" unit="£sd" ana="01_15_00">1 15 0</measure>
+                        </item>
                     </list>
                     <list type="entry" subtype="total">
-                        <item>Settled with <persName ref="#UriahBuckley">Uriah Buckley</persName> <date when="1808-12-22">May 6 1808</date> all accounts to this Date</item>
+                        <item>Settled with <persName ref="#UriahBuckley">Uriah Buckley</persName>
+                            <date when="1808-12-22">May 6 1808</date> all accounts to this
+                            Date</item>
                     </list>
                 </div>
             </div>
             <!--Vol-001 Page 059-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_059.jpg">
                 <div type="group">
-                    <head><choice><sic>Cred</sic><reg resp="#RF">Credit</reg></choice> by one gallon Brandy <unclear reason="illegible" unit="words" quantity="1"/></head>
-                    <list type="entry"> 
+                    <head><choice><sic>Cred</sic><reg resp="#RF">Credit</reg></choice> by one gallon
+                        Brandy <unclear reason="illegible" unit="words" quantity="1"/></head>
+                    <list type="entry">
                         <!-- looks like a date maybe on far left side 02.02.2018. #RF -->
                         <item>Paid <g ref="#longHyphen" n="1"/></item>
                     </list>
@@ -5473,40 +5555,86 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <persName ref="#NehemiahPhippeny">Nehemiah Phippeny</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1806-01-11">January 11 1806</date></head>
-                        <item><g ref="#stItem"/> 1 2/1 pound pork <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_03">1 3</measure></item>
-                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice> New <unclear reason="illegible" unit="words" quantity="1"/> toes &amp; Corks <measure type="currency" unit="£sd" ana="00_03_06">3 6</measure></item>
-                        <item><g ref="#stItem"/> Make Cuting <choice><sic>nife</sic><reg resp="#RF">Knife</reg></choice> for Straw <measure type="currency" unit="£sd" ana="00_01_04">1 4</measure></item>
-                        <item><g ref="#stItem"/> 4 <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice> New Steel toes <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_05_06">5 6</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-01-11">January 11 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> 1 2/1 pound pork <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_03">1 3</measure></item>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#RF"
+                                    >Shoes</reg></choice> New <unclear reason="illegible"
+                                unit="words" quantity="1"/> toes &amp; Corks <measure
+                                type="currency" unit="£sd" ana="00_03_06">3 6</measure></item>
+                        <item><g ref="#stItem"/> Make Cuting <choice><sic>nife</sic><reg resp="#RF"
+                                    >Knife</reg></choice> for Straw <measure type="currency"
+                                unit="£sd" ana="00_01_04">1 4</measure></item>
+                        <item><g ref="#stItem"/> 4 <choice><sic>Shews</sic><reg resp="#RF"
+                                    >Shoes</reg></choice> New Steel toes <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_05_06">5 6</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1806-12">December 1806</date></head>
-                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice> New Steel toes &amp; <unclear reason="illegible" unit="words" quantity="1"/> <measure type="currency" unit="£sd" ana="00_03_00">3 0</measure></item>
-                        <item><g ref="#stItem"/> Let 2 old <unclear reason="illegible" unit="words" quantity="1"/> toes &amp; Cork <measure type="currency" unit="£sd" ana="00_02_00">2 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-12">December 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#RF"
+                                    >Shoes</reg></choice> New Steel toes &amp; <unclear
+                                reason="illegible" unit="words" quantity="1"/>
+                            <measure type="currency" unit="£sd" ana="00_03_00">3 0</measure></item>
+                        <item><g ref="#stItem"/> Let 2 old <unclear reason="illegible" unit="words"
+                                quantity="1"/> toes &amp; Cork <measure type="currency" unit="£sd"
+                                ana="00_02_00">2 0</measure></item>
                     </list>
-                    <list type="entry"> 
+                    <list type="entry">
                         <!-- most likely the year is 1806 #OC 03.02.2018.-->
-                        <head><date when="1806-06">June 1806</date></head>
-                        <item><g ref="#stItem"/> 8 2/1 veal at <measure type="currency" unit="£sd" ana="00_03_02">3 2</measure></item>
-                        <item><g ref="#stItem"/> 6 pound Butter at <unclear reason="illegible" unit="words" quantity="1"/> <measure type="currency" unit="£sd" ana="00_06_00">6 0</measure></item>
+                        <head>
+                            <date when="1806-06">June 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> 8 2/1 veal at <measure type="currency" unit="£sd"
+                                ana="00_03_02">3 2</measure></item>
+                        <item><g ref="#stItem"/> 6 pound Butter at <unclear reason="illegible"
+                                unit="words" quantity="1"/>
+                            <measure type="currency" unit="£sd" ana="00_06_00">6 0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1806-08-08">August 8 1806</date></head>
-                        <item><g ref="#stItem"/> 1 at 1/4 Butter <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_04">1 4</measure></item>
-                        <item><g ref="#stItem"/> 27 Cash <unclear reason="illegible" unit="words" quantity="1"/> &amp; <unclear reason="illegible" unit="words" quantity="2"/> <measure type="currency" unit="£sd" ana="00_04_00">4 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-08-08">August 8 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> 1 at 1/4 Butter <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_04">1 4</measure></item>
+                        <item><g ref="#stItem"/> 27 Cash <unclear reason="illegible" unit="words"
+                                quantity="1"/> &amp; <unclear reason="illegible" unit="words"
+                                quantity="2"/>
+                            <measure type="currency" unit="£sd" ana="00_04_00">4 0</measure></item>
                     </list>
-                    <list type="entry"> 
+                    <list type="entry">
                         <!-- there is a word above that cannot be read 03.02.2018. #OC-->
-                        <head><date when="1808-01-14">January 14 1808</date></head>
-                        <item><g ref="#stItem"/> cash <measure type="currency" unit="dollars" ana="03.00">$3</measure> <g ref="#longHyphen" n="5"/> <measure type="currency" unit="£sd" ana="00_18_00">0 18 0</measure></item>
-                        <item><g ref="#stItem"/> making 2 hooks <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                        <head>
+                            <date when="1808-01-14">January 14 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> cash <measure type="currency" unit="dollars"
+                                ana="03.00">$3</measure>
+                            <g ref="#longHyphen" n="5"/>
+                            <measure type="currency" unit="£sd" ana="00_18_00">0 18
+                            0</measure></item>
+                        <item><g ref="#stItem"/> making 2 hooks <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
                         <!-- Guess it's and OX, could be an ax 03.02.2018. #OC -->
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="1"/> ox <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="1"/> ox <g
+                                ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1808-12-27">Decem 27 1808</date></head>
-                        <item><g ref="#stItem"/> <choice><sic>Shewing</sic><reg resp="#RF">Shoeing</reg></choice> horse 4 <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice> <unclear reason="illegible" unit="words" quantity="1"/> Corks <measure type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-12-27">Decem 27 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <choice><sic>Shewing</sic><reg resp="#RF">Shoeing</reg></choice> horse 4
+                                    <choice><sic>Shews</sic><reg resp="#RF">Shoes</reg></choice>
+                            <unclear reason="illegible" unit="words" quantity="1"/> Corks <measure
+                                type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
                     </list>
                 </div>
                 <div type="group">
@@ -5514,9 +5642,14 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <persName ref="#UriahBuckley">Uriah Buckley</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1808-05-07">May 7 1808</date></head>
-                        <item><g ref="#stItem"/> Make 7 <unclear reason="illegible" unit="words" quantity="1"/> <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-05-07">May 7 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> Make 7 <unclear reason="illegible" unit="words"
+                                quantity="1"/>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
                         <item>Paid <g ref="#longHyphen" n="1"/></item>
                     </list>
                 </div>
@@ -5525,17 +5658,30 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <persName ref="#JohnMaltbie">John Malbie</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
+                    <list type="entry">
                         <!-- year is guessed since prior year was also 1808 though really looks like 1801 #RF-->
-                        <head><date when="1808-12">Dec 1808</date></head>
-                        <item><g ref="#stItem"/> horse in <choice><sic>waggon</sic><reg resp="#RF">wagon</reg></choice> <placeName ref="#Bridgeport">bridgeport</placeName> <measure type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
-                        <item><g ref="#stItem"/> Mend <unclear reason="illegible" unit="words" quantity="2"/> <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_07_00">0 7 0</measure></item>
+                        <head>
+                            <date when="1808-12">Dec 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> horse in <choice><sic>waggon</sic><reg resp="#RF"
+                                    >wagon</reg></choice>
+                            <placeName ref="#Bridgeport">bridgeport</placeName>
+                            <measure type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
+                        <item><g ref="#stItem"/> Mend <unclear reason="illegible" unit="words"
+                                quantity="2"/>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_07_00">0 7
+                            0</measure></item>
                     </list>
-                    <list type="entry"> 
+                    <list type="entry">
                         <!-- Unknown year, could be next year 1809 03.02.2018. #OC-->
-                        <item><g ref="#stItem"/> horse to Town <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_00_09">0 0 9</measure></item>
+                        <item><g ref="#stItem"/> horse to Town <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_00_09">0 0
+                            9</measure></item>
                         <!-- Guessing lat two words on this item 03.02.2018. #OC-->
-                        <item><g ref="#stItem"/> grind ax <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_00_06">0 0 6</measure></item>
+                        <item><g ref="#stItem"/> grind ax <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_00_06">0 0
+                            6</measure></item>
                     </list>
                 </div>
             </div>
@@ -5543,8 +5689,10 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_061.jpg">
                 <div type="group">
                     <head>Credit</head>
-                    <list type="entry"> 
-                        <item>By 20 pounds <unclear reason="illegible" unit="words" quantity="2"/> <measure type="currency" unit="£sd" ana="00_03_04">0 3 4</measure></item>
+                    <list type="entry">
+                        <item>By 20 pounds <unclear reason="illegible" unit="words" quantity="2"/>
+                            <measure type="currency" unit="£sd" ana="00_03_04">0 3
+                            4</measure></item>
                     </list>
                 </div>
             </div>
@@ -5552,54 +5700,102 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_062.jpg">
                 <div type="group">
                     <head>
-                        <persName ref="#OziasBurr">Ozias</persName> &amp; <persName ref="#NicholsBurr">Nichols Burr</persName>
+                        <persName ref="#OziasBurr">Ozias</persName> &amp; <persName
+                            ref="#NicholsBurr">Nichols Burr</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1809-03-02">March 2 1809</date></head>
-                        <item><g ref="#stItem"/> Lay UNCLEAR ax <g ref="#longHyphen" n="2"/> <g ref="#currency"/> <measure type="currency" unit="£sd" ana="00_03_00">0 3 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-03-02">March 2 1809</date>
+                        </head>
+                        <item><g ref="#stItem"/> Lay UNCLEAR ax <g ref="#longHyphen" n="2"/>
+                            <g ref="#currency"/>
+                            <measure type="currency" unit="£sd" ana="00_03_00">0 3
+                            0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1808-01-25">January 25 1808</date></head>
-                        <item><g ref="#stItem"/> <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> one yoak oxen old <choice><sic>shews</sic><reg resp="#OC">shoes</reg></choice> <measure type="currency" unit="£sd" ana="00_07_06">7 6</measure></item>
-                        <item><g ref="#stItem"/> Make Clam Bake 14 <unclear reason="illegible" unit="words" quantity="1"/> <measure type="currency" unit="£sd" ana="00_09_00">9 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-01-25">January 25 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> one
+                            yoak oxen old <choice><sic>shews</sic><reg resp="#OC"
+                                >shoes</reg></choice>
+                            <measure type="currency" unit="£sd" ana="00_07_06">7 6</measure></item>
+                        <item><g ref="#stItem"/> Make Clam Bake 14 <unclear reason="illegible"
+                                unit="words" quantity="1"/>
+                            <measure type="currency" unit="£sd" ana="00_09_00">9 0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1809-02-04">February 4 1809</date></head>
-                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#OC">shoes</reg></choice> new Steel Toes my Steel <measure type="currency" unit="£sd" ana="00_02_09">0 2 9</measure></item>
-                        <item><g ref="#stItem"/> Cork 2 and Set them <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_02_00">2 0</measure></item>
-                        <item><g ref="#stItem"/> <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> one yoak oxen New <measure type="currency" unit="£sd" ana="04_08_00">4 8 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-02-04">February 4 1809</date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#OC"
+                                    >shoes</reg></choice> new Steel Toes my Steel <measure
+                                type="currency" unit="£sd" ana="00_02_09">0 2 9</measure></item>
+                        <item><g ref="#stItem"/> Cork 2 and Set them <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">2 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> one
+                            yoak oxen New <measure type="currency" unit="£sd" ana="04_08_00">4 8
+                                0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1810-01-27">January 27 1810</date></head>
-                        <item><g ref="#stItem"/> <choice><sic>shewing</sic><reg resp="#OC">shoeing</reg></choice> one yoak oxen <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_09_00">0 9 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1810-01-27">January 27 1810</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <choice><sic>shewing</sic><reg resp="#OC">shoeing</reg></choice> one
+                            yoak oxen <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_09_00">0 9
+                            0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1812-03-02">January 1 1812</date></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1812-03-02">January 1 1812</date>
+                        </head>
                         <item/>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1809-03-02">Nov 24 1812</date></head>
-                        <item><g ref="#stItem"/> Make 3 pair hinges &amp; hook 3 / <measure type="currency" unit="£sd" ana="00_09_00">0 9 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-03-02">Nov 24 1812</date>
+                        </head>
+                        <item><g ref="#stItem"/> Make 3 pair hinges &amp; hook 3 / <measure
+                                type="currency" unit="£sd" ana="00_09_00">0 9 0</measure></item>
                     </list>
                     <!-- Not sure if this is total or what #OC -->
                     <list type="entry" subtype="total">
-                        <item><unclear reason="illegible" unit="words" quantity="1"/> further <unclear reason="illegible" unit="words" quantity="1"/></item>
+                        <item><unclear reason="illegible" unit="words" quantity="1"/> further
+                                <unclear reason="illegible" unit="words" quantity="1"/></item>
                     </list>
                 </div>
                 <div type="group">
                     <head>
-                        <persName ref="#ThomasEllwood"><choice><sic>Thos</sic><reg resp="#OC">Thomas</reg></choice> Ellwood</persName>
+                        <persName ref="#ThomasEllwood"><choice><sic>Thos</sic><reg resp="#OC"
+                                    >Thomas</reg></choice> Ellwood</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1808-01-01">January 1 1808</date></head>
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="2"/> <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-01-01">January 1 1808</date>
+                        </head>
+                        <item>
+                            <g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="2"/>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure>
+                        </item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1808-12-03">Dec 3 1808</date></head>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-12-03">Dec 3 1808</date>
+                        </head>
                         <!-- last two words crossed out #RF -->
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="1"/> Set ox fix head <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="1"/> Set ox fix head
+                                <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
                     </list>
                 </div>
                 <div type="group">
@@ -5607,9 +5803,12 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <persName ref="#GershomSturges">Gershom Sturges</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1808-01-09">January 9 1808</date></head>
-                        <item><g ref="#stItem"/> 3 Shews New Steel toes <measure type="currency" unit="£sd" ana="00_05_00">0 5 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-01-09">January 9 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> 3 Shews New Steel toes <measure type="currency"
+                                unit="£sd" ana="00_05_00">0 5 0</measure></item>
                     </list>
                 </div>
                 <div type="group">
@@ -5617,69 +5816,735 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                         <persName ref="#GershomSturges">Gershom Sturges</persName>
                         <g ref="#afterName"/>
                     </head>
-                    <list type="entry"> 
-                        <head><date when="1808-08-17">August 17 1808</date></head>
-                        <item><g ref="#stItem"/> 2 Days work on high way <unclear reason="illegible" unit="words" quantity="1"/> <measure type="currency" unit="£sd" ana="00_12_00">12</measure></item>
-                        <item><g ref="#stItem"/> Mend bucket Bail <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_00_04">0 0 4</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-08-17">August 17 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 Days work on high way <unclear reason="illegible"
+                                unit="words" quantity="1"/>
+                            <measure type="currency" unit="£sd" ana="00_12_00">12</measure></item>
+                        <item><g ref="#stItem"/> Mend bucket Bail <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_00_04">0 0
+                            4</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1808-12-03">Decem 3 1808</date></head>
-                        <item><g ref="#stItem"/> New hammer <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_04_00">0 4 0</measure></item>
-                        <item><g ref="#stItem"/> Mend pitch fork <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_00_06">0 0 6</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-12-03">Decem 3 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> New hammer <g ref="#longHyphen" n="4"/>
+                            <measure type="currency" unit="£sd" ana="00_04_00">0 4
+                            0</measure></item>
+                        <item><g ref="#stItem"/> Mend pitch fork <g ref="#longHyphen" n="4"/>
+                            <measure type="currency" unit="£sd" ana="00_00_06">0 0
+                            6</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1808-08-17">July 19 1809</date></head>
-                        <item><g ref="#stItem"/> horse in carriage to town <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_02">0 1 2</measure></item>
-                        <item><g ref="#stItem"/> 2 Large hooks &amp; Stables for Stone <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-08-17">July 19 1809</date>
+                        </head>
+                        <item><g ref="#stItem"/> horse in carriage to town <g ref="#longHyphen"
+                                n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_02">0 1
+                            2</measure></item>
+                        <item><g ref="#stItem"/> 2 Large hooks &amp; Stables for Stone <measure
+                                type="currency" unit="£sd" ana="00_02_00">0 2 0</measure></item>
                     </list>
-                    <list type="entry"> 
-                        <head><date when="1810-10">Oct 1810</date></head>
-                        <item><g ref="#stItem"/> <unclear reason="illegible" unit="words" quantity="1"/> cow 3 weeks 1/3 <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_03_09">0 3 9</measure></item>
+                    <list type="entry">
+                        <head>
+                            <date when="1810-10">Oct 1810</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="1"/> cow 3 weeks 1/3
+                                <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_03_09">0 3
+                            9</measure></item>
                     </list>
                 </div>
             </div>
             <!--Vol-001 Page 063-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_063.jpg">
                 <div type="group">
-                    <head/>
+                    <head>
+                        <head>
+                            <choice>
+                                <sic>Cred</sic>
+                                <reg resp="#OC">Credit</reg>
+                            </choice>
+                        </head>
+                    </head>
                     <list type="entry">
-                        <item/>
+                        <!-- Guessed the number 9 #RF  -->
+                        <item>By Sawing 9 hundred feet Oak Boards 2/ <measure type="currency"
+                                unit="£sd" ana="00_18_00">0 18 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-02">Feb 1809</date>
+                        </head>
+                        <item>By Sawing <unclear reason="illegible" unit="words" quantity="1"/>
+                            Short plank</item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1812-02-18">Feb 18 1812</date>
+                        </head>
+                        <item>By Sawing 536 feed boards 2 /1 <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_10_09">0 10
+                            9</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <head>Credit</head>
+                    </head>
+                    <list type="entry">
+                        <item>By Mending Saddle <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-01-04">Jany 4 1809</date>
+                        </head>
+                        <item>By Cash <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <head>Credit</head>
+                    </head>
+                    <list type="entry">
+                        <head>
+                            <date when="1812-01-04">January 11 1808</date>
+                        </head>
+                        <item>By Cash <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_05_00">0 5
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1812-01-04">Jany 4 1819</date>
+                        </head>
+                        <item>By Cash <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <head>Credit</head>
+                    </head>
+                    <list type="entry">
+                        <item>High way <choice><sic>Rute</sic><reg resp="#OC">Route</reg></choice>
+                            <measure type="currency" unit="dollars" ana="2.71">$ 2 – 71
+                                cents</measure>
+                            <measure type="currency" unit="£sd" ana="00_16_03">0 16
+                            3</measure></item>
                     </list>
                 </div>
             </div>
             <!--Vol-001 Page 064-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_064.jpg">
                 <div type="group">
-                    <head/>
+                    <head>
+                        <date when="1804-02-20">February 20 1804</date>
+                        <persName ref="#JohnWheeler">John Wheeler</persName>
+                        <g ref="#afterName"/>
+                    </head>
                     <list type="entry">
-                        <item/>
+                        <item><g ref="#stItem"/> one ox <choice><sic>sled</sic><reg resp="#OC"
+                                    >Sled</reg></choice>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_18_00">0 18
+                            0</measure></item>
+                        <item><g ref="#stItem"/> 2 pigs <g ref="#longHyphen" n="6"/>
+                            <measure type="currency" unit="£sd" ana="00_12_00">0 12
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1804-04">April</date>
+                        </head>
+                        <item><g ref="#stItem"/> 4 ¼ hundreds Hay at 4/6 <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_19_02">19 2</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1804-07">July</date>
+                        </head>
+                        <item><g ref="#stItem"/> 12 ¼ pounds veal at 4 7/1 <g ref="#longHyphen"
+                                n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                        <!-- check this line for correct translation #OC-->
+                        <item><g ref="#stItem"/> 6 2/1 pounds pork <unclear reason="illegible"
+                                unit="words" quantity="1"/> /10 <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_05_05">5 5</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-01">January 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> Make <choice><sic>nife</sic><reg resp="#OC"
+                                    >knife</reg></choice> to Cut Straw <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_03">1 3</measure></item>
+                        <item><g ref="#stItem"/> Set 2 <choice><sic>Shews</sic><reg resp="#OC"
+                                    >Shoes</reg></choice> by <unclear reason="illegible"
+                                unit="words" quantity="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">1 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-02-06">February 6</date>
+                        </head>
+                        <item><g ref="#stItem"/> Mend Slay irons &amp; fix hook <g ref="#longHyphen"
+                                n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">1 0</measure></item>
+                        <item><g ref="#stItem"/> Make Straw (guess) &amp; Ring on <unclear
+                                reason="illegible" unit="words" quantity="2"/> tree <unclear
+                                reason="illegible" unit="words" quantity="1"/> my iron <measure
+                                type="currency" unit="£sd" ana="00_02_00">2 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-07-28">July 28</date>
+                        </head>
+                        <item><g ref="#stItem"/> Set one <choice><sic>Shew</sic><reg resp="#OC"
+                                    >Shoe</reg></choice>
+                            <g ref="#longHyphen" n="5"/>
+                            <measure type="currency" unit="£sd" ana="00_00_06">0 0
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-12">Dec 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> one
+                            yoak oxen <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_08_00">0 8
+                            0</measure></item>
+                        <item><g ref="#stItem"/> one hair <unclear reason="illegible" unit="words"
+                                quantity="1"/>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                        <item><g ref="#stItem"/> Mend horse <unclear reason="illegible" unit="words"
+                                quantity="1"/>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_09">0 1
+                            9</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-12-15">Dec 15</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> horse
+                            all round Steel toes &amp; Cork my Steel <measure type="currency"
+                                unit="£sd" ana="00_06_00">6 0</measure></item>
+                        <item><g ref="#stItem"/> 3 <unclear reason="illegible" unit="words"
+                                quantity="1"/> in Dutch oven <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_00_09">0 9</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-01">January 1809</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <unclear reason="illegible" unit="words" quantity="1"/> line &amp;
+                                <unclear reason="illegible" unit="words" quantity="1"/> on <unclear
+                                reason="illegible" unit="words" quantity="2"/>
+                            <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_03_00">0 3
+                            0</measure></item>
+                        <item><g ref="#stItem"/> one New hook for Mill <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2
+                            0</measure></item>
+                        <item><g ref="#stItem"/> set 2 <choice><sic>Shews</sic><reg resp="#OC"
+                                    >Shoes</reg></choice> &amp; fix fork <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">0 1
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-12">Dec 1809</date>
+                        </head>
+                        <!-- second digit on measuremnt is not clear guess 7 #OC 03.22.2018.-->
+                        <item><g ref="#stItem"/>
+                            <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> one
+                            yoak oxen 4 New <choice><sic>Shews</sic><reg resp="#OC"
+                                >Shoes</reg></choice>
+                            <measure type="currency" unit="£sd" ana="00_07_00">7 0</measure></item>
+                        <!-- third digit on measurment is not clear guess 6 #OC 03.22.2018.-->
+                        <item><g ref="#stItem"/> Mend Stable to yoak New <unclear reason="illegible"
+                                unit="words" quantity="1"/> my iron <measure type="currency"
+                                unit="£sd" ana="00_02_06"> 2 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="05_02_00">5 2 0</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-12-29">Dec 29</date>
+                        </head>
+                        <!-- corssed out 03.22.2018. #OC-->
+                        <item><g ref="#stItem"/> half day in shop at <measure type="currency"
+                                unit="dollars" ana="2.00">2 Dollars</measure> Day Agreement <measure
+                                type="currency" unit="£sd" ana="00_06_00">0 6 0</measure></item>
+                        <!-- odd two equal signs equal, check translation again please #OC -->
+                        <item><g ref="#stItem"/> 2 <unclear reason="illegible" unit="words"
+                                quantity="1"/> ¼ Coal at /8 bushel 1/6 = = <measure type="currency"
+                                unit="£sd" ana="00_01_06">0 1 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-12-30">Dec 30</date>
+                        </head>
+                        <item><g ref="#stItem"/> 1 3/4 <choice><sic>bush</sic><reg resp="#BN"
+                                    >bushel</reg></choice> coal at /8 <choice><sic>bush</sic><reg
+                                    resp="#BN">bushel</reg></choice>
+                            <g ref="#ditto"/><add resp="#RF">bushe 1/6</add>
+                            <measure type="currency" unit="£sd" ana="00_01_02">1 2</measure></item>
+                        <!-- Here i beleive that it's meant to say that it's a 2 dollar day agreement work in shop, same as in list above #OC 03.22.2018.-->
+                        <item><g ref="#stItem"/> half Days work in shop at <measure type="currency"
+                                unit="dollars" ana="2.00">2</measure> Day <measure type="currency"
+                                unit="£sd" ana="00_06_00">0 6 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-12-30">Dec 30</date>
+                        </head>
+                        <item><g ref="#stItem"/> irons in Neck yoak <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
+                        <item><g ref="#stItem"/> Make 4 rings for <unclear reason="illegible"
+                                unit="words" quantity="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">1 0</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item> this account <choice><sic>settle</sic><reg resp="#OC"
+                                >settled</reg></choice>
+                            <measure type="currency" unit="£sd" ana="05_02_00">5 19
+                            4</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <date when="1808-01-29"><placeName ref="#Fairfield">Fairfield</placeName>
+                            January 29 1808</date>
+                        <persName ref="#ThomasStaples">Thos Staples</persName>
+                        <g ref="#afterName"/>
+                    </head>
+                    <list type="entry">
+                        <!-- which Bartram does it refers to? #OC 03.22.2018.-->
+                        <item>This Day <choice><sic>Settle</sic><reg resp="#OC"
+                                >Settled</reg></choice> all accounts with <persName
+                                ref="#JohnWheeler">John Wheeler</persName> and <unclear
+                                reason="illegible" unit="words" quantity="1"/> Due <measure
+                                type="currency" unit="dollars" ana="5.00">Five Dollars</measure> to
+                            Paid <persName ref="#ThomasBartram">Bartram</persName></item>
+                        <item>
+                            <persName ref="#JohnWheeler">John Wheeler</persName>
+                        </item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>Settled <date when="1808-12-22">December 22 1808</date></item>
                     </list>
                 </div>
             </div>
             <!--Vol-001 Page 065-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_065.jpg">
-                <div type="group">
+                <div type="group">  
                     <head/>
                     <list type="entry">
-                        <item/>
+                        <head>
+                            <date when="1804-04">April 1804</date>
+                        </head>
+                        <item>*</item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head>
+                            <date when="1804-10">
+                                <unclear reason="illegible" unit="words" quantity="1">
+                                    <supplied resp="#RP">Oct</supplied>
+                                </unclear>
+                            </date>
+                        </head>
+                        <item>By Carting one Load <g ref="#longHyphen" n="1"/> wood <measure
+                                type="currency" unit="£sd" ana="00_07_06">7 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-10">Oct 1808</date>
+                        </head>
+                        <!-- seems like ‘b’ missing with ‘by 13.19.2018. #RF-->
+                        <item>by oxen card one Load hay in barn <measure type="currency" unit="£sd"
+                                ana="00_01_06">1 6</measure></item>
+                        <item>by 3 bundles Straw <measure type="currency" unit="£sd" ana="00_03_00"
+                                >0 3 0</measure></item>
+                        <item>by Leather for Saddle on horse <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">1 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-12-06">Decem 6 1808</date>
+                        </head>
+                        <item>by team in woods Drive them my Self <measure type="currency"
+                                unit="£sd" ana="00_51_00">51 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-12-07">7</date>
+                        </head>
+                        <!-- date implied is December 7 1808 03.19.2018. #RF-->
+                        <item>by Team in woods <g ref="#longHyphen" n="1"/> 3 Cattle Drive my self
+                                <measure type="currency" unit="£sd" ana="00_04_06">4
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-12-16">16 <g ref="#longHyphen" n="2"/></date>
+                        </head>
+                        <!-- date implied is December 16 1808 03.19.2018. #RF-->
+                        <item>by Carting one Load wood your self <measure type="currency" unit="£sd"
+                                ana="00_01_06">1 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item><choice><sic>Settle</sic><reg resp="#OC">Settled</reg></choice> all
+                                accounts<date when="1808-12-22">December 22 1808</date>
+                            <measure type="currency" unit="£sd" ana="01_10_10">1 10
+                            10</measure></item>
                     </list>
                 </div>
             </div>
             <!--Vol-001 Page 066-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_066.jpg">
                 <div type="group">
-                    <head/>
+                    <head>
+                        <persName ref="#CalebBrewster">Caleb Brewster</persName>
+                        <g ref="#afterName"/>
+                    </head>
                     <list type="entry">
-                        <item/>
+                        <head>
+                            <date when="1801-05-02">May 2 1801</date>
+                        </head>
+                        <item><g ref="#stItem"/> one bushel flaxseed <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_10_00">0 10
+                            0</measure></item>
+                        <item><g ref="#stItem"/> 80 pounds Hay <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_03_03">0 3
+                            3</measure></item>
+                        <item><g ref="#stItem"/> 70 <g ref="#ditto"/><add resp="#RF">pounds
+                                Hay</add>
+                            <g ref="#longHyphen" n="6"/>
+                            <measure type="currency" unit="£sd" ana="00_02_09">0 2
+                            9</measure></item>
+                        <item><g ref="#stItem"/> 5 2/1 <unclear reason="illegible" unit="words"
+                                quantity="2"/> on Summer <measure type="currency" unit="£sd"
+                                ana="00_03_18">0 3 18</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1801-09">Sept 1801</date>
+                        </head>
+                        <item><g ref="#stItem"/> one quintle Codfish <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="01_12_00">1 12
+                            0</measure></item>
+                        <item><g ref="#stItem"/> Caring one load <choice><sic>cyder</sic><reg
+                                    resp="#OC">cider</reg></choice> from <persName
+                                ref="#EbenzerHall">Even Hall</persName>
+                            <measure type="currency" unit="£sd" ana="00_07_03">7 3</measure></item>
+                        <item><g ref="#stItem"/> Carting one load wood from <placeName
+                                ref="#ChasMill">Chas Mill</placeName>
+                            <measure type="currency" unit="£sd" ana="00_07_06">7 6</measure></item>
+                        <item><g ref="#stItem"/> Carting dung one day <measure type="currency"
+                                unit="£sd" ana="00_09_00">0 9 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1801-12-28">Dec 28 1801</date>
+                        </head>
+                        <item><g ref="#stItem"/> Loop on bucket <g ref="#longHyphen" n="4"/>
+                            <measure type="currency" unit="£sd" ana="00_00_06">0 6</measure></item>
+                        <item><g ref="#stItem"/> freight on 300 hundred apple trees, paid Capt
+                            Walter Thorp <persName ref="#WalterThorp">Walter Thorp</persName>
+                            <measure type="currency" unit="£sd" ana="00_15_00">15 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <!-- date written with typo in manscript ‘0’ should be ‘8’ in 1801 #RF -->
+                        <head>
+                            <date when="1801-05-02">April 8 <choice><sic>1081</sic><reg resp="#RP"
+                                        >1801</reg></choice></date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <g ref="#longHyphen" n="4"/> paid Capt <persName ref="#WalterThorp"
+                                >Walter Thorp</persName></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-01-15">January 15 <choice><sic>1086</sic><reg
+                                        resp="#RP">1806</reg></choice></date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#OC"
+                                    >Shoes</reg></choice> new steel toes, corks, my steel <measure
+                                type="currency" unit="£sd" ana="00_03_06">3 6</measure></item>
+                        <item><g ref="#stItem"/> Mend buckle to hammer <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_00_06">0 6</measure></item>
+                        <item><g ref="#stItem"/> Fix bridle rings and bolt for slay <measure
+                                type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-02-06">Feb 6</date>
+                        </head>
+                        <item><g ref="#stItem"/> Handling of 2 pairs horse
+                                    <choice><sic>Shews</sic><reg resp="#OC">Shoes</reg></choice>
+                            <measure type="currency" unit="£sd" ana="00_00_06">0 0
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-09">Sept 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> one big weighing 14 2/1 at /6 <measure
+                                type="currency" unit="£sd" ana="00_07_03">0 7 3</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-12-15">Dec 15 1806</date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>shews</sic><reg resp="#OC"
+                                    >shoes</reg></choice> new steel toes &amp; Cork <measure
+                                type="currency" unit="£sd" ana="00_03_00">0 3 0</measure></item>
+                        <item><g ref="#stItem"/> took old <choice><sic>shews</sic><reg resp="#OC"
+                                    >shoes</reg></choice> and fit them <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">2 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-01">January 1807</date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 irons to hang flax mill on <g ref="#longHyphen"
+                                n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">0 1
+                            6</measure></item>
+                        <item><g ref="#stItem"/> Mend Carriage <g ref="#longHyphen" n="7"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">0 1
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-02-05">Feb 5</date>
+                        </head>
+                        <item><g ref="#stItem"/> 2 New hooks &amp; 1 shot 3 links in chaine my iron
+                                <measure type="currency" unit="£sd" ana="00_02_03">2
+                            3</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-03-02">Macrh 2</date>
+                        </head>
+                        <item><g ref="#stItem"/> one old <choice><sic>Shew</sic><reg resp="#OC"
+                                    >Shoe</reg></choice> my <choice><sic>Shew</sic><reg resp="#OC"
+                                    >Shoe</reg></choice>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">0 1
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1801-12-15">Dec 15 1801</date>
+                        </head>
+                        <item><g ref="#stItem"/> Mend widow Squire Carriage for <persName
+                                ref="#SturgesBrewster">Sturges Brewster</persName>
+                            <measure type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1801-12-18">15</date>
+                        </head>
+                        <item><g ref="#stItem"/>
+                            <choice><sic>shewing</sic><reg resp="#OC">shoeing</reg></choice> horse
+                            all round steel toes and corks <measure type="currency" unit="£sd"
+                                ana="00_06_00">6 0</measure></item>
+                        <item><g ref="#stItem"/> 2 <choice><sic>shews</sic><reg resp="#OC"
+                                    >shoes</reg></choice> new steel toes and toes and corks <measure
+                                type="currency" unit="£sd" ana="00_03_00">3 0</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="10_04_06">10 4 6</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1801-12-25">Dec 25</date>
+                        </head>
+                        <item>Put 2 hooks on mortar <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_00_09">0 0
+                            9</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1801-12-30">25</date>
+                        </head>
+                        <item>Put on heel blade and mend hand iron <measure type="currency"
+                                unit="£sd" ana="00_03_06">3 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-01-11">January 11 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> Screw and 5 Nailes for carriage <measure
+                                type="currency" unit="£sd" ana="00_01_03">1 3</measure></item>
+                        <item><g ref="#stItem"/> Half barn to put wheat and oats in <measure
+                                type="currency" unit="£sd" ana="00_18_00">18 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-01-22">22</date>
+                        </head>
+                        <item><g ref="#stItem"/> Cork 2 <choice><sic>shews</sic><reg resp="#OC"
+                                    >shoes</reg></choice> and fit them <measure type="currency"
+                                unit="£sd" ana="00_01_06">0 1 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-01-23">23</date>
+                        </head>
+                        <item><g ref="#stItem"/> Mend <choice><sic>shovell</sic><reg resp="#OC"
+                                    >shovel</reg></choice> and hatchet teeth <measure
+                                type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1808-07-07">July 7 1808</date>
+                        </head>
+                        <item><g ref="#stItem"/> One pair out soles &amp; <unclear
+                                reason="illegible" unit="words" quantity="1"/> lifts <measure
+                                type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
+                        <item><g ref="#stItem"/> horse to town <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">0 0
+                            9</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <head><date when="1809-02-14">Feb 14 1809</date>
+                            <choice><sic>Ballance</sic><reg resp="#OC">Balance</reg></choice>
+                            Books</head>
+                        <item>
+                            <measure type="currency" unit="£sd" ana="11_16_03">11 16 3</measure>
+                        </item>
                     </list>
                 </div>
             </div>
             <!--Vol-001 Page 067-->
             <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_067.jpg">
                 <div type="group">
-                    <head/>
+                    <head>Credit</head>
                     <list type="entry">
-                        <item/>
+                        <head>
+                            <date when="1802-04-08">April 8 1802</date>
+                        </head>
+                        <item>By one butter <g ref="#longHyphen" n="1"/> 1/6 <g ref="#longHyphen"
+                                n="1"/>
+                            <measure type="currency" unit="£sd" ana="00_01_04">0 1
+                            4</measure></item>
+                        <item>By one Hundred apple trees <g ref="#longHyphen" n="1"/>
+                            <measure type="currency" unit="£sd" ana="04_19_06">4 19
+                            6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1806-02">Feb 1806</date>
+                        </head>
+                        <item>By horse to Mill river <g ref="#longHyphen" n="4"/>
+                            <measure type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
+                        <item>By horse to <unclear reason="illegible" unit="words" quantity="1"/>
+                            patch <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <!-- Year not mentioned but guess from prior year #RF-->
+                        <head>
+                            <date when="1806-09">Sept.</date>
+                        </head>
+                        <item>By Half barrel <choice><sic>Cyder</sic><reg resp="#OC"
+                                >Cider</reg></choice>
+                            <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_02_00">0 2
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1809-01">January 1809</date>
+                        </head>
+                        <item>By oxen <unclear reason="illegible" unit="words" quantity="1"/> Cart
+                            in woods <g ref="#longHyphen" n="3"/>
+                            <measure type="currency" unit="£sd" ana="00_03_06">3 6</measure></item>
+                        <item>By horse to <placeName ref="#Bridgeport">Bridgeport</placeName>
+                            <g ref="#longHyphen" n="2"/>
+                            <measure type="currency" unit="£sd" ana="00_01_00">0 1
+                            0</measure></item>
+                        <item>By horse to <placeName ref="#MillRiver"
+                                        ><choice><sic>Millriver</sic><reg resp="#SG">Mill
+                                        River</reg></choice></placeName>
+                            <unclear reason="illegible" unit="words" quantity="1"/>
+                            <placeName ref="#WheelerMill">Wheeler Mill</placeName>
+                            <measure type="currency" unit="£sd" ana="00_02_00">2 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <!-- Two dates in head solution? #OC 04.01.2018.-->
+                        <head>
+                            <date when="1807-12">Dec 1807</date>
+                        </head>
+                        <head>
+                            <date when="1807-12-19">19 <g ref="#longHyphen" n="2"/></date>
+                        </head>
+                        <item>By 3 Cattle team in woods drawn my Self <measure type="currency"
+                                unit="£sd" ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-12-22">22 <g ref="#longHyphen" n="2"/></date>
+                        </head>
+                        <item>By 3 Cattle team in woods <unclear reason="illegible" unit="words"
+                                quantity="1"/> wood <measure type="currency" unit="£sd"
+                                ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>
+                            <date when="1807-12">Dec</date>
+                        </head>
+                        <item>By one <choice><sic>Bush</sic><reg resp="#OC">Bushel</reg></choice>
+                            wheat <unclear reason="illegible" unit="words" quantity="1"/> Stuff
+                                <measure type="currency" unit="£sd" ana="00_06_00">0 6
+                            0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <!-- Which year should be in next year? I assume it's the follopwing one 1808 #OC 04.01.2018.-->
+                        <head>
+                            <date when="1808-02-04">Feb 4</date>
+                        </head>
+                        <item>By 3 Cattle team Carting one Load boards <measure type="currency"
+                                unit="£sd" ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <head/>
+                        <item>By Due bill to <choice><sic>ballance</sic><reg resp="#OC"
+                                    >balance</reg></choice>
+                            <measure type="currency" unit="£sd" ana="06_14_04">6 14
+                            4</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="04_07_06">4 7 6</measure>
+                        </item>
                     </list>
                 </div>
             </div>
@@ -10842,7 +11707,30 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                     <death when="1886"/>
                     <occupation>merchant</occupation>
                     <note type="spouse">Sarah Burr</note>
-                </person> 
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="EbenzerHall">
+                    <persName>
+                        <surname>Hall</surname>
+                        <forename>Ebenezer</forename>
+                    </persName>
+                </person>
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="WalterThorp">
+                    <persName>
+                        <surname>Thorp</surname>
+                        <forename>Walter</forename>
+                    </persName>
+                </person>
+
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="SturgesBrewster">
+                    <persName>
+                        <surname>Brewster</surname>
+                        <forename>Sturges</forename>
+                    </persName>
+                </person>
+
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="NicholsBurr">
                     <persName>
@@ -10878,8 +11766,8 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="Ebenezer">
                     <persName>
-                    <surname/>
-                    <forename type="first">Ebenezer</forename>
+                        <surname/>
+                        <forename type="first">Ebenezer</forename>
                     </persName>
                     <occupation/>
                 </person>
@@ -11581,6 +12469,24 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <!-- INCOMPLETE ENTRY -->
                 <place xml:id="Trumbull">
                     <placeName>Trumbull</placeName>
+                    <location>
+                        <geo/>
+                    </location>
+                </place>
+                <place xml:id="ChasRiver">
+                    <placeName>Chas River</placeName>
+                    <location>
+                        <geo>41.13674 -73.283487</geo>
+                    </location>
+                </place>
+                <place xml:id="ChasMill">
+                    <placeName>Chas Mill</placeName>
+                    <location>
+                        <geo/>
+                    </location>
+                </place>
+                <place xml:id="WheelerMill">
+                    <placeName>Wheeler Mill</placeName>
                     <location>
                         <geo/>
                     </location>

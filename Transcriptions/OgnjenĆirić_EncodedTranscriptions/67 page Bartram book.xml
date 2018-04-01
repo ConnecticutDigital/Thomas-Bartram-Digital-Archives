@@ -1,0 +1,62 @@
+ <!--Vol-001 Page 067-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_067.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1802-04-08">April 8 1802</date></head>
+                        <item>By one butter <g ref="#longHyphen" n="1"/> 1/6 <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_01_04">0 1 4</measure></item>
+                        <item>By one Hundred apple trees <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="04_19_06">4 19 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1806-02">Feb 1806</date></head>
+                        <item>By horse to Mill river <g ref="#longHyphen" n="4"/> <measure type="currency" unit="£sd" ana="00_01_06">1 6</measure></item>
+                        <item>By horse to <unclear reason="illegible" unit="words" quantity="1"/> patch <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                    </list>
+                    <list type="entry">
+                    	<!-- Year not mentioned but guess from prior year #RF-->
+                        <head><date when="1806-09">Sept 1806</date></head>
+                        <item>By Half barrel <choice><sic>Cyder</sic><reg resp="#OC">Cider</reg></choice> <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_02_00">0 2 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-01">January 1809</date></head>
+                        <item>By oxen <unclear reason="illegible" unit="words" quantity="1"/> Cart in woods  <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_03_06">3 6</measure></item>
+                        <item>By horse to <placeName ref="#Bridgeport">Bridgeport</placeName> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                        <item>By horse to <placeName ref="#MillRiver"><choice><sic>Millriver</sic><reg resp="#SG">Mill River</reg></choice></placeName> <unclear reason="illegible" unit="words" quantity="1"/> <placeName ref="#WheelerMill">Wheeler Mill</placeName> <measure type="currency" unit="£sd" ana="00_02_00">2 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <!-- Two dates in head solution? #OC 04.01.2018.-->
+                        <head><date when="1807-12">Dec 1807</date></head>
+                        <head><date when="1807-12-19">19</date></head>
+                        <item>By 3 Cattle team in woods drawn my Self <measure type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-12-22">22</date></head>
+                        <item>By 3 Cattle team in woods <unclear reason="illegible" unit="words" quantity="1"/> wood <measure type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1807-12">Dec</date></head>
+                        <item>By one choice><sic>Bush</sic><reg resp="#OC">Bushel</reg></choice> wheat <unclear reason="illegible" unit="words" quantity="1"/> Stuff <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure></item>
+                    </list>
+                    <list type="entry">
+                    	<!-- Which year should be in next year? I assume it's the follopwing one 1808 #OC 04.01.2018.-->
+                        <head><date when="1808-02-04">Feb 4</date></head>
+                        <item>By 3 Cattle team Carting one Load boards <measure type="currency" unit="£sd" ana="00_04_06">4 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <head/>
+                        <item>By Due bill to <choice><sic>ballance</sic><reg resp="#OC">balance</reg></choice> <measure type="currency" unit="£sd" ana="06_14_04">6 14 4</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="04_07_06">4 7 6</measure>
+                        </item>
+                    </list>
+                </div>
+            </div>
+
+            <place xml:id="WheelerMill">
+                    <placeName>Wheeler Mill</placeName>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>

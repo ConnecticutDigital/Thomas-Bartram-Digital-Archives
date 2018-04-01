@@ -1,0 +1,54 @@
+            <!--Vol-001 Page 063-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_063.jpg">
+                 <div type="group">
+                     <head>
+                        <head><choice><sic>Cred</sic><reg resp="#OC">Credit</reg></choice></head>
+                    </head>
+					<list type="entry">
+					<!-- Guessed the number 9 #RF  -->
+                        <item>By Sawing 9 hundred feet Oak Boards 2/ <measure type="currency" unit="£sd" ana="00_18_00">0 18 0</measure></item>
+						</list>
+                    <list type="entry">
+                        <head><date when="1809-02">Feb 1809</date></head>
+						<item>By Sawing <unclear reason="illegible" unit="words" quantity="1"/> Short plank</item>
+						</list>
+					<list type="entry"> 
+                        <head><date when="1812-02-18">Feb 18 1812</date></head>
+						<item>By Sawing 536 feed boards 2 /1 <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_10_09">0 10 9</measure></item>
+                    </list>
+                </div>
+				<div type="group">
+                     <head>
+                        <head>Credit</head>
+                    </head>
+                    <list type="entry">
+                        <item>By Mending Saddle <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+						</list>
+					<list type="entry"> 
+                        <head><date when="1809-01-04">Jany 4 1809</date></head>
+						<item>By Cash <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                    </list>
+                </div>
+				<div type="group">
+                     <head>
+                        <head>Credit</head>
+                    </head>
+                    <list type="entry">
+					<head><date when="1812-01-04">January 11 1808</date></head>
+                        <item>By Cash <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_05_00">0 5 0</measure></item>
+						</list>
+					<list type="entry"> 
+                        <head><date when="1812-01-04">Jany 4 1819</date></head>
+						<item>By Cash <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_00">0 1 0</measure></item>
+                    </list>
+                </div>
+				<div type="group">
+                     <head>
+                        <head>Credit</head>
+                    </head>
+					<list type="entry"> 
+						<item>High way <choice><sic>Rute</sic><reg resp="#OC">Route</reg></choice> 
+						<measure type="currency" unit="dollars" ana="2.71">$ 2 – 71 cents</measure> <measure type="currency" unit="£sd" ana="00_16_03">0 16 3</measure></item>
+                    </list>
+                </div>
+			
