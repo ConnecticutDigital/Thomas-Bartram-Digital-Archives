@@ -35,9 +35,9 @@
 
                             <th># of Times Referenced</th>
                             
-                            <th>Earliest Mention in Log</th>
+                            <!--<th>Earliest Mention in Log</th>
                             
-                            <th>Latest Mention in Log</th>
+                            <th>Latest Mention in Log</th>-->
 
                             <th>Birth</th>
 
@@ -81,8 +81,8 @@
                 <xsl:value-of select="count(//persName[@ref/tokenize(., '#')[2] eq current()/@xml:id])"/>
             </td>
             
-            <td><xsl:value-of select="//persName[@ref/tokenize(., '#')[2] eq current()/@xml:id]/following::date[1]/@when"/></td>
-            <td><xsl:value-of select="//persName[@ref/tokenize(., '#')[2] eq current()/@xml:id]/following::date[last()]/@when"/></td>
+            <!--<td><xsl:value-of select="//persName[1][@ref/tokenize(., '#')[2] eq current()/@xml:id]/text()"/></td>
+            <td><xsl:value-of select="//persName[@ref/tokenize(., '#')[2] eq current()/@xml:id]"/></td>-->
             <td>
                 <xsl:choose>
                     <xsl:when test="child::birth">
