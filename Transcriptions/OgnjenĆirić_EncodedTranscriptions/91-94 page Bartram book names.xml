@@ -1,0 +1,23 @@
+
+             <!-- INCOMPLETE ENTRY -->
+                <person xml:id="IsaacJudson">
+                    <persName>
+                        <surname>Isaac</surname>
+                        <forename>Judson</forename>
+                    </persName>
+                </person>
+
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="LockwoodtheCooper">
+                    <persName>
+                        <surname>Lockwood</surname>
+                        <forename>Cooper</forename>
+                    </persName>
+                </person>
+
+                <place xml:id="Schoolhouse">
+                    <placeName>School house</placeName>
+                    <location>
+                        <geo><!-- white-space separated lat. and long. coordinates; ie. 51.969604 -2.893146 --></geo>
+                    </location>
+                </place>
