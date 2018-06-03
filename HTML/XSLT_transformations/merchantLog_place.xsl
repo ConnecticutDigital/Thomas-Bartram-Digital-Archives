@@ -23,7 +23,8 @@
                <h1 class="nav"> Places in Thomas Bartram's Merchant and Shipping Logs </h1>
                <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 text-center">
+               <iframe src="https://www.google.com/maps/d/embed?mid=1y0UVcJoj4ZYQzqsxUACCiiiSkr4JThKL" width="640" height="480"></iframe>
                <table id="places" class="placeTable table">
                   <tr>
                      <th>Place</th>

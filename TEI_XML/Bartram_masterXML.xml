@@ -15688,7 +15688,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <place xml:id="BlackRock">
                     <placeName>Black Rock</placeName>
                     <location>
-                        <geo/>
+                        <geo>41.1545394 -73.2242915</geo>
                     </location>
                 </place>
                 <place xml:id="Schoolhouse">
@@ -15706,7 +15706,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <place xml:id="Stratford">
                     <placeName>Stratford</placeName>
                     <location>
-                        <geo/>
+                        <geo>41.2074959 -73.1964655</geo>
                     </location>
                 </place>
                 <place xml:id="Weston">
@@ -15767,7 +15767,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <place xml:id="Fairfield">
                     <placeName>Fairfield</placeName>
                     <location>
-                        <geo>41.1408363 -73.26126149999999</geo>
+                        <geo>41.1418117 -73.2518903</geo>
                     </location>
                 </place>
                 <place xml:id="Oldmill">
@@ -15805,7 +15805,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <place xml:id="Trumbull">
                     <placeName>Trumbull</placeName>
                     <location>
-                        <geo/>
+                        <geo>41.2600146 -73.2781691</geo>
                     </location>
                 </place>
                 <place xml:id="ChasRiver">

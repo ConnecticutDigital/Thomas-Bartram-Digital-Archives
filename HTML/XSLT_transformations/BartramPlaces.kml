@@ -3,8 +3,38 @@
      xmlns:gx="http://www.google.com/kml/ext/2.2">
    <Document>
                 <Placemark>
+         <name>Black Rock</name>
+         <description>Project ID: #BlackRock. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.2242915,41.1545394</coordinates>
+         </Point>
+      </Placemark>
+                
+                
+                <Placemark>
+         <name>Stratford</name>
+         <description>Project ID: #Stratford. Number of times mentioned in log book: 1. </description>
+         <Point>
+            <coordinates>-73.1964655,41.2074959</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Weston</name>
+         <description>Project ID: #Weston. Number of times mentioned in log book: 2. </description>
+         <Point>
+            <coordinates>-73.4470614,41.2248089</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Middlebrooks</name>
+         <description>Project ID: #Middlebrooks. Number of times mentioned in log book: 2. </description>
+         <Point>
+            <coordinates>-73.064034,41.230698</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
          <name>Fairfield Woods</name>
-         <description>Project ID: #FairfieldWoods. Number of times mentioned in log book: 2. </description>
+         <description>Project ID: #FairfieldWoods. Number of times mentioned in log book: 4. </description>
          <Point>
             <coordinates>-73.2493327,41.189899</coordinates>
          </Point>
@@ -18,21 +48,21 @@
       </Placemark>
                 <Placemark>
          <name>Mill River</name>
-         <description>Project ID: #MillRiver. Number of times mentioned in log book: 1. </description>
+         <description>Project ID: #MillRiver. Number of times mentioned in log book: 8. </description>
          <Point>
             <coordinates>-73.283487,41.13674</coordinates>
          </Point>
       </Placemark>
                 <Placemark>
          <name>New York</name>
-         <description>Project ID: #NewYork. Number of times mentioned in log book: 1. South street seaport on the east river.</description>
+         <description>Project ID: #NewYork. Number of times mentioned in log book: 9. South street seaport on the east river.</description>
          <Point>
             <coordinates>-74.0026087,40.7077108</coordinates>
          </Point>
       </Placemark>
                 <Placemark>
          <name>Newfield</name>
-         <description>Project ID: #Newfield. Number of times mentioned in log book: 1. </description>
+         <description>Project ID: #Newfield. Number of times mentioned in log book: 3. </description>
          <Point>
             <coordinates>-73.19518,41.18655</coordinates>
          </Point>
@@ -41,38 +71,57 @@
                 
                 <Placemark>
          <name>Fairfield</name>
-         <description>Project ID: #Fairfield. Number of times mentioned in log book: 8. </description>
+         <description>Project ID: #Fairfield. Number of times mentioned in log book: 16. </description>
          <Point>
-            <coordinates>-73.26126149999999,41.1408363</coordinates>
+            <coordinates>-73.2518903,41.1418117</coordinates>
          </Point>
       </Placemark>
                 <Placemark>
          <name>Old Mill</name>
-         <description>Project ID: #Oldmill. Number of times mentioned in log book: 1. </description>
+         <description>Project ID: #Oldmill. Number of times mentioned in log book: 2. </description>
          <Point>
             <coordinates>-73.2443424,41.1538821</coordinates>
          </Point>
       </Placemark>
                 <Placemark>
          <name>Greenfield</name>
-         <description>Project ID: #Greenfield. Number of times mentioned in log book: 2. </description>
+         <description>Project ID: #Greenfield. Number of times mentioned in log book: 5. </description>
          <Point>
             <coordinates>-73.2884248,41.176244</coordinates>
          </Point>
       </Placemark>
                 <Placemark>
          <name>Bridgeport</name>
-         <description>Project ID: #Bridgeport. Number of times mentioned in log book: 1. </description>
+         <description>Project ID: #Bridgeport. Number of times mentioned in log book: 14. </description>
          <Point>
             <coordinates>-73.19518,41.18655</coordinates>
          </Point>
       </Placemark>
                 <Placemark>
          <name>Derby</name>
-         <description>Project ID: #Derby. Number of times mentioned in log book: 1. </description>
+         <description>Project ID: #Derby. Number of times mentioned in log book: 2. </description>
          <Point>
             <coordinates>-73.1169171,41.3270051</coordinates>
          </Point>
       </Placemark>
+                
+                
+                
+                <Placemark>
+         <name>Trumbull</name>
+         <description>Project ID: #Trumbull. Number of times mentioned in log book: 2. </description>
+         <Point>
+            <coordinates>-73.2781691,41.2600146</coordinates>
+         </Point>
+      </Placemark>
+                <Placemark>
+         <name>Chas River</name>
+         <description>Project ID: #ChasRiver. Number of times mentioned in log book: 0. </description>
+         <Point>
+            <coordinates>-73.283487,41.13674</coordinates>
+         </Point>
+      </Placemark>
+                
+                
             </Document>
 </kml>
