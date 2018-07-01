@@ -1,0 +1,26 @@
+<!-- INCOMPLETE ENTRY -->
+                <person xml:id="SquireNichols">
+                    <persName>
+                        <surname>Squire</surname>
+                        <forename>Nichols</forename>
+                    </persName>
+                </person>
+
+                <!-- INCOMPLETE ENTRY -->
+                <person xml:id="MikeHaytStoneKeeper">
+                    <persName>
+                        <surname>Mike</surname>
+                        <forename>Hayt</forename>
+                    </persName>
+                    <occupation>StoneKeeper</occupation>
+                </person>
+
+
+<!-- Place -->
+
+                <place xml:id="BrewstersLot ">
+                    <placeName>BrewstersLot</placeName>
+                    <location>
+                        <geo>41.1547815,-73.2223266</geo>
+                    </location>
+                </place>

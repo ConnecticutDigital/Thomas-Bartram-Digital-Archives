@@ -9,6 +9,13 @@
             <coordinates>-73.2242915,41.1545394</coordinates>
          </Point>
       </Placemark>
+                <Placemark>
+         <name>BrewstersLot</name>
+         <description>Project ID: #BrewstersLot. Number of times mentioned in log book: 0. </description>
+         <Point>
+            <coordinates>,41.1547815,-73.2223266</coordinates>
+         </Point>
+      </Placemark>
                 
                 
                 <Placemark>
@@ -55,7 +62,7 @@
       </Placemark>
                 <Placemark>
          <name>New York</name>
-         <description>Project ID: #NewYork. Number of times mentioned in log book: 9. South street seaport on the east river.</description>
+         <description>Project ID: #NewYork. Number of times mentioned in log book: 12. South street seaport on the east river.</description>
          <Point>
             <coordinates>-74.0026087,40.7077108</coordinates>
          </Point>
@@ -92,7 +99,7 @@
       </Placemark>
                 <Placemark>
          <name>Bridgeport</name>
-         <description>Project ID: #Bridgeport. Number of times mentioned in log book: 14. </description>
+         <description>Project ID: #Bridgeport. Number of times mentioned in log book: 15. </description>
          <Point>
             <coordinates>-73.19518,41.18655</coordinates>
          </Point>
