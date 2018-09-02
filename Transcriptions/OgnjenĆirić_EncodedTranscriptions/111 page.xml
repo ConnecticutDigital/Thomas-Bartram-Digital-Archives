@@ -1,0 +1,48 @@
+<!--Vol-001 Page 111-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_111.jpg">
+                <div type="group">
+                    <head>Credit brought Oven</head>
+                    <list type="entry">
+                        <head/>
+                        <item>by Making 10 Rods fence be the Rod</item>
+                        <!-- guessed the word price #RF-->
+                        <item>but no price agreed when <measure type="currency" unit="£sd" ana="01_10_00">1 10 0</measure></item>
+                        <item>by painting Slay <measure type="currency" unit="£sd" ana="00_18_00">0 18 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1810-02">Feb 1810</date></head>
+                        <item>by painting 11 Days at <choice><sic>Vessell</sic><reg resp="#OC">Vessel</reg></choice> <measure type="currency" unit="£sd" ana="01_04_00">1 4 0</measure></item>
+                        <item>by use brushes <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1810-11">Novem 1810</date></head>
+                        <item>by one &amp; half Day painting Sloop Fame <measure type="currency" unit="£sd" ana="00_01_03"> 1 3</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="04_04_09">4 4 9</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1810-11">May 1812</date></head>
+                        <item>by painting Carriage <g ref="#longHyphen" n="1"/></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1813-01">January 1813</date></head>
+                        <item>by uMaking <choice><sic>Cuting</sic><reg resp="#OC">Cutting</reg></choice> box Cut Straw <measure type="currency" unit="£sd" ana="00_04_00"> 4 0</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                	<head><date when="1810-11">July 1810</date> Credit</head>
+                    <list type="entry">
+                        <head/>
+                        <!-- 2 lines need to be added here check manuscript #OC-->
+                        <item/>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            Settle <date when="1810-12-21">December 21 1810</date> <measure type="currency" unit="£sd" ana="01_16_06">1 16 6</measure>
+                        </item>
+                    </list>
+                </div>
+            </div>

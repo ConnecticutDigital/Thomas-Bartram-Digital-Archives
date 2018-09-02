@@ -53,8 +53,15 @@
                             select="descendant::back/descendant::listPerson/descendant::person">
                             <xsl:sort select="descendant::surname"/>
                         </xsl:apply-templates>
-
                     </table>
+                    
+                   <!--<hr/>
+                    <ul>
+                        <xsl:apply-templates
+                            select="descendant::back/descendant::listPerson/descendant::person" mode="yearList">
+                            <xsl:sort select="descendant::surname"/>
+                        </xsl:apply-templates>
+                    </ul>-->
                 </div>
             </body>
         </html>
@@ -79,8 +86,7 @@
 
             <td>
                 <xsl:value-of select="count(//persName[@ref/tokenize(., '#')[2] eq current()/@xml:id])"/>
-            </td>
-            
+            </td>            
             <!--<td><xsl:value-of select="//persName[1][@ref/tokenize(., '#')[2] eq current()/@xml:id]/text()"/></td>
             <td><xsl:value-of select="//persName[@ref/tokenize(., '#')[2] eq current()/@xml:id]"/></td>-->
             <td>
@@ -130,8 +136,9 @@
                     <xsl:otherwise>N.A.</xsl:otherwise>
                 </xsl:choose>
             </td>
-
         </tr>
-
     </xsl:template>
+    <!--<xsl:template match="person" mode="yearList">
+        
+    </xsl:template>-->
 </xsl:stylesheet>

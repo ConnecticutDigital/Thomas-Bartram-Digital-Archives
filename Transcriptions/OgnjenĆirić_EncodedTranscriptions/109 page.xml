@@ -1,0 +1,82 @@
+<!--Vol-001 Page 109-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_109.jpg">
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                        <head><date when="1809-12-25">Dec 25 1809</date></head>
+                        <!-- on refering to one #RF -->
+                        <item>by Carting <choice><sic>on</sic><reg resp="#OC">one</reg></choice> Load wood <measure type="currency" unit="£sd" ana="00_07_06"> 7 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1810-01-26">January 26 1810</date></head>
+                        <item>by Carting one Load Nails <measure type="currency" unit="£sd" ana="00_07_06">0 7 6</measure></item>
+                        <item>by Carting one Load Nails <measure type="currency" unit="£sd" ana="00_07_06">0 7 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1810-02">Feb 1810</date></head>
+                        <item>by Carting one Load Nails <measure type="currency" unit="£sd" ana="00_07_06">0 7 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-11">Nov 1812</date></head>
+                        <item>by 10 <choice><sic>bush</sic><reg resp="#OC">bushel</reg></choice> apples to Make <choice><sic>Syder</sic><reg resp="#OC">Cider</reg></choice> <measure type="currency" unit="£sd" ana="00_03_00"> 3 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-12">Dec 1812</date></head>
+                        <item>by 3 acres Stock pastor agreed <measure type="currency" unit="£sd" ana="00_06_00"> 6 0</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="02_00_00">2 0 0</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-12-20">Dec 20 1812</date></head>
+                        <item>by Carting one Load Nails <measure type="currency" unit="£sd" ana="00_07_06">0 7 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="02_07_06">2 7 6</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-02-08">Feb 8</date></head>
+                        <item>by Carting one Load post &amp; Nails <measure type="currency" unit="£sd" ana="00_07_06"> 7 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-02-19">Feb 19</date></head>
+                        <item>by Carting one Load posts <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_07_06"> 7 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="03_02_06">3 2 6</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-02-25">Feb 25</date></head>
+                        <item>by Drawing half Load Saw mill Logs <measure type="currency" unit="£sd" ana="00_02_00"> 2 0</measure></item>
+                        <item>by 2 planks 20 feet <measure type="currency" unit="£sd" ana="00_04_06"> 4 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="03_09_00">3 9 0</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1816-02-07">Feb 7 1816</date></head>
+                        <item>by Carting one Load wood <measure type="currency" unit="£sd" ana="00_09_00">0 9 0</measure></item>
+                        <item>by 2 planks 20 feet <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_04_06"> 4 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="03_18_00">3 18 0</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1816-02-16">Feb 16 1816</date></head>
+                        <item>by Carting 2 Loads wood <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="01_04_06">1 4 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item><g ref="#currency"/> <measure type="currency" unit="£sd" ana="05_02_06">5 2 6</measure></item>
+                    </list>
+                </div>
+            </div>

@@ -1,0 +1,61 @@
+<!--Vol-001 Page 106-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_106.jpg">
+                <div type="group">
+                    <head>
+                        <persName ref="#ThomasStaples">Thomas Staples</persName>
+                        <g ref="#afterName"/>
+                    </head>
+                    <list type="entry">
+                        <head><date when="1809-02">February 1809</date></head>
+                        <item>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-02">Decem 18 1809</date></head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>barrils</sic><reg resp="#OC">barrels</reg></choice> one brace q <unclear reason="illegible" unit="words" quantity="1"/> to Slay <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head>Brought oven</head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#OC">Shoes</reg></choice> &amp; Set 2 old ones <measure type="currency" unit="£sd" ana="00_04_06"> 4 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-02-27">Feb 27 1809</date></head>
+                        <!-- Uncelar sign after next item #RF -->
+                        <item><g ref="#stItem"/> Staple for whippletree <measure type="currency" unit="£sd" ana="00_04_06"> 4 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="00_06_09"> 6 9</measure>
+                        </item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>
+                        <persName ref="#SquireNichols">Squire Nichols</persName>
+                        <g ref="#afterName"/>
+                    </head>
+                    <list type="entry">
+                        <head><date when="1809-12-29">Dec 29 1809</date></head>
+                        <item><g ref="#stItem"/> <choice><sic>Shewing</sic><reg resp="#OC">Shoeing</reg></choice> horse all round <measure type="currency" unit="£sd" ana="00_05_06"> 5 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-07-14">July 14 1812</date></head>
+                        <item><g ref="#stItem"/> 2 <choice><sic>Shews</sic><reg resp="#OC">Shoes</reg></choice> New my iron &amp; Steel <measure type="currency" unit="£sd" ana="00_03_06"> 3 6</measure></item>
+                        <item><g ref="#stItem"/> Set 2 <choice><sic>Shews</sic><reg resp="#OC">Shoes</reg></choice> my iron <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="00_10_06"> 10 6</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1809-11-10">Nov 10</date></head>
+                        <item><g ref="#stItem"/> Cash <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="03_17_03">3 17 3</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="04_07_09">4 7 9</measure>
+                        </item>
+                    </list>
+                </div>
+            </div>

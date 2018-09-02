@@ -1,0 +1,36 @@
+ <!--Vol-001 Page 107-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_107.jpg">
+                <div type="group">
+                    <head/>
+                     <list type="entry">
+                        <head><date when="1810-02-25">Feb 25 1810</date></head>
+                        <item>by painting half Day <measure type="currency" unit="£sd" ana="00_04_00">0 4 0</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-07">July 1812</date></head>
+                        <item>By painting <choice><sic>vessell</sic><reg resp="#OC">vessel</reg></choice> one Day <placeName ref="#MillRiver">millriver</placeName> <measure type="currency" unit="£sd" ana="00_07_06"> 7 6</measure></item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-10-15">Oct 15</date></head>
+                        <!-- Shows the number 27 also, not sure where to put it so in text now #RF -->
+                        <item>27 by one Day at <choice><sic>vessell</sic><reg resp="#OC">vessel</reg></choice> 1 2/1 Days <measure type="currency" unit="£sd" ana="00_11_03"> 11 3</measure></item>
+                        <item>By one Day at <choice><sic>vessell</sic><reg resp="#OC">vessel</reg></choice> <measure type="currency" unit="£sd" ana="00_07_06"> 7 6</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="01_10_03">1 10 3</measure>
+                        </item>
+                    </list>
+                    <list type="entry">
+                        <head><date when="1812-10-04">4</date></head>
+                        <item>by paints for <choice><sic>vessell</sic><reg resp="#OC">vessel</reg></choice> <measure type="currency" unit="£sd" ana="00_04_06"> 4 6</measure></item>
+                        <item>By painting house  <measure type="currency" unit="£sd" ana="02_08_00">2 8 0</measure></item>
+                        <item>By white Lead <measure type="currency" unit="£sd" ana="00_05_00"> 5 0</measure></item>
+                    </list>
+                    <list type="entry" subtype="total">
+                        <item>
+                            <measure type="currency" unit="£sd" ana="04_07_09">4 7 9</measure>
+                        </item>
+                    </list>
+                </div>
+            </div>

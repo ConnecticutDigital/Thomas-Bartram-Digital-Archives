@@ -1,0 +1,50 @@
+<!--<place xml:id="Millriver">
+                    <placeName>MillRiver</placeName>
+                    <location>
+                        <geo/>
+                    </location>
+                </place>-->
+<!-- RJP:please try to avoid repeating keys taht are already in the master back file. -->
+
+                <place xml:id="JoBurrsLot">
+                    <placeName>Jo Burrs Lot</placeName>
+                    <location>
+                        <geo/>
+                    </location>
+                </place>
+
+				 <person xml:id="DeborahBartram">
+                    <persName>
+                        <surname>Bartram</surname>
+                        <forename type="first">Deborah</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="NoahBurr">
+                    <persName>
+                        <surname>Burr</surname>
+                        <forename type="first">Noah</forename>
+                    </persName>
+                </person>
+
+                	 <person xml:id="AbrahamMiddlebrook">
+                    <persName>
+                        <surname>Middlebrook</surname>
+                        <forename type="first">Abraham</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="AsaBarkley">
+                    <persName>
+                        <surname>Barkley</surname>
+                        <forename type="first">Asa</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="StephenMorehouse">
+                    <persName>
+                        <surname>Morehouse</surname>
+                        <forename type="first">Stephen</forename>
+                    </persName>
+                </person>
+                
