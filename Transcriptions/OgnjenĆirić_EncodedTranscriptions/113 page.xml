@@ -1,0 +1,62 @@
+<!--Vol-001 Page 113-->
+            <div type="page" facs="Bartram-Thomas_Vol-001_1801-1819_113.jpg">
+                <div type="group">
+                    <head/>
+                    <list type="entry">
+                        <item>208 208</item>
+                        <item>28 28</item>
+                        <item>__ __</item>
+                        <item>170 180</item>
+                        <item>28 28</item>
+                        <item>__ ___</item>
+                        <item>94 108</item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                         <head><date when="1810-07">July 1810</date></head>
+                         <item>by pastering Calf part Summer <measure type="currency" unit="£sd" ana="00_06_00"> 6 </measure></item>
+                         <item>by carting hay out of Meadow <g ref="#longHyphen" n="2"/> <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_02_06"> 2 6</measure></item>
+                    </list>
+                    <list type="entry">
+                         <head><date when="1811-09">Sept 1811</date></head>
+                         <item>By oxen &amp; Cart half Day to <persName ref="#JoBurrLot">Jo Burr Lot</persName> <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
+                    </list>
+                    <list type="entry">
+                         <head><date when="1811-11-06">November 6 1811</date></head>
+                         <item>by 310 brick at 5/ <g ref="#longHyphen" n="2"/> <measure type="currency" unit="£sd" ana="00_15_06"> 15 6</measure></item>
+                    </list>
+                    <list type="entry">
+                         <head><date when="1811-02-05">Feb 5</date></head>
+                         <item>by Carting 2 Loads wood from <persName ref="#JoBurrLot">Jo Burrs Lot</persName> 5/ <measure type="currency" unit="£sd" ana="00_10_00"> 10 0</measure></item>
+                    </list>
+                    <list type="entry">
+                         <head><date when="1811-02-08">8</date></head>
+                         <item>by Carting one Load from <placeName ref="#ChestnutHill">Chestnut Hill</placeName> <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
+                    </list>
+                </div>
+                <div type="group">
+                    <head>Credit</head>
+                    <list type="entry">
+                    	<!--Currency benchmark. This is great opportunity to see currency exchange rate. One dollar equals 6 shillings. Year is not clear if 1811 or 1813 #RF -->
+                         <item>by <measure type="currency" unit="dollars" ana="01.00">one Dollar</measure> due an old Settlement <g ref="#currency"/> <measure type="currency" unit="£sd" ana="00_06_00">0 6 0</measure></item>
+                    </list>
+                    <list type="entry">
+                    	<!--Guessing 1812 year sine next year is February 1813 #RF -->
+                         <head><date when="1812-03-12">8</date></head>
+                         <item>by one Day to Cut Timber in woods by oxen to <placeName ref="#MillRiver">Mill River</placeName> <g ref="#longHyphen" n="1"/> <measure type="currency" unit="£sd" ana="00_01_06"> 1 6</measure></item>
+                    </list>
+                    <list type="entry">
+                         <head><date when="1812-11-04">Nov 4</date></head>
+                         <!-- Unclear word might be hogs, but there is a dot on the ‘I’, so is it ‘figs’? #RF-->
+                         <item>by 2 pigs 6/ <g ref="#longHyphen" n="3"/> <measure type="currency" unit="£sd" ana="00_12_00">0 12 0</measure></item>
+                    </list>
+                    <list type="entry">
+                         <head><date when="1811-02-18">Feb 18 1813</date></head>
+                         <item>by one Day Carting Timber in woods</item>
+                         <!--The ‘2/1’ after ‘5 cents’ is after the currency but unable to put it there in the code #OC-->
+                         <item>by 7 pound old Iron 5 cents 2/1 <measure type="currency" unit="£sd" ana="00_02_01">2 1</measure></item>
+                    </list>
+                </div>
+            </div>
