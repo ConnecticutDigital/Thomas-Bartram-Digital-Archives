@@ -15825,6 +15825,14 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                     <occupation>merchant</occupation>
                     <note type="spouse">Sarah Burr</note>
                 </person>
+                <person xml:id="Levi">
+                    <persName>
+                        <surname/>
+                        <forename type="first">Levi</forename>
+                    </persName>
+                    <note resp="#RF" type="bio">Freeman suggested as surname.</note>
+                    <note resp="#RF" type="bio">Levi identified as an African free man.</note>
+                </person>
                 <person xml:id="EbenezerKnapp">
                     <persName>
                         <surname>Knapp</surname>
