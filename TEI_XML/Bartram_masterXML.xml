@@ -4913,7 +4913,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 </div>
                 <div type="group">
                     <head>
-                        <persName ref="#EbenKnapp">Eben Knapp</persName>
+                        <persName ref="#EbenezerKnapp">Eben Knapp</persName>
                         <g ref="#afterName"/>
                     </head>
                     <list type="entry">
@@ -16097,13 +16097,6 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                     <persName>
                         <surname>Maltbie</surname>
                         <forename>Jonathan</forename>
-                    </persName>
-                </person>
-                <!-- INCOMPLETE ENTRY -->
-                <person xml:id="EbenKnapp">
-                    <persName>
-                        <surname>Knapp</surname>
-                        <forename>Eben</forename>
                     </persName>
                 </person>
                 <!-- INCOMPLETE ENTRY -->
