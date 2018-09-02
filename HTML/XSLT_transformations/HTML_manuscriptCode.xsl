@@ -94,6 +94,11 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template match="descendant::placeName">
+        <span class="place" title="{following::back/listPlace/place[@xml:id eq ./tokenize(@ref,'#')[last()]]/location}">
+            <a href="http://www.blackrockhistory.net/merchantLog_places.html"><xsl:apply-templates/></a>
+        </span>
+    </xsl:template>
     <xsl:template match="date[not(parent::title)]">
         <span class="date" title="{@when}">
             <xsl:apply-templates/>

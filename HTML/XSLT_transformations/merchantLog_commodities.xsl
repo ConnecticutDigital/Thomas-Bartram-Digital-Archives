@@ -21,7 +21,7 @@
             </head>
             <body>
                 <div id="nav">
-                    <h1 class="nav"> Places in Thomas Bartram's Merchant and Shipping Logs </h1>
+                    <h1 class="nav"> Commodities in Thomas Bartram's Merchant and Shipping Logs </h1>
                     <a href="merchantLog_main.html">Home</a> | <a href="about.html">About</a>
                 </div>
                 <div class="col-xs-12">
@@ -30,6 +30,7 @@
                             <th>Commodity</th>
                             <th>Number of Times Referenced</th>
                             <!--<th>List of People Associated with Commodity</th>-->
+                            <th>Associated Costs</th>
                             
                         </tr>
                         <xsl:for-each select="distinct-values($treeWalk)">
@@ -41,6 +42,8 @@
                                 <!--<td>
                                     <ul><li><xsl:value-of select="$treeWalk[. eq $com]/following::persName"/></li></ul>
                                 </td>-->
+                                <td><xsl:value-of select="$treeWalk/following-sibling::measure"/></td>
+                                
                             </tr>
                             
                         </xsl:for-each>
