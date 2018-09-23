@@ -1,0 +1,188 @@
+dd a{
+    display: block;
+}
+
+.links a{
+    margin-left:10%;
+    margin-right:10%;
+}
+.links{
+    text-align:center;
+}
+
+.aboutpage
+{
+text-align:center;
+margin-left:10%;
+    margin-right:10%;
+    
+}
+.aboutbottom{
+    margin:auto;
+    display:block;
+    text-align:center;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+#timeline > dl > a{
+    margin-left:51%;
+    margin-top:-8em;
+    display:inline-block;
+}
+#timeline > dl > a.even{
+    float:right;
+    margin-right:51%;
+
+}
+
+.navigationmenu{
+    position:fixed;
+    background-color:#BFBDB2; /* this makes block of color*/
+/*    height:180px;*/ /*this is the height for how much background color to do*/
+    margin-left:-9px;
+    margin-top:60px;
+    z-index:1;
+}
+
+
+
+#navlist{
+    font-size:25px;
+    padding:15px;
+    margin-top:-2px;
+    text-align:center;
+    text-transform:uppercase;
+    line-height:1.5;
+}
+
+#navlist li{
+    list-style-type:none;
+
+
+}
+#navlist a:link,
+a:visited{
+    color:black;
+    text-decoration:none;
+}
+#navlist a:hover{
+    color:white;
+}
+
+
+#timeline{
+    background-image:url('timeline.png');
+    background-position:center;
+    background-repeat:repeat-y;
+    margin-left:auto;
+    margin-right:auto;
+    /*width:80%;*/
+    width:900px;
+    margin-top:1%; /*puts timeline under h1*/
+    position:relative;
+    
+}
+/*the background makes image in background
+the repeat-y makes line extend down endlessly*/
+
+dl dd:nth-of-type(even),
+dl dt:nth-of-type(even){
+    margin-left:50%;
+    /* EVEN lines 12 thru 28  make text appear on rotating left then right. Below shows how far away from the vertical line: padding-left:10px*/
+    padding-left:10px;
+
+}
+
+
+dl dd:nth-of-type(odd),
+dl dt:nth-of-type(odd){
+    text-align:right;
+    margin-right:50%;
+    /*ODD lines 12 thru 28  make text appear on rotating left then right. */
+    padding-right:10px;
+
+}
+.yearanchor{
+    text-align:center;
+    padding:0px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:3em;
+    font-size:18pt
+}
+/*dl{
+    padding:0px;
+    margin-bottom:0;
+    margin-top:0;
+}*/
+/*This was for multiple years so commented out. Styling for the whole list*/
+
+dl dt:nth-of-type(odd):after{
+    content:'\2014';
+    margin-left:0;
+    padding-left:5px;
+    margin-right:5px;
+    padding-right:0;
+
+}
+/*This makes the horizontal line next to year appear*/
+
+
+dl dt:nth-of-type(even):before{
+    content:'\2014';
+    margin-left:0;
+    padding-left:5px;
+    margin-right:5px;
+    padding-right:0;
+}
+/*This makes the horizontal line next to year appear*/
+
+h1{
+    position:fixed;
+    background:white;
+    /*left:30%;*/
+/*    height:50px;*/
+    text-align:center;
+    margin-top:-.5%; /*pushes title up to top of page more*/
+    top:.7%; /*puts title on top of page*/
+    z-index:9000; /*keeps title on top*/
+    width:100%; /*makes heading extend width of screen*/
+    padding-top:.3%;
+}
+
+h2{
+    text-align:center;
+
+}
+
+h3{
+    text-align:center
+
+
+}
+
+dt{
+    font-size:18pt;
+    /* font-weight:bold*/
+}
+/*This is the size of the year*/
+
+dl dd:nth-of-type(even) img,
+dl dt:nth-of-type(even) img{
+
+    float:left;
+    display:block
+}
+dl dd:nth-of-type(odd) img,
+dl dt:nth-of-type(odd) img{
+
+    float:right;
+    display:block
+}
+/*dl = DEFINITION LIST = timeline
+dd = DEFINITION DESCRPTION = event descritiopns
+dt = DEFINITION TERM = the year
+
+dl dd:nth-of-type(even) img, = LOOK AT THE EVEN dd INSIDE A dl, AND LOOK AT THE IMAGE ELEMENT INSIDE OF THAT
+*/

@@ -45,6 +45,8 @@
                                     select="count(descendant::body//unclear[not(child::supplied)])"
                                 /></strong></li>
                     </ul>
+                    Ships Mentioned: 
+                    <xsl:apply-templates select="string-join(descendant::back/descendant::org[descendant::roleName[@type='ship']]/orgName,', ')"/>
                 </div>
                 <div class="col-xs-12 center-block">
                     <h2>Help us transcribe!</h2>

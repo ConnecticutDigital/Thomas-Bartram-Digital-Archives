@@ -30,7 +30,7 @@
                             <th>Commodity</th>
                             <th>Number of Times Referenced</th>
                             <!--<th>List of People Associated with Commodity</th>-->
-                            <th>Associated Costs</th>
+                            <!--<th>Associated Costs</th>-->
                             
                         </tr>
                         <xsl:for-each select="distinct-values($treeWalk)">
@@ -42,7 +42,7 @@
                                 <!--<td>
                                     <ul><li><xsl:value-of select="$treeWalk[. eq $com]/following::persName"/></li></ul>
                                 </td>-->
-                                <td><xsl:value-of select="$treeWalk/following-sibling::measure"/></td>
+                                <!--<td><xsl:value-of select="$treeWalk/following-sibling::measure"/></td>-->
                                 
                             </tr>
                             

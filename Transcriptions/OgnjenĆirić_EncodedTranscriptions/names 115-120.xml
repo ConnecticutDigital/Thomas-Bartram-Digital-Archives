@@ -1,0 +1,27 @@
+				<person xml:id="DavidAllenEsq">
+                    <persName>
+                        <surname>Allen</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="GouldTurney">
+                    <persName>
+                        <surname>Turney</surname>
+                        <forename type="first">Gould</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="SethSturges">
+                    <persName>
+                        <surname>Sturges</surname>
+                        <forename type="first">Seth</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="DavidRuler">
+                    <persName>
+                        <surname>Ruler</surname>
+                        <forename type="first">David</forename>
+                    </persName>
+                </person>
