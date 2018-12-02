@@ -12837,12 +12837,13 @@ Note: the little symbol also appears after ships as well as people
                         <head><date when="1812-11-24">Nov 24</date></head>
                         <item><g ref="#stItem"/> one Small <unclear reason="illegible" unit="words" quantity="1"/> my iron <measure type="currency" unit="£sd" ana="00_01_09">0 1 9</measure></item>
                     </list>
-                    <list type="entry" subtype="total">
-                        <item>Paid <date when="1812-11-27">Nov 27</date><measure type="currency" unit="£sd" ana="03_17_02">3 17 2</measure><g ref="#currency"/></item>
-                        <!-- substracted 3 shillings here for some reason #OC -->
-                        <item><measure type="currency" unit="£sd" ana="00_03_00"> 3 </measure><g ref="#currency"/></item>
+                    <list type="entry">
+                        <item>Paid <date when="1812-11-27">Nov 27</date></item> 
                     </list>
                     <list type="entry" subtype="total">
+                        <item><measure type="currency" unit="£sd" ana="03_17_02">3 17 2</measure><g ref="#currency"/></item>
+                        <!-- substracted 3 shillings here for some reason #OC -->
+                        <item><measure type="currency" unit="£sd" ana="00_03_00"> 3 </measure><g ref="#currency"/></item>
                         <item><measure type="currency" unit="£sd" ana="03_14_02">3 14 2</measure><g ref="#currency"/></item>
                     </list>
                 </div>
