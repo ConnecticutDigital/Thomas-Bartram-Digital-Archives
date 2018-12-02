@@ -3,6 +3,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes"/>
     <xsl:template match="/">
+        <!-- RJP:2018-12-02: Output HTML - merchantLog_Commodities.html -->
         <xsl:variable name="treeWalk" select="descendant::body/descendant::measure[@commodity]/@commodity"/>
         <html lang="en">
             <head>

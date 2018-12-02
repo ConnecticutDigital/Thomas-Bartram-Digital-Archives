@@ -17526,10 +17526,9 @@ Note: the little symbol also appears after ships as well as people
                 </person>
                 <person xml:id="Levi">
                     <persName>
-                        <surname/>
+                        <surname>Freeman</surname>
                         <forename type="first">Levi</forename>
                     </persName>
-                    <note resp="#RF" type="bio">Freeman suggested as surname.</note>
                     <note resp="#RF" type="bio">Levi identified as an African free man.</note>
                 </person>
                 <person xml:id="EbenezerKnapp">
