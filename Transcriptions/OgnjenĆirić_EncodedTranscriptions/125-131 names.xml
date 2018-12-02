@@ -1,0 +1,42 @@
+				<person xml:id="MrSilliman">
+                    <persName>
+                        <surname>MrSilliman</surname>
+                        <forename type="first"></forename>
+                    </persName>
+                </person>
+
+                <person xml:id="NehemiahBurr">
+                    <persName>
+                        <surname>Burr</surname>
+                        <forename type="first">Nehemiah</forename>
+                    </persName>
+                </person>
+                
+                <person xml:id="MotherBurr">
+                    <persName>
+                        <surname>MotherBurr</surname>
+                        <forename type="first"></forename>
+                    </persName>
+                </person>
+
+                <person xml:id="EbenBurr">
+                    <persName>
+                        <surname>Burr</surname>
+                        <forename type="first">Eben</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="NathanielWilson">
+                    <persName>
+                        <surname>Wilson</surname>
+                        <forename type="first">Nathaniel</forename>
+                    </persName>
+                </person>
+
+                <person xml:id="RachelMaltbie">
+                    <persName>
+                        <surname>Maltbie</surname>
+                        <forename type="first">Rachel</forename>
+                        <note type="spouse">Widow Maltbie</note>
+                    </persName>
+                </person>
