@@ -7892,8 +7892,7 @@ https://findagrave.com/cgi-bin/fg.cgi?page=gr&GSvcid=101209&GRid=49469364& .-->
                 <div type="group">
                     <!--underline summary currency with no summary number #RF-->
                     <!--full page underline #RF-->
-                    <head>Dunlap Cogswell greens &amp; <unclear reason="illegible" unit="chars"
-                            quantity="2"/> oxen </head>
+                    <head>Dunlap Cogswell Cooper greens</head>
                     <list type="entry">
                         <head>
                             <date when="1808-01-12">January 12 1808</date>
@@ -17415,11 +17414,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Bartram</surname>
                         <forename type="first">Thomas</forename>
                     </persName>
-                    <birth when="1803"/>
-                    <death when="1886"/>
+                    <birth when="1771"/>
+                    <death when="1838"/>
                     <occupation>merchant</occupation>
                     <note type="spouse">Sarah Burr</note>
                 </person>
+                
                 <person xml:id="WillHayt">
                     <persName>
                         <surname>Hayt</surname>
@@ -17479,7 +17479,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Brewster</surname>
                         <forename type="first">Lewis</forename>
                     </persName>
+                    <birth when="1786"/>
+                    <death when="1837"/>
+                    <note type="spouse">Clarina Bradley</note>
                 </person>
+                <!-- Johnathan Lewis Brewster 1786-11-05 died 1837-10-27, wife Clarina Bradley 1763 to 1849 -->
+                
                 <person xml:id="EbenBurr">
                     <persName>
                         <surname>Burr</surname>
@@ -17530,7 +17535,7 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Freeman</surname>
                         <forename type="first">Levi</forename>
                     </persName>
-                    <note resp="#RF" type="bio">Levi identified as an African free man.</note>
+                    <note resp="#RF" type="bio">Identified African-American free man.</note>
                 </person>
                 <person xml:id="EbenezerKnapp">
                     <persName>
@@ -17558,7 +17563,11 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Burr</surname>
                         <forename type="first">Noah</forename>
                     </persName>
+                    <birth when="1777"/>
+                    <death when="1859"/>
+                    <!-- Noah Burr died 1859-12-25 -->
                 </person>
+        
 
                 <person xml:id="AbrahamMiddlebrook">
                     <persName>
@@ -17618,7 +17627,11 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Bibbins</surname>
                         <forename>Elijah</forename>
                     </persName>
+                    <birth when="1770"/>
+                    <death when="1843"/>
+                    <note type="spouse">Eunice Burr Elliot</note>
                 </person>
+                <!-- Elijah Bibbons' wife Eunice Burr Elliot born 1778-08-16 -->
 
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="ElijahPeet">
@@ -17718,7 +17731,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Brewster</surname>
                         <forename>Sturges</forename>
                     </persName>
+                    <birth when="1789"/>
+                    <death when="1846"/>
+                    <note type="spouse">Catherine Prevost</note>
                 </person>
+                <!-- Sturges Brewster born 1789-01-20 died 1846-11-30, wife Catherine Prevost -->
+                
 
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="NicholsBurr">
@@ -17726,7 +17744,10 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Burr</surname>
                         <forename type="first">Nichols</forename>
                     </persName>
-                    <occupation/>
+                    <birth when="1774"/>
+                    <death when="1861"/>
+                    <!-- Nicholas Burr died 1861-04-24 -->
+           
                 </person>
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="ThomasEllwood">
@@ -17742,8 +17763,13 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Sturges</surname>
                         <forename type="first">Gershom</forename>
                     </persName>
+                    <birth when="1733"/>
+                    <death when="1835"/>
+                    <note type="spouse">Elizabeth Rowland</note>
                     <occupation/>
                 </person>
+                <!-- Gershom Sturges born 1773 died 1835-03-17, wife Elizabeth Rowland 1778-10-28 to 1864-08-15 -->
+                
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="NehemiahPhippeny">
                     <persName>
@@ -17774,9 +17800,10 @@ Note: the little symbol also appears after ships as well as people
                 <person xml:id="Cogswell">
                     <persName>
                         <surname>Cogswell</surname>
-                        <forename type="first"/>
+                        <forename type="first">Dunlap</forename>
                     </persName>
-                    <occupation>cooper</occupation>
+                    <occupation>"Cooper", barrel maker</occupation>
+                    <note resp="#RF" type="bio">Identified as Native American.</note>
                 </person>
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="JamesSquire">
@@ -17840,7 +17867,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Banks</surname>
                         <forename>Hezekiah</forename>
                     </persName>
+                    <birth when="1748"/>
+                    <death when="1812"/>
+                    <note type="spouse">Sara Couch</note>
                 </person>
+                <!-- Hezekiah Banks was from Easton according to Jacobus book and manuscript says weston, wife Sara Couch -->
+                
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="NathanLewis">
                     <persName>
@@ -17868,7 +17900,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Burr</surname>
                         <forename type="first">Thaddeus</forename>
                     </persName>
+                    <birth when="1777"/>
+                    <death when="1858"/>
+                    <note type="spouse">Rhoda Meeker</note>
                 </person>
+                <!-- Thaddeaus Burr born 1777-08-17 died 1858-02-21, wife Rhoda Meeker 1781 to 1834-08-28 -->
+                
                 <!-- INCOMPLETE ENTRY -->
                 <person xml:id="JonathanSilliman">
                     <persName>
@@ -17889,8 +17926,9 @@ Note: the little symbol also appears after ships as well as people
                         <forename type="first">Seth</forename>
                     </persName>
                     <birth when="1780"/>
-                    <death when="1866"/>
-                    <occupation>Merchant and Ship Owner</occupation>
+                    <death when="1869"/>
+                    <occupation>Merchant and Ship Owner</occupation>  
+                    <!-- Seth Perry born 1780-02-07 died 1869-01-13, wife Catherine Pease -->
 
                 </person>
 
@@ -17899,9 +17937,9 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Penfield</surname>
                         <forename type="first">David</forename>
                     </persName>
-                    <birth when="1769"/>
-                    <death when="1845"/>
-                    <occupation>Owned Ash Creek Mill and Black Rock Wharf</occupation>
+                    <birth when="1780"/>
+                    <death when="1871"/>
+                    
 
                 </person>
 
@@ -17921,7 +17959,7 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Bartram</surname>
                         <forename type="first">Job</forename>
                     </persName>
-                    <death when="1787"/>
+                 <birth when="1735"/>
                     <occupation>Sea Captain</occupation>
                     <note type="spouse">Ruth Holberton</note>
 
@@ -18035,6 +18073,9 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Budington</surname>
                         <forename type="first">Walter</forename>
                     </persName>
+                    <birth when="1744"/>
+                    <note type="spouse">Ruth Couch</note>
+                    
 
                 </person>
 
@@ -18116,6 +18157,9 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Brewster</surname>
                         <forename type="first">Brewster</forename>
                     </persName>
+                    <birth when="1747"/>
+                    <death when="1827"/>
+                    <note type="spouse">Ann Lewis</note>
 
                 </person>
 
@@ -18140,6 +18184,11 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Goodsell</surname>
                         <forename type="first">Lewis</forename>
                     </persName>
+                    <birth when="1744"/>
+                    <death when="1829"/>
+                    <note type="spouse">Sarah Banks</note>
+                    <!-- Lewis Goodsell born 1744-10-23 and died 1829-08-22 and married to Sarah Banks
+                        born 1743-12-26 to 1809-07-11 -->
 
                 </person>
 
@@ -18156,6 +18205,8 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Bradley</surname>
                         <forename type="first">David</forename>
                     </persName>
+                    <birth when="1773"/>
+                    <death when="1858"/>
                 </person>
 
                 <person xml:id="ThomasStaples">
@@ -18219,8 +18270,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Perry</surname>
                         <forename type="first">Miah</forename>
                     </persName>
+                    <birth when="1766"/>
+                    <death when="1814"/>
+                    <note type="spouse">Elizabeth Dimon</note>
 
                 </person>
+                <!-- Mia Perry born 1766-05-17 died 1814-02-11 wife Elizabeth Dimon 1768-01-29 to 1813-04-15-->
 
                 <person xml:id="IsaacHenmans">
                     <persName>
@@ -18235,6 +18290,9 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Osborn</surname>
                         <forename type="first">Hezekiah</forename>
                     </persName>
+                    <birth when="1771"/>
+                    <death when="1846"/>
+                    <!-- Wwife Nancy Perry Dec 22 1775 in Fairfield to June 16 1867 in Verona, NY-->
 
                 </person>
                 <person xml:id="DanielOsborn">
@@ -18250,8 +18308,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Burr</surname>
                         <forename type="first">Ozias</forename>
                     </persName>
+                    <birth when="1739"/>
+                    <death when="1836"/>
+                    <note type="spouse">Sara Nichols</note>
 
                 </person>
+                <!-- Ozias Burr born 1739-05-01 died 1836-09-07, wife Sara Nichols 1739-05-03 to 1820-09-02 -->
 
                 <person xml:id="BenjaminSturges">
                     <persName>
@@ -18290,8 +18352,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Read</surname>
                         <forename type="first">Samuel</forename>
                     </persName>
+                    <birth when="1763"/>
+                    <death when="1826"/>
+                    <note type="spouse">Rebecca Lockwood</note>
 
                 </person>
+                <!-- Samuel Read born 1763-03-20 wife Rebecca Lockwood -->
 
                 <person xml:id="DanielGregory">
                     <persName>
@@ -18314,7 +18380,12 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Buckley</surname>
                         <forename type="first">Uriah</forename>
                     </persName>
+                    <birth when="1782"/>
+                    <death when="1874"/>
+                    <note type="spouse">Jane Sayre</note>
+                    
                 </person>
+                <!-- Uriah Buckley possibble correct spelling Bulkely, married to Jane Sayre of Newport RI 1788 to 1831 -->
 
                 <person xml:id="JohnMaltbie">
                     <persName>
@@ -18328,7 +18399,13 @@ Note: the little symbol also appears after ships as well as people
                         <surname>Morehouse</surname>
                         <forename type="first">William</forename>
                     </persName>
+                    <birth when="1749"/>
+                    <death when="1824"/>
+                    <note type="spouse">Ann Burr</note>
+                    
                 </person>
+                <!-- William Morehouse death day 1824-12-25, Ann Burr 1756-12-09 to 1843-05-13 -->
+                
                 <person xml:id="AbramMorehouse">
                     <persName>
                         <surname>Morehouse</surname>
