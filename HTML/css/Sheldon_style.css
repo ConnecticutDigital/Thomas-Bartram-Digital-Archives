@@ -1,0 +1,25 @@
+tr th{text-align:left;
+
+    
+}
+
+#yearsonthebottom{
+position: fixed;
+  width: 100%;
+  background-color: white;
+  bottom: 10px;
+  padding-top: 10px;
+  z-index: 999;
+    
+}
+
+#navigation{
+margin-left: auto;
+margin-right: auto;    
+text-align:center;
+}
+
+.hq{   
+color:gray;
+padding-left: 40px;
+}
