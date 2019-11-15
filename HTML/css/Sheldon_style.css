@@ -1,0 +1,32 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-family: Georgia !important;
+    background: #d8f0f3 !important /*#b0e0e6*/;
+}
+
+tr th{text-align:left;
+
+    
+}
+
+#yearsonthebottom{
+position: fixed;
+  width: 100%;
+  background-color: white;
+  bottom: 10px;
+  padding-top: 10px;
+  z-index: 999;
+    
+}
+
+#navigation{
+margin-left: auto;
+margin-right: auto;    
+text-align:center;
+}
+
+.hq{   
+color:gray;
+padding-left: 40px;
+}
